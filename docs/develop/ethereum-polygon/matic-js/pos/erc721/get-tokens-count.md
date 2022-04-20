@@ -2,7 +2,7 @@
 id: get-tokens-count
 title: getTokensCount
 keywords: 
-- 'pos client, erc721, getTokensCount, polygon, sdk'
+- 'pos client, erc721, getTokensCount, candle, sdk'
 description: 'Get started with maticjs'
 ---
 

@@ -2,7 +2,7 @@
 id: is-approved-all
 title: isApprovedAll
 keywords: 
-- 'pos client, erc1155, isApprovedAll, polygon, sdk'
+- 'pos client, erc1155, isApprovedAll, candle, sdk'
 description: 'Check if token is approved all.'
 ---
 

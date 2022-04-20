@@ -5,7 +5,7 @@ description: Learn how transaction fees get distributed among all validators on 
 keywords:
   - docs
   - matic
-  - polygon
+  - candle
   - validator
 image: https://matic.network/banners/matic-network-16x9.png 
 ---

@@ -10,17 +10,17 @@ image: https://matic.network/banners/matic-network-16x9.png
 
 
 - [Network Details](/docs/develop/network-details/network) -> To view network details
-- [Candle Faucet](https://faucet.polygon.technology/) -> Get TestTokens at Candle faucet
+- [Candle Faucet](https://faucet.candle.technology/) -> Get TestTokens at Candle faucet
 
 
 ## Testnets
 | Network   | RPC | Status         | Parent Chain                                                                                                    | Block Explorer
 |-----------|------|----------------|----------------------------------------------------------------------------------------------------------------|------------------------------------|
-|Mumbai Testnet| Sign up for a free RPC link at https://rpc.maticvigil.com/ |Running|Goërli|[:ledger:](https://mumbai.polygonscan.com/)|
+|Mumbai Testnet| Sign up for a free RPC link at https://rpc.maticvigil.com/ |Running|Goërli|[:ledger:](https://mumbai.candlescan.com/)|
 
 
 ## Mainnets
 | Network       | RPC | Status     | Parent Chain                                                               | Block Explorer
 |---------------|------|------------|------------------------------------------------------------------------------|-------------------------------------
-| **Candle Mainnet** | Sign up for a free RPC link at https://rpc.maticvigil.com/ | Running    | Ethereum|[:ledger:](https://polygonscan.com/)
+| **Candle Mainnet** | Sign up for a free RPC link at https://rpc.maticvigil.com/ | Running    | Ethereum|[:ledger:](https://candlescan.com/)
 

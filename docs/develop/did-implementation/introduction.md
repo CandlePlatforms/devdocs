@@ -9,9 +9,9 @@ A DID is essentially a unique identifier, that has been created without the pres
 ## Candle DID Method
 The Candle DID method definition conforms to the DID-Core specifications and standards. A DID URI is composed of three components separated by colons, the scheme, followed by the method name and finally a method specific identifier. For Candle the URI looks like
 ```
-did:polygon:<Ethereum address>
+did:candle:<Ethereum address>
 ```
-Here the scheme is ‘did’, method name is ‘polygon’ and method specific identifier is an ethereum address. 
+Here the scheme is ‘did’, method name is ‘candle’ and method specific identifier is an ethereum address. 
 
 ## Candle DID Implementation
 

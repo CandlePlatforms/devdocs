@@ -7,7 +7,7 @@
 
 module.exports = {
   introduction: [
-    "home/new-to-polygon",
+    "home/new-to-candle",
     {
       type: "category",
       label: "Blockchain Basics",
@@ -28,11 +28,11 @@ module.exports = {
       type: "category",
       label: "Candle Basics",
       items: [
-        "home/polygon-basics/what-is-polygon",
-        "home/polygon-basics/what-is-proof-of-stake"
+        "home/candle-basics/what-is-candle",
+        "home/candle-basics/what-is-proof-of-stake"
       ]
     },
-    "home/architecture/polygon-architecture",
+    "home/architecture/candle-architecture",
     "home/architecture/security-models",
     "home/faq",
   ],
@@ -68,8 +68,8 @@ module.exports = {
       type: "category",
       label: "Tools",
       items: [
-        "develop/tools/polygon-faucet",
-        "develop/tools/polygon-gas-station",
+        "develop/tools/candle-faucet",
+        "develop/tools/candle-gas-station",
       ],
     },
     {
@@ -82,7 +82,7 @@ module.exports = {
           items: [
             "develop/metamask/overview",
             "develop/metamask/hello",
-            "develop/metamask/config-polygon-on-metamask",
+            "develop/metamask/config-candle-on-metamask",
             "develop/metamask/custom-tokens",
             "develop/metamask/multiple-accounts",
           ],
@@ -91,7 +91,7 @@ module.exports = {
           type: "category",
           label: "Wallet Link",
           items: [
-            "develop/metamask/config-polygon-on-wallet-link",
+            "develop/metamask/config-candle-on-wallet-link",
           ],
         },
       ],
@@ -122,8 +122,8 @@ module.exports = {
           type: "category",
           label: "Candle Web Wallet",
           items: [
-            "develop/wallets/polygon-web-wallet/web-wallet-v2-guide",
-            "develop/wallets/polygon-web-wallet/deposit-eth-dai-on-polygon",
+            "develop/wallets/candle-web-wallet/web-wallet-v2-guide",
+            "develop/wallets/candle-web-wallet/deposit-eth-dai-on-candle",
           ],
         },
       ],
@@ -132,88 +132,88 @@ module.exports = {
       type: "category",
       label: "Ethereum ↔ Candle",
       items: [
-        "develop/ethereum-polygon/getting-started",
+        "develop/ethereum-candle/getting-started",
         {
           type: "category",
           label: "Matic.js",
-          items: ["develop/ethereum-polygon/matic-js/get-started",
-                  "develop/ethereum-polygon/matic-js/installation",
+          items: ["develop/ethereum-candle/matic-js/get-started",
+                  "develop/ethereum-candle/matic-js/installation",
                   {
                     type: "category",
                     label: "Setup",
-                    items: ["develop/ethereum-polygon/matic-js/setup/index",
-                            "develop/ethereum-polygon/matic-js/setup/web3",
-                            "develop/ethereum-polygon/matic-js/setup/ethers"]
+                    items: ["develop/ethereum-candle/matic-js/setup/index",
+                            "develop/ethereum-candle/matic-js/setup/web3",
+                            "develop/ethereum-candle/matic-js/setup/ethers"]
                   },
-                  "develop/ethereum-polygon/matic-js/api-architecture",
+                  "develop/ethereum-candle/matic-js/api-architecture",
                   {
                     type: "category",
                     label: "POS",
-                    items: [ "develop/ethereum-polygon/matic-js/pos/index",
+                    items: [ "develop/ethereum-candle/matic-js/pos/index",
                             {
                               type: "category",
                               label: "ERC20",
-                              items: ["develop/ethereum-polygon/matic-js/pos/erc20/index", 
-                                      "develop/ethereum-polygon/matic-js/pos/erc20/get-balance",
-                                      "develop/ethereum-polygon/matic-js/pos/erc20/approve",
-                                      "develop/ethereum-polygon/matic-js/pos/erc20/approve-max",
-                                      "develop/ethereum-polygon/matic-js/pos/erc20/get-allowance",
-                                      "develop/ethereum-polygon/matic-js/pos/erc20/deposit",
-                                      "develop/ethereum-polygon/matic-js/pos/erc20/transfer",
-                                      "develop/ethereum-polygon/matic-js/pos/erc20/withdraw-start",
-                                      "develop/ethereum-polygon/matic-js/pos/erc20/withdraw-exit",
-                                      "develop/ethereum-polygon/matic-js/pos/erc20/withdraw-exit-faster",
-                                      "develop/ethereum-polygon/matic-js/pos/erc20/is-withdraw-exited"
+                              items: ["develop/ethereum-candle/matic-js/pos/erc20/index", 
+                                      "develop/ethereum-candle/matic-js/pos/erc20/get-balance",
+                                      "develop/ethereum-candle/matic-js/pos/erc20/approve",
+                                      "develop/ethereum-candle/matic-js/pos/erc20/approve-max",
+                                      "develop/ethereum-candle/matic-js/pos/erc20/get-allowance",
+                                      "develop/ethereum-candle/matic-js/pos/erc20/deposit",
+                                      "develop/ethereum-candle/matic-js/pos/erc20/transfer",
+                                      "develop/ethereum-candle/matic-js/pos/erc20/withdraw-start",
+                                      "develop/ethereum-candle/matic-js/pos/erc20/withdraw-exit",
+                                      "develop/ethereum-candle/matic-js/pos/erc20/withdraw-exit-faster",
+                                      "develop/ethereum-candle/matic-js/pos/erc20/is-withdraw-exited"
                                       ]
                             },
                             {
                               type: "category",
                               label: "ERC721",
-                              items: ["develop/ethereum-polygon/matic-js/pos/erc721/index", 
-                                      "develop/ethereum-polygon/matic-js/pos/erc721/get-tokens-count",
-                                      "develop/ethereum-polygon/matic-js/pos/erc721/get-token-id-at-index-for-user",
-                                      "develop/ethereum-polygon/matic-js/pos/erc721/get-all-tokens",
-                                      "develop/ethereum-polygon/matic-js/pos/erc721/is-approved",
-                                      "develop/ethereum-polygon/matic-js/pos/erc721/is-approved-all",
-                                      "develop/ethereum-polygon/matic-js/pos/erc721/approve",
-                                      "develop/ethereum-polygon/matic-js/pos/erc721/approve-all",
-                                      "develop/ethereum-polygon/matic-js/pos/erc721/deposit",
-                                      "develop/ethereum-polygon/matic-js/pos/erc721/deposit-many",
-                                      "develop/ethereum-polygon/matic-js/pos/erc721/withdraw-start",
-                                      "develop/ethereum-polygon/matic-js/pos/erc721/withdraw-start-many",
-                                      "develop/ethereum-polygon/matic-js/pos/erc721/withdraw-exit",
-                                      "develop/ethereum-polygon/matic-js/pos/erc721/withdraw-exit-many",
-                                      "develop/ethereum-polygon/matic-js/pos/erc721/withdraw-exit-faster",
-                                      "develop/ethereum-polygon/matic-js/pos/erc721/withdraw-exit-faster-many",
-                                      "develop/ethereum-polygon/matic-js/pos/erc721/is-withdraw-exited",
-                                      "develop/ethereum-polygon/matic-js/pos/erc721/is-withdraw-exited-many",
-                                      "develop/ethereum-polygon/matic-js/pos/erc721/transfer",
-                                      "develop/ethereum-polygon/matic-js/pos/erc721/withdraw-start-with-meta-data"
+                              items: ["develop/ethereum-candle/matic-js/pos/erc721/index", 
+                                      "develop/ethereum-candle/matic-js/pos/erc721/get-tokens-count",
+                                      "develop/ethereum-candle/matic-js/pos/erc721/get-token-id-at-index-for-user",
+                                      "develop/ethereum-candle/matic-js/pos/erc721/get-all-tokens",
+                                      "develop/ethereum-candle/matic-js/pos/erc721/is-approved",
+                                      "develop/ethereum-candle/matic-js/pos/erc721/is-approved-all",
+                                      "develop/ethereum-candle/matic-js/pos/erc721/approve",
+                                      "develop/ethereum-candle/matic-js/pos/erc721/approve-all",
+                                      "develop/ethereum-candle/matic-js/pos/erc721/deposit",
+                                      "develop/ethereum-candle/matic-js/pos/erc721/deposit-many",
+                                      "develop/ethereum-candle/matic-js/pos/erc721/withdraw-start",
+                                      "develop/ethereum-candle/matic-js/pos/erc721/withdraw-start-many",
+                                      "develop/ethereum-candle/matic-js/pos/erc721/withdraw-exit",
+                                      "develop/ethereum-candle/matic-js/pos/erc721/withdraw-exit-many",
+                                      "develop/ethereum-candle/matic-js/pos/erc721/withdraw-exit-faster",
+                                      "develop/ethereum-candle/matic-js/pos/erc721/withdraw-exit-faster-many",
+                                      "develop/ethereum-candle/matic-js/pos/erc721/is-withdraw-exited",
+                                      "develop/ethereum-candle/matic-js/pos/erc721/is-withdraw-exited-many",
+                                      "develop/ethereum-candle/matic-js/pos/erc721/transfer",
+                                      "develop/ethereum-candle/matic-js/pos/erc721/withdraw-start-with-meta-data"
                                       ]
                               },
                             {
                               type: "category",
                               label: "ERC1155",
-                              items: ["develop/ethereum-polygon/matic-js/pos/erc1155/get-balance",
-                                      "develop/ethereum-polygon/matic-js/pos/erc1155/approve-all",
-                                      "develop/ethereum-polygon/matic-js/pos/erc1155/approve-all-for-mintable",
-                                      "develop/ethereum-polygon/matic-js/pos/erc1155/is-approved-all",
-                                      "develop/ethereum-polygon/matic-js/pos/erc1155/deposit",
-                                      "develop/ethereum-polygon/matic-js/pos/erc1155/deposit-many",
-                                      "develop/ethereum-polygon/matic-js/pos/erc1155/withdraw-start",
-                                      "develop/ethereum-polygon/matic-js/pos/erc1155/withdraw-start-many",
-                                      "develop/ethereum-polygon/matic-js/pos/erc1155/withdraw-exit",
-                                      "develop/ethereum-polygon/matic-js/pos/erc1155/withdraw-exit-faster",
-                                      "develop/ethereum-polygon/matic-js/pos/erc1155/withdraw-exit-many",
-                                      "develop/ethereum-polygon/matic-js/pos/erc1155/withdraw-exit-faster-many",
-                                      "develop/ethereum-polygon/matic-js/pos/erc1155/is-withdraw-exited",
-                                      "develop/ethereum-polygon/matic-js/pos/erc1155/is-withdraw-exited-many",
-                                      "develop/ethereum-polygon/matic-js/pos/erc1155/transfer"
+                              items: ["develop/ethereum-candle/matic-js/pos/erc1155/get-balance",
+                                      "develop/ethereum-candle/matic-js/pos/erc1155/approve-all",
+                                      "develop/ethereum-candle/matic-js/pos/erc1155/approve-all-for-mintable",
+                                      "develop/ethereum-candle/matic-js/pos/erc1155/is-approved-all",
+                                      "develop/ethereum-candle/matic-js/pos/erc1155/deposit",
+                                      "develop/ethereum-candle/matic-js/pos/erc1155/deposit-many",
+                                      "develop/ethereum-candle/matic-js/pos/erc1155/withdraw-start",
+                                      "develop/ethereum-candle/matic-js/pos/erc1155/withdraw-start-many",
+                                      "develop/ethereum-candle/matic-js/pos/erc1155/withdraw-exit",
+                                      "develop/ethereum-candle/matic-js/pos/erc1155/withdraw-exit-faster",
+                                      "develop/ethereum-candle/matic-js/pos/erc1155/withdraw-exit-many",
+                                      "develop/ethereum-candle/matic-js/pos/erc1155/withdraw-exit-faster-many",
+                                      "develop/ethereum-candle/matic-js/pos/erc1155/is-withdraw-exited",
+                                      "develop/ethereum-candle/matic-js/pos/erc1155/is-withdraw-exited-many",
+                                      "develop/ethereum-candle/matic-js/pos/erc1155/transfer"
                                     ]
                             },
-                            "develop/ethereum-polygon/matic-js/pos/is-check-pointed",
-                            "develop/ethereum-polygon/matic-js/pos/is-deposited",
-                            "develop/ethereum-polygon/matic-js/pos/deposit-ether"
+                            "develop/ethereum-candle/matic-js/pos/is-check-pointed",
+                            "develop/ethereum-candle/matic-js/pos/is-deposited",
+                            "develop/ethereum-candle/matic-js/pos/deposit-ether"
                           ]
                   },
                   {
@@ -222,100 +222,100 @@ module.exports = {
                     items: [{
                               type: "category",
                               label: "ERC20",
-                              items: ["develop/ethereum-polygon/matic-js/plasma/erc20/index", 
-                                      "develop/ethereum-polygon/matic-js/plasma/erc20/get-balance",
-                                      "develop/ethereum-polygon/matic-js/plasma/erc20/approve",
-                                      "develop/ethereum-polygon/matic-js/plasma/erc20/approve-max",
-                                      "develop/ethereum-polygon/matic-js/plasma/erc20/get-allowance",
-                                      "develop/ethereum-polygon/matic-js/plasma/erc20/deposit",
-                                      "develop/ethereum-polygon/matic-js/plasma/erc20/transfer",
-                                      "develop/ethereum-polygon/matic-js/plasma/erc20/withdraw-start",
-                                      "develop/ethereum-polygon/matic-js/plasma/erc20/withdraw-confirm",
-                                      "develop/ethereum-polygon/matic-js/plasma/erc20/withdraw-confirm-faster",
-                                      "develop/ethereum-polygon/matic-js/plasma/erc20/withdraw-exit"
+                              items: ["develop/ethereum-candle/matic-js/plasma/erc20/index", 
+                                      "develop/ethereum-candle/matic-js/plasma/erc20/get-balance",
+                                      "develop/ethereum-candle/matic-js/plasma/erc20/approve",
+                                      "develop/ethereum-candle/matic-js/plasma/erc20/approve-max",
+                                      "develop/ethereum-candle/matic-js/plasma/erc20/get-allowance",
+                                      "develop/ethereum-candle/matic-js/plasma/erc20/deposit",
+                                      "develop/ethereum-candle/matic-js/plasma/erc20/transfer",
+                                      "develop/ethereum-candle/matic-js/plasma/erc20/withdraw-start",
+                                      "develop/ethereum-candle/matic-js/plasma/erc20/withdraw-confirm",
+                                      "develop/ethereum-candle/matic-js/plasma/erc20/withdraw-confirm-faster",
+                                      "develop/ethereum-candle/matic-js/plasma/erc20/withdraw-exit"
                                       ]
                             },
                             {
                               type: "category",
                               label: "ERC721",
-                              items: ["develop/ethereum-polygon/matic-js/plasma/erc721/index", 
-                                      "develop/ethereum-polygon/matic-js/plasma/erc721/get-tokens-count",
-                                      "develop/ethereum-polygon/matic-js/plasma/erc721/get-token-id-at-index-for-user",
-                                      "develop/ethereum-polygon/matic-js/plasma/erc721/get-all-tokens",
-                                      "develop/ethereum-polygon/matic-js/plasma/erc721/safe-deposit",
-                                      "develop/ethereum-polygon/matic-js/plasma/erc721/withdraw-start",
-                                      "develop/ethereum-polygon/matic-js/plasma/erc721/withdraw-confirm",
-                                      "develop/ethereum-polygon/matic-js/plasma/erc721/withdraw-confirm-faster",
-                                      "develop/ethereum-polygon/matic-js/plasma/erc721/withdraw-exit",
-                                      "develop/ethereum-polygon/matic-js/plasma/erc721/transfer"
+                              items: ["develop/ethereum-candle/matic-js/plasma/erc721/index", 
+                                      "develop/ethereum-candle/matic-js/plasma/erc721/get-tokens-count",
+                                      "develop/ethereum-candle/matic-js/plasma/erc721/get-token-id-at-index-for-user",
+                                      "develop/ethereum-candle/matic-js/plasma/erc721/get-all-tokens",
+                                      "develop/ethereum-candle/matic-js/plasma/erc721/safe-deposit",
+                                      "develop/ethereum-candle/matic-js/plasma/erc721/withdraw-start",
+                                      "develop/ethereum-candle/matic-js/plasma/erc721/withdraw-confirm",
+                                      "develop/ethereum-candle/matic-js/plasma/erc721/withdraw-confirm-faster",
+                                      "develop/ethereum-candle/matic-js/plasma/erc721/withdraw-exit",
+                                      "develop/ethereum-candle/matic-js/plasma/erc721/transfer"
                                       ]
                             },
-                            "develop/ethereum-polygon/matic-js/plasma/is-deposited",
-                            "develop/ethereum-polygon/matic-js/plasma/is-check-pointed",
-                            "develop/ethereum-polygon/matic-js/plasma/withdraw-exit",
-                            "develop/ethereum-polygon/matic-js/plasma/deposit-ether"
+                            "develop/ethereum-candle/matic-js/plasma/is-deposited",
+                            "develop/ethereum-candle/matic-js/plasma/is-check-pointed",
+                            "develop/ethereum-candle/matic-js/plasma/withdraw-exit",
+                            "develop/ethereum-candle/matic-js/plasma/deposit-ether"
                     ]
                   },
-                  "develop/ethereum-polygon/matic-js/fx-portal",
-                  "develop/ethereum-polygon/matic-js/set-proof-api",
+                  "develop/ethereum-candle/matic-js/fx-portal",
+                  "develop/ethereum-candle/matic-js/set-proof-api",
                   {
                     type: "category",
                     label: "Advanced",
-                    items: ["develop/ethereum-polygon/matic-js/advanced/abi-manager",
-                            "develop/ethereum-polygon/matic-js/advanced/plugin",
-                            "develop/ethereum-polygon/matic-js/advanced/exit-util"]
+                    items: ["develop/ethereum-candle/matic-js/advanced/abi-manager",
+                            "develop/ethereum-candle/matic-js/advanced/plugin",
+                            "develop/ethereum-candle/matic-js/advanced/exit-util"]
                   }]
         },
         {
           type: "category",
           label: "PoS Bridge",
           items: [
-            "develop/ethereum-polygon/pos/getting-started",
+            "develop/ethereum-candle/pos/getting-started",
             {
               type: "category",
               label: "Using Candle Edge",
               items: [
-                "develop/ethereum-polygon/pos/using-sdk/getting-started",
-                "develop/ethereum-polygon/pos/using-sdk/eth",
-                "develop/ethereum-polygon/pos/using-sdk/erc20",
-                "develop/ethereum-polygon/pos/using-sdk/erc721",
-                "develop/ethereum-polygon/pos/using-sdk/erc1155",
+                "develop/ethereum-candle/pos/using-sdk/getting-started",
+                "develop/ethereum-candle/pos/using-sdk/eth",
+                "develop/ethereum-candle/pos/using-sdk/erc20",
+                "develop/ethereum-candle/pos/using-sdk/erc721",
+                "develop/ethereum-candle/pos/using-sdk/erc1155",
               ],
             },
             {
               type: "category",
               label: "Calling Contracts",
               items: [
-                "develop/ethereum-polygon/pos/calling-contracts/ether",
-                "develop/ethereum-polygon/pos/calling-contracts/erc20",
-                "develop/ethereum-polygon/pos/calling-contracts/erc721",
-                "develop/ethereum-polygon/pos/calling-contracts/erc1155",
+                "develop/ethereum-candle/pos/calling-contracts/ether",
+                "develop/ethereum-candle/pos/calling-contracts/erc20",
+                "develop/ethereum-candle/pos/calling-contracts/erc721",
+                "develop/ethereum-candle/pos/calling-contracts/erc1155",
               ],
             },
-            "develop/ethereum-polygon/pos/deposit-withdraw-event-pos",
-            "develop/ethereum-polygon/pos/deployment",
-            "develop/ethereum-polygon/pos/mapping-assets",
+            "develop/ethereum-candle/pos/deposit-withdraw-event-pos",
+            "develop/ethereum-candle/pos/deployment",
+            "develop/ethereum-candle/pos/mapping-assets",
           ],
         },
         {
           type: "category",
           label: "Plasma Bridge",
           items: [
-            "develop/ethereum-polygon/plasma/getting-started",
-            "develop/ethereum-polygon/plasma/eth",
-            "develop/ethereum-polygon/plasma/erc20",
-            "develop/ethereum-polygon/plasma/erc721",
-            "develop/ethereum-polygon/plasma/deposit-withdraw-event-plasma",
-            "develop/ethereum-polygon/plasma/mapping-assets",
+            "develop/ethereum-candle/plasma/getting-started",
+            "develop/ethereum-candle/plasma/eth",
+            "develop/ethereum-candle/plasma/erc20",
+            "develop/ethereum-candle/plasma/erc721",
+            "develop/ethereum-candle/plasma/deposit-withdraw-event-plasma",
+            "develop/ethereum-candle/plasma/mapping-assets",
           ],
         },
         {
           type: "category",
           label:"Tools",
-          items: ["develop/ethereum-polygon/tools/widget"],
+          items: ["develop/ethereum-candle/tools/widget"],
         },
-        "develop/ethereum-polygon/submit-mapping-request",
-        "develop/ethereum-polygon/mintable-assets",
+        "develop/ethereum-candle/submit-mapping-request",
+        "develop/ethereum-candle/mintable-assets",
       ],
     },
     {
@@ -392,7 +392,7 @@ module.exports = {
       type: "category",
       label: "Architecture",
       items: [
-        "contribute/polygon-architecture",
+        "contribute/candle-architecture",
         {
           type: "category",
           label: "Heimdall",
@@ -511,7 +511,7 @@ module.exports = {
         {
           type: "link",
           label: "Candle Faucet",
-          href: "https://faucet.polygon.technology/",
+          href: "https://faucet.candle.technology/",
         },
       ],
     },
@@ -573,7 +573,7 @@ module.exports = {
     {
       type: "category",
       label: "Delegate",
-      items: ["validate/polygon-basics/who-is-delegator",
+      items: ["validate/candle-basics/who-is-delegator",
               "validate/delegate"
       ],
     },
@@ -597,7 +597,7 @@ module.exports = {
       type: "category",
       label: "Architecture",
       items: [
-        "contribute/polygon-architecture",
+        "contribute/candle-architecture",
         {
           type: "category",
           label: "Heimdall",

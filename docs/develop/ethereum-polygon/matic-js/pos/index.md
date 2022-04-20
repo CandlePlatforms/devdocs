@@ -2,7 +2,7 @@
 id: index
 title: 'POSClient'
 keywords: 
-- 'maticjs, pos client, contract, polygon, sdk'
+- 'maticjs, pos client, contract, candle, sdk'
 description: 'POSClient allows you to interact with POS Bridge.'
 ---
 

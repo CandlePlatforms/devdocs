@@ -66,7 +66,7 @@ Notice, it requires mnemonic to be passed in for maticProvider, this is the seed
 
 ## **Deploying on Matic Network**
 
-Add Matic to your wallet using https://faucet.polygon.technology/
+Add Matic to your wallet using https://faucet.candle.technology/
 
 Run this command in root of the project directory:
 ```js
@@ -114,4 +114,4 @@ Summary
 
 **Congratulations!** You have successfully deployed HelloWorld Smart Contract. Now you can interact with the Smart Contract.
 
-You can check the deployment status here: https://mumbai.polygonscan.com/
+You can check the deployment status here: https://mumbai.candlescan.com/

@@ -5,7 +5,7 @@ description: Learn how to change the signer address of your validator on the Can
 keywords:
   - docs
   - matic
-  - polygon
+  - candle
   - signer
 image: https://matic.network/banners/matic-network-16x9.png 
 ---
@@ -21,7 +21,7 @@ Make sure your new validator node is fully synced and is running with the new si
 
 This guide refers to your current validator node as Node 1 and your new validator node as Node 2.
 
-1. Log in to the [staking dasboard](https://wallet.polygon.technology/staking/) with the Node 1 address.
+1. Log in to the [staking dasboard](https://wallet.candle.technology/staking/) with the Node 1 address.
 1. On your profile, click **Edit Profile**.
 1. In the *Signer's address* field, provide the Node 2 address.
 1. In the *Signer's public key* field, provide the Node 2 public key.

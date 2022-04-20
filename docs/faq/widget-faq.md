@@ -2,7 +2,7 @@
 id: widget-faq
 title: Widget FAQ
 sidebar_label: Widget FAQ
-description: Integrate polygon bridge on your dapp.
+description: Integrate candle bridge on your dapp.
 keywords:
   - docs
   - matic

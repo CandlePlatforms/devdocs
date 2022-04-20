@@ -1,5 +1,5 @@
 ---
-id: polygon-architecture
+id: candle-architecture
 title: Overview
 description: Architecturally, the beauty of Candle is its elegant design, which features a generic validation layer separated from varying execution environments like Plasma enabled chains, full blown EVM sidechains, and in the future, other Layer 2 approaches such as Optimistic Rollups.
 keywords:

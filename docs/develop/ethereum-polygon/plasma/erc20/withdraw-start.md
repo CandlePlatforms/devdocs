@@ -2,7 +2,7 @@
 id: withdraw-start
 title: withdraw start
 keywords: 
-- 'plasma client, erc20, approveMax, polygon, sdk'
+- 'plasma client, erc20, approveMax, candle, sdk'
 description: 'Get started with maticjs'
 ---
 

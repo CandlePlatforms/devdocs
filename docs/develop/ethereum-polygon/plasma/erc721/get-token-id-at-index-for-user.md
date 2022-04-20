@@ -2,7 +2,7 @@
 id: get-token-id-at-index-for-user
 title: getTokenIdAtIndexForUser
 keywords: 
-- 'plasma client, erc721, getTokenIdAtIndexForUser, polygon, sdk'
+- 'plasma client, erc721, getTokenIdAtIndexForUser, candle, sdk'
 description: 'Get started with maticjs'
 ---
 

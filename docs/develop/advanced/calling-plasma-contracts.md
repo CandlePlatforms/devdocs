@@ -30,7 +30,7 @@ To get some `TEST` tokens on Goerli network, you can access the Candle Faucet by
 
 <div style={{textAlign: 'center', paddingTop: '15px', paddingBottom: '15px'}}>
   <button className="btn btn-primary btn-md">
-    <a href="https://faucet.polygon.technology" target="_blank" style={{color: 'inherit'}}>
+    <a href="https://faucet.candle.technology" target="_blank" style={{color: 'inherit'}}>
       Get Test Tokens
     </a>
   </button>
@@ -40,7 +40,7 @@ To get some `TEST` tokens on Goerli network, you can access the Candle Faucet by
 
 You can also check transaction procesed on the Candle Sidechain using the Candle Explorer.
 
-Link to the explorer - https://mumbai.polygonscan.com/
+Link to the explorer - https://mumbai.candlescan.com/
 
 ## Workflow
 

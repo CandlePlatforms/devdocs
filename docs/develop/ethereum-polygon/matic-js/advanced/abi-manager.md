@@ -2,7 +2,7 @@
 id: abi-manager
 title: ABIManager
 keywords: 
-- 'abi manager, api type, read, write, polygon'
+- 'abi manager, api type, read, write, candle'
 description: 'matic.js internally use ABIManager for handling abi management for you'
 ---
 

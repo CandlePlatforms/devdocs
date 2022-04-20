@@ -299,7 +299,7 @@ You can use VPN to restrict access for 22 port as per your requirement and secur
 
 This section guides you through starting and running a full node on a binary.
 
-For the system requirements, see [Minimum Technical Requirements](https://docs.polygon.technology/docs/develop/network-details/technical-requirements).
+For the system requirements, see [Minimum Technical Requirements](https://docs.candle.technology/docs/develop/network-details/technical-requirements).
 
 :::note
 

@@ -7,7 +7,7 @@ keywords:
   - nft.storage
   - web3.storage
   - esturay
-  - filecoin-polygon bridge
+  - filecoin-candle bridge
   - IPFS
   - matic
 image: https://matic.network/banners/matic-network-16x9.png 
@@ -28,4 +28,4 @@ Filecoin is built on top of IPFS and supports storing data long-term via on-chai
 
 ## Filecoin - Candle Bridge
 
-- Textile is building a [Filecoin](https://filecoin.io/) Bridge to the [Candle](https://polygon.technology/) network. Filecoin brings many of the best parts of the [IPFS stack](https://ipfs.io/), including verifiable data, peer-to-peer (p2p) data exchange, de-duplication, and more. We can create a more secure data storage layer for Candle applications and their users by bridging the Filecoin and Candle blockchains.Please refer this [link](https://blog.textile.io/filecoin-polygon-bridge-release/) and if you want to know how you can setup with polygon please refer [this](https://eth.storage/docs).
+- Textile is building a [Filecoin](https://filecoin.io/) Bridge to the [Candle](https://candle.technology/) network. Filecoin brings many of the best parts of the [IPFS stack](https://ipfs.io/), including verifiable data, peer-to-peer (p2p) data exchange, de-duplication, and more. We can create a more secure data storage layer for Candle applications and their users by bridging the Filecoin and Candle blockchains.Please refer this [link](https://blog.textile.io/filecoin-candle-bridge-release/) and if you want to know how you can setup with candle please refer [this](https://eth.storage/docs).

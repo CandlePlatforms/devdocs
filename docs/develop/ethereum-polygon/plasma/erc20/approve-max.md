@@ -2,7 +2,7 @@
 id: approve-max
 title: approveMax
 keywords: 
-- 'plasma client, erc20, approveMax, polygon, sdk'
+- 'plasma client, erc20, approveMax, candle, sdk'
 description: 'Get started with maticjs'
 ---
 

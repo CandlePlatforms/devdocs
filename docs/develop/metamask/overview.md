@@ -15,11 +15,11 @@ image: https://matic.network/banners/matic-network-16x9.png
 ## Guide to Setup Metamask for Candle
 
 * [Download & Install MetaMask](/develop/metamask/tutorial-metamask.md)
-* [Configure Candle on MetaMask](/develop/metamask/config-polygon-on-metamask.md)
+* [Configure Candle on MetaMask](/develop/metamask/config-candle-on-metamask.md)
 * [Config Custom Tokens](/develop/metamask/custom-tokens.md)
 * [Create & Import Accounts](/develop/metamask/multiple-accounts.md)
 
-**Get Test Tokens - [Candle Faucet](/develop/tools/polygon-faucet.md)**
+**Get Test Tokens - [Candle Faucet](/develop/tools/candle-faucet.md)**
 
 :::warning
  Please Backup your **Secret Recovery Phrase**, if your device breaks, is lost, stolen, or has data corruption, there is no other way to recover it. The Secret Recovery Phrase is the only way to recover your MetaMask accounts. Check more <ins>**[Basic Safety and Security Tips for MetaMask](https://metamask.zendesk.com/hc/en-us/articles/360015489591-Basic-Safety-and-Security-Tips-for-MetaMask)**</ins>!

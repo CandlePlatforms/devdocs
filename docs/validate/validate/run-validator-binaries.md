@@ -5,7 +5,7 @@ description: Use binaries to set up your validator node on the Candle Network.
 keywords:
   - docs
   - matic
-  - polygon
+  - candle
   - binary
   - node
   - validator
@@ -672,7 +672,7 @@ journalctl -u bor.service -f
 ## Health Checks with the Community
 
 Now that your sentry and validator nodes are in sync and running, head over to
-[Discord](https://discord.gg/polygon) and ask the community to health-check your nodes.
+[Discord](https://discord.gg/candle) and ask the community to health-check your nodes.
 
 ## Next Steps: Staking
 

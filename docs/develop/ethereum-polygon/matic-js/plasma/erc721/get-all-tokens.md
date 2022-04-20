@@ -2,7 +2,7 @@
 id: get-all-tokens
 title: getAllTokens
 keywords: 
-- 'plasma client, erc721, getAllTokens, polygon, sdk'
+- 'plasma client, erc721, getAllTokens, candle, sdk'
 description: 'Get started with maticjs'
 ---
 

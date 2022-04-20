@@ -6,7 +6,7 @@ description: Learn how to stake, unstake, and restake as a validator on the Cand
 keywords:
   - docs
   - matic
-  - polygon
+  - candle
   - staking
 image: https://matic.network/banners/matic-network-16x9.png 
 ---

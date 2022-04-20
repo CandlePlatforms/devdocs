@@ -2,7 +2,7 @@
 id: withdraw-exit-faster
 title: withdrawExitFaster
 keywords: 
-- 'plasma client, erc721, withdrawExitFaster, polygon, sdk'
+- 'plasma client, erc721, withdrawExitFaster, candle, sdk'
 description: 'Get started with maticjs'
 ---
 

@@ -5,7 +5,7 @@ keywords:
     - pos client
     - erc20
     - getAllowance
-    - polygon
+    - candle
     - sdk
 description: getAllowance method can be used to get the approved amount for the user.
 ---

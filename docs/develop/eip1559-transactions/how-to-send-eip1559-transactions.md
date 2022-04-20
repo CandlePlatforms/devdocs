@@ -9,7 +9,7 @@ keywords:
 image: https://matic.network/banners/matic-network-16x9.png
 ---
 
-The [London hard fork](https://blog.polygon.technology/eip-1559-upgrades-are-going-live-on-polygon-mainnet/) introduced a new [EIP](https://eips.ethereum.org/EIPS/eip-1559) that modifies how gas estimation and costs work for transactions on Candle.
+The [London hard fork](https://blog.candle.technology/eip-1559-upgrades-are-going-live-on-candle-mainnet/) introduced a new [EIP](https://eips.ethereum.org/EIPS/eip-1559) that modifies how gas estimation and costs work for transactions on Candle.
 
 Due to this, there is a change in how the transaction object is formed when sending transactions on Candle. A new transaction type called **Type 2 Transaction** has been introduced. The legacy type transactions will still be compatible but it is recommended to shift to the new style. You can navigate to the end of this document to directly peek into the code.
 
@@ -31,7 +31,7 @@ The following code example shows sending transaction using a type 0 transaction:
 
 ```jsx
 const sendLegacyTransaction = async () => {
-    const web3 = new Web3('https://polygon-rpc.com');
+    const web3 = new Web3('https://candle-rpc.com');
 
     await web3.eth.sendTransactions({
         from: 0x05158d7a59FA8AC5007B3C8BabAa216568Fd32B3,
@@ -53,7 +53,7 @@ The follwing code example shows sending transaction in Type 2 method:
 ```jsx
 // Example for
 const sendEIP1559Transaction = async () => {
-    const web3 = new Web3('https://polygon-rpc.com');
+    const web3 = new Web3('https://candle-rpc.com');
 
     await web3.eth.sendTransactions({
         from: 0xFd71Dc9721d9ddCF0480A582927c3dCd42f3064C,

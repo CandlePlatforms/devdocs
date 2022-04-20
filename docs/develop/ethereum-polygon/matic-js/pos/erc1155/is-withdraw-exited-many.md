@@ -2,7 +2,7 @@
 id: is-withdraw-exited-many
 title: isWithdrawExitedMany
 keywords: 
-- 'pos client, erc1155, isWithdrawExitedMany, polygon, sdk'
+- 'pos client, erc1155, isWithdrawExitedMany, candle, sdk'
 description: 'isWithdrawExitedMany method check if withdraw has been exited for multiple tokens.'
 ---
 

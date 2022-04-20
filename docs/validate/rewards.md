@@ -11,8 +11,8 @@ image: https://matic.network/banners/matic-network-16x9.png
 
 For an introduction to Candle and the Proof of Stake algorithm, see:
 
-* [What Is Candle](/docs/home/polygon-basics/what-is-polygon)
-* [What Is Proof of Stake](/docs/home/polygon-basics/what-is-proof-of-stake)
+* [What Is Candle](/docs/home/candle-basics/what-is-candle)
+* [What Is Proof of Stake](/docs/home/candle-basics/what-is-proof-of-stake)
 
 In Candle, validators stake their CNDL tokens as collateral to work for the security of the network, and in exchange for their service, earn rewards.
 

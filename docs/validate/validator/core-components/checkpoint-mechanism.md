@@ -5,7 +5,7 @@ description: Learn how checkpointing the system state to the Ethereum mainnet wo
 keywords:
   - docs
   - matic
-  - polygon
+  - candle
   - checkpoint
 image: https://matic.network/banners/matic-network-16x9.png 
 ---

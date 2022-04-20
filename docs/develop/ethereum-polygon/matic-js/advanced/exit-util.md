@@ -2,7 +2,7 @@
 id: exit-util
 title: ExitUtil
 keywords: 
-- 'exit util, api type, read, write, polygon'
+- 'exit util, api type, read, write, candle'
 description: 'matic.js internally use ExitUtil for generating proof'
 ---
 

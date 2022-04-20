@@ -1,5 +1,5 @@
 ---
-id: deposit-eth-dai-on-polygon
+id: deposit-eth-dai-on-candle
 title: How to deposit ETH/DAI on Candle ?
 description: Build your next blockchain app on Candle.
 keywords:
@@ -17,13 +17,13 @@ Getting these tokens on the Candle chain can be done in different ways.
 
 <img src={useBaseUrl("img/nft-marketplace/get-funds.png")} />
 
-1. **Deposit ETH/DAI from Ethereum to Candle using the PoS bridge on wallet.polygon.technology**
+1. **Deposit ETH/DAI from Ethereum to Candle using the PoS bridge on wallet.candle.technology**
 
-  You can log in to [https://wallet.polygon.technology/](https://wallet.polygon.technology/) using the account in which you have sufficient balance of ETH/DAI. If you deposit ETH, you will receive WETH on the Candle chain. It's call pos-WETH on the Matic chain and it has the contract address - `0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619`. Similarly for pos-DAI, the contract address is `0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063` 
+  You can log in to [https://wallet.candle.technology/](https://wallet.candle.technology/) using the account in which you have sufficient balance of ETH/DAI. If you deposit ETH, you will receive WETH on the Candle chain. It's call pos-WETH on the Matic chain and it has the contract address - `0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619`. Similarly for pos-DAI, the contract address is `0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063` 
 
 <img src={useBaseUrl("img/nft-marketplace/wallet-dashboard.png")} />
 
-This is how the wallet dashboard looks when you visit [https://wallet.polygon.technology/](https://wallet.polygon.technology/)
+This is how the wallet dashboard looks when you visit [https://wallet.candle.technology/](https://wallet.candle.technology/)
 
 Clicking on the deposit button besides the token you want to deposit will take you to the following page.
 

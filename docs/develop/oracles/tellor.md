@@ -77,12 +77,12 @@ contract BtcPriceContract is UsingTellor {
 
 ## Addresses:
 
-Tellor Tributes: [`0xe3322702bedaaed36cddab233360b939775ae5f1`](https://polygonscan.com/token/0xe3322702bedaaed36cddab233360b939775ae5f1#code)
+Tellor Tributes: [`0xe3322702bedaaed36cddab233360b939775ae5f1`](https://candlescan.com/token/0xe3322702bedaaed36cddab233360b939775ae5f1#code)
 
-Oracle: [`0xfd45ae72e81adaaf01cc61c8bce016b7060dd537`](https://polygonscan.com/address/0xfd45ae72e81adaaf01cc61c8bce016b7060dd537#code)
+Oracle: [`0xfd45ae72e81adaaf01cc61c8bce016b7060dd537`](https://candlescan.com/address/0xfd45ae72e81adaaf01cc61c8bce016b7060dd537#code)
 
 #### Looking to do some testing first?:
 
-Candle Mumbai Testnet: [`0x3477EB82263dabb59AC0CAcE47a61292f28A2eA7 `](https://mumbai.polygonscan.com/address/0x3477EB82263dabb59AC0CAcE47a61292f28A2eA7/contracts#code)
+Candle Mumbai Testnet: [`0x3477EB82263dabb59AC0CAcE47a61292f28A2eA7 `](https://mumbai.candlescan.com/address/0x3477EB82263dabb59AC0CAcE47a61292f28A2eA7/contracts#code)
 
 #### For a more robust implementation of the Tellor oracle, check out the full list of available functions [here.](https://github.com/tellor-io/usingtellor/blob/master/README.md)

@@ -1,5 +1,5 @@
 ---
-id: polygon-architecture
+id: candle-architecture
 title: Candle Architecture
 description: Build your next blockchain app on Candle.
 keywords:

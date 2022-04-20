@@ -196,7 +196,7 @@ Currently “a single Candle side chain” can theoretically handle 2^16 (65,000
 
 ## Is token type ERC20?
 
-Yes. And the same token will be applicable to MatPolygonic Chain too i.e no need to move to a native token in future
+Yes. And the same token will be applicable to Matcandleic Chain too i.e no need to move to a native token in future
 
 ## Do you have a timeline on the Alpha Mainnet launch?
 

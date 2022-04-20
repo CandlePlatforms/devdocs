@@ -5,7 +5,7 @@ keywords:
     - pos client
     - erc20
     - contract
-    - polygon
+    - candle
     - sdk
 description: POSClient provides erc20 method which helps you to interact with an erc20 token.
 ---
@@ -24,7 +24,7 @@ Passing second arguments for `isRoot` is optional.
 
 ## Child token
 
-Token on polygon can be initiated by using this syntax -
+Token on candle can be initiated by using this syntax -
 
 ```
 const childERC20Token = posClient.erc20(<child token address>);

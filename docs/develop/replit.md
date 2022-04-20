@@ -28,9 +28,9 @@ You need a browser-based web3 wallet to interact with the Candle Mumbai Testnet 
 You must setup all of the following Prerequisites to be able to deploy your solidity smart contract on Candle:
 
 1. [Create a Replit account](https://replit.com/signup)
-2. [Download Metamask wallet](https://docs.polygon.technology/docs/develop/metamask/hello/)
-3. [Configure Candle on Metamask](https://docs.polygon.technology/docs/develop/metamask/config-polygon-on-metamask/)
-4. [Get testnet tokens](https://faucet.polygon.technology)
+2. [Download Metamask wallet](https://docs.candle.technology/docs/develop/metamask/hello/)
+3. [Configure Candle on Metamask](https://docs.candle.technology/docs/develop/metamask/config-candle-on-metamask/)
+4. [Get testnet tokens](https://faucet.candle.technology)
 
 ## Working with a Repl
 
@@ -50,12 +50,12 @@ The Solidity starter repl comes with a friendly web interface, built using the <
 Make sure that you have followed the list of Prerequisites above so that you are ready to deploy and interact with your smart contract:
 
 1. Click on **Run** (at the Top) to install all relevant packages, start up the contract deployment UI
-2. Connect your MetaMask wallet to the web interface and switch to the [Mumbai Testnet](https://docs.polygon.technology/docs/integrate/network/)
+2. Connect your MetaMask wallet to the web interface and switch to the [Mumbai Testnet](https://docs.candle.technology/docs/integrate/network/)
 3. Click on **Connect wallet**, select your account, then choose Connect
 4. From the Drop-down list, Select your contract that you want to deploy
 5. Click on **Deploy**
 6. Approve the MetaMask pop-up that appears to confirm the transaction from your wallet to deploy your contract
-7. [Navigate to Polyganscan](https://mumbai.polygonscan.com/) to search for your account, view your deployed contract, and copy your account address
+7. [Navigate to Polyganscan](https://mumbai.candlescan.com/) to search for your account, view your deployed contract, and copy your account address
 
 Once your contract have been deployed, it will show up as expandable boxes below the drop-down box. Expand it and take a look at all the different functions available. You can now interact with your contract using the provided user interface or from a sharable URL shown on the interface.
 

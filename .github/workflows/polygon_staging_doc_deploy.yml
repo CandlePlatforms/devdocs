@@ -6,7 +6,7 @@ name: Candle staging doc deployment
 on:
   # Triggers the workflow on push or pull request events but only for the develop branch
   push:
-    branches: [polygon-staging]
+    branches: [candle-staging]
  
   workflow_dispatch:
 
@@ -22,7 +22,7 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
         with:
-          ref: polygon-staging
+          ref: candle-staging
 
       # Runs a single command using the runners shell
       - name: INSTALL
@@ -38,17 +38,17 @@ jobs:
         with:
           args: --acl public-read --follow-symlinks
         env:
-          AWS_S3_BUCKET: ${{ secrets.POLYGON_STAGING_AWS_S3_BUCKET }}
-          AWS_ACCESS_KEY_ID: ${{ secrets.POLYGON_STAGING_AWS_ACCESS_KEY_ID }}
-          AWS_SECRET_ACCESS_KEY: ${{ secrets.POLYGON_STAGING_AWS_SECRET_ACCESS_KEY }}
+          AWS_S3_BUCKET: ${{ secrets.candle_STAGING_AWS_S3_BUCKET }}
+          AWS_ACCESS_KEY_ID: ${{ secrets.candle_STAGING_AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.candle_STAGING_AWS_SECRET_ACCESS_KEY }}
           AWS_REGION: 'us-east-1' # optional: defaults to us-east-1
           SOURCE_DIR: ${{secrets.TARGET_DIRECTORY}} # optional: defaults to entire repository
 
       - name: invalidate cloudfront distribution and wait for completion
         uses: muratiger/invalidate-cloudfront-and-wait-for-completion-action@master
         env:
-          DISTRIBUTION_ID: ${{ secrets.POLYGON_STAGING_CLOUDFRONT_DISTRIBUTION_ID }}
+          DISTRIBUTION_ID: ${{ secrets.candle_STAGING_CLOUDFRONT_DISTRIBUTION_ID }}
           PATHS: '/*'
           AWS_REGION: 'us-east-1'
-          AWS_ACCESS_KEY_ID: ${{ secrets.POLYGON_STAGING_AWS_ACCESS_KEY_ID }}
-          AWS_SECRET_ACCESS_KEY: ${{ secrets.POLYGON_STAGING_AWS_SECRET_ACCESS_KEY }}
+          AWS_ACCESS_KEY_ID: ${{ secrets.candle_STAGING_AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.candle_STAGING_AWS_SECRET_ACCESS_KEY }}

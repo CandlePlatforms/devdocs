@@ -2,7 +2,7 @@
 id: is-exited
 title: isExited
 keywords: 
-- 'plasma client, erc721, isExited, polygon, sdk'
+- 'plasma client, erc721, isExited, candle, sdk'
 description: 'Get started with maticjs'
 ---
 

@@ -2,7 +2,7 @@
 id: withdraw-exit
 title: withdraw exit
 keywords: 
-- 'pos client, erc20, withdrawExit, polygon, sdk'
+- 'pos client, erc20, withdrawExit, candle, sdk'
 description: 'withdrawExit method can be used to exit the withdraw process by using the txHash from withdrawStart method.'
 ---
 

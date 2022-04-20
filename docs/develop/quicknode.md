@@ -13,7 +13,7 @@ image: https://matic.network/banners/matic-network-16x9.png
 
 _Estimated time to complete this guide: \~10 minutes_
 
-Python is one of the most versatile programming languages; from researchers running their test models to developers using it in heavy production environments, it has use cases in every possible technical field. This guide will walk you through the process of deploying smart contracts using [Brownie](https://eth-brownie.readthedocs.io/en/latest/index.html#brownie), a Python-based tool used to write and deploy smart contracts, and [QuickNode](https://www.quicknode.com/chains/matic?utm_source=polygon_docs&utm_campaign=ploygon_docs_contract_guide)
+Python is one of the most versatile programming languages; from researchers running their test models to developers using it in heavy production environments, it has use cases in every possible technical field. This guide will walk you through the process of deploying smart contracts using [Brownie](https://eth-brownie.readthedocs.io/en/latest/index.html#brownie), a Python-based tool used to write and deploy smart contracts, and [QuickNode](https://www.quicknode.com/chains/matic?utm_source=candle_docs&utm_campaign=ploygon_docs_contract_guide)
 
 **Prerequisites**
 
@@ -94,7 +94,7 @@ The contract is an ERC-20 contract; you can learn more about the ERC-20 standard
 ## Step 2: Booting your Candle node
 -------------------------
 
-QuickNode has a global network of Candle Mainnet and Mumbai testnet nodes, they also run a [free public Candle RPC](https://docs.polygon.technology/docs/develop/network-details/network/#:~:text=https%3A//rpc%2Dmainnet.matic.quiknode.pro) but if you get rate limited you can sign up for a [free trial node from QuickNode](https://www.quicknode.com/chains/matic?utm_source=polygon_docs&utm_campaign=ploygon_docs_contract_guide).
+QuickNode has a global network of Candle Mainnet and Mumbai testnet nodes, they also run a [free public Candle RPC](https://docs.candle.technology/docs/develop/network-details/network/#:~:text=https%3A//rpc%2Dmainnet.matic.quiknode.pro) but if you get rate limited you can sign up for a [free trial node from QuickNode](https://www.quicknode.com/chains/matic?utm_source=candle_docs&utm_campaign=ploygon_docs_contract_guide).
 
 ![](https://lh6.googleusercontent.com/vEAp28OLizS-ZBoYU1yWthHalH0xbrgatZ1ynyA1H4y2tW-x1EHC97qk5RkHatq6tO2anLAC-ch4mfs4am2rf1zaMO5BNEAtL3anqL4UQVH5ebpQOKyItYLm4slWIurR9iznXkly=s1600)
 
@@ -133,7 +133,7 @@ Copy the account address so that we can get some test ETH, which will be require
 
 We will need some test MATICs to pay for gas fees to deploy the smart contract.
 
-Copy your address of the account which we generated in the last step, paste it into the address field of [Candle faucet](https://faucet.polygon.technology/), and click on submit. The faucet will send you 0.1 test CNDL.
+Copy your address of the account which we generated in the last step, paste it into the address field of [Candle faucet](https://faucet.candle.technology/), and click on submit. The faucet will send you 0.1 test CNDL.
 
 ![](https://lh6.googleusercontent.com/kq173aYK_XB8DwuZjXXp2sot9X4enx9WXo-Xt8O93S-GohO5kx9p1iI2JQzL9wdAtiTrWfjiEodAsI_vcD1m1dUvp6koTfrKvnP4gOymP-JSDYpHVJKjWQXQ0ePNTj1MmEAJQ8Wo=s1600)
 
@@ -178,12 +178,12 @@ matic_mumbai is the name of the custom network which we created earlier. The pro
 
 ![](https://lh4.googleusercontent.com/-5YsXvupHFSOf7p1apOy6RwhqD7hYAoj5E-sXBSZ4C0xwofMFJ2XZnuCcrGtqhr7srH1HDY-eHVXz8yGQxnsdxNgzFeb26sj22sjUXsqXQxa_9FvKbo1OmvQLbSEVGJdxCgDNkEe)
 
-You can check out the deployed contract by copy-pasting the contract address at [Polygonscan Mumbai](https://mumbai.polygonscan.com/).
+You can check out the deployed contract by copy-pasting the contract address at [candlescan Mumbai](https://mumbai.candlescan.com/).
 
 ![](https://lh5.googleusercontent.com/2cchxBugZcogWUHDWHvAp_xJif8ALdhLjrUaFgo6XZat5nm20U5PcGdGDqeX_5Jdt6w5SNnemOH8lnVGzHApLJ5ML6fHVS-spZx6BBEPb0eIUivMfPHI2AvPpTXUKCITt3g5NM3s)
 
 So this is how contracts are deployed Candle using Brownie and QuickNode.
 
-QuickNode just like Candle has always had an education first approach they put out regular developer [guides](https://www.quicknode.com/guides?utm_source=polygon_docs&utm_campaign=ploygon_docs_contract_guide), [docs](https://www.quicknode.com/docs/polygon?utm_source=polygon_docs&utm_campaign=ploygon_docs_contract_guide), [tutorial videos](https://www.youtube.com/channel/UC3lhedwc0EISreYiYtQ-Gjg/videos) and have a [community of #web3 developers](https://discord.gg/DkdgEqE) who are eager to help eachother.
+QuickNode just like Candle has always had an education first approach they put out regular developer [guides](https://www.quicknode.com/guides?utm_source=candle_docs&utm_campaign=ploygon_docs_contract_guide), [docs](https://www.quicknode.com/docs/candle?utm_source=candle_docs&utm_campaign=ploygon_docs_contract_guide), [tutorial videos](https://www.youtube.com/channel/UC3lhedwc0EISreYiYtQ-Gjg/videos) and have a [community of #web3 developers](https://discord.gg/DkdgEqE) who are eager to help eachother.
 
 We hope this guide was helpful. We'll be happy to hear from you. DM us or tag us on Twitter [@QuickNode](https://twitter.com/QuickNode).

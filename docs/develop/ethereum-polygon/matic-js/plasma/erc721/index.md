@@ -2,7 +2,7 @@
 id: index
 title: plasmaClient
 keywords: 
-- 'plasma client, erc721, contract, polygon, sdk'
+- 'plasma client, erc721, contract, candle, sdk'
 description: 'Get started with maticjs'
 ---
 
@@ -18,7 +18,7 @@ const erc721token = plasmaClient.erc721(<token address>,<isRoot>);
 
 ## Child token
 
-Token on polygon can be initiated by using this syntax -
+Token on candle can be initiated by using this syntax -
 
 ```
 const childERC20Token = plasmaClient.erc721(<child token address>);

@@ -2,7 +2,7 @@
 id: is-deposited
 title: isDeposited
 keywords: 
-- 'plasma client, erc20, withdrawExit, polygon, sdk'
+- 'plasma client, erc20, withdrawExit, candle, sdk'
 description: 'Get started with maticjs'
 ---
 

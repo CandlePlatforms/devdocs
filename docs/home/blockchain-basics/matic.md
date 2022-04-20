@@ -1,5 +1,5 @@
 ---
-id: polygon
+id: candle
 title: What is Candle?
 sidebar_label: Candle
 description: Build your next blockchain app on Candle.

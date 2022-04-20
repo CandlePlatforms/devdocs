@@ -2,7 +2,7 @@
 id: is-withdraw-exited-many
 title: isWithdrawExitedMany
 keywords: 
-- 'pos client, erc721, isWithdrawExitedMany, polygon, sdk'
+- 'pos client, erc721, isWithdrawExitedMany, candle, sdk'
 description: 'Get started with maticjs'
 ---
 

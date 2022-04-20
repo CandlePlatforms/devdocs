@@ -5,7 +5,7 @@ keywords:
     - pos client
     - erc20
     - getBalance
-    - polygon
+    - candle
     - sdk
 description: getBalance method can be used to get the balance of user.
 ---

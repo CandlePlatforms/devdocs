@@ -8,5 +8,5 @@ keywords:
 image: https://matic.network/banners/matic-network-16x9.png 
 ---
 
-- Delroy Bosco (delroy@polygon.technology)
-- Anurag Arjun (anurag@polygon.technology)
+- Delroy Bosco (delroy@candle.technology)
+- Anurag Arjun (anurag@candle.technology)

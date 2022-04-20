@@ -5,7 +5,7 @@ title: Getting Started
 
 This is a startup guide for users who wish to use the implementation packages published by Candle team, to generate and publish a Candle DID on the Candle ledger.
 
-The Candle DID method Implementation comprises of 3 packages, namely the polygon-did-registrar, polygon-did-resolver and polygon-did-registry-contract. A user who wants to incorporate the functionality to either register or read a DID on or from Candle network can use the following guide.
+The Candle DID method Implementation comprises of 3 packages, namely the candle-did-registrar, candle-did-resolver and candle-did-registry-contract. A user who wants to incorporate the functionality to either register or read a DID on or from Candle network can use the following guide.
 
 ## Create DID 
 
@@ -13,13 +13,13 @@ To get started, one first needs to create a DID. Creation in case of Candle did 
 
 ### Step 1 - Create DID
 
-In your project to create a polygon DID URI one first needs to install
+In your project to create a candle DID URI one first needs to install
 ```
-npm i @ayanworks/polygon-did-registrar --save
+npm i @ayanworks/candle-did-registrar --save
 ```
 Once the installation is completed, the user can use it as follows
 ```
-import { createDID } from "polygon-did-registrar";
+import { createDID } from "candle-did-registrar";
 ```
 The createdDID function helps user generate a DID URI. While creating a DID, there can be two scenarios.
 
@@ -40,15 +40,15 @@ privateKey? : "0x....."
 ```
 So at the end of step 1, one will have a DID URI generated.
 ```
-DID mainnet: did:polygon:0x...
-DID testnet: did:polygon:testnet:0x...
+DID mainnet: did:candle:0x...
+DID testnet: did:candle:testnet:0x...
 ```
 
 ### Step 2 - Register DID
 
-To register the DID URI and the corresponding DID document on ledger, the user first needs to use `polygon-did-registrar` as follows
+To register the DID URI and the corresponding DID document on ledger, the user first needs to use `candle-did-registrar` as follows
 ```
-import { registerDID } from "polygon-did-registrar";
+import { registerDID } from "candle-did-registrar";
 ```
 As a prerequisite to registering DID, the user needs to make sure that the wallet corrsponding to the DID has the necessary tokens balance available.
 Once the user has a token balance in the wallet, a call can be made to the registerDID functionality as given below
@@ -66,21 +66,21 @@ And with this you have successfully completed your task of registering a DID on 
 
 To start, install the following libraries.
 ```
-npm i @ayanworks/polygon-did-resolver --save
+npm i @ayanworks/candle-did-resolver --save
 ```
 and
 ```
 npm i did-resolver --save
 ```
 
-To read a DID document registered on ledger, any user with a DID polygon URI can first in their project import, 
+To read a DID document registered on ledger, any user with a DID candle URI can first in their project import, 
 ```
 import * as didResolvers from "did-resolver";
-import * as didPolygon from '@ayanworks/polygon-did-resolver';
+import * as didcandle from '@ayanworks/candle-did-resolver';
 ```
 after importing the packages the DID document can be retrieved by using
 ```
-const myResolver = didPolygon.getResolver()
+const myResolver = didcandle.getResolver()
 const resolver = new DIDResolver(myResolver)
 
 const didResolutionResult = this.resolver.resolve(did)
@@ -99,9 +99,9 @@ It should be noted that, no gas cost will be entailed by the user while trying t
 
 ## Update DID Document
 
-To encapsulate the project with the ability to update the DID document, the user first needs to use `polygon-did-registrar` as follows
+To encapsulate the project with the ability to update the DID document, the user first needs to use `candle-did-registrar` as follows
 ```
-import { updateDidDoc } from "polygon-did-registrar";
+import { updateDidDoc } from "candle-did-registrar";
 ```
 Next is to just call the function
 ```
@@ -116,9 +116,9 @@ If the user does not provide the configuration with `url` and `contractAddress`,
 ## Delete DID Document
 
 With Candle DID implementation a user can also revoke his DID Document from the ledger. 
-The user first needs to use `polygon-did-registrar` as follows
+The user first needs to use `candle-did-registrar` as follows
 ```
-import { deleteDidDoc } from "polygon-did-registrar";
+import { deleteDidDoc } from "candle-did-registrar";
 ```
 Then use, 
 ```
@@ -137,9 +137,9 @@ Use the standard fork, branch, and pull request workflow to propose changes to t
 ### Github Repositories
 
 ```
-https://github.com/ayanworks/polygon-did-registrar
+https://github.com/ayanworks/candle-did-registrar
 ```
 
 ```
-https://github.com/ayanworks/polygon-did-resolver
+https://github.com/ayanworks/candle-did-resolver
 ```

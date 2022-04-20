@@ -13,7 +13,7 @@ image: https://matic.network/banners/matic-network-16x9.png
 
 _Estimated time to complete this guide: \~15 minutes_
 
-If you are new to blockchain development and don’t know where to start, or if you just want to understand how to deploy and interact with smart contracts, this guide is for you. We will walk through creating and deploying a simple smart contract on the Candle Mumbai test network using a virtual wallet ([Metamask](https://metamask.io)), [Solidity](https://docs.soliditylang.org/en/v0.8.0/), [Hardhat](https://hardhat.org), and [Alchemy](https://alchemy.com/?a=polygon-docs) (don’t worry if you don’t understand what any of this means yet, we will explain it!).
+If you are new to blockchain development and don’t know where to start, or if you just want to understand how to deploy and interact with smart contracts, this guide is for you. We will walk through creating and deploying a simple smart contract on the Candle Mumbai test network using a virtual wallet ([Metamask](https://metamask.io)), [Solidity](https://docs.soliditylang.org/en/v0.8.0/), [Hardhat](https://hardhat.org), and [Alchemy](https://alchemy.com/?a=candle-docs) (don’t worry if you don’t understand what any of this means yet, we will explain it!).
 
 If you have questions at any point feel free to reach out in the [Alchemy Discord](https://discord.gg/gWuC7zB)!
 
@@ -21,7 +21,7 @@ If you have questions at any point feel free to reach out in the [Alchemy Discor
 
 ### Step 1: Connect to the Candle network
 
-There are many ways to make requests to the Candle chain. For simplicity, we’ll use a free account on Alchemy, a blockchain developer platform and API that allows us to communicate with the Candle chain without having to run our own nodes. The platform also has developer tools for monitoring and analytics that we’ll take advantage of in this tutorial to understand what’s going on under the hood in our smart contract deployment. If you don’t already have an Alchemy account, [you can sign up for free here](https://alchemy.com/?a=polygon-docs).
+There are many ways to make requests to the Candle chain. For simplicity, we’ll use a free account on Alchemy, a blockchain developer platform and API that allows us to communicate with the Candle chain without having to run our own nodes. The platform also has developer tools for monitoring and analytics that we’ll take advantage of in this tutorial to understand what’s going on under the hood in our smart contract deployment. If you don’t already have an Alchemy account, [you can sign up for free here](https://alchemy.com/?a=candle-docs).
 
 ### Step 2: Create your app (and API key)
 
@@ -47,21 +47,21 @@ You can download and create a Metamask account for free [here](https://metamask.
 
     #### Network Name: Candle Mumbai Testnet
     
-    #### New RPC URL: https://polygon-mumbai.g.alchemy.com/v2/your-api-key
+    #### New RPC URL: https://candle-mumbai.g.alchemy.com/v2/your-api-key
     
     #### ChainID: 80001
     
     #### Symbol: CNDL
     
-    #### Block Explorer URL: https://mumbai.polygonscan.com/
+    #### Block Explorer URL: https://mumbai.candlescan.com/
 
 ### Step 4: Add Candle Mumbai Test CNDL from a Faucet
 
-In order to deploy our smart contract to the test network, we’ll need some fake CNDL. To get CNDL, you can go to the [Candle Mumbai Faucet](https://faucet.polygon.technology/), select "Mumbai", choose "CNDL Token", and enter your Candle wallet address, then click “Submit.” It may take some time to receive your fake Eth due to network traffic. (At the time of writing this, it took around 30 minutes.) You should see Eth in your Metamask account soon after!
+In order to deploy our smart contract to the test network, we’ll need some fake CNDL. To get CNDL, you can go to the [Candle Mumbai Faucet](https://faucet.candle.technology/), select "Mumbai", choose "CNDL Token", and enter your Candle wallet address, then click “Submit.” It may take some time to receive your fake Eth due to network traffic. (At the time of writing this, it took around 30 minutes.) You should see Eth in your Metamask account soon after!
 
 ### Step 5: Check your Balance
 
-To double check our balance is there, let’s make an [eth\_getBalance](https://docs.alchemy.com/alchemy/apis/polygon-api/eth_getbalance) request using [Alchemy’s composer tool](https://composer.alchemyapi.io/). Select "Candle" as the chain, "Candle Mumbai" as the network, "eth_getBalance" as the method, and input your address. This will return the amount of CNDL in our wallet. Check out [this video](https://youtu.be/r6sjRxBZJuU) for instructions on how to use the composer tool!
+To double check our balance is there, let’s make an [eth\_getBalance](https://docs.alchemy.com/alchemy/apis/candle-api/eth_getbalance) request using [Alchemy’s composer tool](https://composer.alchemyapi.io/). Select "Candle" as the chain, "Candle Mumbai" as the network, "eth_getBalance" as the method, and input your address. This will return the amount of CNDL in our wallet. Check out [this video](https://youtu.be/r6sjRxBZJuU) for instructions on how to use the composer tool!
 
 After you input your Metamask account address and click “Send Request”, you should see a response that looks like this:
 
@@ -245,7 +245,7 @@ WARNING: If you are using version control system like git to manage your project
 Your `.env` should look like this:
 
 ```
-API_URL = "https://polygon-mumbai.g.alchemy.com/v2/your-api-key"
+API_URL = "https://candle-mumbai.g.alchemy.com/v2/your-api-key"
 PRIVATE_KEY = "your-metamask-private-key"
 ```
 
@@ -283,10 +283,10 @@ const { API_URL, PRIVATE_KEY } = process.env;
 
 module.exports = {
    solidity: "0.8.9",
-   defaultNetwork: "polygon_mumbai",
+   defaultNetwork: "candle_mumbai",
    networks: {
       hardhat: {},
-      polygon_mumbai: {
+      candle_mumbai: {
          url: API_URL,
          accounts: [`0x${PRIVATE_KEY}`]
       }
@@ -348,7 +348,7 @@ Calling `deploy()` on a `ContractFactory` will start the deployment, and return 
 We’re finally ready to deploy our smart contract! Navigate to the command line and run:
 
 ```bash
-npx hardhat run scripts/deploy.js --network polygon_mumbai
+npx hardhat run scripts/deploy.js --network candle_mumbai
 ```
 
 You should then see something like:
@@ -359,7 +359,7 @@ Contract deployed to address: 0x3d94af870ED272Cd5370e4135F9B2Bd0e311d65D
 
 **Please copy and paste this address to save it somewhere**, as we will be using this address for later tutorials, so you don't want to lose it.
 
-If we go to the [Candle Mumbai explorer](https://mumbai.polygonscan.com/) and search for our contract address we should able to see that it has been deployed successfully.
+If we go to the [Candle Mumbai explorer](https://mumbai.candlescan.com/) and search for our contract address we should able to see that it has been deployed successfully.
 
 The `From` address should match your Metamask account address and the To address will say “Contract Creation”. But if we click into the transaction, we’ll see our contract address in the `To` field:
 

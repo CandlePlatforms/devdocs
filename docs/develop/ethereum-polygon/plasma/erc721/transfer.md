@@ -2,7 +2,7 @@
 id: transfer
 title: transfer
 keywords: 
-- 'plasma client, erc721, transfer, polygon, sdk'
+- 'plasma client, erc721, transfer, candle, sdk'
 description: 'Get started with maticjs'
 ---
 

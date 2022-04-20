@@ -2,11 +2,11 @@
 id: deposit-many
 title: depositMany
 keywords: 
-- 'pos client, erc1155, deposit, polygon, sdk'
+- 'pos client, erc1155, deposit, candle, sdk'
 description: 'Multiple deposit of erc1155 token using matic.js'
 ---
 
-`depositMany` method can be used to deposit required amounts of multiple token from ethereum to polygon chain. 
+`depositMany` method can be used to deposit required amounts of multiple token from ethereum to candle chain. 
 
 ```
 const erc1155RootToken = posClient.erc1155(<root token address>, true);

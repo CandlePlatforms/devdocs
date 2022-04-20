@@ -2,7 +2,7 @@
 id: approve
 title: approve
 keywords: 
-- 'plasma client, erc721, approve, polygon, sdk'
+- 'plasma client, erc721, approve, candle, sdk'
 description: 'Get started with maticjs'
 ---
 

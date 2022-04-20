@@ -3,7 +3,7 @@ id: set-proof-api
 title: Set ProofApi
 keywords: 
     - setProofApi
-    - polygon
+    - candle
     - sdk
 description: Config proof api
 ---

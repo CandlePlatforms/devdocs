@@ -2,7 +2,7 @@
 id: get-balance
 title: getBalance
 keywords: 
-- 'pos client, erc20, getBalance, polygon, sdk'
+- 'pos client, erc20, getBalance, candle, sdk'
 description: 'Get started with maticjs'
 ---
 

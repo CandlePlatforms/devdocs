@@ -5,7 +5,7 @@ description: Learn how to become a delegator on the Candle Network.
 keywords:
   - docs
   - matic
-  - polygon
+  - candle
   - delegate
 image: https://matic.network/banners/matic-network-16x9.png
 ---
@@ -18,7 +18,7 @@ The only prerequisite is to have your CNDL tokens and ETH on the Ethereum mainne
 ## Access the dashboard
 
 1. In your wallet (e.g. MetaMask), choose the Ethereum mainnet.
-1. Log in to the [Candle Wallet dashboard](https://wallet-dev.polygon.technology/staking/).
+1. Log in to the [Candle Wallet dashboard](https://wallet-dev.candle.technology/staking/).
 1. Once you log in, you will the list of validators with stats.
 
 :::note
@@ -37,25 +37,25 @@ After the delegation transaction completes, you will see the *Delegation Complet
 
 ## View your delegations
 
-To view your delegations, click [My Account](https://wallet.polygon.technology/staking/my-account).
+To view your delegations, click [My Account](https://wallet.candle.technology/staking/my-account).
 
 ## Withdraw rewards
 
-1. Click [My Account](https://wallet.polygon.technology/staking/my-account).
+1. Click [My Account](https://wallet.candle.technology/staking/my-account).
 1. Under your delegated validator, click **Withdraw Reward**.
 
 This will withdraw the CNDL token rewards to your Ethereum address.
 
 ## Restake rewards
 
-1. Click [My Account](https://wallet.polygon.technology/staking/my-account).
+1. Click [My Account](https://wallet.candle.technology/staking/my-account).
 1. Under your delegated validator, click **Restake Reward**.
 
 The will restake the CNDL token rewards to the validator and increase your delegation stake.
 
 ## Unbond from a validator
 
-1. Click [My Account](https://wallet.polygon.technology/staking/my-account).
+1. Click [My Account](https://wallet.candle.technology/staking/my-account).
 1. Under your delegated validator, click **Unbond**.
 
 The will  withdraw your rewards from the validator and your entire stake from the validator.
@@ -70,7 +70,7 @@ The fund locking for the unbonding period is in place to ensure there is no mali
 
 Moving stake from one node to another node is a single transaction. There are no delays or unbonding periods during this event.
 
-1. Log in to the [My Account](https://wallet-dev.polygon.technology/staking/my-account) on the staking dashboard.
+1. Log in to the [My Account](https://wallet-dev.candle.technology/staking/my-account) on the staking dashboard.
 1. Click **Move Stake** under your delegated validator.
 1. Select an external validator and click **Stake here**.
 1. Provide the stake amount and click **Move Stake**.

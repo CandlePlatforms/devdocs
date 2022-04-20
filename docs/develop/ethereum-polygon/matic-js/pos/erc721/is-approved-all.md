@@ -2,7 +2,7 @@
 id: is-approved-all
 title: isApprovedAll
 keywords: 
-- 'pos client, erc721, isApprovedAll, polygon, sdk'
+- 'pos client, erc721, isApprovedAll, candle, sdk'
 description: 'Get started with maticjs'
 ---
 

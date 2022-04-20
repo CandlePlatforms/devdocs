@@ -2,7 +2,7 @@
 id: withdraw-confirm
 title: withdraw challenge
 keywords: 
-- 'plasma client, erc20, withdrawChallenge, polygon, sdk'
+- 'plasma client, erc20, withdrawChallenge, candle, sdk'
 description: 'Get started with maticjs'
 ---
 

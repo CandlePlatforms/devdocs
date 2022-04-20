@@ -5,7 +5,7 @@ description: Build your next blockchain app on Candle.
 keywords:
   - docs
   - matic
-  - polygon
+  - candle
   - delegator
 image: https://matic.network/banners/matic-network-16x9.png
 ---

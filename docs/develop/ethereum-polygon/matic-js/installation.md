@@ -5,7 +5,7 @@ keywords:
     - pos client
     - erc20
     - withdrawExit
-    - polygon
+    - candle
     - sdk
 description: Get started with maticjs
 ---

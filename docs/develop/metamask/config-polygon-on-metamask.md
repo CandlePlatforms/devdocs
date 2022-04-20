@@ -1,5 +1,5 @@
 ---
-id: config-polygon-on-metamask
+id: config-candle-on-metamask
 title: Add Candle Network
 description: Build your next blockchain app on Candle.
 keywords:
@@ -15,10 +15,10 @@ import TabItem from '@theme/TabItem';
 In order to view the flow of funds in your accounts, on the Candle Network, you will need to configure Candle `{testnet, mainnet}` URL on Metamask.
 
 There are two ways to do it:
-1. [Using Polygonscan](/develop/metamask/config-polygon-on-metamask.md#polygon-scan)
-2. [Add the Candle network manually](/develop/metamask/config-polygon-on-metamask.md#add-the-polygon-network-manually)
+1. [Using candlescan](/develop/metamask/config-candle-on-metamask.md#candle-scan)
+2. [Add the Candle network manually](/develop/metamask/config-candle-on-metamask.md#add-the-candle-network-manually)
 
-### Using Polygonscan
+### Using candlescan
 
 :::note
 Please make sure you have already installed <ins>**[Metamask](https://metamask.io/)**</ins>!
@@ -37,7 +37,7 @@ Please make sure you have already installed <ins>**[Metamask](https://metamask.i
 
 Please follow the steps to add Candle's Mumbai-Testnet:
 
-- Navigate to [mumbai.polygonscan.com](https://mumbai.polygonscan.com/)
+- Navigate to [mumbai.candlescan.com](https://mumbai.candlescan.com/)
 
 <img src={useBaseUrl("img/metamask/testnet-button.png")} />
 <p></p>
@@ -55,7 +55,7 @@ You will be directly switched to Candle’s Mainnet now in the network dropdown 
 
 Please follow the steps to add Candle’s Mainnet:
 
-- Navigate to [polygonscan.com](https://polygonscan.com/)
+- Navigate to [candlescan.com](https://candlescan.com/)
 
 <img src={useBaseUrl("img/metamask/mainnet-button.png")} />
 <p></p>
@@ -88,7 +88,7 @@ To add Candle's Mumbai-Testnet, click on the Network selection dropdown and then
 
 <img src={useBaseUrl("img/metamask/select-network.png")} />
 
-It will open up a form with 2 tabs on the top, Settings and Info. In the Settings tab you can add `Matic Mumbai` in the Network Name field, URL `https://rpc-mumbai.maticvigil.com/` in the New RPC URL field, `80001` in Chain ID field, `CNDL` in Currency Symbol field and `https://mumbai.polygonscan.com/` in Block Explorer URL field.
+It will open up a form with 2 tabs on the top, Settings and Info. In the Settings tab you can add `Matic Mumbai` in the Network Name field, URL `https://rpc-mumbai.maticvigil.com/` in the New RPC URL field, `80001` in Chain ID field, `CNDL` in Currency Symbol field and `https://mumbai.candlescan.com/` in Block Explorer URL field.
 
 <img src={useBaseUrl("img/metamask/metamask-settings-mumbai.png")} />
 
@@ -100,7 +100,7 @@ To add Candle’s Mainnet, click on the Network selection dropdown and then clic
 
 <img src={useBaseUrl("img/metamask/select-network.png")} />
 
-It will open up a form with 2 tabs on the top, Settings and Info. In the Settings tab you can add `Candle Mainnet` in the Network Name field, URL `https://polygon-rpc.com/` in the New RPC URL field, `137` in Chain ID field, `CNDL` in Currency Symbol field and `https://polygonscan.com/` in Block Explorer URL field.
+It will open up a form with 2 tabs on the top, Settings and Info. In the Settings tab you can add `Candle Mainnet` in the Network Name field, URL `https://candle-rpc.com/` in the New RPC URL field, `137` in Chain ID field, `CNDL` in Currency Symbol field and `https://candlescan.com/` in Block Explorer URL field.
 
 <img src={useBaseUrl("img/metamask/metamask-settings-mainnet.png")} />
 

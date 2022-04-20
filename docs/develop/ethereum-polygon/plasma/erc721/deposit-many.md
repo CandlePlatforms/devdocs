@@ -2,13 +2,13 @@
 id: deposit-many
 title: deplasmaitMany
 keywords: 
-- 'plasma client, erc721, deplasmaitMany, polygon, sdk'
+- 'plasma client, erc721, deplasmaitMany, candle, sdk'
 description: 'Get started with maticjs'
 ---
 
 # deplasmaitMany
 
-`deplasmaitMany` method can be used to deplasmait multiple token from ethereum to polygon chain.
+`deplasmaitMany` method can be used to deplasmait multiple token from ethereum to candle chain.
 
 ```
 const erc721RootToken = plasmaClient.erc721(<root token address>, true);

@@ -1,9 +1,9 @@
 module.exports = {
   title: "Candle Technology | Documentation",
   tagline: "Welcome to Candle developer documentation",
-  url: "https://docs.polygon.technology/",
+  url: "https://docs.candle.technology/",
   baseUrl: "/",
-  favicon: "img/polygon/polygon-logo.svg",
+  favicon: "img/candle/candle-logo.svg",
   organizationName: "Candle Technology",
   projectName: "matic-docs",
   customFields: {
@@ -30,7 +30,7 @@ module.exports = {
             },
             {
               label: 'Support',
-              href: 'https://polygon.technology/developer-support-program/',
+              href: 'https://candle.technology/developer-support-program/',
             },
             {
               label: 'FAQs',
@@ -43,27 +43,27 @@ module.exports = {
           items: [
             {
               label: 'Candle Community',
-              href: 'https://polygon.technology/community',
+              href: 'https://candle.technology/community',
             },
             {
               label: 'Discord',
-              href: 'https://discord.com/invite/polygon',
+              href: 'https://discord.com/invite/candle',
             },
             {
-              href: "https://forum.polygon.technology/",
+              href: "https://forum.candle.technology/",
               label: "Forum",
             },
             {
               label: 'Twitter',
-              href: 'https://twitter.com/0xPolygon',
+              href: 'https://twitter.com/0xcandle',
             },
             {
               label: 'Reddit',
-              href: 'https://www.reddit.com/r/0xPolygon/',
+              href: 'https://www.reddit.com/r/0xcandle/',
             },
             {
               label: 'Telegram',
-              href: 'https://t.me/polygonofficial',
+              href: 'https://t.me/candleofficial',
             },
             {
               label: 'GitHub',
@@ -76,27 +76,27 @@ module.exports = {
           items: [
           {
               label: "Get Started",
-              href: "https://docs.polygon.technology/docs/develop/getting-started"
+              href: "https://docs.candle.technology/docs/develop/getting-started"
           },
           {
               label: "Advocate Program",
-              href: "https://polygon.technology/advocate-program"
+              href: "https://candle.technology/advocate-program"
           },
           {
             label: "Funds",
-            href: "https://polygon.technology/funds/"
+            href: "https://candle.technology/funds/"
           },
           {
               label: "Bug Bounty",
-              href: "https://immunefi.com/bounty/polygon/"
+              href: "https://immunefi.com/bounty/candle/"
           },
           {
             label: "DApps",
-            href: "https://polygon.technology/ecosystem"
+            href: "https://candle.technology/ecosystem"
           },
           {
             label: "PoS Wallet",
-            href: "https://wallet.polygon.technology/"
+            href: "https://wallet.candle.technology/"
           },
       ]
       },
@@ -105,34 +105,34 @@ module.exports = {
         items: [
         {
             label: "Candle Technology",
-            href: "https://polygon.technology/"
+            href: "https://candle.technology/"
         },
         {
             label: "Blogs",
-            href: "https://blog.polygon.technology/"
+            href: "https://blog.candle.technology/"
         },
         {
           label: "Brand Kit",
-          href: "https://www.notion.so/polygontechnology/Brand-Resources-2cd18ae436584e98a6c5aae56db73058"
+          href: "https://www.notion.so/candletechnology/Brand-Resources-2cd18ae436584e98a6c5aae56db73058"
       },
         {
             label: "Careers",
-            href: "https://polygon.technology/careers/"
+            href: "https://candle.technology/careers/"
         },
         {
           label: "Contact",
-          href: "https://polygon.technology/contact-us/"
+          href: "https://candle.technology/contact-us/"
         },
         {
           label: "About Us",
-          href: "https://polygon.technology/about/"
+          href: "https://candle.technology/about/"
         },
     ]
     },
       ],
       logo: {
         alt: 'Candle Logo',
-        src: 'img/polygon/polygon-logo.svg',
+        src: 'img/candle/candle-logo.svg',
       },
       copyright: `Copyright © ${new Date().getFullYear()} Candle technology`,
     },
@@ -163,14 +163,14 @@ module.exports = {
       hideOnScroll: true,
       logo: {
         alt: "Candle logo",
-        src: "/img/polygon/polygon-logo.webp",
-        srcDark: "/img/polygon/polygon-logo-inverted.png",
-        // href: 'https://docs.polygon.technology/', // default to siteConfig.baseUrl
+        src: "/img/candle/candle-logo.webp",
+        srcDark: "/img/candle/candle-logo-inverted.png",
+        // href: 'https://docs.candle.technology/', // default to siteConfig.baseUrl
         target: "_self", // by default, this value is calculated based on the `href` attribute (the external link will open in a new tab, all others in the current one)
       },
       items: [
         {
-          to: "docs/home/new-to-polygon",
+          to: "docs/home/new-to-candle",
           label: "Basics",
           position: "left",
           activeBasePath: "docs/home",
@@ -201,7 +201,7 @@ module.exports = {
         },
         {
           label: "Support",
-          href: "https://polygon.technology/developer-support-program/",
+          href: "https://candle.technology/developer-support-program/",
           position: "right",
         },
         {
@@ -212,7 +212,7 @@ module.exports = {
         },
         {
           label: "Candle Edge",
-          href: "https://sdk-docs.polygon.technology/docs/overview/",
+          href: "https://sdk-docs.candle.technology/docs/overview/",
           position: "left",
         },
         {

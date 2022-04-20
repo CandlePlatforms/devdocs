@@ -6,7 +6,7 @@ keywords:
     - api type
     - read
     - write
-    - polygon
+    - candle
 description: The library follows common api architecture throughout
 ---
 

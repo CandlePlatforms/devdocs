@@ -5,14 +5,14 @@ keywords:
     - pos client
     - erc20
     - approve
-    - polygon
+    - candle
     - sdk
 description: approve method can be used to approve required amount on the root token.
 ---
 
 `approve` method can be used to approve required amount on the root token.
 
-approve is required in order to deposit amount on polygon chain.
+approve is required in order to deposit amount on candle chain.
 
 ```
 const erc20RootToken = posClient.erc20(<root token address>,true);

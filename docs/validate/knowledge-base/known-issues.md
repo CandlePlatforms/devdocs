@@ -4,7 +4,7 @@ title: Known issues and Errors
 description: Knowledge Base
 keywords:
   - docs
-  - polygon
+  - candle
 image: https://matic.network/banners/matic-network-16x9.png
 ---
 

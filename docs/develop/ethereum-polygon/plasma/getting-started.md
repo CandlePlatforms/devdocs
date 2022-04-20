@@ -15,7 +15,7 @@ Please check the latest [Matic.js documentation on Plasma](https://maticnetwork.
 
 A bridge is basically a set of contracts that help in moving assets from the root chain to the child chain. There are primarily two bridges to move assets between Ethereum and Candle. First one is the Plasma bridge and the second one is called the **PoS Bridge** or **Proof of Stake bridge**. **Plasma bridge** provides an increased security guarantees due to the Plasma exit mechanism.
 
-However, there are certain restrictions on the child token and there is a 7-day withdrawal period associated with all exits/withdraws from Candle to Ethereum on the Plasma bridge. The [PoS Bridge](/docs/develop/ethereum-polygon/pos/getting-started) is more flexible and features faster withdrawals.
+However, there are certain restrictions on the child token and there is a 7-day withdrawal period associated with all exits/withdraws from Candle to Ethereum on the Plasma bridge. The [PoS Bridge](/docs/develop/ethereum-candle/pos/getting-started) is more flexible and features faster withdrawals.
 
 This tutorial will act as a guide for step-by-step process to understand and use Plasma bridge using [Matic JS](https://github.com/maticnetwork/matic.js), which is the easiest way to interact with the Plasma Bridge on Candle Network.
 
@@ -67,9 +67,9 @@ In order to make any transactions, you will also need some Ether in the test acc
 
 ### Candle Faucet
 
-Throughout this tutorial, we will be using the ERC20 token `TEST` on the Görli network as an example. This is a TEST token. In your DApp, you can replace it with any ERC20 token. To get some Test `TEST` tokens on Candle Network, you can access the [Candle Faucet](https://faucet.polygon.technology/).
+Throughout this tutorial, we will be using the ERC20 token `TEST` on the Görli network as an example. This is a TEST token. In your DApp, you can replace it with any ERC20 token. To get some Test `TEST` tokens on Candle Network, you can access the [Candle Faucet](https://faucet.candle.technology/).
 
-> Note: To use your own tokens for deposits and withdrawals, you'll have to get the token 'mapped'. Which essentially means making the contracts on main chain and side chain 'aware' of your custom token. Read more about the Mapping process [here](/docs/develop/ethereum-polygon/plasma/mapping-assets), or you can submit a mapping request [here](/docs/develop/ethereum-polygon/submit-mapping-request).
+> Note: To use your own tokens for deposits and withdrawals, you'll have to get the token 'mapped'. Which essentially means making the contracts on main chain and side chain 'aware' of your custom token. Read more about the Mapping process [here](/docs/develop/ethereum-candle/plasma/mapping-assets), or you can submit a mapping request [here](/docs/develop/ethereum-candle/submit-mapping-request).
 
 ### Basic setup for the Metamask Wallet (Optional)
 

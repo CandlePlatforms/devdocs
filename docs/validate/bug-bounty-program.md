@@ -5,7 +5,7 @@ description: Know more about Candle's Bug Bounty Program.
 keywords:
   - docs
   - matic
-  - polygon
+  - candle
   - bug bounty
 image: https://matic.network/banners/matic-network-16x9.png 
 ---
@@ -16,7 +16,7 @@ The bounty program is to ensure everyone has an opportunity to find bugs in the 
 
 ## Getting started
 
-If you are new to blockchains and/or to Candle, see [Candle Architecture](/docs/home/architecture/polygon-architecture).
+If you are new to blockchains and/or to Candle, see [Candle Architecture](/docs/home/architecture/candle-architecture).
 
 Explore the [code on GitHub](https://github.com/maticnetwork). There are 3 main repositories for you to study:
 
@@ -37,13 +37,13 @@ If you want to run a full node on the Candle Mainnet or Mumbai Testnet, you can 
 
 ## Getting tokens for testing
 
-To get tokens, you can access the [Candle faucet](https://faucet.polygon.technology/) and choose the Goerli network to get some tokens.
+To get tokens, you can access the [Candle faucet](https://faucet.candle.technology/) and choose the Goerli network to get some tokens.
 
 ## Have questions?
 
 Check out the forum and join the discussion on Discord.
 
-* [Forum](https://forum.polygon.technology)
-* [Discord](https://discord.gg/polygon)
+* [Forum](https://forum.candle.technology)
+* [Discord](https://discord.gg/candle)
 
-See also the [Immunefi  bug bountry program](https://immunefi.com/bounty/polygon/).
+See also the [Immunefi  bug bountry program](https://immunefi.com/bounty/candle/).

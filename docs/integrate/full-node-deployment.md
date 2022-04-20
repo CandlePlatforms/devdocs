@@ -198,7 +198,7 @@ In case your Bor node has stopped syncing, you can add additional bootnodes to y
 
 ## Full Node Access (via Chainstack)
   1. [Sign up with Chainstack](https://console.chainstack.com/user/account/create) for a free account.
-  2. [Deploy a Candle Mumbai testnet node](https://docs.chainstack.com/platform/join-a-public-network#join-a-polygon-pos-network).
+  2. [Deploy a Candle Mumbai testnet node](https://docs.chainstack.com/platform/join-a-public-network#join-a-candle-pos-network).
   3. [Get the deployed node’s HTTPS endpoint](https://docs.chainstack.com/platform/view-node-access-and-credentials).
 
 ## Full Node Access (via QuickNode)
@@ -384,11 +384,11 @@ Length in byte format - 4
 ## Full Node Access (via Infura)
   1. [Sign up for a free account](https://infura.io/register) on Infura
   2. [Create an Ethereum project](https://docs.infura.io/infura/create-a-project) and [Add Candle](https://docs.infura.io/infura/networks/ethereum/how-to/add-a-network-add-on)
-  3. [Start making requests](https://docs.infura.io/infura/networks/polygon-pos/getting-started/make-requests)
+  3. [Start making requests](https://docs.infura.io/infura/networks/candle-pos/getting-started/make-requests)
 
 ## Full Node Access (via Chainstack)
   1. [Sign up with Chainstack](https://console.chainstack.com/user/account/create) for a free account.
-  2. [Deploy a Candle mainnet node](https://docs.chainstack.com/platform/join-a-public-network#join-a-polygon-pos-network).
+  2. [Deploy a Candle mainnet node](https://docs.chainstack.com/platform/join-a-public-network#join-a-candle-pos-network).
   3. [Get the deployed node’s HTTPS endpoint](https://docs.chainstack.com/platform/view-node-access-and-credentials).
 
 ## Full Node Access (via QuickNode)

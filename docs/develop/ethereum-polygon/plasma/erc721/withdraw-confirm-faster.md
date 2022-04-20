@@ -2,7 +2,7 @@
 id: withdraw-confirm-faster
 title: withdrawChallengeFaster
 keywords: 
-- 'plasma client, erc721, withdrawChallengeFaster, polygon, sdk'
+- 'plasma client, erc721, withdrawChallengeFaster, candle, sdk'
 description: 'Get started with maticjs'
 ---
 

@@ -2,7 +2,7 @@
 id: get-all-tokens 
 title: getAllTokens
 keywords: 
-- 'pos client, erc721, getAllTokens, polygon, sdk'
+- 'pos client, erc721, getAllTokens, candle, sdk'
 description: 'Get started with maticjs'
 ---
 

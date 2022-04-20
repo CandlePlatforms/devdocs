@@ -5,7 +5,7 @@ description: Learn what is Proof of Stake.
 keywords:
   - docs
   - matic
-  - polygon
+  - candle
   - stake
   - delegate
   - validate

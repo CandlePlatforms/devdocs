@@ -1,7 +1,7 @@
 export const firstRow = [
     {
         title: "Blockchain Basics",
-        linkUrl: "docs/home/new-to-polygon",
+        linkUrl: "docs/home/new-to-candle",
         imageUrl: "img/home/blockchain-basics.svg",
         description: "Learn about Blockchain and Candle"
     },
@@ -13,9 +13,9 @@ export const firstRow = [
     },
     {
         title: "Candle Edge",
-        class_name: "polygon-banner",
-        linkUrl: "https://sdk-docs.polygon.technology/docs/overview/",
-        imageUrl: "img/home/polygon-sdk.svg",
+        class_name: "candle-banner",
+        linkUrl: "https://sdk-docs.candle.technology/docs/overview/",
+        imageUrl: "img/home/candle-sdk.svg",
         description: "A modular and extensible framework for building Ethereum-compatible blockchain networks."
     },
 
@@ -24,7 +24,7 @@ export const firstRow = [
 export const secondRow = [
     {
         title: "Validators",
-        linkUrl: "docs/validate/polygon-overview",
+        linkUrl: "docs/validate/candle-overview",
         imageUrl: "img/home/core-contribution.svg",
         description: 'Learn how to stake with Candle, and setup you own nodes to maintain the network and earn rewards'
     },

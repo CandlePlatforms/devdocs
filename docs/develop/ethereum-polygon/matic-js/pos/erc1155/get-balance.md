@@ -2,7 +2,7 @@
 id: get-balance
 title: getBalance
 keywords: 
-- 'pos client, erc1155, getBalance, polygon, sdk'
+- 'pos client, erc1155, getBalance, candle, sdk'
 description: 'Get balance of erc1155 token using matic.js'
 ---
 
