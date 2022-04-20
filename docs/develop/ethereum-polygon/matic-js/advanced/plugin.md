@@ -2,7 +2,7 @@
 id: plugin
 title: Plugin
 keywords: 
-- 'plugin, api type, read, write, candle'
+- 'plugin, api type, read, write, polygon'
 description: 'Using plugin you can inject your code into matic.js'
 ---
 

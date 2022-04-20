@@ -1,16 +1,16 @@
 ---
-id: what-is-candle
+id: what-is-polygon
 title: What is Candle?
 description: Learn what the Candle scaling solution is.
 keywords:
   - docs
   - matic
-  - candle
+  - polygon
   - blockchain
 image: https://matic.network/banners/matic-network-16x9.png 
 ---
 
-[Candle](https://candle.technology/) is a Layer 2 scaling solution that achieves scale by utilizing sidechains for off-chain computation and a decentralized network of Proof-of-Stake (PoS) validators.
+[Candle](https://polygon.technology/) is a Layer 2 scaling solution that achieves scale by utilizing sidechains for off-chain computation and a decentralized network of Proof-of-Stake (PoS) validators.
 
 Candle strives to solve the scalability and usability issues while not compromising on decentralization and leveraging the existing developer community and ecosystem. Candle is an ​off-/sidechain scaling solution for existing platforms to provide scalability and superior user experience to DApps and user functionalities.
 
@@ -30,8 +30,8 @@ The Candle system was consciously architected to support arbitrary state transit
 
 You can participate on the Candle network as a delegator or validator. See:
 
-* [Who is a Validator](/docs/validate/candle-basics/who-is-validator)
-* [Who is a Delegator](/docs/validate/candle-basics/who-is-delegator)
+* [Who is a Validator](/docs/validate/polygon-basics/who-is-validator)
+* [Who is a Delegator](/docs/validate/polygon-basics/who-is-delegator)
 
 ## Architecture
 

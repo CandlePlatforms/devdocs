@@ -2,7 +2,7 @@
 id: get-token-id-at-index-for-user
 title: getTokenIdAtIndexForUser
 keywords: 
-- 'pos client, erc721, getTokenIdAtIndexForUser, candle, sdk'
+- 'pos client, erc721, getTokenIdAtIndexForUser, polygon, sdk'
 description: 'Get started with maticjs'
 ---
 

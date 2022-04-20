@@ -2,7 +2,7 @@
 id: index
 title: PlasmaClient
 keywords: 
-- 'plasma client, erc20, contract, candle, sdk'
+- 'plasma client, erc20, contract, polygon, sdk'
 description: 'Get started with maticjs'
 ---
 

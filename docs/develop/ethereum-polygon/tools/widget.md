@@ -13,7 +13,7 @@ import TabItem from '@theme/TabItem';
 
 Wallet widget is a UI tool which can be embedded in any web application for executing bridge transactions - Deposit & Withdraw. 
 
-Every widget is identified by an unique name which you can get from [Widget dashboard](https://wallet.candle.technology/widget-dashboard) .
+Every widget is identified by an unique name which you can get from [Widget dashboard](https://wallet.polygon.technology/widget-dashboard) .
 
 ### Widget dashboard
 
@@ -23,8 +23,8 @@ Once the widget is created, You can copy code snippet and add it in your applica
 
 Here is link to widget dashboard -
 
-* mainnet - https://wallet.candle.technology/widget-dashboard
-* testnet - https://wallet-dev.candle.technology/widget-dashboard
+* mainnet - https://wallet.polygon.technology/widget-dashboard
+* testnet - https://wallet-dev.polygon.technology/widget-dashboard
 
 ## Install
 
@@ -93,7 +93,7 @@ widget.hide();
 
 1. Based on network "testnet" or "mainnet", you need to create your app on respective dashboard. We recommend to create app with same name on both testnet & mainnet, so that you don't have any issue when you are changing network.
 
-2. Wallet widget is UI Library and on different website it will look different & might have some issues like - colors, responsiveness etc. So please spend some time on testing and customizing. In case of any help needed - please reach out to [support team](https://support.candle.technology/).
+2. Wallet widget is UI Library and on different website it will look different & might have some issues like - colors, responsiveness etc. So please spend some time on testing and customizing. In case of any help needed - please reach out to [support team](https://support.polygon.technology/).
 
 3. Wallet widget is full screen in mobile devices but you can customize it by `style` configuration.
 

@@ -5,7 +5,7 @@ description: Transfer state or data from Ethereum to Candle without any mapping 
 keywords:
   - docs
   - matic
-  - candle
+  - polygon
 image: https://matic.network/banners/matic-network-16x9.png
 ---
 
@@ -15,7 +15,7 @@ The usual mechanism to natively read Ethereum data from Candle is using `State S
 
 ## What is [Fx-Portal](https://github.com/fx-portal/contracts)?
 
-It is a powerful yet simple implementation Candle [state sync](https://docs.candle.technology/docs/contribute/state-sync/state-sync/) mechanism. The Candle PoS bridge is built on the same architecture. The code in the `examples` folder are some examples of usage. You can easily use these examples to build your own implementations or own custom bridge which allows any state-syncs without mapping.
+It is a powerful yet simple implementation Candle [state sync](https://docs.polygon.technology/docs/contribute/state-sync/state-sync/) mechanism. The Candle PoS bridge is built on the same architecture. The code in the `examples` folder are some examples of usage. You can easily use these examples to build your own implementations or own custom bridge which allows any state-syncs without mapping.
 
 ## How does it work?
 
@@ -157,7 +157,7 @@ Mumbai:
 | Contract | Deployed address  |
 | :----- | :- |
 | [FxRoot (Goerli)](https://goerli.etherscan.io/address/0x3d1d3E34f7fB6D26245E6640E1c50710eFFf15bA#code) | `0x3d1d3E34f7fB6D26245E6640E1c50710eFFf15bA` |
-| [FxChild (Mumbai)](https://mumbai.candlescan.com/address/0xCf73231F28B7331BBe3124B907840A94851f9f11/contracts) | `0xCf73231F28B7331BBe3124B907840A94851f9f11`|
+| [FxChild (Mumbai)](https://mumbai.polygonscan.com/address/0xCf73231F28B7331BBe3124B907840A94851f9f11/contracts) | `0xCf73231F28B7331BBe3124B907840A94851f9f11`|
 
 **Mainnet**
 
@@ -165,4 +165,4 @@ Mumbai:
 | Contract | Deployed address  |
 | :----- | :- |
 | [FxRoot (Ethereum Mainnet)](https://etherscan.io/address/0xfe5e5d361b2ad62c541bab87c45a0b9b018389a2#code) | `0xfe5e5D361b2ad62c541bAb87C45a0B9B018389a2` |
-| [FxChild (Candle Mainnnet)](https://candlescan.com/address/0x8397259c983751DAf40400790063935a11afa28a/contracts) | `0x8397259c983751DAf40400790063935a11afa28a`|
+| [FxChild (Candle Mainnnet)](https://polygonscan.com/address/0x8397259c983751DAf40400790063935a11afa28a/contracts) | `0x8397259c983751DAf40400790063935a11afa28a`|

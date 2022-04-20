@@ -2,7 +2,7 @@
 id: withdraw-exit
 title: withdraw exit
 keywords: 
-- 'plasma client, withdrawExit, candle, sdk'
+- 'plasma client, withdrawExit, polygon, sdk'
 description: 'Get started with maticjs'
 ---
 

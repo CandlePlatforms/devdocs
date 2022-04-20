@@ -2,7 +2,7 @@
 id: transfer
 title: transfer
 keywords: 
-- 'plasma client, erc20, transfer, candle, sdk'
+- 'plasma client, erc20, transfer, polygon, sdk'
 description: 'Transfer erc20 plasma tokens'
 ---
 
@@ -23,7 +23,7 @@ const txReceipt = await result.getReceipt();
 
 ## Transfer CNDL token
 
-CNDL is native token on candle. So we support transfer of matic tokens without any token address.
+CNDL is native token on polygon. So we support transfer of matic tokens without any token address.
 
 ```
 // initialize token with null means use CNDL tokens

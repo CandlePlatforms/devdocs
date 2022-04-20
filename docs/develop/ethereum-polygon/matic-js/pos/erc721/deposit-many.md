@@ -2,11 +2,11 @@
 id: deposit-many
 title: depositMany
 keywords: 
-- 'pos client, erc721, depositMany, candle, sdk'
+- 'pos client, erc721, depositMany, polygon, sdk'
 description: 'Get started with maticjs'
 ---
 
-`depositMany` method can be used to deposit multiple token from ethereum to candle chain.
+`depositMany` method can be used to deposit multiple token from ethereum to polygon chain.
 
 ```
 const erc721RootToken = posClient.erc721(<root token address>, true);

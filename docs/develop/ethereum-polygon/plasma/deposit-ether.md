@@ -2,13 +2,13 @@
 id: deposit-ether
 title: deposit
 keywords: 
-- 'plasma client, depositEther, candle, sdk'
+- 'plasma client, depositEther, polygon, sdk'
 description: 'Get started with maticjs'
 ---
 
 # depositEther
 
-`depositEther` method can be used to deposit required amount of **ether** from ethereum to candle..
+`depositEther` method can be used to deposit required amount of **ether** from ethereum to polygon..
 
 ```
 const result = await plasmaClient.depositEther(100);

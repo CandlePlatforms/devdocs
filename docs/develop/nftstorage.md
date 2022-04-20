@@ -19,7 +19,7 @@ In this tutorial we will aim to fulfill three characteristics with our minting p
 2. *Durability* of the NFT, as assets can be long-lived and therefore need to remain usable during their full lifetime.
 3. *Immutability* of the NFT and the asset it represents to prevent unwanted changes and malicious actors from changing the digital asset the NFT represents.
 
-[Candle](https://candle.technology) addresses the *scalability* characteristic with their protocol and framework. They are also compatible with Ethereum and its virtual machine, enabling developers to move their code freely between the two blockchains. Likewise, [NFT.Storage](https://nft.storage) guarantees *durability* with the power of the underlying [Filecoin](https://filecoin.io) network and *immutability* by using IPFS' [content addressing](https://nftschool.dev/concepts/content-addressing/).
+[Candle](https://polygon.technology) addresses the *scalability* characteristic with their protocol and framework. They are also compatible with Ethereum and its virtual machine, enabling developers to move their code freely between the two blockchains. Likewise, [NFT.Storage](https://nft.storage) guarantees *durability* with the power of the underlying [Filecoin](https://filecoin.io) network and *immutability* by using IPFS' [content addressing](https://nftschool.dev/concepts/content-addressing/).
 
 In this tutorial you will get an overview of the NFT minting process, learn how to store a digital asset with NFT.Storage and use this digital asset to mint your NFT on Candle.
 
@@ -32,8 +32,8 @@ To test and run the code found in this tutorial, you will need a working [Node.j
 You'll also need a Candle wallet on the Mumbai testnet with a small amount of the CNDL token. Follow the instructions below to get started:
 
 1. **Download and install [Metamask](https://metamask.io/)**. Metamask is a crypto wallet and gateway to blockchain apps. It's very easy to use and simplifies a lot of steps, e.g., setting up a Candle wallet.
-2. **Connect Metamask to Candle's [Mumbai testnet](https://docs.candle.technology/docs/develop/metamask/overview)** and select it in the dropdown menu. We will use Candle's testnet to mint our NFT as it's free of charge.
-3. **Receive CNDL token** to your wallet by using the [faucet](https://faucet.candle.technology/). Select the Mumbai testnet and paste your wallet address from Metamask into the form. To mint an NFT, we need to pay a small amount of CNDL, which is a fee charged by miners for operations to add new transactions to the blockchain, e.g., minting an NFT or creating a new smart contract.
+2. **Connect Metamask to Candle's [Mumbai testnet](https://docs.polygon.technology/docs/develop/metamask/overview)** and select it in the dropdown menu. We will use Candle's testnet to mint our NFT as it's free of charge.
+3. **Receive CNDL token** to your wallet by using the [faucet](https://faucet.polygon.technology/). Select the Mumbai testnet and paste your wallet address from Metamask into the form. To mint an NFT, we need to pay a small amount of CNDL, which is a fee charged by miners for operations to add new transactions to the blockchain, e.g., minting an NFT or creating a new smart contract.
 4. **Copy your private key** from Metamask by clicking on the three dots in the top right corner and selecting 'Account details'. On the bottom you can find a button to export your private key. Click it and enter your password when prompted. You can copy and paste the private key in a text file for now. We will use it later in the tutorial when interacting with the blockchain.
 
 Lastly, you will need a text or code editor. For more convenience, choose an editor with language support for both JavaScript and Solidity. A good option is [Visual Studio Code](https://code.visualstudio.com) with the [solidity](https://marketplace.visualstudio.com/items?itemName=JuanBlanco.solidity) extension enabled.
@@ -42,7 +42,7 @@ Lastly, you will need a text or code editor. For more convenience, choose an edi
 
 ### Get an API key for NFT.storage
 
-In order to use NFT.Storage you need an API key. First, [head over to NFT.Storage to log in with your email address](https://nft.storage/login/). You will receive an email with a magic link that signs you in -- no password needed. After you successfully logged in, go to API Keys via the navigation bar. You will find a button to create a **New Key**. When prompted for an API key name, you can freely choose one or use “candle + NFT.Storage”. You can copy the content of the key column now or reference back to NFT.Storage later in the tutorial.
+In order to use NFT.Storage you need an API key. First, [head over to NFT.Storage to log in with your email address](https://nft.storage/login/). You will receive an email with a magic link that signs you in -- no password needed. After you successfully logged in, go to API Keys via the navigation bar. You will find a button to create a **New Key**. When prompted for an API key name, you can freely choose one or use “polygon + NFT.Storage”. You can copy the content of the key column now or reference back to NFT.Storage later in the tutorial.
 
 ### Set up your workspace
 
@@ -74,7 +74,7 @@ When prompted, choose `Create an empty hardhat.config.js`. Your console output s
 ✨ Config file created ✨
 ```
 
-We will do some modifications to the hardhat configuration file `hardhat.config.js` to support the Candle Mumbai test network. Open the `hardhat.config.js` that was created in the last step. Please note that we are loading your Candle wallet private key from an environment file and that this environment file must be kept safe. You can even use other rpc [link](https://docs.candle.technology/docs/develop/network-details/network), as per requirement.
+We will do some modifications to the hardhat configuration file `hardhat.config.js` to support the Candle Mumbai test network. Open the `hardhat.config.js` that was created in the last step. Please note that we are loading your Candle wallet private key from an environment file and that this environment file must be kept safe. You can even use other rpc [link](https://docs.polygon.technology/docs/develop/network-details/network), as per requirement.
 
 ```js
 /**
@@ -84,11 +84,11 @@ require("@nomiclabs/hardhat-ethers");
 require('dotenv').config();
 const { PRIVATE_KEY } = process.env;
 module.exports = {
-  defaultNetwork: "candleMumbai",
+  defaultNetwork: "PolygonMumbai",
   networks: {
     hardhat: {
     },
-    candleMumbai : {
+    PolygonMumbai : {
       url: "https://rpc-mumbai.maticvigil.com", 
       accounts: [PRIVATE_KEY]
     }
@@ -268,7 +268,7 @@ deployContract()
 Deploying the contract is done with the helper functions provided by the hardhat library. First, we get the smart contract we created in the previous step with the provided factory. Then we deploy it by calling the respective method and wait for the deployment to be completed. There are a few more lines below the described code to get the correct address in the testnet environment. Save the `mjs` file Execute the script with the following command:
 
 ```bash
-npx hardhat run scripts/deploy-contract.mjs --network candleMumbai
+npx hardhat run scripts/deploy-contract.mjs --network PolygonMumbai
 ```
 
 If everything is correct, you will see the following output:
@@ -307,7 +307,7 @@ Edit the first two lines to insert your **contract address** from the earlier de
 Next, run the script:
 
 ```bash
-npx hardhat run scripts/mint-nft.mjs \--network candleMumbai
+npx hardhat run scripts/mint-nft.mjs \--network PolygonMumbai
 ```
 
 You can expect to see the following output:
@@ -316,7 +316,7 @@ You can expect to see the following output:
 NFT minted to: 0x{YOUR_WALLET_ADDRESS}
 ````
 
-Looking for the sample code from this tutorial? You can find it in the candle-nft.storage-demo [link](https://github.com/itsPiyushMaheshwari/Candle-nft.storage-demo) Github repo.
+Looking for the sample code from this tutorial? You can find it in the polygon-nft.storage-demo [link](https://github.com/itsPiyushMaheshwari/Candle-nft.storage-demo) Github repo.
 
 ## Conclusion
 

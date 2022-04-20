@@ -2,7 +2,7 @@
 id: is-withdraw-exited
 title: isWithdrawExited
 keywords: 
-- 'pos client, erc721, isWithdrawExited, candle, sdk'
+- 'pos client, erc721, isWithdrawExited, polygon, sdk'
 description: 'Get started with maticjs'
 ---
 

@@ -2,7 +2,7 @@
 id: index
 title: POSClient
 keywords: 
-- 'pos client, erc1155, contract, candle, sdk'
+- 'pos client, erc1155, contract, polygon, sdk'
 description: 'Interact with erc1155 token using matic.js'
 ---
 
@@ -20,7 +20,7 @@ Passing second arguments for `isRoot` is optional.
 
 ## Child token
 
-Token on candle can be initiated by using this syntax -
+Token on polygon can be initiated by using this syntax -
 
 ```
 const childERC20Token = posClient.erc1155(<child token address>);

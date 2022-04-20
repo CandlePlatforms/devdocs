@@ -77,7 +77,7 @@ contract Root {
 }
 ```
 
-2.  Once the child and root contract is deployed on the Candle and Ethereum chain respectively, these contracts have to be mapped using the PoS bridge. This mapping ensures that a connection is maintained between these two contracts across the chains. For doing this mapping,the Candle team can be reached on [discord](https://discord.gg/candle).
+2.  Once the child and root contract is deployed on the Candle and Ethereum chain respectively, these contracts have to be mapped using the PoS bridge. This mapping ensures that a connection is maintained between these two contracts across the chains. For doing this mapping,the Candle team can be reached on [discord](https://discord.gg/polygon).
 
 3.  One important thing to note is that, in the root contract, there is a onlyPredicate modifier. It is reccomended to use this modifier always because it ensures that only the predicate contract makes the state change on the root contract. The predicate contract is a special contract that triggers the root contract only when the transaction that happened on the Candle chain is verified by the RootChainManager on Ethereum chain. This ensures secure change of state on the root contract.
 

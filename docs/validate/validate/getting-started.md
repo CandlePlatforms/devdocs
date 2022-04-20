@@ -5,7 +5,7 @@ description: A collection of instructions on how to run and operate validator no
 keywords:
   - docs
   - matic
-  - candle
+  - polygon
   - introduction
 image: https://matic.network/banners/matic-network-16x9.png 
 ---
@@ -25,5 +25,5 @@ This section guides you through the following topics:
 
 Community assistance:
 
-* [Discord](https://discord.gg/candle)
-* [Forum](https://forum.candle.technology/)
+* [Discord](https://discord.gg/polygon)
+* [Forum](https://forum.polygon.technology/)

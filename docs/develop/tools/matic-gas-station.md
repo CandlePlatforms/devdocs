@@ -1,5 +1,5 @@
 ---
-id: candle-gas-station
+id: polygon-gas-station
 title: Candle Gas Station
 sidebar_label: Candle Gas Station
 description: Build your next blockchain app on Candle.
@@ -11,15 +11,15 @@ image: https://matic.network/banners/matic-network-16x9.png
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-_candle Gas Station_ aims to help dApp developers with gas price recommendations, so that they can use it before sending transaction off to _candle_ network.
+_Polygon Gas Station_ aims to help dApp developers with gas price recommendations, so that they can use it before sending transaction off to _Polygon_ network.
 
 ## origin
 
-At _candle_, we were receiving request from dApp developers for building a gas price recommendation service. So we took some inspiration from _Eth Gas Station_, and built one.
+At _Polygon_, we were receiving request from dApp developers for building a gas price recommendation service. So we took some inspiration from _Eth Gas Station_, and built one.
 
 ## availability
 
-_candle Gas Station_ has been deployed both on Candle Mumbai Testnet & Candle Mainnet, where it analyzes recent 500 transactions and recommends gas price.
+_Polygon Gas Station_ has been deployed both on Candle Mumbai Testnet & Candle Mainnet, where it analyzes recent 500 transactions and recommends gas price.
 
 ## usage
 

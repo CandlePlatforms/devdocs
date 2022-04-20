@@ -2,11 +2,11 @@
 id: withdraw-start-many
 title: withdrawStartMany
 keywords: 
-- 'plasma client, erc721, withdrawStartMany, candle, sdk'
+- 'plasma client, erc721, withdrawStartMany, polygon, sdk'
 description: 'Get started with maticjs'
 ---
 
-`withdrawStartMany` method can be used to initiate the withdraw process which will burn the multiple token on candle chain.
+`withdrawStartMany` method can be used to initiate the withdraw process which will burn the multiple token on polygon chain.
 
 ```
 const erc721Token = plasmaClient.erc721(<root token address>);

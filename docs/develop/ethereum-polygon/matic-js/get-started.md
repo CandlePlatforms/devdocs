@@ -5,7 +5,7 @@ keywords:
   - maticjs
   - introduction
   - contract
-  - candle
+  - polygon
   - sdk
 description: Get started with maticjs
 ---

@@ -12,7 +12,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ### What is the staking dashboard URL?
 
-The staking dashboard URL is: https://wallet.candle.technology/staking
+The staking dashboard URL is: https://wallet.polygon.technology/staking
 
 ### What is the minimum stake amount?
 
@@ -20,7 +20,7 @@ There is no minimum stake amount to delegate.
 
 ### How to stake tokens on Candle?
 
-For Staking you would need to have funds on the Ethereum Mainnet. Log into Metamask on the Ethereum network using the Staking Dashboard. https://wallet.candle.technology/staking/
+For Staking you would need to have funds on the Ethereum Mainnet. Log into Metamask on the Ethereum network using the Staking Dashboard. https://wallet.polygon.technology/staking/
 
 Please watch this video for a graphical illustration of how this works:
 
@@ -75,13 +75,13 @@ Check if you have funds on the Main Ethereum Network, to delegate your tokens. A
 
 ### I am unable to view the Staking tab. How do I access Staking?
 
-Once logged into https://wallet.candle.technology/ you need to  click on apps > staking. Users will be landed on the staking overview page. Reference for guide:
+Once logged into https://wallet.polygon.technology/ you need to  click on apps > staking. Users will be landed on the staking overview page. Reference for guide:
 
 <img src={useBaseUrl("img/staking_faq/stakingApp.PNG")} height="500px"/>
 
 ### How do I know which Validator to select for better rewards?
 
-It depends on your understanding and research on which validator you would want to stake on. You can find the list of validators here : https://wallet.candle.technology/staking/validators
+It depends on your understanding and research on which validator you would want to stake on. You can find the list of validators here : https://wallet.polygon.technology/staking/validators
 
 ### How are staking rewards allocated to stakers?
 
@@ -127,19 +127,19 @@ This period applies to the originally delegated amount and re-delegated amounts.
 
 ### How do I know when the unbonding period is over?
 
-You can check status of your current unbonding period on the [History](https://wallet.candle.technology/staking/history) tab.
+You can check status of your current unbonding period on the [History](https://wallet.polygon.technology/staking/history) tab.
 
 Every checkpoint takes approximately 30 minutes. However, some checkpoints could be delayed upto ~1 hour due to congestion on the Ethereum mainnet.
 
 ### Where can I check my rewards?
 
-Click [My Account](https://wallet.candle.technology/staking/my-account) on the dashboard.
+Click [My Account](https://wallet.polygon.technology/staking/my-account) on the dashboard.
 
 Check the **Reward** field under your delegated validator.
 
 ### How many rewards will I get if I delegate?
 
-Please use the [staking rewards calculator](https://wallet.candle.technology/staking/rewards-calculator) to determine your estimates.
+Please use the [staking rewards calculator](https://wallet.polygon.technology/staking/rewards-calculator) to determine your estimates.
 
 ### What does Restake Reward mean?
 
@@ -291,7 +291,7 @@ The time taken to complete a transaction depends on:
 
 ### I have completed my delegation, where can I check details?
 
-Once you have completed your delegation, wait for 12 block confirmations on the Ethereum mainnet (~3-5 minutes). After 12 block confirmations, click [My Account](https://wallet.candle.technology/staking/my-account) on the dashboard.
+Once you have completed your delegation, wait for 12 block confirmations on the Ethereum mainnet (~3-5 minutes). After 12 block confirmations, click [My Account](https://wallet.polygon.technology/staking/my-account) on the dashboard.
 
 ### How many transactions does the delegation require?
 
@@ -305,11 +305,11 @@ In case you do not want that to happen, re-delegate your rewards before delegati
 
 ### I have delegated my tokens via MetaMask on the staking dashboard. Do I need to keep my system or device on?
 
-No. Once your delegation transactions are confirmed, and you can see your tokens reflected in the **Your Stake** and **Reward** fields in [My Account](https://wallet.candle.technology/staking/my-account), then you are done. There is no need to keep your system or device on.
+No. Once your delegation transactions are confirmed, and you can see your tokens reflected in the **Your Stake** and **Reward** fields in [My Account](https://wallet.polygon.technology/staking/my-account), then you are done. There is no need to keep your system or device on.
 
 ### How do I switch my delegation from Foundation nodes to external nodes?
 
-You can switch your Delegation using the **Move Stake** option on the [staking dashboard](https://wallet.candle.technology/staking/my-account). This will switch your delegation from the Foundation node to any other external node of your choice.
+You can switch your Delegation using the **Move Stake** option on the [staking dashboard](https://wallet.polygon.technology/staking/my-account). This will switch your delegation from the Foundation node to any other external node of your choice.
 
 ### Will there be any ubonding period when I switch delegation from Foundation nodes to external nodes?
 

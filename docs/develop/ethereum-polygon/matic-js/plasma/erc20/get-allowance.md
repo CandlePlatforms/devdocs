@@ -2,7 +2,7 @@
 id: get-allowance
 title: getAllowance
 keywords: 
-- 'plasma client, erc20, getAllowance, candle, sdk'
+- 'plasma client, erc20, getAllowance, polygon, sdk'
 description: 'Get started with maticjs'
 ---
 

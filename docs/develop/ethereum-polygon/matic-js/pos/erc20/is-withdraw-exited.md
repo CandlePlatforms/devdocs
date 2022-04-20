@@ -2,7 +2,7 @@
 id: is-withdraw-exited
 title: isWithdrawExited
 keywords:
-- 'pos client, erc20, isWithdrawExited, candle, sdk'
+- 'pos client, erc20, isWithdrawExited, polygon, sdk'
 description: 'isWithdrawExited method can be used to know whether the withdraw has been exited or not'
 ---
 

@@ -2,7 +2,7 @@
 id: withdraw-exit-many
 title: withdrawExitMany
 keywords: 
-- 'pos client, erc721, withdrawExitMany, candle, sdk'
+- 'pos client, erc721, withdrawExitMany, polygon, sdk'
 description: 'Get started with maticjs'
 ---
 

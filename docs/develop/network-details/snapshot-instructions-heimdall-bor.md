@@ -5,7 +5,7 @@ description: Snapshot Instructions for Heimdall and Bor
 keywords:
   - docs
   - matic
-  - candle
+  - polygon
   - binary
   - node
   - validator

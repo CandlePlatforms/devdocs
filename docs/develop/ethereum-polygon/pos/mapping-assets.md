@@ -15,22 +15,22 @@ Mapping is necessary in order to transfer your assets to and from the Ethereum a
 - **The Root chain** :: refers to either Goerli or Ethereum Mainnet
 - **The Child chain** :: refers to either Candle Mumbai or Candle Mainnet
 
-If you already have your token contract deployed on the Root chain and want to move it to Child chain, then you should follow this walkthrough, but if you intend to deploy your contract on Candle Mainnet first, mint the tokens on the Child chain first and then move them back to the Root chain. You should then follow this [guide](https://docs.candle.technology/docs/develop/ethereum-candle/mintable-assets).
+If you already have your token contract deployed on the Root chain and want to move it to Child chain, then you should follow this walkthrough, but if you intend to deploy your contract on Candle Mainnet first, mint the tokens on the Child chain first and then move them back to the Root chain. You should then follow this [guide](https://docs.polygon.technology/docs/develop/ethereum-polygon/mintable-assets).
 
 ## Standard Child Token
 
-If you just need a standard ERC20/ERC721/ERC1155 contract, then you can go ahead and submit a mapping request at https://mapper.candle.technology/ and we will auto deploy the standard child token contract for you. 
+If you just need a standard ERC20/ERC721/ERC1155 contract, then you can go ahead and submit a mapping request at https://mapper.polygon.technology/ and we will auto deploy the standard child token contract for you. 
 
 Standard Child Token contract will look like these:-
 1. [ERC20](https://github.com/maticnetwork/pos-portal/blob/master/flat/ChildERC20.sol#L1492-#L1508)
 2. [ERC721](https://github.com/maticnetwork/pos-portal/blob/master/flat/ChildERC721.sol#L2157-#L2238)
 3. [ERC1155](https://github.com/maticnetwork/pos-portal/blob/master/flat/ChildERC1155.sol#L1784-#L1818)
 
-Please visit this [link](/docs/develop/ethereum-candle/submit-mapping-request) to understand how to create a new mapping request. 
+Please visit this [link](/docs/develop/ethereum-polygon/submit-mapping-request) to understand how to create a new mapping request. 
 
 ## Custom Child Token
 
-If you need a custom child token contract which has additional functions to the standard functions, **then you will have to deploy your token contracts on the Child chain** and submit a mapping request [here](https://mapper.candle.technology/) and include the address of your deployed child token contract. Let's describe an example of creating a custom child token contract.
+If you need a custom child token contract which has additional functions to the standard functions, **then you will have to deploy your token contracts on the Child chain** and submit a mapping request [here](https://mapper.polygon.technology/) and include the address of your deployed child token contract. Let's describe an example of creating a custom child token contract.
 
 **Your custom child contract should follow certain guidelines before you deploy it on the child chain.**
 
@@ -84,7 +84,7 @@ contract ChildERC20 is ERC20,
 }
 ```
 
-One thing you might notice in the code sample above is that the `deposit` function can be called by anyone, which is not allowed. In order to prevent this, we're going to make sure it can only be called by `ChildChainManagerProxy`. (ChildChainManagerProxy - on [Mumbai](https://mumbai.candlescan.com/address/0xb5505a6d998549090530911180f38aC5130101c6/transactions) , on [Candle Mainnet](https://candlescan.com/address/0xA6FA4fB5f76172d178d61B04b0ecd319C5d1C0aa/) )
+One thing you might notice in the code sample above is that the `deposit` function can be called by anyone, which is not allowed. In order to prevent this, we're going to make sure it can only be called by `ChildChainManagerProxy`. (ChildChainManagerProxy - on [Mumbai](https://mumbai.polygonscan.com/address/0xb5505a6d998549090530911180f38aC5130101c6/transactions) , on [Candle Mainnet](https://polygonscan.com/address/0xA6FA4fB5f76172d178d61B04b0ecd319C5d1C0aa/) )
 
 ```js title="ChildERC20.sol"
 pragma solidity 0.6.6;
@@ -155,4 +155,4 @@ Steps :
 
 ### Request Submission
 
-Please go use [this link](/docs/develop/ethereum-candle/submit-mapping-request) to submit a mapping request.
+Please go use [this link](/docs/develop/ethereum-polygon/submit-mapping-request) to submit a mapping request.

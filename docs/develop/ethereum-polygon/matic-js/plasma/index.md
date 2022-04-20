@@ -2,7 +2,7 @@
 id: index
 title: PlasmaClient
 keywords: 
-- 'maticjs, plasma client, contract, candle, sdk'
+- 'maticjs, plasma client, contract, polygon, sdk'
 description: 'PlasmaClient allows you to interact with POS Bridge.'
 ---
 

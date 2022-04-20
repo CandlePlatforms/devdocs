@@ -11,7 +11,7 @@ image: https://matic.network/banners/matic-network-16x9.png
 
 # Hello World Smart Contract on Candle
 
-This section guides you through deploying a Hello World contract using [Chainstack](https://chainstack.com/build-better-with-candle/) and [Foundry](https://github.com/gakonst/foundry/) on the Mumbai testnet.
+This section guides you through deploying a Hello World contract using [Chainstack](https://chainstack.com/build-better-with-polygon/) and [Foundry](https://github.com/gakonst/foundry/) on the Mumbai testnet.
 
 If you have any questions, reach out in the [Chainstack Discord](https://discord.com/invite/Cymtg2f7pX).
 
@@ -20,7 +20,7 @@ If you have any questions, reach out in the [Chainstack Discord](https://discord
 You need a node to deploy a smart contract to the blockchain network, follow the steps to get your node:
 
 1. [Sign up with Chainstack](https://console.chainstack.com/user/account/create).
-1. [Deploy a Mumbai node](https://docs.chainstack.com/platform/join-a-public-network#join-a-candle-pos-network).
+1. [Deploy a Mumbai node](https://docs.chainstack.com/platform/join-a-public-network#join-a-polygon-pos-network).
 1. [Get the deployed node’s HTTPS endpoint](https://docs.chainstack.com/platform/view-node-access-and-credentials).
 
 ## Install Foundry
@@ -46,7 +46,7 @@ where
 
 You need to pay gas on the network to deploy the contract.
 
-Get Mumbai CNDL [through the faucet](https://faucet.candle.technology/).
+Get Mumbai CNDL [through the faucet](https://faucet.polygon.technology/).
 
 ## Create the Hello World contract
 
@@ -116,4 +116,4 @@ forge create HelloWorld --constructor-args "Hello" --contracts /root/foundry/src
 
 Congratulations! You have deployed your Hello World smart contract on Candle!
 
-See also Chainstack docs for more [tutorials](https://docs.chainstack.com/tutorials/candle/) and [tools](https://docs.chainstack.com/operations/candle/tools).
+See also Chainstack docs for more [tutorials](https://docs.chainstack.com/tutorials/polygon/) and [tools](https://docs.chainstack.com/operations/polygon/tools).

@@ -22,9 +22,9 @@ There are a few conditions that have to be strictly followed when we have to cre
 You can either deploy
 
 - A mintable token contract on the Candle chain or
-- Submit a mapping request and the mintable token contract can be autodeployed for you on the Candle chain via the Mapper tool. You just need to submit a mapping request at [https://mapper.candle.technology/](https://mapper.candle.technology/) and leave the child contract field blank in the form. Also, do remember to choose the Mintable option in the form.
+- Submit a mapping request and the mintable token contract can be autodeployed for you on the Candle chain via the Mapper tool. You just need to submit a mapping request at [https://mapper.polygon.technology/](https://mapper.polygon.technology/) and leave the child contract field blank in the form. Also, do remember to choose the Mintable option in the form.
 
-Please visit this [link](/docs/develop/ethereum-candle/submit-mapping-request) to understand how to create a new mapping request. 
+Please visit this [link](/docs/develop/ethereum-polygon/submit-mapping-request) to understand how to create a new mapping request. 
 
 - If you want to deploy the contract by yourself, then the child contract should look like the following. You are free to make custom changes to this contract, but ensure that the `deposit`, `withdraw` and `mint` functions are present.
 
@@ -33,7 +33,7 @@ Please visit this [link](/docs/develop/ethereum-candle/submit-mapping-request) t
     - ChildMintableERC1155 - [https://github.com/maticnetwork/pos-portal/blob/master/flat/ChildMintableERC1155.sol](https://github.com/maticnetwork/pos-portal/blob/master/flat/ChildMintableERC1155.sol)
 
 - Most importantly, the child manager contract on Candle should be given the depositor role in the asset contract deployed on Candle. Only this child manager proxy address should have the rights to deposit tokens on Candle.
-- Be sure to verify both contracts on candlescan and Etherscan accordingly, before submitting mapping request.
+- Be sure to verify both contracts on Polygonscan and Etherscan accordingly, before submitting mapping request.
 
 Child Manager contract addresses:
 

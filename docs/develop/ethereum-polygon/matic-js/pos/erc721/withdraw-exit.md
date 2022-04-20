@@ -2,7 +2,7 @@
 id: withdraw-exit
 title: withdrawExit
 keywords: 
-- 'pos client, erc721, withdrawExit, candle, sdk'
+- 'pos client, erc721, withdrawExit, polygon, sdk'
 description: 'Get started with maticjs'
 ---
 

@@ -2,7 +2,7 @@
 id: is-check-pointed
 title: isCheckPointed
 keywords: 
-- 'plasma client, erc20, withdrawExit, candle, sdk'
+- 'plasma client, erc20, withdrawExit, polygon, sdk'
 description: 'Get started with maticjs'
 ---
 

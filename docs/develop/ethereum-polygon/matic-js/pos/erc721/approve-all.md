@@ -2,7 +2,7 @@
 id: approve-all
 title: approveAll
 keywords: 
-- 'pos client, erc721, approveAll, candle, sdk'
+- 'pos client, erc721, approveAll, polygon, sdk'
 description: 'Get started with maticjs'
 ---
 

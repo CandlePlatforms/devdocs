@@ -2,7 +2,7 @@
 id: transfer
 title: transfer
 keywords: 
-- 'pos client, erc1155, transfer, candle, sdk'
+- 'pos client, erc1155, transfer, polygon, sdk'
 description: 'transfer tokens from one user to another user.'
 ---
 

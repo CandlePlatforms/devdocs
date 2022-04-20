@@ -2,7 +2,7 @@
 id: deposit
 title: deposit
 keywords: 
-- 'pos client, erc20, approveMax, candle, sdk'
+- 'pos client, erc20, approveMax, polygon, sdk'
 description: 'Get started with maticjs'
 ---
 

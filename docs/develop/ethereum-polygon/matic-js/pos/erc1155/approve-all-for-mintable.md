@@ -2,7 +2,7 @@
 id: approve-all-for-mintable
 title: approve
 keywords: 
-- 'pos client, erc115, approve, candle, sdk'
+- 'pos client, erc115, approve, polygon, sdk'
 description: 'Approve erc115 token'
 ---
 

@@ -2,7 +2,7 @@
 id: withdraw-exit-faster
 title: withdrawExitFaster
 keywords: 
-- 'pos client, erc1155, withdrawExitFaster, candle, sdk'
+- 'pos client, erc1155, withdrawExitFaster, polygon, sdk'
 description: 'withdrawExitFaster method can be used to exit the withdraw process by using the txHash from withdrawStart method.'
 ---
 

@@ -6,9 +6,9 @@ description: Delegators participate in validation without hosting a full node. B
 keywords:
   - docs
   - matic
-  - candle
+  - polygon
   - delegate
-image: https://matic.network/banners/matic-network-16x9.png
+image: https://matic.network/banners/matic-network-16x9.png 
 ---
 
 Delegation is the process for the network participants who do not run a full node. Instead, delegators secure the network by staking with validators. To stake with the validators, delegators pay a commission to the validator of their choice.

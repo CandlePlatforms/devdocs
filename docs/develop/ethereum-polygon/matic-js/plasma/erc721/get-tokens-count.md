@@ -2,7 +2,7 @@
 id: get-tokens-count
 title: getTokensCount
 keywords: 
-- 'plasma client, erc721, getTokensCount, candle, sdk'
+- 'plasma client, erc721, getTokensCount, polygon, sdk'
 description: 'Get started with maticjs'
 ---
 

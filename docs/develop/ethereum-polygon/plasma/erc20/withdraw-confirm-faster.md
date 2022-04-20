@@ -2,7 +2,7 @@
 id: withdraw-confirm-faster
 title: withdraw challenge faster
 keywords: 
-- 'pos client, erc20, withdrawConfirmFaster, candle, sdk'
+- 'pos client, erc20, withdrawConfirmFaster, polygon, sdk'
 description: 'Get started with maticjs'
 ---
 

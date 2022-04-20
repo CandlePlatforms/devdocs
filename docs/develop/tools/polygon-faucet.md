@@ -1,5 +1,5 @@
 ---
-id: candle-faucet
+id: polygon-faucet
 title: Candle Faucet
 sidebar_label: Candle Faucet
 description: Build your next blockchain app on Candle.
@@ -12,7 +12,7 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-[Candle Faucet](https://faucet.candle.technology/) is a tool that allows you to get free CNDL tokens on testnet to help you get started with candle network. The tokens enable you to work with Candle features without spending real CNDL on the mainnet.
+[Candle Faucet](https://faucet.polygon.technology/) is a tool that allows you to get free CNDL tokens on testnet to help you get started with polygon network. The tokens enable you to work with Candle features without spending real CNDL on the mainnet.
 
 :::note
 Tokens on testnet networks has no value as they are only used for testing purposes.
@@ -20,7 +20,7 @@ Tokens on testnet networks has no value as they are only used for testing purpos
 
 ### How to use Candle Faucet
 
-1. Navigate to [faucet.candle.technology](https://faucet.candle.technology/)
+1. Navigate to [faucet.polygon.technology](https://faucet.polygon.technology/)
 
 2. Select one of the blockchain testnet networks. Where:
     - **Mumbai** - Candle test network
@@ -48,5 +48,5 @@ Tokens on testnet networks has no value as they are only used for testing purpos
  <img src={useBaseUrl("img/tools/submitted.png")} />
 
 :::note
-If you already have enough CNDL testnet Tokens in your account to pay the gas fees, the transaction may fail. If you require testnet tokens in bulk, please contact us on <ins>**[Discord](https://discord.com/invite/candle)**</ins>.
+If you already have enough CNDL testnet Tokens in your account to pay the gas fees, the transaction may fail. If you require testnet tokens in bulk, please contact us on <ins>**[Discord](https://discord.com/invite/polygon)**</ins>.
 :::

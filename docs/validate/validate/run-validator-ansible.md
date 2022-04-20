@@ -5,7 +5,7 @@ description: Use Ansible to set up your validator node on the Candle Network.
 keywords:
   - docs
   - matic
-  - candle
+  - polygon
   - ansible
   - node
   - validator
@@ -25,9 +25,9 @@ There is limited space for accepting new validators. New validators can only joi
 
 This section guides you through starting and running the validator node through an Ansible playbook.
 
-For the system requirements, see [Validator Node System Requirements](https://docs.candle.technology/docs/validate/validate/validator-node-system-requirements).
+For the system requirements, see [Validator Node System Requirements](https://docs.polygon.technology/docs/validate/validate/validator-node-system-requirements).
 
-If you would like to start and run the validator node from binaries, see [Run a Validator Node from Binaries](https://docs.candle.technology/docs/validate/validate/run-validator-binaries).
+If you would like to start and run the validator node from binaries, see [Run a Validator Node from Binaries](https://docs.polygon.technology/docs/validate/validate/run-validator-binaries).
 
 ## Prerequisites
 
@@ -596,8 +596,8 @@ journalctl -u bor.service -f
 
 ## Check node health with the community
 
-Now that your sentry and validator nodes are synced and running, head over to [Discord](https://discord.gg/candle) and ask the community to health-check your nodes.
+Now that your sentry and validator nodes are synced and running, head over to [Discord](https://discord.gg/polygon) and ask the community to health-check your nodes.
 
 ## Proceed to staking
 
-Now that you have your sentry and validator nodes health-checked, proceed to [Staking](https://docs.candle.technology/docs/validate/validator/core-components/staking).
+Now that you have your sentry and validator nodes health-checked, proceed to [Staking](https://docs.polygon.technology/docs/validate/validator/core-components/staking).

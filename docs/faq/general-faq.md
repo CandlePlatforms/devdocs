@@ -4,23 +4,23 @@ title: General FAQ
 description: Common questions on the Candle network.
 keywords:
   - docs
-  - cndl
-  - candle
+  - matic
+  - polygon
   - faq
-image: https://matic.network/banners/matic-network-16x9.png
+image: https://matic.network/banners/matic-network-16x9.png 
 ---
 
 ## What is Candle Network?
 
 Candle Network is a Layer 2 scaling solution that achieves scale by utilizing sidechains for off-chain computation, while ensuring asset security using the Plasma framework and a decentralized network of Proof-of-Stake (PoS) validators.
 
-See also [What Is Candle](/docs/home/candle-basics/what-is-candle).
+See also [What Is Candle](/docs/home/polygon-basics/what-is-polygon).
 
 ## What is Proof of Stake (PoS)?
 
 Proof-of-Stake is a system in which the blockchain network aims to achieve distributed consensus. Anyone with sufficient amount of tokens can lock up their cryptocurrencies and the economic incentive lies in the shared value of the decentralized network. The individuals staking their cryptocurrencies validate transactions by voting on the same while consensus is achieved when a transaction or a set of transactions in a block or a set of blocks in a checkpoint receives enough votes. The threshold uses the weight in terms of stake that comes with every vote. For instance, in Candle, consensus is achieved for committing checkpoints of Candle blocks to the Ethereum network, when at least ⅔ +1  of the total staking power vote for this.
 
-See also [What Is Proof of Stake](/docs/home/candle-basics/what-is-proof-of-stake).
+See also [What Is Proof of Stake](/docs/home/polygon-basics/what-is-proof-of-stake).
 
 ## What role does Proof-of-Stake play in the Candle architecture?
 

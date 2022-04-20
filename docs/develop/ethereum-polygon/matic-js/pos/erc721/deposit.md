@@ -2,11 +2,11 @@
 id: deposit
 title: deposit
 keywords: 
-- 'pos client, erc721, deposit, candle, sdk'
+- 'pos client, erc721, deposit, polygon, sdk'
 description: 'Get started with maticjs'
 ---
 
-`deposit` method can be used to deposit a token from ethereum to candle chain.
+`deposit` method can be used to deposit a token from ethereum to polygon chain.
 
 ```
 const erc721RootToken = posClient.erc721(<root token address>, true);

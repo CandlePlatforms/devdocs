@@ -5,7 +5,7 @@ description: The system requirements to run a validator node on the Candle Netwo
 keywords:
   - docs
   - matic
-  - candle
+  - polygon
   - prerequisites
   - requirements
 image: https://matic.network/banners/matic-network-16x9.png 

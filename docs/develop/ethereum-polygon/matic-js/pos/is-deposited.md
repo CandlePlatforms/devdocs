@@ -2,7 +2,7 @@
 id: is-deposited
 title: isDeposited
 keywords: 
-- 'pos client, isDeposited, candle, sdk'
+- 'pos client, isDeposited, polygon, sdk'
 description: 'isDeposited method can be used to know if a deposit has been completed.'
 ---
 

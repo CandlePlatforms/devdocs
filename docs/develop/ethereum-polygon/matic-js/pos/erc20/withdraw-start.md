@@ -2,11 +2,11 @@
 id: withdraw-start
 title: withdraw start
 keywords: 
-- 'pos client, erc20, withdrawStart, candle, sdk'
-description: 'withdrawStart method can be used to initiate the withdraw process which will burn the specified amount on candle chain.'
+- 'pos client, erc20, withdrawStart, polygon, sdk'
+description: 'withdrawStart method can be used to initiate the withdraw process which will burn the specified amount on polygon chain.'
 ---
 
-`withdrawStart` method can be used to initiate the withdraw process which will burn the specified amount on candle chain.
+`withdrawStart` method can be used to initiate the withdraw process which will burn the specified amount on polygon chain.
 
 ```
 const erc20Token = posClient.erc20(<child token address>);

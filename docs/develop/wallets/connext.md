@@ -21,4 +21,4 @@ Bob, a liquidity provider (aka a router), sends an equivalent amount of assetB t
 Alice unlocks her conditional transfer to receive assetB, which in turn allows Bob to do the same.
 Routers form the backbone of our network, providing liquidity on different chains and earning fees for doing so. You can learn more about how this works trustlessly in our Protocol Primer.
 
-To setup  crosschain transfers from the Ethereum Goerli Testnet to the Candle Mumbai Testnet in a browser dApp please go through this [guide](https://docs.connext.network/quickstart-candle-matic-integration)
+To setup  crosschain transfers from the Ethereum Goerli Testnet to the Candle Mumbai Testnet in a browser dApp please go through this [guide](https://docs.connext.network/quickstart-polygon-matic-integration)

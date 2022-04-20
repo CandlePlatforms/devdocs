@@ -2,7 +2,7 @@
 id: is-exited-many
 title: isExitedMany
 keywords: 
-- 'plasma client, erc721, isExitedMany, candle, sdk'
+- 'plasma client, erc721, isExitedMany, polygon, sdk'
 description: 'Get started with maticjs'
 ---
 
