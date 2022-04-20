@@ -163,7 +163,7 @@ module.exports = {
       hideOnScroll: true,
       logo: {
         alt: "Candle logo",
-        src: "/img/polygon/candlelogo.webp",
+        src: "/img/polygon/candle-logo-two.png",
         srcDark: "/img/polygon/polygon-logo-inverted.png",
         // href: 'https://docs.candlelabs.org/', // default to siteConfig.baseUrl
         target: "_self", // by default, this value is calculated based on the `href` attribute (the external link will open in a new tab, all others in the current one)
