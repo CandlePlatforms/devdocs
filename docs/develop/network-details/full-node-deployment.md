@@ -1,7 +1,7 @@
 ---
 id: full-node-deployment
 title: Full Node Deployment
-description: Build your next blockchain app on Polygon.
+description: Build your next blockchain app on Candle.
 keywords:
   - docs
   - matic
@@ -14,8 +14,8 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 <Tabs
   defaultValue="mainnet"
   values={[
-    { label: 'Polygon-Mainnet', value: 'mainnet', },
-    { label: 'Polygon-Testnet', value: 'mumbai', },
+    { label: 'Candle-Mainnet', value: 'mainnet', },
+    { label: 'Candle-Testnet', value: 'mumbai', },
   ]
 }>
 <TabItem value="mumbai">
@@ -42,7 +42,7 @@ Pre-requisite:
     - To install ansible with Python 3.x you can use this command `pip3 install ansible`. This will install Python 3 dependencies as well as ansible.
 - Check [https://github.com/maticnetwork/node-ansible#requirements](https://github.com/maticnetwork/node-ansible#requirements) for requirements
 - You will also need to make sure that Go is not installed on your VM / Machine. Setting up your full node through ansible will run into issues if you have Go already installed, as ansible requires specific packages of Go to be installed.
-- You will also need to make sure that your VM / Machine does not have any previous setups for Polygon Validator or Heimdall or Bor. You will need to delete them as your setup will run into issues.
+- You will also need to make sure that your VM / Machine does not have any previous setups for Candle Validator or Heimdall or Bor. You will need to delete them as your setup will run into issues.
 - The latest version, [Heimdall v.0.2.8](https://github.com/maticnetwork/heimdall/releases/tag/v0.2.8), contains few enhancements such as **restricting data size in state sync txs to 30Kb (when represented in bytes) and 60Kb (when represented as string)**. For example:
 ```
 Data - "abcd1234"
@@ -125,7 +125,7 @@ Setup full node for Testnetv4/Mumbai testnet
 
     Minimum 650GB SSD (make sure it is extendable)
 
-# Full Node Deployment (Polygon mainnet)
+# Full Node Deployment (Candle mainnet)
 We have created simple Ansible playbooks to setup a full node.
 
 Pre-requisite:
@@ -134,7 +134,7 @@ Pre-requisite:
     - To install ansible with Python 3.x you can use this command `pip3 install ansible`. This will install Python 3 dependencies as well as ansible.
 - Check [https://github.com/maticnetwork/node-ansible#requirements](https://github.com/maticnetwork/node-ansible#requirements) for requirements.
 - You will also need to make sure that Go is not installed on your VM / Machine. Setting up your full node through ansible will run into issues if you have Go already installed, as ansible requires specific packages of Go to be installed.
-- You will also need to make sure that your VM / Machine does not have any previous setups for Polygon Validator or Heimdall or Bor. You will need to delete them as your setup will run into issues.
+- You will also need to make sure that your VM / Machine does not have any previous setups for Candle Validator or Heimdall or Bor. You will need to delete them as your setup will run into issues.
 - The latest version, [Heimdall v.0.2.8(https://github.com/maticnetwork/heimdall/releases/tag/v0.2.8), contains few enhancements such as **restricting data size in state sync txs to 30Kb (when represented in bytes) and 60Kb (when represented as string)**. For example:
 
 ```
@@ -144,7 +144,7 @@ Hex Byte representation - [171 205 18 52]
 Length in byte format - 4
 ```
 
-Setup full node for Polygon mainnet
+Setup full node for Candle mainnet
 
 - Ensure you have access to the remote machine or VM that the full node is being setup on. Refer [https://github.com/maticnetwork/node-ansible#setup](https://github.com/maticnetwork/node-ansible#setup) for more details.
 - Clone the [`https://github.com/maticnetwork/node-ansible`](https://github.com/maticnetwork/node-ansible) repo

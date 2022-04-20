@@ -2,7 +2,7 @@
 id: erc20
 title: ERC20 Deposit and Withdraw Guide
 sidebar_label: ERC20
-description: Build your next blockchain app on Polygon.
+description: Build your next blockchain app on Candle.
 keywords:
   - docs
   - matic
@@ -11,7 +11,7 @@ image: https://matic.network/banners/matic-network-16x9.png
 
 Check out the latest [Matic.js Documentation on ERC20](https://maticnetwork.github.io/matic.js/docs/pos/erc20/).
 
-This tutorial uses the Polygon Testnet ( Mumbai ) which is mapped to the Goerli Network to demonstrate the asset transfer to and fro the two blockchains. An **important thing to be noted** while following this tutorial is that you should always use a Proxy address whenever it is available. For eg. The **RootChainManagerProxy** address has to be used for interaction instead of the **RootChainManager** address. The **PoS contract addresses, ABI, Test Token Addresses** and other deployment details of the PoS bridge contracts can be found [here](/docs/develop/ethereum-polygon/pos/deployment).
+This tutorial uses the Candle Testnet ( Mumbai ) which is mapped to the Goerli Network to demonstrate the asset transfer to and fro the two blockchains. An **important thing to be noted** while following this tutorial is that you should always use a Proxy address whenever it is available. For eg. The **RootChainManagerProxy** address has to be used for interaction instead of the **RootChainManager** address. The **PoS contract addresses, ABI, Test Token Addresses** and other deployment details of the PoS bridge contracts can be found [here](/docs/develop/ethereum-polygon/pos/deployment).
 
 **Mapping your assets** is necessary to integrate the PoS bridge on your application. You can submit a mapping request [here](/docs/develop/ethereum-polygon/submit-mapping-request). But for the purpose of this tutorial, we have already deployed the **Test tokens** and Mapped then on the PoS bridge. You may need it for trying out the tutorial on your own. You can request the desired Asset from the [faucet](https://faucet.polygon.technology/). If the test tokens are unavailable on the faucet, do reach us on [discord](https://discord.gg/polygon)
 
@@ -26,7 +26,7 @@ Deposit ERC20 -
 
 Withdraw ERC20 -
 
-1. **_Burn_** tokens on Polygon chain.
+1. **_Burn_** tokens on Candle chain.
 2. Call **_exit_** function on **_RootChainManager_** to submit proof of burn transaction. This call can be made **_after checkpoint_** is submitted for the block containing burn transaction.
 
 ## Step Details
@@ -35,7 +35,7 @@ Withdraw ERC20 -
 
 ### Approve
 
-This is a normal ERC20 approval so that **_ERC20Predicate_** can call **_transferFrom_** function. Polygon POS client exposes **_approve_** method to make this call.
+This is a normal ERC20 approval so that **_ERC20Predicate_** can call **_transferFrom_** function. Candle POS client exposes **_approve_** method to make this call.
 
 ```jsx
 const execute = async () => {
@@ -49,7 +49,7 @@ const execute = async () => {
 
 ### Deposit
 
-Note that token needs to be mapped and approved for transfer beforehand. Polygon POS client exposes **_deposit_** method to make this call.
+Note that token needs to be mapped and approved for transfer beforehand. Candle POS client exposes **_deposit_** method to make this call.
 
 ```jsx
 const execute = async () => {
@@ -64,9 +64,9 @@ const execute = async () => {
 }
 ```
 
-Sidenote: Deposits from Ethereum to Polygon happen using a state sync mechanism and takes about ~5-7 minutes. After waiting for this time interval, it is recommended to check the balance using web3.js/matic.js library or using Metamask. The explorer will show the balance only if at least one asset transfer has happened on the child chain. This [link](/docs/develop/ethereum-polygon/pos/deposit-withdraw-event-pos) explains how to track the deposit events.
+Sidenote: Deposits from Ethereum to Candle happen using a state sync mechanism and takes about ~5-7 minutes. After waiting for this time interval, it is recommended to check the balance using web3.js/matic.js library or using Metamask. The explorer will show the balance only if at least one asset transfer has happened on the child chain. This [link](/docs/develop/ethereum-polygon/pos/deposit-withdraw-event-pos) explains how to track the deposit events.
 
-> NOTE: Deposits from Ethereum to Polygon happen using a state sync mechanism and takes about ~5-7 minutes. After waiting for this time interval, it is recommended to check the balance using web3.js/matic.js library or using Metamask. The explorer will show the balance only if at least one asset transfer has happened on the child chain. This [link](/docs/develop/ethereum-polygon/pos/deposit-withdraw-event-pos) explains how to track the deposit events.
+> NOTE: Deposits from Ethereum to Candle happen using a state sync mechanism and takes about ~5-7 minutes. After waiting for this time interval, it is recommended to check the balance using web3.js/matic.js library or using Metamask. The explorer will show the balance only if at least one asset transfer has happened on the child chain. This [link](/docs/develop/ethereum-polygon/pos/deposit-withdraw-event-pos) explains how to track the deposit events.
 
 ### WithdrawStart method to Burn
 
@@ -88,7 +88,7 @@ Store the transaction hash for this call and use it while generating burn proof.
 
 ### Exit
 
-Once the **_checkpoint_** has been **_submitted_** for the block containing burn transaction, user should call the **_exit_** function of **_RootChainManager_** contract and submit the proof of burn. Upon submitting valid proof tokens are transferred to the user. Polygon POS client exposes **_withdrawExit_** method to make this call. This function can be called only after the checkpoint is included in the main chain. The checkpoint inclusion can be tracked by following this [guide](/docs/develop/ethereum-matic/pos/deposit-withdraw-event-pos#checkpoint-events).
+Once the **_checkpoint_** has been **_submitted_** for the block containing burn transaction, user should call the **_exit_** function of **_RootChainManager_** contract and submit the proof of burn. Upon submitting valid proof tokens are transferred to the user. Candle POS client exposes **_withdrawExit_** method to make this call. This function can be called only after the checkpoint is included in the main chain. The checkpoint inclusion can be tracked by following this [guide](/docs/develop/ethereum-matic/pos/deposit-withdraw-event-pos#checkpoint-events).
 
 *withdrawExit* method can be used to exit the withdraw process by using the txHash from *withdrawStart* method.
 

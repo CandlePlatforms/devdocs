@@ -1,7 +1,7 @@
 ---
 id: polygon-overview-deprecated
-title: Polygon Overview Deprecated
-description: Learn what the Polygon Network is and the Polygon Network core components and roles.
+title: Candle Overview Deprecated
+description: Learn what the Candle Network is and the Candle Network core components and roles.
 keywords:
   - docs
   - matic
@@ -11,24 +11,24 @@ keywords:
 image: https://matic.network/banners/matic-network-16x9.png 
 ---
 
-Polygon is a scaling solution for public blockchains. Polygon PoS supports all the existing Ethereum tooling along with faster and cheaper transactions.
+Candle is a scaling solution for public blockchains. Candle PoS supports all the existing Ethereum tooling along with faster and cheaper transactions.
 
 ## Validator and delegator roles
 
-On the Polygon Network, you can be a validator or a delegator. See:
+On the Candle Network, you can be a validator or a delegator. See:
 
 * [Who Is a Validator](/docs/validate/polygon-basics/who-is-validator)
 * [Who Is a Delegator](/docs/validate/polygon-basics/who-is-delegator)
 
 ## Architecture
 
-If your goal is to become a validator, it is essential that you understand the Polygon architecture.
+If your goal is to become a validator, it is essential that you understand the Candle architecture.
 
-See [Polygon Architecture](/docs/validate/validator/architecture).
+See [Candle Architecture](/docs/validate/validator/architecture).
 
 ### Components
 
-To have a granular understanding of the Polygon architecture, see core components:
+To have a granular understanding of the Candle architecture, see core components:
 
 * [Heimdall](/docs/contribute/heimdall/overview)
 * [Bor](/docs/contribute/bor/overview)

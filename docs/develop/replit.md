@@ -2,7 +2,7 @@
 id: replit
 title: Using Replit
 sidebar_label: Using Replit
-description: Build your next blockchain app on Polygon.
+description: Build your next blockchain app on Candle.
 keywords:
   - docs
   - matic
@@ -13,7 +13,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 [Replit](https://docs.replit.com/tutorials/01-introduction-to-the-repl-it-ide) is a coding platform that allows you to write code and host apps. Replit supports [Solidity programming language](https://replit.com/@replit/Solidity-starter-beta?v=1) so it provides all of the features and functionality for Web3 developers to create and deploy smart contracts.
 
-This article explains how to build and deploy a solidity smart contract on Polygon using [Replit IDE](https://replit.com/signup) and [Replit Solidity development template (Solidity starter beta)](https://replit.com/@replit/Solidity-starter-beta?v=1)
+This article explains how to build and deploy a solidity smart contract on Candle using [Replit IDE](https://replit.com/signup) and [Replit Solidity development template (Solidity starter beta)](https://replit.com/@replit/Solidity-starter-beta?v=1)
 
 :::note
 For additional examples about Solidity with Replit, you can read the article <ins>**[Get started with Replit!](https://blog.replit.com/solidity)**</ins> or check <ins>**[Replit Solidity documentation and Escrow contract tutorial](https://docs.replit.com/tutorials/33-escrow-contract-with-solidity)**</ins>
@@ -21,15 +21,15 @@ For additional examples about Solidity with Replit, you can read the article <in
 
 ## Prerequisites
 
-You do not need any local environment to deploy your solidity smart contract on Polygon using Replit.
+You do not need any local environment to deploy your solidity smart contract on Candle using Replit.
 
-You need a browser-based web3 wallet to interact with the Polygon Mumbai Testnet and deployed contracts. If you are already using MetaMask, it is recommended to create a new account for testing with Replit. You can do this from the account menu, which appears when you click on the account avatar in the top right corner of MetaMask interface.
+You need a browser-based web3 wallet to interact with the Candle Mumbai Testnet and deployed contracts. If you are already using MetaMask, it is recommended to create a new account for testing with Replit. You can do this from the account menu, which appears when you click on the account avatar in the top right corner of MetaMask interface.
 
-You must setup all of the following Prerequisites to be able to deploy your solidity smart contract on Polygon:
+You must setup all of the following Prerequisites to be able to deploy your solidity smart contract on Candle:
 
 1. [Create a Replit account](https://replit.com/signup)
 2. [Download Metamask wallet](https://docs.polygon.technology/docs/develop/metamask/hello/)
-3. [Configure Polygon on Metamask](https://docs.polygon.technology/docs/develop/metamask/config-polygon-on-metamask/)
+3. [Configure Candle on Metamask](https://docs.polygon.technology/docs/develop/metamask/config-polygon-on-metamask/)
 4. [Get testnet tokens](https://faucet.polygon.technology)
 
 ## Working with a Repl
@@ -45,7 +45,7 @@ Every Repl that you create is a fully functional development and production envi
 The Solidity starter repl comes with a friendly web interface, built using the <ins>**[web3 Ethereum JavaScript API](https://web3js.readthedocs.io/en/v1.5.2/)**</ins>, which you can use to deploy and interact with our contracts. We will deploy to Replit’s testnet, a custom version of the Ethereum blockchain managed by Replit and optimised for testing.
 :::
 
-## Deploy on Polygon
+## Deploy on Candle
 
 Make sure that you have followed the list of Prerequisites above so that you are ready to deploy and interact with your smart contract:
 

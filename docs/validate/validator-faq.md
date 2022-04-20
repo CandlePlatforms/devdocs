@@ -1,7 +1,7 @@
 ---
 id: validator-faq
 title: Validator FAQ
-description: Common questions on the validator operations on the Polygon network.
+description: Common questions on the validator operations on the Candle network.
 keywords:
   - docs
   - matic
@@ -23,7 +23,7 @@ In any case, there is always the possibility of stake delegation with the curren
 * **Notice**: Validator sends a transaction to unbond. Before entering into the unbonding period, validator needs to be in active state creating, signing and proposing blocks for a certain time.
 * **Unbonding**: Validator is inactive in this state and thus earns no reward. However, the validator is still liable for slashing in case they have committed any malicious act previously.
 
-## Is there a minimum amount of MATIC required to stake to become a validator?
+## Is there a minimum amount of CNDL required to stake to become a validator?
 
 The minimum is 1 Matic.
 
@@ -103,13 +103,13 @@ Full error:
 dpkg: error processing archive matic-heimdall_1.0.0_amd64.deb (--install): trying to overwrite '/heimdalld-rest-server.service', which is also in package matic-node 1.0.0
 ```
 
-This occurs mainly because of a previous installation of Polygon on your machine. To resolve you can run:
+This occurs mainly because of a previous installation of Candle on your machine. To resolve you can run:
 
 `sudo dpkg -r matic-node`
 
 ## It is not clear which private Key I should add when I generate a validator key
 
-The private key to be used is your wallet's ETH address where your Polygon tokens are stored.
+The private key to be used is your wallet's ETH address where your Candle tokens are stored.
 
 ## Is there a way to know if Heimdall is synced?
 
@@ -158,7 +158,7 @@ Change the config to `goleveldb` in `config.toml`.
 
 ## Are the private keys the same for Heimdall and Bor keystore?
 
-Yes, the private key used for generating the validator keys and Bor keystore are the same. The private key used in this instance is your wallet's ETH address where your Polygon tokens are stored.
+Yes, the private key used for generating the validator keys and Bor keystore are the same. The private key used in this instance is your wallet's ETH address where your Candle tokens are stored.
 
 ## Sentry Bor shows 'Looking for peers' and cannot find peers
 
@@ -249,7 +249,7 @@ This could be because your `inventory.yml` file may have some formatting issues.
 
 Yes, you have to run both a sentry and a validator node.
 
-The Polygon ecosystem and architecture demands that you run a sentry + validator setup to ensure that your validator node is not exposed to the public and only your sentry node is.
+The Candle ecosystem and architecture demands that you run a sentry + validator setup to ensure that your validator node is not exposed to the public and only your sentry node is.
 
 Your sentry node gleans information / blocks from the network and then relays them to the validator for validation.
 
@@ -279,7 +279,7 @@ Yes, you can.
 
 ## Can I run multiple validators using the same signer key?
 
-No. You cannot. Polygon's architecture currently does not allow validators running multiple validator nodes using the same signer key.
+No. You cannot. Candle's architecture currently does not allow validators running multiple validator nodes using the same signer key.
 
 ## Is there a way to run a light Bor node?
 

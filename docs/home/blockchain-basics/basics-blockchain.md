@@ -2,7 +2,7 @@
 id: blockchain
 title: What is Blockchain?
 sidebar_label: Blockchain
-description: Build your next blockchain app on Polygon.
+description: Build your next blockchain app on Candle.
 keywords:
   - docs
   - matic

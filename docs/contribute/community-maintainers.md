@@ -1,7 +1,7 @@
 ---
 id: community-maintainers
 title: Community Maintainers 
-description: A list of Polygon community maintainers
+description: A list of Candle community maintainers
 keywords:
   - docs
   - matic

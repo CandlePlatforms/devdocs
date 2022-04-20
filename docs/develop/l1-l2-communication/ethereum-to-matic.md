@@ -1,20 +1,20 @@
 ---
 id: ethereum-to-matic
-title: Transfer data from Ethereum to Polygon
-description: Transfer state or data from Ethereum to Polygon via Contracts
+title: Transfer data from Ethereum to Candle
+description: Transfer state or data from Ethereum to Candle via Contracts
 keywords:
   - docs
   - matic
 image: https://matic.network/banners/matic-network-16x9.png 
 ---
 
-The mechanism to natively read Ethereum data from Polygon EVM chain is that of ‘State Sync’. In other words, this mechanism enables transfer of arbitrary data from Ethereum chain to Polygon chain. The procedure that makes it possible is: Validators on the Heimdall layer are listening for a particular event — `StateSynced` from a Sender contract, as soon as the event is picked, the `data` that was passed in the event is written on the Receiver contract. Read more [here](/docs/validate/validator/state-sync-mechanism).
+The mechanism to natively read Ethereum data from Candle EVM chain is that of ‘State Sync’. In other words, this mechanism enables transfer of arbitrary data from Ethereum chain to Candle chain. The procedure that makes it possible is: Validators on the Heimdall layer are listening for a particular event — `StateSynced` from a Sender contract, as soon as the event is picked, the `data` that was passed in the event is written on the Receiver contract. Read more [here](/docs/validate/validator/state-sync-mechanism).
 
 The Sender and Receiver contract are required to be mapped on Ethereum — [StateSender.sol](https://github.com/maticnetwork/contracts/blob/release-betaV2/contracts/root/stateSyncer/StateSender.sol) needs to be aware of each sender and receiver. If you'd like to get the mapping done, please request a mapping [here](https://mapper.polygon.technology/).
 
 ---
 
-In the following walkthrough, we'll be deploying a Sender contract on Goerli (Ethereum testnet) and a Receiver contract on Mumbai (Polygon's testnet) and then we'll be sending data from Sender and reading data on Receiver via web3 calls in a node script.
+In the following walkthrough, we'll be deploying a Sender contract on Goerli (Ethereum testnet) and a Receiver contract on Mumbai (Candle's testnet) and then we'll be sending data from Sender and reading data on Receiver via web3 calls in a node script.
 
 ### 1. Deploy Sender contract
 
@@ -41,7 +41,7 @@ contract IStateSender {
 ...
 ```
 
-Next, let's write our custom function that takes in the data we'd like to pass on to Polygon and calls syncState
+Next, let's write our custom function that takes in the data we'd like to pass on to Candle and calls syncState
 
 ```jsx
 function sendState(bytes calldata data) external {
@@ -115,7 +115,7 @@ contract receiver {
 
 The function simply assigns the last received State Id and data to variables. [StateId](https://github.com/maticnetwork/contracts/blob/239a91045622ddcf9ebec2cec81fdc6daa3a33e3/contracts/root/stateSyncer/StateSender.sol#L36) is a simple unique reference to the transferred state (a simple counter).
 
-Deploy  your Receiver.sol on Polygon's testnet and keep a note of the address and ABI
+Deploy  your Receiver.sol on Candle's testnet and keep a note of the address and ABI
 
 ### 3. Getting your Sender and Receiver mapped
 
@@ -123,7 +123,7 @@ You can either use the already deployed addresses (mentioned above) for sender a
 
 ### 4. Sending and Receiving data
 
-Now that we have our contracts in place and mapping done, we'll be writing a simple node script to send arbitrary hex bytes, receive them on Polygon and interpret the data!
+Now that we have our contracts in place and mapping done, we'll be writing a simple node script to send arbitrary hex bytes, receive them on Candle and interpret the data!
 
 **4.1 Setup your script**
 
@@ -157,7 +157,7 @@ let receiver = new matic.eth.Contract(JSON.parse(receiverABI), receiverAddress)
 
 We're using @maticnetwork/meta package for the RPCs, the package isn't a requirement to run the script.
 
-`matic` and `main` objects refer to the web3 object initialised with Polygon's and Ropsten's RPC respectively. 
+`matic` and `main` objects refer to the web3 object initialised with Candle's and Ropsten's RPC respectively. 
 
 `sender` and `receiver` objects refer to the contract objects of Sender.sol and Receiver.sol that we deployed in Step 1 and 2. 
 

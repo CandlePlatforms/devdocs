@@ -2,7 +2,7 @@
 id: razor
 title: Razor
 sidebar_label: Razor
-description: Build your next blockchain app on Polygon.
+description: Build your next blockchain app on Candle.
 keywords:
   - docs
   - matic

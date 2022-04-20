@@ -2,20 +2,20 @@
 id: chainstack
 title: Using Chainstack
 sidebar_label: Using Chainstack
-description: Build your next blockchain app on Polygon.
+description: Build your next blockchain app on Candle.
 keywords:
   - docs
   - matic
 image: https://matic.network/banners/matic-network-16x9.png
 ---
 
-# Hello World Smart Contract on Polygon
+# Hello World Smart Contract on Candle
 
 This section guides you through deploying a Hello World contract using [Chainstack](https://chainstack.com/build-better-with-polygon/) and [Foundry](https://github.com/gakonst/foundry/) on the Mumbai testnet.
 
 If you have any questions, reach out in the [Chainstack Discord](https://discord.com/invite/Cymtg2f7pX).
 
-## Deploy a Polygon Mumbai Node
+## Deploy a Candle Mumbai Node
 
 You need a node to deploy a smart contract to the blockchain network, follow the steps to get your node:
 
@@ -46,7 +46,7 @@ where
 
 You need to pay gas on the network to deploy the contract.
 
-Get Mumbai MATIC [through the faucet](https://faucet.polygon.technology/).
+Get Mumbai CNDL [through the faucet](https://faucet.polygon.technology/).
 
 ## Create the Hello World contract
 
@@ -92,7 +92,7 @@ contract HelloWorld {
 
 At this point, you are ready to deploy your contract:
 
-* You have your own node on the Polygon Mumbai network through which you will deploy the contract.
+* You have your own node on the Candle Mumbai network through which you will deploy the contract.
 * You have Foundry that you will use to deploy the contract.
 * You have a funded account that will deploy the contract.
 
@@ -114,6 +114,6 @@ Example:
 forge create HelloWorld --constructor-args "Hello" --contracts /root/foundry/src/HelloWorld.sol --private-key d8936f6eae35c73a14ea7c1aabb8d068e16889a7f516c8abc482ba4e1489f4cd --rpc-url https://nd-123-456-789.p2pify.com/3c6e0b8a9c15224a8228b9a98ca1531d
 ```
 
-Congratulations! You have deployed your Hello World smart contract on Polygon!
+Congratulations! You have deployed your Hello World smart contract on Candle!
 
 See also Chainstack docs for more [tutorials](https://docs.chainstack.com/tutorials/polygon/) and [tools](https://docs.chainstack.com/operations/polygon/tools).

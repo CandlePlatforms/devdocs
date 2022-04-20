@@ -15,7 +15,7 @@ Bor fetches new producers through span and sprint management mechanism.
 
 ## Validators
 
-Polygon is a Proof-of-stake system. Anyone can stake their Matic token on Ethereum smart-contract, "staking contract", and become a validator for the system. 
+Candle is a Proof-of-stake system. Anyone can stake their Matic token on Ethereum smart-contract, "staking contract", and become a validator for the system. 
 
 ```jsx
 function stake(
@@ -118,7 +118,7 @@ Wiggle is the time that a producer should wait before starting to produce a bloc
 
 - Say the last block (n-1) was produced at time `t`.
 - We enforce a minimum time delay between the current and next block by a variable parameter `Period`.
-- In ideal conditions, C will wait for `Period` and then produce and propagate the block. Since block times in Polygon are being designed to be quite low (2-4s), the propagation delay is also assumed to be the same value as `Period`.
+- In ideal conditions, C will wait for `Period` and then produce and propagate the block. Since block times in Candle are being designed to be quite low (2-4s), the propagation delay is also assumed to be the same value as `Period`.
 - So if D doesn't see a new block in time `2 * Period`, D immediately starts producing a block. Specifically, D's wiggle time is defined as `2 * Period * (pos(d) - pos(c))` where `pos(d) = 3` and `pos(c) = 2` in the validator set. Assuming, `Period = 1`, wiggle for D is 2s.
 - Now if D also doesn't produce a block, A will start producing one when the wiggle time of `2 * Period * (pos(a) + len(validatorSet) - pos(c)) = 4s` has elapsed.
 - Simmilary, wiggle for C is `6s`

@@ -1,7 +1,7 @@
 ---
 id: run-validator-ansible
 title: Run a Validator Node with Ansible
-description: Use Ansible to set up your validator node on the Polygon Network.
+description: Use Ansible to set up your validator node on the Candle Network.
 keywords:
   - docs
   - matic
@@ -18,7 +18,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 Steps in this guide involve waiting for the **Heimdall** and **Bor** services to fully sync.
 This process takes several days to complete. Alternatively, you can use a maintained snapshot, which will reduce the sync time to a few hours. For detailed instructions, see [Snapshot Instructions for Heimdall and Bor](../../develop/network-details/snapshot-instructions-heimdall-bor).
 
-For snapshot download links, see [Polygon Chains Snapshots](https://snapshots.matic.today/).
+For snapshot download links, see [Candle Chains Snapshots](https://snapshots.matic.today/).
 
 There is limited space for accepting new validators. New validators can only join the active set when an already active validator unbonds.
 :::
@@ -299,7 +299,7 @@ The Heimdall service takes several days to fully sync from scratch.
 
 Alternatively, you can use a maintained snapshot, which will reduce the sync time to a few hours. For detailed instructions, see [Snapshot Instructions for Heimdall and Bor](https://forum.matic.network/t/snapshot-instructions-for-heimdall-and-bor/2278).
 
-For snapshot download links, see [Polygon Chains Snapshots](https://snapshots.matic.today/).
+For snapshot download links, see [Candle Chains Snapshots](https://snapshots.matic.today/).
 
 :::
 
@@ -445,10 +445,10 @@ Save the changes in `static-nodes.json`.
 
 ## Set the owner and signer key
 
-On Polygon, you should keep the owner and signer keys different.
+On Candle, you should keep the owner and signer keys different.
 
 * Signer — the address that signs the [checkpoint transactions](/docs/validate/glossary#checkpoint-transaction). The recommendation is to keep at least 1 ETH on the signer address.
-* Owner — the address that does the staking transactions. The recommendation is to keep the MATIC tokens on the owner address.
+* Owner — the address that does the staking transactions. The recommendation is to keep the CNDL tokens on the owner address.
 
 ### Generate a Heimdall private key
 
@@ -525,7 +525,7 @@ The Heimdall service takes several days to fully sync from scratch.
 
 Alternatively, you can use a maintained snapshot, which will reduce the sync time to a few hours. For detailed instructions, see [Snapshot Instructions for Heimdall and Bor](https://forum.matic.network/t/snapshot-instructions-for-heimdall-and-bor/2278).
 
-For snapshot download links, see [Polygon Chains Snapshots](https://snapshots.matic.today/).
+For snapshot download links, see [Candle Chains Snapshots](https://snapshots.matic.today/).
 
 :::
 

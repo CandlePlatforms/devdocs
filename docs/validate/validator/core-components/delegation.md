@@ -15,6 +15,6 @@ Delegation is the process for the network participants who do not run a full nod
 
 Delegators run their delegation transaction on the staking contract on the Ethereum mainnet.
 
-The MATIC tokens get bonded with the next [checkpoint](/docs/validate/glossary#checkpoint-transaction) committed on the Ethereum mainnet. Delegators also have an option to opt out of the system whenever they want. Similar to validators, delegators have to wait for the unbonding period to end before withdrawing their stake.
+The CNDL tokens get bonded with the next [checkpoint](/docs/validate/glossary#checkpoint-transaction) committed on the Ethereum mainnet. Delegators also have an option to opt out of the system whenever they want. Similar to validators, delegators have to wait for the unbonding period to end before withdrawing their stake.
 
-Delegators also have an option to re-delegate their MATIC tokens with another validator. Rewards are accumulated at every checkpoint.
+Delegators also have an option to re-delegate their CNDL tokens with another validator. Rewards are accumulated at every checkpoint.

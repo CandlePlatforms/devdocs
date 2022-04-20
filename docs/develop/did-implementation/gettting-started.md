@@ -3,13 +3,13 @@ id: getting-started
 title: Getting Started
 ---
 
-This is a startup guide for users who wish to use the implementation packages published by Polygon team, to generate and publish a Polygon DID on the Polygon ledger.
+This is a startup guide for users who wish to use the implementation packages published by Candle team, to generate and publish a Candle DID on the Candle ledger.
 
-The Polygon DID method Implementation comprises of 3 packages, namely the polygon-did-registrar, polygon-did-resolver and polygon-did-registry-contract. A user who wants to incorporate the functionality to either register or read a DID on or from Polygon network can use the following guide.
+The Candle DID method Implementation comprises of 3 packages, namely the polygon-did-registrar, polygon-did-resolver and polygon-did-registry-contract. A user who wants to incorporate the functionality to either register or read a DID on or from Candle network can use the following guide.
 
 ## Create DID 
 
-To get started, one first needs to create a DID. Creation in case of Polygon did is an encapsulation of two steps, first where a user needs to generate a DID uri for themselves and next register it on Polygon ledger.
+To get started, one first needs to create a DID. Creation in case of Candle did is an encapsulation of two steps, first where a user needs to generate a DID uri for themselves and next register it on Candle ledger.
 
 ### Step 1 - Create DID
 
@@ -31,7 +31,7 @@ const {address, publicKey58, privateKey, DID} = await createDID(network, private
 ```
 const {address, publicKey58, privateKey, DID} = await createDID(network);
 ```
-The network parameter in both cases refers to whether the user wants to create the DID on Polygon test network or on Polygon main network.
+The network parameter in both cases refers to whether the user wants to create the DID on Candle test network or on Candle main network.
 
 Sample Input
 ```
@@ -60,7 +60,7 @@ If the user does not give the last two parameters, the library picks up the defa
 
 If all the parameters match the specifications and everything is given in correct order the registerDID function returns a transaction hash, a corresponding error is returned otherwise.
 
-And with this you have successfully completed your task of registering a DID on the Polygon Network.
+And with this you have successfully completed your task of registering a DID on the Candle Network.
 
 ## Resolve DID
 
@@ -115,7 +115,7 @@ If the user does not provide the configuration with `url` and `contractAddress`,
 
 ## Delete DID Document
 
-With Polygon DID implementation a user can also revoke his DID Document from the ledger. 
+With Candle DID implementation a user can also revoke his DID Document from the ledger. 
 The user first needs to use `polygon-did-registrar` as follows
 ```
 import { deleteDidDoc } from "polygon-did-registrar";

@@ -1,7 +1,7 @@
 ---
 id: who-is-delegator
 title: Who is a Delegator
-description: Build your next blockchain app on Polygon.
+description: Build your next blockchain app on Candle.
 keywords:
   - docs
   - matic
@@ -12,7 +12,7 @@ image: https://matic.network/banners/matic-network-16x9.png
 
 Delegators are token holders who cannot, or do not want to run a [validator](/docs/validate/glossary#validator) node themselves. Instead, they secure the network by delegating their stake to validator nodes and play a critical role in the system, as they are responsible for choosing validators. They run their delegation transaction on the staking contract on the Ethereum mainnet.
 
-The MATIC tokens are bonded with the next [checkpoint](/docs/validate/glossary#checkpoint-transaction) committed on the Ethereum mainnet. Delegators also have an option to opt out of the system whenever they want. Similar to validators, delegators have to wait for the unbonding period, which consists of approximately 9 days, to end before withdrawing their stake.
+The CNDL tokens are bonded with the next [checkpoint](/docs/validate/glossary#checkpoint-transaction) committed on the Ethereum mainnet. Delegators also have an option to opt out of the system whenever they want. Similar to validators, delegators have to wait for the unbonding period, which consists of approximately 9 days, to end before withdrawing their stake.
 
 ## Fees and Rewards
 
@@ -32,7 +32,7 @@ Delegators have the option to re-delegate their tokens with other validators. Re
 :::tip Being an active delegator
 
 Delegation should not be seen as a passive activity, as delegators are an integral part of maintaining
-the Polygon network. Each delegator is responsible for managing their own risk, but in doing so, delegators 
+the Candle network. Each delegator is responsible for managing their own risk, but in doing so, delegators 
 should aim to elect validators that are behaving well.
 
 :::

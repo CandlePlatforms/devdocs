@@ -1,28 +1,28 @@
 ---
 id: mintable-assets
-title: Polygon Mintable Assets
-description: Build your next blockchain app on Polygon.
+title: Candle Mintable Assets
+description: Build your next blockchain app on Candle.
 keywords:
   - docs
   - matic
 image: https://matic.network/banners/matic-network-16x9.png
 ---
 
-## What are Polygon mintable tokens?
+## What are Candle mintable tokens?
 
-Assets can be transferred to and from across the Ethereum and Polygon chain using the PoS bridge. These assets include ERC20, ERC721, ERC1155 and many other token standards. Most of the assets are pre-existing on Ethereum chain. But new assets can be created on the Polygon chain as well and moved back to Ethereum chain as and when required. This can save lots of gas and time that is spent on token minting on Ethereum. Creation of assets on the Polygon chain is much easier and a more recommended approach. These assets can be moved to Ethereum chain when required. Such type of assets are called Polygon mintable assets. 
+Assets can be transferred to and from across the Ethereum and Candle chain using the PoS bridge. These assets include ERC20, ERC721, ERC1155 and many other token standards. Most of the assets are pre-existing on Ethereum chain. But new assets can be created on the Candle chain as well and moved back to Ethereum chain as and when required. This can save lots of gas and time that is spent on token minting on Ethereum. Creation of assets on the Candle chain is much easier and a more recommended approach. These assets can be moved to Ethereum chain when required. Such type of assets are called Candle mintable assets. 
 
-In the case of Polygon Mintable tokens, assets are created on Polygon. When a Polygon minted asset has to be moved to Ethereum, the asset has to be burned first and then a proof of this burn transaction has to be submitted on the Ethereum chain. The RootChainManager contract calls a special predicate contract internally. This predicate contract directly calls the mint function of the asset contract on Ethereum and the tokens are minted to the users address. This special predicate is called the MintableAssetPredicate.
+In the case of Candle Mintable tokens, assets are created on Candle. When a Candle minted asset has to be moved to Ethereum, the asset has to be burned first and then a proof of this burn transaction has to be submitted on the Ethereum chain. The RootChainManager contract calls a special predicate contract internally. This predicate contract directly calls the mint function of the asset contract on Ethereum and the tokens are minted to the users address. This special predicate is called the MintableAssetPredicate.
 
 ## What are the requirements to be satisfied? 
 
-There are a few conditions that have to be strictly followed when we have to create an asset on Polygon and then move it back to Ethereum. 
+There are a few conditions that have to be strictly followed when we have to create an asset on Candle and then move it back to Ethereum. 
 
-### Contract to be deployed on Polygon chain
+### Contract to be deployed on Candle chain
 You can either deploy
 
-- A mintable token contract on the Polygon chain or
-- Submit a mapping request and the mintable token contract can be autodeployed for you on the Polygon chain via the Mapper tool. You just need to submit a mapping request at [https://mapper.polygon.technology/](https://mapper.polygon.technology/) and leave the child contract field blank in the form. Also, do remember to choose the Mintable option in the form.
+- A mintable token contract on the Candle chain or
+- Submit a mapping request and the mintable token contract can be autodeployed for you on the Candle chain via the Mapper tool. You just need to submit a mapping request at [https://mapper.polygon.technology/](https://mapper.polygon.technology/) and leave the child contract field blank in the form. Also, do remember to choose the Mintable option in the form.
 
 Please visit this [link](/docs/develop/ethereum-polygon/submit-mapping-request) to understand how to create a new mapping request. 
 
@@ -32,7 +32,7 @@ Please visit this [link](/docs/develop/ethereum-polygon/submit-mapping-request) 
     - ChildMintableERC721 - [https://github.com/maticnetwork/pos-portal/blob/master/flat/ChildMintableERC721.sol](https://github.com/maticnetwork/pos-portal/blob/master/flat/ChildMintableERC721.sol)
     - ChildMintableERC1155 - [https://github.com/maticnetwork/pos-portal/blob/master/flat/ChildMintableERC1155.sol](https://github.com/maticnetwork/pos-portal/blob/master/flat/ChildMintableERC1155.sol)
 
-- Most importantly, the child manager contract on Polygon should be given the depositor role in the asset contract deployed on Polygon. Only this child manager proxy address should have the rights to deposit tokens on Polygon.
+- Most importantly, the child manager contract on Candle should be given the depositor role in the asset contract deployed on Candle. Only this child manager proxy address should have the rights to deposit tokens on Candle.
 - Be sure to verify both contracts on Polygonscan and Etherscan accordingly, before submitting mapping request.
 
 Child Manager contract addresses:

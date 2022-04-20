@@ -2,7 +2,7 @@
 id: gas
 title: What is Gas?
 sidebar_label: Gas
-description: Build your next blockchain app on Polygon.
+description: Build your next blockchain app on Candle.
 keywords:
   - docs
   - matic

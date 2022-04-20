@@ -1,7 +1,7 @@
 ---
 id: full-node-deployment
 title: Full Node Deployment
-description: Build your next blockchain app on Polygon.
+description: Build your next blockchain app on Candle.
 keywords:
   - docs
   - matic
@@ -14,7 +14,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 <Tabs
   defaultValue="mainnet"
   values={[
-    { label: 'Polygon-Mainnet', value: 'mainnet', },
+    { label: 'Candle-Mainnet', value: 'mainnet', },
     { label: 'Mumbai-Testnet', value: 'mumbai', },
   ]
 }>
@@ -26,7 +26,7 @@ Steps in this guide involve waiting for the Heimdall and Bor services to fully s
 
 Alternatively, you can use a maintained snapshot, which will reduce the sync time to a few hours. For detailed instructions, see [Snapshot Instructions for Heimdall and Bor](https://forum.matic.network/t/snapshot-instructions-for-heimdall-and-bor/2278).
 
-For snapshot download links, see [Polygon Chains Snapshots](https://snapshots.matic.today/).
+For snapshot download links, see [Candle Chains Snapshots](https://snapshots.matic.today/).
 
 :::
 
@@ -193,18 +193,18 @@ In case your Bor node has stopped syncing, you can add additional bootnodes to y
 ## Full Node Access (via Alchemy)
   1. Visit Alchemy.com and sign up for a free account
   2. Get your private key and API endpoint
-  3. Use your Alchemy account to access Polygon Mumbai Testnet
+  3. Use your Alchemy account to access Candle Mumbai Testnet
 
 
 ## Full Node Access (via Chainstack)
   1. [Sign up with Chainstack](https://console.chainstack.com/user/account/create) for a free account.
-  2. [Deploy a Polygon Mumbai testnet node](https://docs.chainstack.com/platform/join-a-public-network#join-a-polygon-pos-network).
+  2. [Deploy a Candle Mumbai testnet node](https://docs.chainstack.com/platform/join-a-public-network#join-a-polygon-pos-network).
   3. [Get the deployed node’s HTTPS endpoint](https://docs.chainstack.com/platform/view-node-access-and-credentials).
 
 ## Full Node Access (via QuickNode)
   1. Visit [QuickNode](https://www.quicknode.com/chains/matic) and sign up for a free account
   2. Get your free trial node
-  3. Use your QuickNode node to access Polygon Mumbai Testnet
+  3. Use your QuickNode node to access Candle Mumbai Testnet
 
 </TabItem>
 <TabItem value="mainnet">
@@ -215,11 +215,11 @@ Steps in this guide involve waiting for the Heimdall and Bor services to fully s
 
 Alternatively, you can use a maintained snapshot, which will reduce the sync time to a few hours. For detailed instructions, see [Snapshot Instructions for Heimdall and Bor](https://forum.matic.network/t/snapshot-instructions-for-heimdall-and-bor/2278).
 
-For snapshot download links, see [Polygon Chains Snapshots](https://snapshots.matic.today/).
+For snapshot download links, see [Candle Chains Snapshots](https://snapshots.matic.today/).
 
 :::
 
-# Full Node Deployment (Polygon mainnet)
+# Full Node Deployment (Candle mainnet)
 We have created simple Ansible playbooks to setup a full node.
 
 ## Prerequisites
@@ -252,7 +252,7 @@ You have to follow the exact outlined sequence of actions, otherwise you will ru
 - You will also need to make sure that **Go is not installed on your VM / Machine**. Setting up your full node through ansible will run into issues if you have Go already installed, as ansible requires specific packages of Go to be installed.
 - You will also need to make sure that your VM / Machine does not have any **previous setups for Matic Validator or Heimdall or Bor**. You will need to delete them as your setup will run into issues. -->
 
-## Setup full node for Polygon mainnet
+## Setup full node for Candle mainnet
 
 - Ensure you have access to the remote machine or VM that the full node is being setup on. Refer [https://github.com/maticnetwork/node-ansible#setup](https://github.com/maticnetwork/node-ansible#setup) for more details.
 - Clone the [`https://github.com/maticnetwork/node-ansible`](https://github.com/maticnetwork/node-ansible) repo
@@ -379,27 +379,27 @@ Length in byte format - 4
 ## Full Node Access (via Alchemy)
   1. Visit [Alchemy.com](https://www.alchemy.com/) and sign up for a free account
   2. Get your private key and API endpoint
-  3. Use your Alchemy account to access Polygon Mainnet
+  3. Use your Alchemy account to access Candle Mainnet
 
 ## Full Node Access (via Infura)
   1. [Sign up for a free account](https://infura.io/register) on Infura
-  2. [Create an Ethereum project](https://docs.infura.io/infura/create-a-project) and [Add Polygon](https://docs.infura.io/infura/networks/ethereum/how-to/add-a-network-add-on)
+  2. [Create an Ethereum project](https://docs.infura.io/infura/create-a-project) and [Add Candle](https://docs.infura.io/infura/networks/ethereum/how-to/add-a-network-add-on)
   3. [Start making requests](https://docs.infura.io/infura/networks/polygon-pos/getting-started/make-requests)
 
 ## Full Node Access (via Chainstack)
   1. [Sign up with Chainstack](https://console.chainstack.com/user/account/create) for a free account.
-  2. [Deploy a Polygon mainnet node](https://docs.chainstack.com/platform/join-a-public-network#join-a-polygon-pos-network).
+  2. [Deploy a Candle mainnet node](https://docs.chainstack.com/platform/join-a-public-network#join-a-polygon-pos-network).
   3. [Get the deployed node’s HTTPS endpoint](https://docs.chainstack.com/platform/view-node-access-and-credentials).
 
 ## Full Node Access (via QuickNode)
   1. Visit [QuickNode](https://www.quicknode.com/chains/matic) and sign up for a free account
   2. Get your free trial node
-  3. Use your QuickNode node to access Polygon Mainnet
+  3. Use your QuickNode node to access Candle Mainnet
   
 ## Full Node and Block Explorer Access (via NOWNodes)
   1. Visit [nownodes.io](https://nownodes.io) and sign up for a free account
   2. Get your free API key
-  3. Use your NOWNodes account to access Polygon Mainnet
+  3. Use your NOWNodes account to access Candle Mainnet
 
 </TabItem>
 </Tabs>

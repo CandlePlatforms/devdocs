@@ -2,7 +2,7 @@
 id: remix
 title: Using Remix
 sidebar_label: Using Remix
-description: Build your next blockchain app on Polygon.
+description: Build your next blockchain app on Candle.
 keywords:
   - docs
   - matic
@@ -101,7 +101,7 @@ Go to Solidity Compiler
 - Now, ```Compile HelloWorld.sol```
 - After Successful Compilation, it will show 
 <img src={useBaseUrl("img/helloworld/Screenshot_2020-02-14_at_1.08.22_PM.png")} />
-- Now, We have to deploy our smart contract on Polygon Network. For that, we have to connect to web3 world, this can be done by using any of the services like Metamask, Brave, Portis etc. We will be using Metamask. Please follow this [tutorial to setup a Metamask Account](/docs/develop/metamask/hello).
+- Now, We have to deploy our smart contract on Candle Network. For that, we have to connect to web3 world, this can be done by using any of the services like Metamask, Brave, Portis etc. We will be using Metamask. Please follow this [tutorial to setup a Metamask Account](/docs/develop/metamask/hello).
 - Open Metamask and select Custom RPC from the networks dropdown
 
 <div
@@ -140,7 +140,7 @@ Go to Solidity Compiler
 </div>
 
 - Head over to [Faucet](https://faucet.polygon.technology/) and request test ether - you will need this pay for gas on Matic. 
-Select 'Mumbai' as the network and 'MATIC Token' as the token in the faucet
+Select 'Mumbai' as the network and 'CNDL Token' as the token in the faucet
 - Now, let's Deploy the Smart Contract on Matic Network
 - Select Injected Web3 in the Environment dropdown and your contract
 

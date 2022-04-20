@@ -1,13 +1,13 @@
 module.exports = {
-  title: "Polygon Technology | Documentation",
-  tagline: "Welcome to Polygon developer documentation",
+  title: "Candle Technology | Documentation",
+  tagline: "Welcome to Candle developer documentation",
   url: "https://docs.polygon.technology/",
   baseUrl: "/",
   favicon: "img/polygon/polygon-logo.svg",
-  organizationName: "Polygon Technology",
+  organizationName: "Candle Technology",
   projectName: "matic-docs",
   customFields: {
-    description: "Build your next blockchain app on Polygon.",
+    description: "Build your next blockchain app on Candle.",
   },
   onBrokenLinks: 'log',
   themeConfig: {
@@ -42,7 +42,7 @@ module.exports = {
           title: 'Community',
           items: [
             {
-              label: 'Polygon Community',
+              label: 'Candle Community',
               href: 'https://polygon.technology/community',
             },
             {
@@ -104,7 +104,7 @@ module.exports = {
         title: "Company",
         items: [
         {
-            label: "Polygon Technology",
+            label: "Candle Technology",
             href: "https://polygon.technology/"
         },
         {
@@ -131,15 +131,15 @@ module.exports = {
     },
       ],
       logo: {
-        alt: 'Polygon Logo',
+        alt: 'Candle Logo',
         src: 'img/polygon/polygon-logo.svg',
       },
-      copyright: `Copyright © ${new Date().getFullYear()} Polygon technology`,
+      copyright: `Copyright © ${new Date().getFullYear()} Candle technology`,
     },
     announcementBar: {
       id: "support_us",
       content:
-        '🎉 Polygon Mainnet <a target="_blank" rel="noopener noreferrer" href="/docs/develop/network-details/network"/>is open for developers 🎉! ',
+        '🎉 Candle Mainnet <a target="_blank" rel="noopener noreferrer" href="/docs/develop/network-details/network"/>is open for developers 🎉! ',
       backgroundColor: "#8247e5", // Defaults to `#fff`
       textColor: "#fff", // Defaults to `#000`
     },
@@ -162,7 +162,7 @@ module.exports = {
     navbar: {
       hideOnScroll: true,
       logo: {
-        alt: "Polygon logo",
+        alt: "Candle logo",
         src: "/img/polygon/polygon-logo.webp",
         srcDark: "/img/polygon/polygon-logo-inverted.png",
         // href: 'https://docs.polygon.technology/', // default to siteConfig.baseUrl
@@ -211,7 +211,7 @@ module.exports = {
           "aria-label": "GitHub repository",
         },
         {
-          label: "Polygon Edge",
+          label: "Candle Edge",
           href: "https://sdk-docs.polygon.technology/docs/overview/",
           position: "left",
         },

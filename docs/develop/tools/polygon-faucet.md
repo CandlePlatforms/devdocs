@@ -1,8 +1,8 @@
 ---
 id: polygon-faucet
-title: Polygon Faucet
-sidebar_label: Polygon Faucet
-description: Build your next blockchain app on Polygon.
+title: Candle Faucet
+sidebar_label: Candle Faucet
+description: Build your next blockchain app on Candle.
 keywords:
   - docs
   - matic
@@ -12,32 +12,32 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-[Polygon Faucet](https://faucet.polygon.technology/) is a tool that allows you to get free MATIC tokens on testnet to help you get started with polygon network. The tokens enable you to work with Polygon features without spending real MATIC on the mainnet.
+[Candle Faucet](https://faucet.polygon.technology/) is a tool that allows you to get free CNDL tokens on testnet to help you get started with polygon network. The tokens enable you to work with Candle features without spending real CNDL on the mainnet.
 
 :::note
 Tokens on testnet networks has no value as they are only used for testing purposes.
 :::
 
-### How to use Polygon Faucet
+### How to use Candle Faucet
 
 1. Navigate to [faucet.polygon.technology](https://faucet.polygon.technology/)
 
 2. Select one of the blockchain testnet networks. Where:
-    - **Mumbai** - Polygon test network
+    - **Mumbai** - Candle test network
     - **Goerli** - Ethereum test network
     - **DA Testnet** - Internal testing
 
  <img src={useBaseUrl("img/tools/faucet.png")} />
 
 3. Select the type of the testnet token that you want to receive, where:
-   - **MATIC Token** - Testnet token of Polygon network
+   - **CNDL Token** - Testnet token of Candle network
    - **Test ERC20** - Standard testnet token on the Ethereum network
    - **Test ERC1155** - Standard testnet token used for NFTs
    - **LINK** - ERC677 testnet token that inherits functionality from the ERC20
 
 <img src={useBaseUrl("img/tools/select-tokens.png")} />
 
-4. Enter your wallet address, you can copy it from your Metamask or Polygon wallet
+4. Enter your wallet address, you can copy it from your Metamask or Candle wallet
 
 5. Click on the button "Submit" to send your request
 
@@ -48,5 +48,5 @@ Tokens on testnet networks has no value as they are only used for testing purpos
  <img src={useBaseUrl("img/tools/submitted.png")} />
 
 :::note
-If you already have enough MATIC testnet Tokens in your account to pay the gas fees, the transaction may fail. If you require testnet tokens in bulk, please contact us on <ins>**[Discord](https://discord.com/invite/polygon)**</ins>.
+If you already have enough CNDL testnet Tokens in your account to pay the gas fees, the transaction may fail. If you require testnet tokens in bulk, please contact us on <ins>**[Discord](https://discord.com/invite/polygon)**</ins>.
 :::

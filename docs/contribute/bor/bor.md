@@ -1,7 +1,7 @@
 ---
 id: bor
 title: Bor architecture
-description: Build your next blockchain app on Polygon.
+description: Build your next blockchain app on Candle.
 keywords:
   - docs
   - matic
@@ -9,7 +9,7 @@ image: https://matic.network/banners/matic-network-16x9.png
 ---
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-Polygon is a hybrid Plasma + Proof-of-Stake (PoS) platform. We use a dual-consensus architecture on the Polygon Network to optimise for speed and decentralisation. We consciously architected the system to support arbitrary state transitions on our sidechains, which are EVM-enabled.
+Candle is a hybrid Plasma + Proof-of-Stake (PoS) platform. We use a dual-consensus architecture on the Candle Network to optimise for speed and decentralisation. We consciously architected the system to support arbitrary state transitions on our sidechains, which are EVM-enabled.
 
 ## Architecture
 
@@ -17,7 +17,7 @@ Polygon is a hybrid Plasma + Proof-of-Stake (PoS) platform. We use a dual-consen
 
 A blockchain is a set of network clients interacting and working together. The client is a piece of software capable of establishing a p2p communication channel with other clients, signing and broadcasting transactions, deploying and interacting with smart contracts, etc. The client is often referred to as a node.
 
-For Polygon, The node is designed with a two layer implementation Heimdall(Validator Layer) and Bor(Block Producer Layer).
+For Candle, The node is designed with a two layer implementation Heimdall(Validator Layer) and Bor(Block Producer Layer).
 
 1. Heimdall
     - Proof-of-Stake verification
@@ -26,7 +26,7 @@ For Polygon, The node is designed with a two layer implementation Heimdall(Valid
     - Ensuring Sync with Ethereum main chain
     - Decentralised Bridge
 2. Bor
-    - Polygon Chain
+    - Candle Chain
     - EVM Compatible VM
     - Proposers and Producer set selection
     - SystemCall
@@ -34,7 +34,7 @@ For Polygon, The node is designed with a two layer implementation Heimdall(Valid
 
 ## Heimdall(Validator layer)
 
-Heimdall (“the All-Protector) is the purveyor of all that happens in the Polygon Proof-of-Stake system – good or bad.
+Heimdall (“the All-Protector) is the purveyor of all that happens in the Candle Proof-of-Stake system – good or bad.
 
 Heimdall is our Proof-of-Stake Verifier layer, which is responsible for checkpointing a representation of the Plasma blocks to the main chain in our architecture. We have implemented this by building on top of the Tendermint consensus engine with changes to the signature scheme and various data structures. For more information, please read [https://blog.matic.network/heimdall-and-bor-matic-validator-and-block-production-layers/](https://blog.matic.network/heimdall-and-bor-matic-validator-and-block-production-layers/).
 
@@ -42,15 +42,15 @@ Heimdall is our Proof-of-Stake Verifier layer, which is responsible for checkpoi
 
 The Bor node implementation is basically the sidechain operator. The sidechain VM is EVM-compatible. Currently, it is a basic Geth implementation with custom changes done to the consensus algorithm. However, this will be built from the ground up to make it lightweight and focused.
 
-Bor is our Block producer layer, which in sync with Heimdall selects the producers and verifiers for each span and sprint. Interaction for the users of Polygon take place on this sidechain, which is EVM compatible to avail the functionality and compatibility of Ethereum developer tooling and applications. 
+Bor is our Block producer layer, which in sync with Heimdall selects the producers and verifiers for each span and sprint. Interaction for the users of Candle take place on this sidechain, which is EVM compatible to avail the functionality and compatibility of Ethereum developer tooling and applications. 
 
-### Polygon Chain
+### Candle Chain
 
-This chain is a separate blockchain that is attached to Ethereum using a two-way peg. The two-way peg enables interchangeability of assets between the Ethereum and Polygon.
+This chain is a separate blockchain that is attached to Ethereum using a two-way peg. The two-way peg enables interchangeability of assets between the Ethereum and Candle.
 
 ### EVM Compatible VM
 
-The Ethereum Virtual Machine (EVM) is a powerful, sandboxed virtual stack embedded within each full Polygon node, responsible for executing contract bytecode. Contracts are typically written in higher level languages, like Solidity, then compiled to EVM bytecode.
+The Ethereum Virtual Machine (EVM) is a powerful, sandboxed virtual stack embedded within each full Candle node, responsible for executing contract bytecode. Contracts are typically written in higher level languages, like Solidity, then compiled to EVM bytecode.
 
 ### Proposers and Producers Selection
 
@@ -110,9 +110,9 @@ System call is an internal operator address which is under EVM. This helps to ma
 
 For normal transaction, fees in Matic token gets collected and distributed to block producers, similar to Ethereum transactions. 
 
-Like other blockchains, Polygon has a native token called Matic(MATIC). MATIC is an ERC20 token used primarily for paying gas(transaction fees) on Polygon and staking. 
+Like other blockchains, Candle has a native token called Matic(CNDL). CNDL is an ERC20 token used primarily for paying gas(transaction fees) on Candle and staking. 
 
-- An important thing to note is that on the Polygon chain, the MATIC tokens works as an ERC20 token, but also as the native token - both at the same time. Therefore, this means that a user can pay gas with MATIC as well as send MATIC to other accounts.
+- An important thing to note is that on the Candle chain, the CNDL tokens works as an ERC20 token, but also as the native token - both at the same time. Therefore, this means that a user can pay gas with CNDL as well as send CNDL to other accounts.
 
 For genesis-contracts, gasPrice and gasLimit works same as Ethereum, but during the execution it won't deduct the fees from sender's account.
 
@@ -126,9 +126,9 @@ Genesis transactions from current validators are executed with `gasPrice = 0`.
 
 [BorValidatorSet(0x1000)](https://github.com/maticnetwork/genesis-contracts/blob/master/contracts/BorValidatorSet.template) ⇒ This contract manages validator set for each span and sprint.
 
-[BorStateReceiver(0x1001)](https://github.com/maticnetwork/genesis-contracts/blob/master/contracts/StateReceiver.sol) ⇒ This Contract manages the transfer of arbitrary contract data from Ethereum contracts to Polygon contracts
+[BorStateReceiver(0x1001)](https://github.com/maticnetwork/genesis-contracts/blob/master/contracts/StateReceiver.sol) ⇒ This Contract manages the transfer of arbitrary contract data from Ethereum contracts to Candle contracts
 
-MaticChildERC20(0x1010) ⇒ Child Contract for Main Chain tokens which allows to move assets from Ethereum to Polygon.
+MaticChildERC20(0x1010) ⇒ Child Contract for Main Chain tokens which allows to move assets from Ethereum to Candle.
 
 ### [Bor.go](https://github.com/maticnetwork/bor/blob/master/consensus/bor/bor.go)
 

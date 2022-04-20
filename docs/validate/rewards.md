@@ -2,31 +2,31 @@
 id: rewards
 title: Rewards
 sidebar_label: Rewards
-description: Learn about the Polygon Network staking incentives.
+description: Learn about the Candle Network staking incentives.
 keywords:
   - docs
   - matic
 image: https://matic.network/banners/matic-network-16x9.png 
 ---
 
-For an introduction to Polygon and the Proof of Stake algorithm, see:
+For an introduction to Candle and the Proof of Stake algorithm, see:
 
-* [What Is Polygon](/docs/home/polygon-basics/what-is-polygon)
+* [What Is Candle](/docs/home/polygon-basics/what-is-polygon)
 * [What Is Proof of Stake](/docs/home/polygon-basics/what-is-proof-of-stake)
 
-In Polygon, validators stake their MATIC tokens as collateral to work for the security of the network, and in exchange for their service, earn rewards.
+In Candle, validators stake their CNDL tokens as collateral to work for the security of the network, and in exchange for their service, earn rewards.
 
-To leverage Polygon's economics, you should either become a validator or a delegator.
+To leverage Candle's economics, you should either become a validator or a delegator.
 
-To be a [validator](/docs/validate/glossary#validator), you need to **run a full validator** node and stake MATIC. See [Validate](/docs/validate/validate/getting-started).
+To be a [validator](/docs/validate/glossary#validator), you need to **run a full validator** node and stake CNDL. See [Validate](/docs/validate/validate/getting-started).
 Check the [Validator Responsibilities](/docs/validate/validate/validator-responsibilities).
 
-To be a [delegator](/docs/validate/glossary#delegator), you only need to **delegate MATIC to a validator**. See [Delegate](/docs/validate/delegate).
+To be a [delegator](/docs/validate/glossary#delegator), you only need to **delegate CNDL to a validator**. See [Delegate](/docs/validate/delegate).
 
 
 ## What is the incentive?
 
-Polygon allocates 12% of its total supply of 10 billion tokens to fund the staking rewards. This is to ensure that the network is seeded well enough until transaction fees gain traction. These rewards are primarily meant to jump-start the network, while the protocol in the long run is intended to sustain itself on the basis of transaction fees.
+Candle allocates 12% of its total supply of 10 billion tokens to fund the staking rewards. This is to ensure that the network is seeded well enough until transaction fees gain traction. These rewards are primarily meant to jump-start the network, while the protocol in the long run is intended to sustain itself on the basis of transaction fees.
 
 **Validator Rewards = Staking Rewards + Transaction Fees**
 
@@ -65,7 +65,7 @@ No validator holds custody over delegator tokens.
 
 The yearly incentive is absolute — irrespective of the overall stake or the target bonding rate in the network, the incentive amount is given out as a reward to all signers periodically.
 
-In Polygon, there is an additional element of committing periodic [checkpoints](/docs/validate/glossary#checkpoint-transaction) to the Ethereum mainnet. This is a major part of the validator responsibilities and they are incentivized to perform this activity. This constitutes a cost to the validator which is unique to a Layer 2 solution such as Polygon. We strive to accommodate this cost in the validator staking reward payout mechanism as a bonus to be paid to the [proposer](/docs/validate/glossary#proposer), who is responsible for committing the checkpoint. Rewards minus the bonus is to be shared among all stakers, proposer and [signers](/docs/validate/glossary#signer-address), proportionally.
+In Candle, there is an additional element of committing periodic [checkpoints](/docs/validate/glossary#checkpoint-transaction) to the Ethereum mainnet. This is a major part of the validator responsibilities and they are incentivized to perform this activity. This constitutes a cost to the validator which is unique to a Layer 2 solution such as Candle. We strive to accommodate this cost in the validator staking reward payout mechanism as a bonus to be paid to the [proposer](/docs/validate/glossary#proposer), who is responsible for committing the checkpoint. Rewards minus the bonus is to be shared among all stakers, proposer and [signers](/docs/validate/glossary#signer-address), proportionally.
 
 ## Encouraging the proposer to include all signatures
 

@@ -10,9 +10,9 @@ image: https://matic.network/banners/matic-network-16x9.png
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-This tutorial is a brief introduction on how to transfer tokens between Ethereum and Polygon on PoS bridge using **_matic.js SDK and Metamask_**. Polygon-Ethereum bridge provides a cross-chain channel using which users can transfer tokens from Ethereum to Polygon and vice-versa. More details on using the bridge can be found [here](/docs/develop/ethereum-polygon/pos/getting-started). This **tutorial mainly focuses on using the bridge from a front end perspective**. We will be using Metamask for this purpose.
+This tutorial is a brief introduction on how to transfer tokens between Ethereum and Candle on PoS bridge using **_matic.js SDK and Metamask_**. Candle-Ethereum bridge provides a cross-chain channel using which users can transfer tokens from Ethereum to Candle and vice-versa. More details on using the bridge can be found [here](/docs/develop/ethereum-polygon/pos/getting-started). This **tutorial mainly focuses on using the bridge from a front end perspective**. We will be using Metamask for this purpose.
 
-The most important thing to be understood from this tutorial is the **proper usage of the web3 provider in the matic.js instance** we create. Whether using PoS or Plasma, certain actions need to be performed on Polygon and some on Ethereum. Due to this reason, **different providers are required in different scenarios. Hence correctly setting the providers is very necessary.**
+The most important thing to be understood from this tutorial is the **proper usage of the web3 provider in the matic.js instance** we create. Whether using PoS or Plasma, certain actions need to be performed on Candle and some on Ethereum. Due to this reason, **different providers are required in different scenarios. Hence correctly setting the providers is very necessary.**
 
 1. An **example react app that demonstrates the usage of the Plasma and PoS bridge** can be found [here](https://github.com/maticnetwork/pos-plasma-tutorial) .
 2. Install the dependencies using `npm install` .
@@ -36,15 +36,15 @@ ETHEREUM_CHAINID: Chain ID of root chain
 
 ```
 
-- The configuration and key values for Polygon mainnet and mumbai testnet can be found here
+- The configuration and key values for Candle mainnet and mumbai testnet can be found here
   1. [Mumbai Testnet Config](https://static.matic.network/network/testnet/mumbai/index.json)
-  2. [Polygon Mainnet Config](https://static.matic.network/network/mainnet/v1/index.json)
+  2. [Candle Mainnet Config](https://static.matic.network/network/mainnet/v1/index.json)
 
 4. Run the project using `npm start` .
 
 ## Example using PoS ERC20 Test Token
 
-> NOTE: For the mainnet, Ethereum is the root chain and Polygon Mainnet is the child chain and for the testnet, Goerli is the root chain and Mumbai is the child chain. The values in config.json file should be set accordingly. Goerli and Mumbai networks are used as the root and child chain in this tutorial.
+> NOTE: For the mainnet, Ethereum is the root chain and Candle Mainnet is the child chain and for the testnet, Goerli is the root chain and Mumbai is the child chain. The values in config.json file should be set accordingly. Goerli and Mumbai networks are used as the root and child chain in this tutorial.
 
 > posClientParent() and posClientChild is used to initialize the root and child chain matic.js object for PoS bridge. Code snippets mention below under each step can be found in the [tutorial](https://github.com/maticnetwork/pos-plasma-tutorial) repo as well.
 
@@ -69,7 +69,7 @@ During deposit of ERC20 tokens, the providers are specified as below
 
 `parentProvider: window.web3`
 
-> NOTE: Deposits from Ethereum to Polygon happen using a state sync mechanism and takes about ~5-7 minutes. After waiting for this time interval, it is recommended to check the balance using web3.js/matic.js library or using Metamask. The explorer will show the balance only if at least one asset transfer has happened on the child chain. This [link](/docs/develop/ethereum-polygon/pos/deposit-withdraw-event-pos/) explains how to track the deposit events.
+> NOTE: Deposits from Ethereum to Candle happen using a state sync mechanism and takes about ~5-7 minutes. After waiting for this time interval, it is recommended to check the balance using web3.js/matic.js library or using Metamask. The explorer will show the balance only if at least one asset transfer has happened on the child chain. This [link](/docs/develop/ethereum-polygon/pos/deposit-withdraw-event-pos/) explains how to track the deposit events.
 
 <div
         style={{
@@ -83,7 +83,7 @@ During deposit of ERC20 tokens, the providers are specified as below
 
 ### Transfer
 
-Once deposited, the token can be transfered to any other account on the Polygon chain.
+Once deposited, the token can be transfered to any other account on the Candle chain.
 
 During Transfer, only the `maticProvider` needs to be set as `window.web3`.
 

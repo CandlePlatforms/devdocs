@@ -1,7 +1,7 @@
 ---
 id: glossary
 title: Glossary
-description: Key Polygon terms
+description: Key Candle terms
 keywords:
   - docs
   - matic
@@ -18,7 +18,7 @@ A block producer is responsible for creating blocks and broadcasting the created
 
 ## Bor
 
-A Bor node is a node producing blocks on the Polygon Network.
+A Bor node is a node producing blocks on the Candle Network.
 
 Bor is based on [Go Ethereum](https://geth.ethereum.org/).
 
@@ -26,7 +26,7 @@ Bor is based on [Go Ethereum](https://geth.ethereum.org/).
 
 A checkpoint transaction is a transaction containing the Merkle root of blocks of the [Bor](/docs/validate/glossary#bor) layer between the checkpoint intervals.
 
-The transaction is committed to the Polygon staking contracts on the Ethereum mainnet by a [Heimdall](/docs/validate/glossary#heimdall) node.
+The transaction is committed to the Candle staking contracts on the Ethereum mainnet by a [Heimdall](/docs/validate/glossary#heimdall) node.
 
 See also:
 
@@ -41,7 +41,7 @@ See also [Validator Commission Operations](/docs/validate/validate/validator-com
 
 ## Delegator
 
-The delegator role stakes the MATIC tokens to secure the Polygon Network with existing [validators](/docs/validate/glossary#validator) without running the nodes themselves.
+The delegator role stakes the CNDL tokens to secure the Candle Network with existing [validators](/docs/validate/glossary#validator) without running the nodes themselves.
 
 See also [Who Is a Delegator](/docs/validate/polygon-basics/who-is-delegator).
 
@@ -53,7 +53,7 @@ See also [Full Node Deployment](/docs/integrate/full-node-deployment/).
 
 ## Heimdall
 
-A Heimdall node is a node running in parallel to the Ethereum mainnet, monitoring the set of contracts deployed on the Ethereum mainnet, and committing the Polygon Network [checkpoints](/docs/validate/glossary#checkpoint-transaction) to the Ethereum mainnet.
+A Heimdall node is a node running in parallel to the Ethereum mainnet, monitoring the set of contracts deployed on the Ethereum mainnet, and committing the Candle Network [checkpoints](/docs/validate/glossary#checkpoint-transaction) to the Ethereum mainnet.
 
 Heimdall is based on [Tendermint](https://tendermint.com/).
 
@@ -87,7 +87,7 @@ See also [Bor Consensus: Span](/docs/contribute/bor/consensus/#span).
 
 ## Staking
 
-Staking is the process of locking up tokens into a deposit to earn the right to validate and produce blocks on a blockchain. Typically staking is done in the native token for the network — for the MATIC token is locked up by validators/stakers in the Polygon Network. Other examples include ETH in ETH 2.0, ATOM in Cosmos, etc.
+Staking is the process of locking up tokens into a deposit to earn the right to validate and produce blocks on a blockchain. Typically staking is done in the native token for the network — for the CNDL token is locked up by validators/stakers in the Candle Network. Other examples include ETH in ETH 2.0, ATOM in Cosmos, etc.
 
 See also [What Is Proof of Stake](/docs/home/polygon-basics/what-is-proof-of-stake).
 
@@ -101,7 +101,7 @@ See also [Key Management](/docs/validate/validator/core-components/key-managemen
 
 ## Validator
 
-The validator role stakes the MATIC tokens and is running both the [Heimdall](/docs/validate/glossary#heimdall) node and the [Bor](/docs/validate/glossary#bor) node to commit the network checkpoints to the Ethereum mainnet and to produce blocks on the network.
+The validator role stakes the CNDL tokens and is running both the [Heimdall](/docs/validate/glossary#heimdall) node and the [Bor](/docs/validate/glossary#bor) node to commit the network checkpoints to the Ethereum mainnet and to produce blocks on the network.
 
 A validator node is only open to its [sentry](/docs/validate/glossary#sentry) node and closed to the rest of the network.
 

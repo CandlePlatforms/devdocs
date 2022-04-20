@@ -19,12 +19,12 @@ const txReceipt = await result.getReceipt();
 
 ```
 
-## Transfer MATIC token
+## Transfer CNDL token
 
-MATIC is native token on polygon. So we support transfer of matic tokens without any token address.
+CNDL is native token on polygon. So we support transfer of matic tokens without any token address.
 
 ```
-// initialize token with null means use MATIC tokens
+// initialize token with null means use CNDL tokens
 const erc20Token = plasmaClient.erc20(null);
 
 const result = await erc20Token.transfer(<amount>,<to>);

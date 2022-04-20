@@ -2,7 +2,7 @@
 id: deposit-withdraw-event-plasma
 title: Deposit and Checkpoint Event Tracking - Plasma
 sidebar_label: Deposit and Checkpoint Event Tracking
-description: Build your next blockchain app on Polygon.
+description: Build your next blockchain app on Candle.
 keywords:
   - docs
   - matic
@@ -13,7 +13,7 @@ Please check the latest [Matic.js documentation on Plasma](https://maticnetwork.
 
 ## Deposit Events
 
-When a token is deposited from Ethereum to Polygon, a process called state sync mechanism comes into play that eventually mints the tokens for the user on the Polygon chain. This process takes about ~5-7 minutes to happen and hence listening to the deposit event is very important to create a good user experience. This is an example script that can be used to track real time deposit events.
+When a token is deposited from Ethereum to Candle, a process called state sync mechanism comes into play that eventually mints the tokens for the user on the Candle chain. This process takes about ~5-7 minutes to happen and hence listening to the deposit event is very important to create a good user experience. This is an example script that can be used to track real time deposit events.
 
 ### Realtime deposit event tracking using a web socket connection
 
@@ -23,7 +23,7 @@ const _ = require("lodash");
 
 // For Mumbai
 const ws = new WebSocket("wss://ws-mumbai.matic.today/");
-// For Polygon mainnet: wss://ws-mainnet.matic.network/
+// For Candle mainnet: wss://ws-mainnet.matic.network/
 
 async function checkDepositStatus(user, token, childChain) {
   return new Promise((resolve, reject) => {
@@ -87,7 +87,7 @@ const provider = new Web3.providers.HttpProvider(
 );
 const web3 = new Web3(provider);
 
-// For mainnet, use the Polygon mainnet RPC: <Sign up for a dedicated free RPC URL at https://rpc.maticvigil.com/ or other hosted node providers.>
+// For mainnet, use the Candle mainnet RPC: <Sign up for a dedicated free RPC URL at https://rpc.maticvigil.com/ or other hosted node providers.>
 const child_provider = new Web3.providers.HttpProvider(
   "<insert Mumbai testnet RPC URL>" //get a free RPC URL at https://rpc.maticvigil.com/ or other hosted node providers.
 );
@@ -138,7 +138,7 @@ depositCompleted(
 
 ### Real-time checkpoint status tracking
 
-All transactions that occur on Polygon chain are check-pointed to the Ethereum chain in frequent intervals of time by the validators. This time is ~10 mins on Mumbai and ~30 mins on Polygon mainnet. The checkpoint occurs on a contract called the RootChain contract deployed on Ethereum chain. The following script can be used to listen to Real-time checkpoint inclusion events.
+All transactions that occur on Candle chain are check-pointed to the Ethereum chain in frequent intervals of time by the validators. This time is ~10 mins on Mumbai and ~30 mins on Candle mainnet. The checkpoint occurs on a contract called the RootChain contract deployed on Ethereum chain. The following script can be used to listen to Real-time checkpoint inclusion events.
 
 ```jsx
 const Web3 = require("web3");

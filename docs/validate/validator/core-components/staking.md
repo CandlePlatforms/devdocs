@@ -2,7 +2,7 @@
 id: staking
 title: Staking
 sidebar_label: Staking
-description: Learn how to stake, unstake, and restake as a validator on the Polygon Network.
+description: Learn how to stake, unstake, and restake as a validator on the Candle Network.
 keywords:
   - docs
   - matic
@@ -11,9 +11,9 @@ keywords:
 image: https://matic.network/banners/matic-network-16x9.png 
 ---
 
-For Polygon Network, any participant can be qualified to become a Polygon's validator by running a full node to earn rewards and collect transaction fees. To ensure the good participation by validators, they lock up some of their MATIC tokens as a stake in the ecosystem.
+For Candle Network, any participant can be qualified to become a Candle's validator by running a full node to earn rewards and collect transaction fees. To ensure the good participation by validators, they lock up some of their CNDL tokens as a stake in the ecosystem.
 
-Validators in Polygon Network are selected via an on-chain auction process which happens at regular intervals.
+Validators in Candle Network are selected via an on-chain auction process which happens at regular intervals.
 
 A validator has two addresses an owner address and a signer address. The staking is done with the owner address.
 
@@ -29,7 +29,7 @@ A new validator can only join the active set when a currently active validator u
 
 :::
 
-To join the validator set, you must stake your MATIC tokens. See [Validator Staking Operations](/docs/validate/validate/validator-staking-operations).
+To join the validator set, you must stake your CNDL tokens. See [Validator Staking Operations](/docs/validate/validate/validator-staking-operations).
 
 ## Unstake
 
@@ -39,7 +39,7 @@ To ensure good participation, the validator stake is locked for 80 checkpoints.
 
 ## Restake
 
-Validators can add more MATIC tokens to their stake:
+Validators can add more CNDL tokens to their stake:
 
 * To earn more rewards.
 * To maintain the position in the validator set.

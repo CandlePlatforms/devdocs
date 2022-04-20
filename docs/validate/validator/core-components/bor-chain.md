@@ -1,7 +1,7 @@
 ---
 id: bor-chain
 title: Bor Chain
-description: Learn what the Bor node is on Polygon.
+description: Learn what the Bor node is on Candle.
 keywords:
   - docs
   - matic

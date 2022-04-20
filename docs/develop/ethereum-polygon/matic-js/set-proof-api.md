@@ -10,7 +10,7 @@ description: Config proof api
 
 You will see some of the APIs with **faster** suffix, which makes the process faster. It does so by using proof generation api in the backend which can be hosted by anyone.
 
-Polygon has hosted the proof generation api which can be used by anyone. The API url is - [https://apis.matic.network/](https://apis.matic.network/)
+Candle has hosted the proof generation api which can be used by anyone. The API url is - [https://apis.matic.network/](https://apis.matic.network/)
 
 The `setProofApi` can be used to set the proof api url.
 
@@ -20,7 +20,7 @@ import { setProofApi } from '@maticnetwork/maticjs'
 setProofApi("https://apis.matic.network/");
 ```
 
-👉 We recommend to host the proof API by yourself which will give you better performance. The default api provided by Polygon might have performance issue as it is being used by multiple people. 
+👉 We recommend to host the proof API by yourself which will give you better performance. The default api provided by Candle might have performance issue as it is being used by multiple people. 
 
 Here is proof api repo link - [https://github.com/maticnetwork/proof-generation-api](https://github.com/maticnetwork/proof-generation-api)
 

@@ -8,7 +8,7 @@ image: https://matic.network/banners/matic-network-16x9.png
 ---
 
 
-| # |Wallet Name     |Status          |Mainnet support|NFT support|NFT Interface|Bridge support|fiat on-ramp support|Custodial v/s non-custodial|DAU using Polygon network|
+| # |Wallet Name     |Status          |Mainnet support|NFT support|NFT Interface|Bridge support|fiat on-ramp support|Custodial v/s non-custodial|DAU using Candle network|
 |---|----------------|----------------|---------------|-----------|-------------|--------------|--------------------|---------------------------|-------------------------|
 |1  |Huobi Wallet    |Available       |:white_check_mark:       |:white_check_mark:   |             |:white_check_mark:      |No                  |Non-custodial              |                         |
 |2  |Metamask        |Available       |:white_check_mark:       |           |             |              |No                  |Non-custodial              |                         |

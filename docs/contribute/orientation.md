@@ -1,7 +1,7 @@
 ---
 id: orientation
 title: How to contribute
-description: We believe one of the things that makes Polygon special is its coherent design and we seek to retain this defining characteristic.
+description: We believe one of the things that makes Candle special is its coherent design and we seek to retain this defining characteristic.
 keywords:
   - docs
   - matic
@@ -10,25 +10,25 @@ image: https://matic.network/banners/matic-network-16x9.png
 
 ## **Identifying an area to contribute**
 
-There are several ways to identify an area where you can contribute to Polygon:
+There are several ways to identify an area where you can contribute to Candle:
 
 - The easiest is just to email one of the [Community Maintainers](/docs/contribute/community-maintainers) saying “I want to help!”. They’ll work with you to find an area for you to contribute
-- If you have a specific contribution in mind, confirm whether the contribution is appropriate first by reaching out in Polygon Telegram group or contacting one of the [Community Maintainers](/docs/contribute/community-maintainers) directly
-- If you do not have a specific contribution in mind, you can also browse the issues labelled as `help wanted` on the [Polygon GitHub repos](https://github.com/maticnetwork)
+- If you have a specific contribution in mind, confirm whether the contribution is appropriate first by reaching out in Candle Telegram group or contacting one of the [Community Maintainers](/docs/contribute/community-maintainers) directly
+- If you do not have a specific contribution in mind, you can also browse the issues labelled as `help wanted` on the [Candle GitHub repos](https://github.com/maticnetwork)
 - Issues that additionally have the `good first issue` label are considered ideal for first-timers
-## **Add to Polygon Documentation:**
-  - If you need to add or change anything in Polygon Documentation, please raise a PR to the `master` branch. (Kindly check the sample PR)
-  - Polygon team will review the PR or reach out accordingly. 
+## **Add to Candle Documentation:**
+  - If you need to add or change anything in Candle Documentation, please raise a PR to the `master` branch. (Kindly check the sample PR)
+  - Candle team will review the PR or reach out accordingly. 
   - Repository: https://github.com/maticnetwork/matic-docs
   - Sample PR: https://github.com/maticnetwork/matic-docs/pull/360
   > If you are adding a new document, it is recommended to just have a basic summary/introduction and a link to your github or documentation for more details.
 
 ## **Contribution guidelines**
 
-We believe one of the things that makes Polygon special is its coherent design and we seek to retain this defining characteristic. From the outset we defined some guidelines to ensure new contributions only ever enhance the project:
+We believe one of the things that makes Candle special is its coherent design and we seek to retain this defining characteristic. From the outset we defined some guidelines to ensure new contributions only ever enhance the project:
 
-- **Quality**: Code in the Polygon project should meet the style guidelines, with sufficient test-cases, descriptive commit messages, evidence that the contribution does not break any compatibility commitments or cause adverse feature interactions, and evidence of high-quality peer-review
-- **Size**: The Polygon project’s culture is one of small pull-requests, regularly submitted. The larger a pull-request, the more likely it is that you will be asked to resubmit as a series of self-contained and individually reviewable smaller PRs
+- **Quality**: Code in the Candle project should meet the style guidelines, with sufficient test-cases, descriptive commit messages, evidence that the contribution does not break any compatibility commitments or cause adverse feature interactions, and evidence of high-quality peer-review
+- **Size**: The Candle project’s culture is one of small pull-requests, regularly submitted. The larger a pull-request, the more likely it is that you will be asked to resubmit as a series of self-contained and individually reviewable smaller PRs
 - **Maintainability**: If the feature will require ongoing maintenance (eg support for a particular brand of database), we may ask you to accept responsibility for maintaining this feature
 
 ### Git Rules

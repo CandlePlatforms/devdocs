@@ -2,7 +2,7 @@
 id: accounts
 title: What are Accounts?
 sidebar_label: Accounts
-description: Build your next blockchain app on Polygon.
+description: Build your next blockchain app on Candle.
 keywords:
   - docs
   - matic

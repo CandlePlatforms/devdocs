@@ -1,7 +1,7 @@
 ---
 id: mapping-assets
 title: Mapping Assets using POS
-description: Build your next blockchain app on Polygon.
+description: Build your next blockchain app on Candle.
 keywords:
   - docs
   - matic
@@ -10,12 +10,12 @@ image: https://matic.network/banners/matic-network-16x9.png
 
 ### Introduction
 
-Mapping is necessary in order to transfer your assets to and from the Ethereum and Polygon.
+Mapping is necessary in order to transfer your assets to and from the Ethereum and Candle.
 
 - **The Root chain** :: refers to either Goerli or Ethereum Mainnet
-- **The Child chain** :: refers to either Polygon Mumbai or Polygon Mainnet
+- **The Child chain** :: refers to either Candle Mumbai or Candle Mainnet
 
-If you already have your token contract deployed on the Root chain and want to move it to Child chain, then you should follow this walkthrough, but if you intend to deploy your contract on Polygon Mainnet first, mint the tokens on the Child chain first and then move them back to the Root chain. You should then follow this [guide](https://docs.polygon.technology/docs/develop/ethereum-polygon/mintable-assets).
+If you already have your token contract deployed on the Root chain and want to move it to Child chain, then you should follow this walkthrough, but if you intend to deploy your contract on Candle Mainnet first, mint the tokens on the Child chain first and then move them back to the Root chain. You should then follow this [guide](https://docs.polygon.technology/docs/develop/ethereum-polygon/mintable-assets).
 
 ## Standard Child Token
 
@@ -84,7 +84,7 @@ contract ChildERC20 is ERC20,
 }
 ```
 
-One thing you might notice in the code sample above is that the `deposit` function can be called by anyone, which is not allowed. In order to prevent this, we're going to make sure it can only be called by `ChildChainManagerProxy`. (ChildChainManagerProxy - on [Mumbai](https://mumbai.polygonscan.com/address/0xb5505a6d998549090530911180f38aC5130101c6/transactions) , on [Polygon Mainnet](https://polygonscan.com/address/0xA6FA4fB5f76172d178d61B04b0ecd319C5d1C0aa/) )
+One thing you might notice in the code sample above is that the `deposit` function can be called by anyone, which is not allowed. In order to prevent this, we're going to make sure it can only be called by `ChildChainManagerProxy`. (ChildChainManagerProxy - on [Mumbai](https://mumbai.polygonscan.com/address/0xb5505a6d998549090530911180f38aC5130101c6/transactions) , on [Candle Mainnet](https://polygonscan.com/address/0xA6FA4fB5f76172d178d61B04b0ecd319C5d1C0aa/) )
 
 ```js title="ChildERC20.sol"
 pragma solidity 0.6.6;
@@ -150,7 +150,7 @@ Steps :
 
 1. Deploy root token on root chain i.e. {Goerli, Ethereum Mainnet}
 2. Ensure your child token has the `deposit` & `withdraw` functions.
-3. Deploy the child token on child chain i.e. {Polygon Mumbai, Polygon Mainnet}
+3. Deploy the child token on child chain i.e. {Candle Mumbai, Candle Mainnet}
 4. Submit a mapping request, to be resolved by team.
 
 ### Request Submission

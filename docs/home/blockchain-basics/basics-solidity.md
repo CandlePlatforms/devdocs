@@ -2,7 +2,7 @@
 id: solidity
 title: What is Solidity?
 sidebar_label: Solidity
-description: Build your next blockchain app on Polygon.
+description: Build your next blockchain app on Candle.
 keywords:
   - docs
   - matic

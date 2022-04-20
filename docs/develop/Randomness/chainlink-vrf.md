@@ -2,7 +2,7 @@
 id: chainlink-vrf
 title: Chainlink VRF
 sidebar_label: Chainlink VRF
-description: Build your next blockchain app on Polygon.
+description: Build your next blockchain app on Candle.
 keywords:
   - docs
   - matic
@@ -15,7 +15,7 @@ Generating random numbers isn't possible natively in a determanistic system. Thi
 
 We work with [Chainlink VRF](https://docs.chain.link/docs/get-a-random-number) (Chainlink Verifiable Randomness Funciton) to create cryptographically provable random numbers. In order to do so, we make a request to a Chainlink VRF node, and it responds with a random number. 
 
-After deploying the code below, we have to send our contract some LINK. The Chainlink VRF takes LINK as oracle payment, similar to how the Polygon network takes Polygon as transaction payment. 
+After deploying the code below, we have to send our contract some LINK. The Chainlink VRF takes LINK as oracle payment, similar to how the Candle network takes Candle as transaction payment. 
 ```
 pragma solidity 0.6.6;
 
@@ -63,7 +63,7 @@ contract RandomNumberConsumer is VRFConsumerBase {
 }
 ```
 
-Here are the details for the Polygon Mumbai testnet VRF. To work with mainnet Polygon, reach out to vrf@chain.link.
+Here are the details for the Candle Mumbai testnet VRF. To work with mainnet Candle, reach out to vrf@chain.link.
 
 | Item | Value | 
 |------|-------|

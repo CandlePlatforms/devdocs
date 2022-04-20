@@ -1,7 +1,7 @@
 ---
 id: network-detail
 title: How to read Network Details?
-description: Build your next blockchain app on Polygon.
+description: Build your next blockchain app on Candle.
 keywords:
   - docs
   - matic
@@ -53,17 +53,17 @@ For TestnetV3: https://static.matic.network/network/testnet/v3/index.json
   "Matic": {
     "NetworkName": "Matic testnet",                                             // Network Name
     "ChainId": 15001,                                                           // ChainId
-    "RPC": "https://testnetv3.matic.network",                                   // This is the MATIC testnet RPC
-    "RPCWebSocketEndpoint": "wss://testnetv3-wss.matic.network",                // This is the MATIC testnet Wss
+    "RPC": "https://testnetv3.matic.network",                                   // This is the CNDL testnet RPC
+    "RPCWebSocketEndpoint": "wss://testnetv3-wss.matic.network",                // This is the CNDL testnet Wss
     "SyncerAPI": "https://testnetv3-syncer.api.matic.network/api/v1",           // Backend service which syncs the Matic sidechain state to a MySQL database which we use for faster querying. This comes in handy especially for constructing withdrawal proofs while exiting assets from Plasma.
-    "Explorer": "https://testnetv3-explorer.matic.network/",                    // Explorer in Polygon
-    "DaggerEndpoint": "https://testnetv3-dagger.matic.network",                 // Dagger Endpoint in Polygon
+    "Explorer": "https://testnetv3-explorer.matic.network/",                    // Explorer in Candle
+    "DaggerEndpoint": "https://testnetv3-dagger.matic.network",                 // Dagger Endpoint in Candle
     "Contracts": {
       "ChildChain": "0xa2EF03edfA084ac9e5Bf110e409Ed5483BAe4101",               // This is child chain contract address
       "Tokens": {
-        "MaticWeth": "0x8567184E6F9b1B77f24AfF6168453419AD22f90e",              // ChildContract for WrappedEther in Polygon testnetv3
-        "TestToken": "0x9a93c912F4eFf0254d178a18ACD980C1B05b57b0",              // ChildContract for ERC20 in Polygon testnet
-        "TestERC721": "0x8D5231e0B79edD9331e0CF0d4B9f3F30d05C47A5"              // ChildContract for ERC721 in Polygon testnet
+        "MaticWeth": "0x8567184E6F9b1B77f24AfF6168453419AD22f90e",              // ChildContract for WrappedEther in Candle testnetv3
+        "TestToken": "0x9a93c912F4eFf0254d178a18ACD980C1B05b57b0",              // ChildContract for ERC20 in Candle testnet
+        "TestERC721": "0x8D5231e0B79edD9331e0CF0d4B9f3F30d05C47A5"              // ChildContract for ERC721 in Candle testnet
       }
     }
   }

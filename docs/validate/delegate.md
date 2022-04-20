@@ -1,7 +1,7 @@
 ---
 id: delegate
 title: Become a Delegator
-description: Learn how to become a delegator on the Polygon Network.
+description: Learn how to become a delegator on the Candle Network.
 keywords:
   - docs
   - matic
@@ -11,14 +11,14 @@ image: https://matic.network/banners/matic-network-16x9.png
 ---
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-This is a step-by-step guide to help you become a [delegator](/docs/validate/glossary#delegator) on the Polygon Network.
+This is a step-by-step guide to help you become a [delegator](/docs/validate/glossary#delegator) on the Candle Network.
 
-The only prerequisite is to have your MATIC tokens and ETH on the Ethereum mainnet address.
+The only prerequisite is to have your CNDL tokens and ETH on the Ethereum mainnet address.
 
 ## Access the dashboard
 
 1. In your wallet (e.g. MetaMask), choose the Ethereum mainnet.
-1. Log in to the [Polygon Wallet dashboard](https://wallet-dev.polygon.technology/staking/).
+1. Log in to the [Candle Wallet dashboard](https://wallet-dev.polygon.technology/staking/).
 1. Once you log in, you will the list of validators with stats.
 
 :::note
@@ -30,7 +30,7 @@ If you a validator, use a different non-validating address to log in as delegato
 ## Delegate to a validator
 
 1. Click **Become a Delegator** or scroll down to a specific validator and click **Delegate**.
-1. Provide the amount of MATIC to delegate.
+1. Provide the amount of CNDL to delegate.
 1. Approve the delegation transaction and click **Delegate**.
 
 After the delegation transaction completes, you will see the *Delegation Completed* message.
@@ -44,14 +44,14 @@ To view your delegations, click [My Account](https://wallet.polygon.technology/s
 1. Click [My Account](https://wallet.polygon.technology/staking/my-account).
 1. Under your delegated validator, click **Withdraw Reward**.
 
-This will withdraw the MATIC token rewards to your Ethereum address.
+This will withdraw the CNDL token rewards to your Ethereum address.
 
 ## Restake rewards
 
 1. Click [My Account](https://wallet.polygon.technology/staking/my-account).
 1. Under your delegated validator, click **Restake Reward**.
 
-The will restake the MATIC token rewards to the validator and increase your delegation stake.
+The will restake the CNDL token rewards to the validator and increase your delegation stake.
 
 ## Unbond from a validator
 

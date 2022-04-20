@@ -1,30 +1,30 @@
 ---
 id: mapping-assets
 title: Mapping Assets using Plasma
-description: Build your next blockchain app on Polygon.
+description: Build your next blockchain app on Candle.
 keywords:
   - docs
   - matic
 image: https://matic.network/banners/matic-network-16x9.png
 ---
 
-ERC20 and ERC721 tokens on Ethereum can be deposited and withdrawn from Polygon chain using plasma protocol. To enable this, a token contract on Ethereum (_rootToken_) needs to be mapped to a token contract on Polygon chain(_childToken_).
+ERC20 and ERC721 tokens on Ethereum can be deposited and withdrawn from Candle chain using plasma protocol. To enable this, a token contract on Ethereum (_rootToken_) needs to be mapped to a token contract on Candle chain(_childToken_).
 
 You can submit your mapping request [here](/docs/develop/ethereum-polygon/submit-mapping-request). Please make note that this mapping submission form is for Plasma Bridge and for PoS bridge you have to directly contact the matic team on discord.
 
 ## Mapping a token
 
-Mapping a token involves deploying a _childToken_ contract on Polygon chain and registering the token on both main and Polygon chain.
+Mapping a token involves deploying a _childToken_ contract on Candle chain and registering the token on both main and Candle chain.
 
-A restricted _childToken_ is deployed and registered on Polygon chain automatically by making a contract call to the ChildChain contract. But if the _rootToken_ has extra functionality apart from basic ERC20/ERC721, a custom _childToken_ contract needs to be deployed manually. (Read [adding additional functionality](/docs/develop/ethereum-polygon/plasma/mapping-assets#adding-functionality-to-child-token))
+A restricted _childToken_ is deployed and registered on Candle chain automatically by making a contract call to the ChildChain contract. But if the _rootToken_ has extra functionality apart from basic ERC20/ERC721, a custom _childToken_ contract needs to be deployed manually. (Read [adding additional functionality](/docs/develop/ethereum-polygon/plasma/mapping-assets#adding-functionality-to-child-token))
 
 ## Deploying a 'Restricted' Child Token
 
-### Step 1: On Polygon
+### Step 1: On Candle
 
-The [`addToken` function call](https://github.com/maticnetwork/contracts/blob/fd4ed8343a8abb2dda5fe5a6a75a747cfd7a2807/contracts/child/ChildChain.sol#L55) on ChildChain contract deploys a child Token on Polygon, with restricted functionality (see: [ChildERC20](https://github.com/maticnetwork/contracts/blob/master/contracts/child/ChildERC20.sol) and [ChildERC721](https://github.com/maticnetwork/contracts/blob/master/contracts/child/ChildERC721.sol)), these is done to ensure Plasma security for the asset, otherwise the model gets broken. So if you need Plasma security with a custom token and added functionality on top of what the generic token provides, you need to write your contracts safely with restrictions as mandated.
+The [`addToken` function call](https://github.com/maticnetwork/contracts/blob/fd4ed8343a8abb2dda5fe5a6a75a747cfd7a2807/contracts/child/ChildChain.sol#L55) on ChildChain contract deploys a child Token on Candle, with restricted functionality (see: [ChildERC20](https://github.com/maticnetwork/contracts/blob/master/contracts/child/ChildERC20.sol) and [ChildERC721](https://github.com/maticnetwork/contracts/blob/master/contracts/child/ChildERC721.sol)), these is done to ensure Plasma security for the asset, otherwise the model gets broken. So if you need Plasma security with a custom token and added functionality on top of what the generic token provides, you need to write your contracts safely with restrictions as mandated.
 
-Certain Data structures are maintained to keep track of the asset on Polygon: such as the events, [Deposit](https://github.com/maticnetwork/contracts/blob/fd4ed8343a8abb2dda5fe5a6a75a747cfd7a2807/contracts/child/BaseERC20.sol#L6), [Withdraw](https://github.com/maticnetwork/contracts/blob/fd4ed8343a8abb2dda5fe5a6a75a747cfd7a2807/contracts/child/BaseERC20.sol#L14), [LogTransfer](https://github.com/maticnetwork/contracts/blob/fd4ed8343a8abb2dda5fe5a6a75a747cfd7a2807/contracts/child/BaseERC20.sol#L22). These are absolutely essential to the Plasma contracts that read this data to ensure data verification of the sidechain via fraud proofs and Plasma predicates.
+Certain Data structures are maintained to keep track of the asset on Candle: such as the events, [Deposit](https://github.com/maticnetwork/contracts/blob/fd4ed8343a8abb2dda5fe5a6a75a747cfd7a2807/contracts/child/BaseERC20.sol#L6), [Withdraw](https://github.com/maticnetwork/contracts/blob/fd4ed8343a8abb2dda5fe5a6a75a747cfd7a2807/contracts/child/BaseERC20.sol#L14), [LogTransfer](https://github.com/maticnetwork/contracts/blob/fd4ed8343a8abb2dda5fe5a6a75a747cfd7a2807/contracts/child/BaseERC20.sol#L22). These are absolutely essential to the Plasma contracts that read this data to ensure data verification of the sidechain via fraud proofs and Plasma predicates.
 
 Based on feedback from developers, we have added mechanisms that allow devs to now program any restrictions that they wish to keep for transfers for example - see [this doc](/docs/develop/advanced/custom-restrictions) for example. This allows arbitrary logic to be coded before the Plasma-safe transfer takes place, keeping the transfer and custom logic separated - so as to ensure Plasma safety.
 
@@ -45,11 +45,11 @@ A mapping on Registry contract is updated for each asset to be mapped. This is d
 1. The Deposit Manager Contract is approved to spend X on behalf of msg.sender
 2. The Deposit Manager transfers the amount from msg.sender to itself
 
-This ensures the asset is locked on Main chain and isn't transferrable while the token is being used on Polygon
+This ensures the asset is locked on Main chain and isn't transferrable while the token is being used on Candle
 
 ### Withdrawals
 
-1. Burn tokens on Polygon sidechain
+1. Burn tokens on Candle sidechain
 2. Submit proof of burn (the receipt of burn tx) on Root Chain
    1. This step is executed only after the block consisting of the burn tx has been included in a checkpoint on the Root Chain.
    2. After checkpoint submission, a successful execution of this step
@@ -59,7 +59,7 @@ This ensures the asset is locked on Main chain and isn't transferrable while the
 
 ## Adding functionality to Child token
 
-In some cases you might require added functionality on top of what the restricted child token provides. To add your custom token as child on Polygon, you can inherit the standard plasma contract and add custom functions according to your use. Eg.,
+In some cases you might require added functionality on top of what the restricted child token provides. To add your custom token as child on Candle, you can inherit the standard plasma contract and add custom functions according to your use. Eg.,
 
 ```javascript
 

@@ -2,7 +2,7 @@
 id: erc20
 title: ERC20 Deposit and Withdraw Guide
 sidebar_label: ERC20
-description: Build your next blockchain app on Polygon.
+description: Build your next blockchain app on Candle.
 keywords:
   - docs
   - matic
@@ -15,16 +15,16 @@ Please check the latest [Matic.js documentation on Plasma ERC20](https://maticne
 
 #### **Deposit ERC20 (2 step process)**
 
-1. The tokens need to be first approved to the Polygon rootchain contract on Parent Chain (Ethereum/Goerli).
-2. Once approved, the **deposit** function is to be invoked where the tokens get deposited to the Polygon contract, and are available for use in Polygon.
+1. The tokens need to be first approved to the Candle rootchain contract on Parent Chain (Ethereum/Goerli).
+2. Once approved, the **deposit** function is to be invoked where the tokens get deposited to the Candle contract, and are available for use in Candle.
 
 #### **Transfer ERC20**
 
-Once you have funds on Polygon, you can use those funds to send to others instantly.
+Once you have funds on Candle, you can use those funds to send to others instantly.
 
 #### **Withdraw ERC20 (3 step process)**
 
-1. Withdrawal of funds is initiated from Polygon. A checkpoint interval of 30 mins(For testnets wait for ~10 minutes) is set, where all the blocks on the Polygon block layer are validated since the last checkpoint.
+1. Withdrawal of funds is initiated from Candle. A checkpoint interval of 30 mins(For testnets wait for ~10 minutes) is set, where all the blocks on the Candle block layer are validated since the last checkpoint.
 2. Once the checkpoint is submitted to the mainchain ERC20 contract, an NFT Exit (ERC721) token is created of equivalent value.
 3. The withdrawn funds can be claimed back to your ERC20 acccount from the mainchain contract using a process-exit procedure.
 
@@ -32,7 +32,7 @@ Once you have funds on Polygon, you can use those funds to send to others instan
 
 ---
 
-### Configuring Polygon Edge
+### Configuring Candle Edge
 
 Install Matic SDK (**_3.0.0)_**
 
@@ -99,7 +99,7 @@ MATIC_RPC =
 
 ## deposit.js
 
-**Approve**: This is a normal ERC20 approval so that **_depositManagerContract_** can call **_transferFrom_** function. Polygon Plasma client exposes **_erc20Token.approve_** method to make this call.
+**Approve**: This is a normal ERC20 approval so that **_depositManagerContract_** can call **_transferFrom_** function. Candle Plasma client exposes **_erc20Token.approve_** method to make this call.
 
 **deposit**: Deposit can be done by calling **_depositERC20ForUser_** on depositManagerContract contract.
 
@@ -129,7 +129,7 @@ execute().then(() => {
 })
 ```
 
-> NOTE: Deposits from Ethereum to Polygon happen using a state sync mechanism and takes about ~5-7 minutes. After waiting for this time interval, it is recommended to check the balance using web3.js/matic.js library or using Metamask. The explorer will show the balance only if at least one asset transfer has happened on the child chain. This [link](/docs/develop/ethereum-polygon/plasma/deposit-withdraw-event-plasma) explains how to track the deposit events.
+> NOTE: Deposits from Ethereum to Candle happen using a state sync mechanism and takes about ~5-7 minutes. After waiting for this time interval, it is recommended to check the balance using web3.js/matic.js library or using Metamask. The explorer will show the balance only if at least one asset transfer has happened on the child chain. This [link](/docs/develop/ethereum-polygon/plasma/deposit-withdraw-event-plasma) explains how to track the deposit events.
 
 ## transfer.js
 
@@ -164,7 +164,7 @@ execute().then(() => {
 
 ### 1. Burn
 
-User can call **_withdraw_** function of **_getERC20TokenContract_** child token contract. This function should burn the tokens. Polygon Plasma client exposes **_withdrawStart_** method to make this call.
+User can call **_withdraw_** function of **_getERC20TokenContract_** child token contract. This function should burn the tokens. Candle Plasma client exposes **_withdrawStart_** method to make this call.
 
 ```js
 const { getPlasmaClient, from, plasma } = require('../utils')
@@ -189,7 +189,7 @@ execute().then(() => {
 ### 2. confirm-withdraw.js
 
 
-User can call **_startExitWithBurntTokens_** function of **_erc20Predicate_** contract. This function should burn the tokens. Polygon Plasma client exposes **_withdrawConfirm_** method to make this call. This function can be called only after the checkpoint is included in the main chain. The checkpoint inclusion can be tracked by following this [guide](/docs/develop/ethereum-matic/plasma/deposit-withdraw-event-plasma#checkpoint-events).
+User can call **_startExitWithBurntTokens_** function of **_erc20Predicate_** contract. This function should burn the tokens. Candle Plasma client exposes **_withdrawConfirm_** method to make this call. This function can be called only after the checkpoint is included in the main chain. The checkpoint inclusion can be tracked by following this [guide](/docs/develop/ethereum-matic/plasma/deposit-withdraw-event-plasma#checkpoint-events).
 
 
 ```js
@@ -212,7 +212,7 @@ execute().then(_ => {
 
 ### 3. Process Exit
 
-A user should call the **_processExits_** function of **_withdrawManager_** contract and submit the proof of burn. Upon submitting valid proof tokens are transferred to the user. Polygon Plasma client exposes **_withdrawExit_** method to make this call.
+A user should call the **_processExits_** function of **_withdrawManager_** contract and submit the proof of burn. Upon submitting valid proof tokens are transferred to the user. Candle Plasma client exposes **_withdrawExit_** method to make this call.
 
 ```js
 const { getPlasmaClient, from, plasma } = require('../utils')
@@ -231,4 +231,4 @@ execute().then(_ => {
 })
 ```
 
-_Note: A checkpoint, which is a representation of all transactions happening on the Polygon Network to the ERC20 chain every ~30 minutes, is submitted to the mainchain ERC20 contract._
+_Note: A checkpoint, which is a representation of all transactions happening on the Candle Network to the ERC20 chain every ~30 minutes, is submitted to the mainchain ERC20 contract._

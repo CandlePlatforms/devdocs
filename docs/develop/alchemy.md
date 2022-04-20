@@ -2,66 +2,66 @@
 id: alchemy
 title: Using Alchemy
 sidebar_label: Using Alchemy
-description: Build your next blockchain app on Polygon.
+description: Build your next blockchain app on Candle.
 keywords:
   - docs
   - matic
 image: https://matic.network/banners/matic-network-16x9.png 
 ---
 
-# 🌎 Hello World Smart Contract on Polygon
+# 🌎 Hello World Smart Contract on Candle
 
 _Estimated time to complete this guide: \~15 minutes_
 
-If you are new to blockchain development and don’t know where to start, or if you just want to understand how to deploy and interact with smart contracts, this guide is for you. We will walk through creating and deploying a simple smart contract on the Polygon Mumbai test network using a virtual wallet ([Metamask](https://metamask.io)), [Solidity](https://docs.soliditylang.org/en/v0.8.0/), [Hardhat](https://hardhat.org), and [Alchemy](https://alchemy.com/?a=polygon-docs) (don’t worry if you don’t understand what any of this means yet, we will explain it!).
+If you are new to blockchain development and don’t know where to start, or if you just want to understand how to deploy and interact with smart contracts, this guide is for you. We will walk through creating and deploying a simple smart contract on the Candle Mumbai test network using a virtual wallet ([Metamask](https://metamask.io)), [Solidity](https://docs.soliditylang.org/en/v0.8.0/), [Hardhat](https://hardhat.org), and [Alchemy](https://alchemy.com/?a=polygon-docs) (don’t worry if you don’t understand what any of this means yet, we will explain it!).
 
 If you have questions at any point feel free to reach out in the [Alchemy Discord](https://discord.gg/gWuC7zB)!
 
 ## Create and Deploy your Smart Contract using Hardhat
 
-### Step 1: Connect to the Polygon network
+### Step 1: Connect to the Candle network
 
-There are many ways to make requests to the Polygon chain. For simplicity, we’ll use a free account on Alchemy, a blockchain developer platform and API that allows us to communicate with the Polygon chain without having to run our own nodes. The platform also has developer tools for monitoring and analytics that we’ll take advantage of in this tutorial to understand what’s going on under the hood in our smart contract deployment. If you don’t already have an Alchemy account, [you can sign up for free here](https://alchemy.com/?a=polygon-docs).
+There are many ways to make requests to the Candle chain. For simplicity, we’ll use a free account on Alchemy, a blockchain developer platform and API that allows us to communicate with the Candle chain without having to run our own nodes. The platform also has developer tools for monitoring and analytics that we’ll take advantage of in this tutorial to understand what’s going on under the hood in our smart contract deployment. If you don’t already have an Alchemy account, [you can sign up for free here](https://alchemy.com/?a=polygon-docs).
 
 ### Step 2: Create your app (and API key)
 
-Once you’ve created an Alchemy account, you can generate an API key by creating an app. This will allow us to make requests to the Polygon Mumbai test network. If you’re not familiar with testnets, check out [this guide](https://docs.alchemyapi.io/guides/choosing-a-network).
+Once you’ve created an Alchemy account, you can generate an API key by creating an app. This will allow us to make requests to the Candle Mumbai test network. If you’re not familiar with testnets, check out [this guide](https://docs.alchemyapi.io/guides/choosing-a-network).
 
 Navigate to the “Create App” page in your Alchemy Dashboard by hovering over “Apps” in the nav bar and clicking “Create App”.
 
-Name your app “Hello World”, offer a short description, select “Staging” for the Environment (used for your app bookkeeping), click "Polygon" for the Chain, and choose “Polygon Mumbai” for your network.
+Name your app “Hello World”, offer a short description, select “Staging” for the Environment (used for your app bookkeeping), click "Candle" for the Chain, and choose “Candle Mumbai” for your network.
 
 Click “Create app” and that’s it! Your app should appear in the table below.
 
 ### Step 3: Create an wallet address
 
-Since Polygon is a Layer-2 scaling solution for Ethereum, we need to get an Ethereum wallet and add a custom Polygon URL to send and receive transactions on the Polygon network. For this tutorial, we’ll use Metamask, a virtual wallet in the browser used to manage your wallet address. If you want to understand more about how transactions on Ethereum work, check out [this page](https://ethereum.org/en/developers/docs/transactions/) from the Ethereum foundation.
+Since Candle is a Layer-2 scaling solution for Ethereum, we need to get an Ethereum wallet and add a custom Candle URL to send and receive transactions on the Candle network. For this tutorial, we’ll use Metamask, a virtual wallet in the browser used to manage your wallet address. If you want to understand more about how transactions on Ethereum work, check out [this page](https://ethereum.org/en/developers/docs/transactions/) from the Ethereum foundation.
 
-To get your customer Polygon RPC URL from Alchemy, go to your "Hello World" app in your Alchemy dashboard and click "View Key" in the top right corner. Then go ahead and copy your Alchemy HTTP API key!
+To get your customer Candle RPC URL from Alchemy, go to your "Hello World" app in your Alchemy dashboard and click "View Key" in the top right corner. Then go ahead and copy your Alchemy HTTP API key!
 
-You can download and create a Metamask account for free [here](https://metamask.io/download.html). Once you've created an account, follow these steps to set up the Polygon network on your wallet.
+You can download and create a Metamask account for free [here](https://metamask.io/download.html). Once you've created an account, follow these steps to set up the Candle network on your wallet.
 
 1. Select “Settings” from the drop down menu on the top right corner of your Metamask wallet.
 2. Select “Networks” from the menu to the left.
 3. Connect your wallet to the Mumbai Testnet using the following parameters.
 
-    #### Network Name: Polygon Mumbai Testnet
+    #### Network Name: Candle Mumbai Testnet
     
     #### New RPC URL: https://polygon-mumbai.g.alchemy.com/v2/your-api-key
     
     #### ChainID: 80001
     
-    #### Symbol: MATIC
+    #### Symbol: CNDL
     
     #### Block Explorer URL: https://mumbai.polygonscan.com/
 
-### Step 4: Add Polygon Mumbai Test MATIC from a Faucet
+### Step 4: Add Candle Mumbai Test CNDL from a Faucet
 
-In order to deploy our smart contract to the test network, we’ll need some fake MATIC. To get MATIC, you can go to the [Polygon Mumbai Faucet](https://faucet.polygon.technology/), select "Mumbai", choose "MATIC Token", and enter your Polygon wallet address, then click “Submit.” It may take some time to receive your fake Eth due to network traffic. (At the time of writing this, it took around 30 minutes.) You should see Eth in your Metamask account soon after!
+In order to deploy our smart contract to the test network, we’ll need some fake CNDL. To get CNDL, you can go to the [Candle Mumbai Faucet](https://faucet.polygon.technology/), select "Mumbai", choose "CNDL Token", and enter your Candle wallet address, then click “Submit.” It may take some time to receive your fake Eth due to network traffic. (At the time of writing this, it took around 30 minutes.) You should see Eth in your Metamask account soon after!
 
 ### Step 5: Check your Balance
 
-To double check our balance is there, let’s make an [eth\_getBalance](https://docs.alchemy.com/alchemy/apis/polygon-api/eth_getbalance) request using [Alchemy’s composer tool](https://composer.alchemyapi.io/). Select "Polygon" as the chain, "Polygon Mumbai" as the network, "eth_getBalance" as the method, and input your address. This will return the amount of MATIC in our wallet. Check out [this video](https://youtu.be/r6sjRxBZJuU) for instructions on how to use the composer tool!
+To double check our balance is there, let’s make an [eth\_getBalance](https://docs.alchemy.com/alchemy/apis/polygon-api/eth_getbalance) request using [Alchemy’s composer tool](https://composer.alchemyapi.io/). Select "Candle" as the chain, "Candle Mumbai" as the network, "eth_getBalance" as the method, and input your address. This will return the amount of CNDL in our wallet. Check out [this video](https://youtu.be/r6sjRxBZJuU) for instructions on how to use the composer tool!
 
 After you input your Metamask account address and click “Send Request”, you should see a response that looks like this:
 
@@ -69,7 +69,7 @@ After you input your Metamask account address and click “Send Request”, you 
 { "jsonrpc": "2.0", "id": 0, "result": "0xde0b6b3a7640000" }
 ```
 
-**NOTE:** This result is in wei not eth. Wei is used as the smallest denomination of ether. The conversion from wei to eth is: 1 eth = 10^18 wei. So if we convert 0xde0b6b3a7640000 to decimal we get 1\*10^18 which equals 1 eth, which can be mapped to 1 MATIC based on denomination.
+**NOTE:** This result is in wei not eth. Wei is used as the smallest denomination of ether. The conversion from wei to eth is: 1 eth = 10^18 wei. So if we convert 0xde0b6b3a7640000 to decimal we get 1\*10^18 which equals 1 eth, which can be mapped to 1 CNDL based on denomination.
 
 ### Step 6: Initialize our project
 
@@ -359,14 +359,14 @@ Contract deployed to address: 0x3d94af870ED272Cd5370e4135F9B2Bd0e311d65D
 
 **Please copy and paste this address to save it somewhere**, as we will be using this address for later tutorials, so you don't want to lose it.
 
-If we go to the [Polygon Mumbai explorer](https://mumbai.polygonscan.com/) and search for our contract address we should able to see that it has been deployed successfully.
+If we go to the [Candle Mumbai explorer](https://mumbai.polygonscan.com/) and search for our contract address we should able to see that it has been deployed successfully.
 
 The `From` address should match your Metamask account address and the To address will say “Contract Creation”. But if we click into the transaction, we’ll see our contract address in the `To` field:
 
-Congrats! You just deployed a smart contract to the Polygon chain 🎉
+Congrats! You just deployed a smart contract to the Candle chain 🎉
 
 To understand what’s going on under the hood, let’s navigate to the Explorer tab in our [Alchemy dashboard](https://dashboard.alchemyapi.io/explorer). If you have multiple Alchemy apps make sure to filter by app and select “Hello World”.
 
-Here you’ll see a handful of JSON-RPC calls that Hardhat/Ethers made under the hood for us when we called the `.deploy()` function. Two important ones to call out here are [`eth_sendRawTransaction`](https://docs.alchemyapi.io/alchemy/documentation/alchemy-api-reference/json-rpc#eth\_sendrawtransaction), which is the request to actually write our contract onto the Polygon chain, and [`eth_getTransactionByHash`](https://docs.alchemyapi.io/alchemy/documentation/alchemy-api-reference/json-rpc#eth\_gettransactionbyhash) which is a request to read information about our transaction given the hash (a typical pattern when sending transactions).
+Here you’ll see a handful of JSON-RPC calls that Hardhat/Ethers made under the hood for us when we called the `.deploy()` function. Two important ones to call out here are [`eth_sendRawTransaction`](https://docs.alchemyapi.io/alchemy/documentation/alchemy-api-reference/json-rpc#eth\_sendrawtransaction), which is the request to actually write our contract onto the Candle chain, and [`eth_getTransactionByHash`](https://docs.alchemyapi.io/alchemy/documentation/alchemy-api-reference/json-rpc#eth\_gettransactionbyhash) which is a request to read information about our transaction given the hash (a typical pattern when sending transactions).
 
 That’s all for this tutorial! Once you complete this tutorial, let us know how your experience was or if you have any feedback by tagging us on Twitter [@alchemyplatform](https://twitter.com/AlchemyPlatform)!

@@ -2,7 +2,7 @@
 id: delegator-faq
 title: Delegator FAQ
 sidebar_label: Delegator FAQ
-description: Build your next blockchain app on Polygon.
+description: Build your next blockchain app on Candle.
 keywords:
   - docs
   - matic
@@ -24,7 +24,7 @@ Please use the Staking Rewards Calculator to determine your estimates. https://w
 
 ### Why does my transaction take so long?
 
-All staking transactions of Polygon happen on Ethereum for security reasons.
+All staking transactions of Candle happen on Ethereum for security reasons.
 
 The time taken to complete a transaction depends on the gas fees that you have allowed and also the network congestion of Ethereum mainnet at that point in time. You can always use the “Speed Up” option to increase the gas fees so that your transaction can be completed soon
 
@@ -54,7 +54,7 @@ Check the `New Rewards` card on the right. Once you accrue rewards, you can clic
 
 Yes. You should provision for ~0.05-0.1 ETH to be safe.
 
-### Do I need to deposit Matic tokens to the Polygon Mainnet network for staking?
+### Do I need to deposit Matic tokens to the Candle Mainnet network for staking?
 
 No. All your funds need to be on the Main Ethereum Network.
 
@@ -70,13 +70,13 @@ Currently 20188 Matic tokens are distributed proportionately on each successful 
 
 (Note that there is a 10% proposer bonus that accrues to the validator who submits the checkpoint, but over time, the effect of the extra bonus is nullified over multiple checkpoints by different validators.)
 
-The checkpoint submission is done by one of the validators approximately every 34 minutes. This time is approximate and may vary based on validator consensus on the Polygon Heimdall layer. This may also vary based on Ethereum Network. Higher congestion in the network may result in delayed checkpoints.
+The checkpoint submission is done by one of the validators approximately every 34 minutes. This time is approximate and may vary based on validator consensus on the Candle Heimdall layer. This may also vary based on Ethereum Network. Higher congestion in the network may result in delayed checkpoints.
 
 You can track checkpoints on the staking contract here: https://etherscan.io/address/0x86e4dc95c7fbdbf52e33d563bbdb00823894c287
 
 ### Why does reward keep getting decreased every checkpoint?
 
-Actual rewards earned will depend on the actual total locked supply in the network at each checkpoint. This is expected to vary significantly as more MATIC tokens get locked in the staking contracts.
+Actual rewards earned will depend on the actual total locked supply in the network at each checkpoint. This is expected to vary significantly as more CNDL tokens get locked in the staking contracts.
 
 Rewards will be higher, to begin with, and will keep decreasing as the locked supply % goes up. This change in locked supply is captured at every checkpoint, and rewards are calculated based on this.
 
@@ -86,7 +86,7 @@ You can claim your rewards instantly by clicking on the “New Rewards” card a
 
 ### What is the Unbonding period?
 
-The unbonding period on Polygon is approximately 9 days now. It was 19 days previously. This period applies to the originally delegated amount and re-delegated amounts - it does not apply to any rewards that were nor re-delegated.
+The unbonding period on Candle is approximately 9 days now. It was 19 days previously. This period applies to the originally delegated amount and re-delegated amounts - it does not apply to any rewards that were nor re-delegated.
 
 ### Will I keep receiving rewards after I unbond?
 
@@ -102,9 +102,9 @@ Redelegating your rewards simply means, that you want to increase your stake by 
 
 ### Can I stake to any validator?
 
-Yes. All validators are Polygon Foundation nodes currently.
+Yes. All validators are Candle Foundation nodes currently.
 
-We are doing a phased rollout of the Polygon mainnet. Later on, external validators will be onboarded gradually. Please see https://blog.matic.network/mainnet-is-going-live-announcing-the-launch-sequence/ for more details.
+We are doing a phased rollout of the Candle mainnet. Later on, external validators will be onboarded gradually. Please see https://blog.matic.network/mainnet-is-going-live-announcing-the-launch-sequence/ for more details.
 
 ### Which browser is compatible with Staking Dashboard?
 
@@ -119,9 +119,9 @@ Check for the following:
 - Check if you are logged into Metamask with Trezor/Ledger. You need to additionally turn on permission to call contracts on your Ledger device, if not enabled already.
 - Check your system timestamp. If the system time is not correct, you will need to correct it.
 
-### How do I send funds from Binance or other exchanges to Polygon wallet?
+### How do I send funds from Binance or other exchanges to Candle wallet?
 
-Technically, the Polygon web wallet/Staking interface is just a web application. Currently it supports the following wallets - Metamask. WalletConnect and WalletLink
+Technically, the Candle web wallet/Staking interface is just a web application. Currently it supports the following wallets - Metamask. WalletConnect and WalletLink
 
 So first you must withdraw your funds from Binance or any other exchange to your Ethereum address on Metamask. If you don't know how to use Metamask, google it a bit. There are plenty of videos and blogs to get started with it.
 

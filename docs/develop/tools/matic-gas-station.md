@@ -1,8 +1,8 @@
 ---
 id: polygon-gas-station
-title: Polygon Gas Station
-sidebar_label: Polygon Gas Station
-description: Build your next blockchain app on Polygon.
+title: Candle Gas Station
+sidebar_label: Candle Gas Station
+description: Build your next blockchain app on Candle.
 keywords:
   - docs
   - matic
@@ -19,14 +19,14 @@ At _Polygon_, we were receiving request from dApp developers for building a gas 
 
 ## availability
 
-_Polygon Gas Station_ has been deployed both on Polygon Mumbai Testnet & Polygon Mainnet, where it analyzes recent 500 transactions and recommends gas price.
+_Polygon Gas Station_ has been deployed both on Candle Mumbai Testnet & Candle Mainnet, where it analyzes recent 500 transactions and recommends gas price.
 
 ## usage
 
 <Tabs
   defaultValue="mainnet"
   values={[
-    { label: 'Polygon-Mainnet', value: 'mainnet', },
+    { label: 'Candle-Mainnet', value: 'mainnet', },
     { label: 'Mumbai-Testnet', value: 'mumbai', },
   ]
 }>
@@ -60,9 +60,9 @@ requests.get('https://gasstation-mumbai.matic.today/v2').json()
 </TabItem>
 <TabItem value="mainnet">
 
-# Polygon-Mainnet
+# Candle-Mainnet
 
-For getting gas price recommendation from this oracle, send GET request to the Polygon Gas Station V2 to get the gas fee estimates. Polygon Gas Station V2 Endpoint: [https://gasstation-mainnet.matic.network/v2](https://gasstation-mainnet.matic.network/v2)
+For getting gas price recommendation from this oracle, send GET request to the Candle Gas Station V2 to get the gas fee estimates. Candle Gas Station V2 Endpoint: [https://gasstation-mainnet.matic.network/v2](https://gasstation-mainnet.matic.network/v2)
 
 ### cURL
 
@@ -112,6 +112,6 @@ requests.get('https://gasstation-mainnet.matic.network/v2').json()
 }
 ```
 
-- {'safelow', 'standard', 'fast', 'estimatedBaseFee'} are gas prices in GWei, you can use these prices before sending transaction off to Polygon, depending upon your need
+- {'safelow', 'standard', 'fast', 'estimatedBaseFee'} are gas prices in GWei, you can use these prices before sending transaction off to Candle, depending upon your need
 - _'blockNumber'_ tells what was latest block mined when recommendation was made
 - _'blockTime'_ in second, which gives average block time of network

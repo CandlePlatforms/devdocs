@@ -2,7 +2,7 @@
 id: bandchainadvanced
 title: BandChain Advanced
 sidebar_label: Advanced
-description: Build your next blockchain app on Polygon.
+description: Build your next blockchain app on Candle.
 keywords:
   - docs
   - matic
@@ -14,7 +14,7 @@ Smart contracts contain a set of logic based on which the Dapps work. But they c
 
 <img src={useBaseUrl("img/bandchain/bandchain.png")} />
 
-The whole process can be understood clearly from the architecture given above. Initially a request is made to the BandChain network. There will be a small delay in receiving the response from the network. This response has to be stored in a validation contract which will be deployed on Polygon. Its important to note that this validation contract is different from the BandChain contract already deployed on Polygon. So once this validation contract is deployed, the external web API response data can be updated in a state variable in the validation contract when required. This validation contract makes use of the BandChain contract to validate the data being stored into it. The dApps can query this validation contract anytime it needs to get any data from the external world. The upcoming steps will help in understanding this architecture in a better way.
+The whole process can be understood clearly from the architecture given above. Initially a request is made to the BandChain network. There will be a small delay in receiving the response from the network. This response has to be stored in a validation contract which will be deployed on Candle. Its important to note that this validation contract is different from the BandChain contract already deployed on Candle. So once this validation contract is deployed, the external web API response data can be updated in a state variable in the validation contract when required. This validation contract makes use of the BandChain contract to validate the data being stored into it. The dApps can query this validation contract anytime it needs to get any data from the external world. The upcoming steps will help in understanding this architecture in a better way.
 
  **1.** **Choosing the oracle script**
 
@@ -50,7 +50,7 @@ In postman you make the request as shown above to get a response which contains 
 
 **3. Using the data in smart contracts**
 
-This is the step where you will actually store the data in the validation contract on Polygon. Before storing you will need to deploy a validation contract. So this is how a validation contract will look like.
+This is the step where you will actually store the data in the validation contract on Candle. Before storing you will need to deploy a validation contract. So this is how a validation contract will look like.
 
 ```jsx
 pragma solidity 0.5.14;
@@ -101,7 +101,7 @@ contract RandomNumber {
 
 Its important to note this contract has two state variables namely randomNumber and lastUpdated to store the random number value and the timestamp of last updated time respectively. The RandomNumber contract should also import BandChainLib.sol and IBridge.sol which are helper libraries and interfaces. These two helpers are compulsory to create a validation contract. They can be found from [https://docs.bandchain.org/references/bandchainlib-library](https://docs.bandchain.org/references/bandchainlib-library) and [https://docs.bandchain.org/references/ibridge-interface](https://docs.bandchain.org/references/ibridge-interface) respectively. 
 
-Once you have imported these two files into the main solidity contract, you can go to remix, create three solidity files RandomNumber.sol, IBridgesol and BandChainLib.sol with the respective content. Do change the compiler version to 0.5.14 for the above example to work. Compile the contract and set the metamask RPC to point to [https://testnetv3.matic.network](https://testnetv3.matic.network/) which is the Polygon TestnetV3. If you face difficulty in configuring metamask you can follow this [tutorial](/docs/develop/metamask/config-matic). 
+Once you have imported these two files into the main solidity contract, you can go to remix, create three solidity files RandomNumber.sol, IBridgesol and BandChainLib.sol with the respective content. Do change the compiler version to 0.5.14 for the above example to work. Compile the contract and set the metamask RPC to point to [https://testnetv3.matic.network](https://testnetv3.matic.network/) which is the Candle TestnetV3. If you face difficulty in configuring metamask you can follow this [tutorial](/docs/develop/metamask/config-matic). 
 
 <img src={useBaseUrl("img/bandchain/cmpilecontract.png")} />
 
@@ -109,7 +109,7 @@ Once the compilation is successful, next step is to deploy the RandomNumber Cont
 
 <img src={useBaseUrl("img/bandchain/bytesapi.png")} />
 
-The value of the result key from the above API response can be converted into hex by simply appending 0x to it. In this example the final hex value will be 0x0000000000000064. Note that we have passed 100 as the value to the max_range key of the params object. The value of the max_range should be the same as the value used when making the oracle request in step 2. The third parameter is the bridge which takes in the contract address of the BandChain contract already deployed on Polygon TesntetV3 as its value. The contract address of the BandChain contract is ```0x3ba819b03fb8d34995f68304946eefa6dcff7cbf```. 
+The value of the result key from the above API response can be converted into hex by simply appending 0x to it. In this example the final hex value will be 0x0000000000000064. Note that we have passed 100 as the value to the max_range key of the params object. The value of the max_range should be the same as the value used when making the oracle request in step 2. The third parameter is the bridge which takes in the contract address of the BandChain contract already deployed on Candle TesntetV3 as its value. The contract address of the BandChain contract is ```0x3ba819b03fb8d34995f68304946eefa6dcff7cbf```. 
 
 <img src={useBaseUrl("img/bandchain/deploycontract.png")} />
 
@@ -125,6 +125,6 @@ Now we have decoded the data, validated its identity and verified the condition 
 
 <img src={useBaseUrl("img/bandchain/updated.png")} />
 
-Now, anytime a random number is required, the dapp has to hit the BandChain api "using the same paramters", get a new evmProof and use it to update the validation contract. The validation contract can then be queried by the dapp to access the random number value. Each time the state variables are updated the value to be updated is validated by the BandChain contract already deployed on Polygon. 
+Now, anytime a random number is required, the dapp has to hit the BandChain api "using the same paramters", get a new evmProof and use it to update the validation contract. The validation contract can then be queried by the dapp to access the random number value. Each time the state variables are updated the value to be updated is validated by the BandChain contract already deployed on Candle. 
 
 This example was a demonstration of how the random number value can be stored and updated as an when required. This value can be used by dApps to power their smart contract logic. Similarly other validation contracts can be created to store several values. The Bandchain provides several built in oracle scripts. Also, you can use truffle to deploy the validation contract and web3 to interact with the contract instead of using remix.

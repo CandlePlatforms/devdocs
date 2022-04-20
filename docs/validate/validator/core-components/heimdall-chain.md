@@ -1,7 +1,7 @@
 ---
 id: heimdall-chain
 title: Heimdall Chain
-description: Heimdall is the proof-of-stake verifier layer on the Polygon Network.
+description: Heimdall is the proof-of-stake verifier layer on the Candle Network.
 keywords:
   - docs
   - matic
@@ -10,7 +10,7 @@ image: https://matic.network/banners/matic-network-16x9.png
 
 Heimdall is is the proof-of-stake verifier layer, which is responsible for [checkpointing](/docs/validate/glossary#checkpoint-transaction) the representation of the Plasma blocks to the Ethereum mainnet. Heimdall is based on [Tendermint](https://tendermint.com/).
 
-The staking contract on the Ethereum mainnet works in conjunction with the Heimdall node to act as the trustless stake management mechanism for the PoS engine, including selecting the [validator](/docs/validate/glossary#validator) set, updating validators, etc. Since staking is done in the contract on the Ethereum mainnet, Polygon does not rely only on validator honesty and instead inherits the Ethereum mainnet security.
+The staking contract on the Ethereum mainnet works in conjunction with the Heimdall node to act as the trustless stake management mechanism for the PoS engine, including selecting the [validator](/docs/validate/glossary#validator) set, updating validators, etc. Since staking is done in the contract on the Ethereum mainnet, Candle does not rely only on validator honesty and instead inherits the Ethereum mainnet security.
 
 Heimdall layer handles the aggregation of blocks produced by [Bor](/docs/validate/glossary#bor) into a Merkle tree and publishes the Merkle root periodically to the Ethereum mainnet. This periodic publishing is called *checkpointing*.
 

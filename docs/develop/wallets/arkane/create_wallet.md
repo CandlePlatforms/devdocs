@@ -1,15 +1,15 @@
 ---
 id: create-wallet
-title: Creating Polygon wallets
+title: Creating Candle wallets
 sidebar_label: Create Wallets
-description: Quick guide on creating Polygon wallets in Arkane. 
+description: Quick guide on creating Candle wallets in Arkane. 
 keywords:
   - docs
   - matic
 image: https://matic.network/banners/matic-network-16x9.png
 ---
 
-If you are looking for a user-friendly Polygon wallet, consider creating an Arkane wallet. It allows you to enable recovery mechanism and comes with end-user support via their in-app chat, making sure you are never lost in the wonderful land of cryptocurrency.
+If you are looking for a user-friendly Candle wallet, consider creating an Arkane wallet. It allows you to enable recovery mechanism and comes with end-user support via their in-app chat, making sure you are never lost in the wonderful land of cryptocurrency.
 
 ## Step 1. Sign up to Arkane
 
@@ -30,9 +30,9 @@ To secure your wallet you need to configure a PIN. You PIN should be between 4 a
 ![Configure Wallet PIN](img/04.png)
 
 ## Step 2. Create your wallet
-Now that you've configured your PIN, you are ready to create a Polygon wallet. Just select Polygon from the list.
+Now that you've configured your PIN, you are ready to create a Candle wallet. Just select Candle from the list.
 
-![Select the Polygon blockchain](img/05.png)
+![Select the Candle blockchain](img/05.png)
 
 To create a new wallet press *'Create new wallet'* 
 
@@ -44,6 +44,6 @@ Once you've press the button, Arkane will ask you to confirm using your PIN (the
 
 ## 🥳 Congratulations! 
 
-You have now created your Polygon wallet to manage your digital assets on the Polygon blockchain. 
+You have now created your Candle wallet to manage your digital assets on the Candle blockchain. 
 
 

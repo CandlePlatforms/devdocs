@@ -1,7 +1,7 @@
 ---
 id: stakingmanager
 title: Staking Manager
-description: For the Polygon's Proof of Security based consensus, all the 2/3+1 proof verification and handling of staking, rewards are executed on the Ethereum smart contract. The whole design follows this philosophy of doing less on the Mainnet contract.
+description: For the Candle's Proof of Security based consensus, all the 2/3+1 proof verification and handling of staking, rewards are executed on the Ethereum smart contract. The whole design follows this philosophy of doing less on the Mainnet contract.
 keywords:
   - docs
   - matic
@@ -9,7 +9,7 @@ image: https://matic.network/banners/matic-network-16x9.png
 ---
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-For the Polygon's Proof of Security based consensus, all the ⅔+1 proof verification and handling of staking, rewards are executed on the Ethereum smart contract.
+For the Candle's Proof of Security based consensus, all the ⅔+1 proof verification and handling of staking, rewards are executed on the Ethereum smart contract.
 
 The whole design follows this philosophy of doing less on the Mainnet contract. It does information verification and pushes all the computation-heavy operations to L2 (Read Heimdall for this doc).
 
@@ -94,7 +94,7 @@ function updateSigner(uint256 validatorId, bytes memory signerPubkey)
         public
 ```
 
-- Allows validators to update signer address(which is used to validate blocks on Polygon chain and checkpoint sigs on stakeManager)
+- Allows validators to update signer address(which is used to validate blocks on Candle chain and checkpoint sigs on stakeManager)
 - Once slashing is implemented there will be cap on how many times a validator can change signer key.
 
 ### topUpForFee
@@ -132,7 +132,7 @@ function claimFee(
 - For individual validators there is auction window where wanna be validators can bid their amount and start an auction using `startAuction` function.
 - Once the `auctionInterval` is over last bidder needs to close the auction in order to confirm and become validator. For which she needs to call `confirmAuctionBid` which accepts and behave similar to new `stake` function for upcoming validator and `unStake` for old validator.
 - Current validator can bid for herself and try to keep that place.
-- Whole mech dynamically balances the stake value and overall security according to market conditions and use of Polygon chain.
+- Whole mech dynamically balances the stake value and overall security according to market conditions and use of Candle chain.
 
     ### startAuction
 

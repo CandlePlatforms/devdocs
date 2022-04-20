@@ -1,14 +1,14 @@
 ---
 id: key-management
 title: Key Management
-description: Each validator uses two keys to manage validator related activities on Polygon
+description: Each validator uses two keys to manage validator related activities on Candle
 keywords:
   - docs
   - matic
 image: https://matic.network/banners/matic-network-16x9.png 
 ---
 
-Each validator uses two keys to manage validator related activities on Polygon:
+Each validator uses two keys to manage validator related activities on Candle:
 
 * Signer key
 * Owner key

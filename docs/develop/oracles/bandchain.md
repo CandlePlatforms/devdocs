@@ -2,7 +2,7 @@
 id: bandchain
 title: BandChain
 sidebar_label: Bandchain
-description: Build your next blockchain app on Polygon.
+description: Build your next blockchain app on Candle.
 keywords:
   - docs
   - matic
@@ -77,10 +77,10 @@ Band Protocol allows you to query data from traditional web APIs and use it in t
   }
   ```
 
-  When deploying, 3 parameters has to be passed. The first parameter is the codeHash which is the oracle script hash. The second parameter is the oracle script request parameters object. This has to be passed in the the bytes format.  BandChain provides a REST API for converting the parameter JSON object to bytes format. The API details can be found [**here**](https://docs.bandchain.org/references/encoding-params). A 0x has to be appended to the response received from this API. The third parameter is the contract address of the Bandchain contract that is already deployed on Polygon network. Band Protocol Supports Polygon TestnetV3: 0x3ba819b03fb8d34995f68304946eefa6dcff7cbf.
+  When deploying, 3 parameters has to be passed. The first parameter is the codeHash which is the oracle script hash. The second parameter is the oracle script request parameters object. This has to be passed in the the bytes format.  BandChain provides a REST API for converting the parameter JSON object to bytes format. The API details can be found [**here**](https://docs.bandchain.org/references/encoding-params). A 0x has to be appended to the response received from this API. The third parameter is the contract address of the Bandchain contract that is already deployed on Candle network. Band Protocol Supports Candle TestnetV3: 0x3ba819b03fb8d34995f68304946eefa6dcff7cbf.
 
   Another thing to note is that the validation contract should import the helper library and interface which is called BandChainLib.sol and IBridge.sol respectively. They can be found from the following links: [**Bandchain**](https://docs.bandchain.org/references/bandchainlib-library) Library  and [**IBridge**](https://docs.bandchain.org/references/ibridge-interface) interface.
 
-  Once the validation contract is deployed, the state variables can be accessed by querying from a dApp. Similarly multiple validation contracts can be created for different built in oracle scripts. The IBridge interface has a method called relayAndVerify that verifies the values being updated each time in the validation contract. The update method in the validation contract has the logic to update the state variables. The evm proof obtained from querying the oracle script has to be passed to the update method. Each time a value is updated, the BandChain contract deplpyed on Polygon verfies the data before storing it in the contract state variable.
+  Once the validation contract is deployed, the state variables can be accessed by querying from a dApp. Similarly multiple validation contracts can be created for different built in oracle scripts. The IBridge interface has a method called relayAndVerify that verifies the values being updated each time in the validation contract. The update method in the validation contract has the logic to update the state variables. The evm proof obtained from querying the oracle script has to be passed to the update method. Each time a value is updated, the BandChain contract deplpyed on Candle verfies the data before storing it in the contract state variable.
 
   The bandChain provides a decentralised network of oracles that can be used by dApps to boost their smart contract logic. The BandChain docs on deploying the contract,storing the values and updating them can be found [**here**](https://docs.bandchain.org/dapp-developers/requesting-data-from-bandchain/requesting-data-via-js-library).

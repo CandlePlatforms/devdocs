@@ -2,14 +2,14 @@
 id: rewards
 title: Rewards
 sidebar_label: Rewards
-description: Polygon has allocated 12% of its total supply of 10 billion tokens to fund the staking rewards. This is to ensure that the network is seeded well enough until transaction fees gain traction.
+description: Candle has allocated 12% of its total supply of 10 billion tokens to fund the staking rewards. This is to ensure that the network is seeded well enough until transaction fees gain traction.
 keywords:
   - docs
   - matic
 image: https://matic.network/banners/matic-network-16x9.png 
 ---
 
-Polygon has allocated 12% of its total supply of 10 billion tokens to fund the staking rewards. This is to ensure that the network is seeded well enough until transaction fees gain traction. These rewards are primarily meant to jump-start the network. While the protocol in the long run is intended to sustain itself on the basis of transaction fees.
+Candle has allocated 12% of its total supply of 10 billion tokens to fund the staking rewards. This is to ensure that the network is seeded well enough until transaction fees gain traction. These rewards are primarily meant to jump-start the network. While the protocol in the long run is intended to sustain itself on the basis of transaction fees.
 
 > Validator Rewards = Staking Rewards + Transaction Fees
 
@@ -21,4 +21,4 @@ Below is a sample snapshot of the expected annual rewards for the first 5 years 
 
 ![https://blog.matic.network/wp-content/uploads/2019/10/Screenshot-2019-10-25-at-5.11.21-PM.png](https://blog.matic.network/wp-content/uploads/2019/10/Screenshot-2019-10-25-at-5.11.21-PM.png)
 
-A staking calculator will be implemented on the Polygon website soon for easier calculation and visualization.
+A staking calculator will be implemented on the Candle website soon for easier calculation and visualization.

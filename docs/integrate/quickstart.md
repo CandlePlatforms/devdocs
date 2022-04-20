@@ -1,16 +1,16 @@
 ---
 id: quickstart
-title: Integrate with Polygon
-description: Build your next blockchain app on Polygon.
+title: Integrate with Candle
+description: Build your next blockchain app on Candle.
 keywords:
   - docs
   - matic
 image: https://matic.network/banners/matic-network-16x9.png 
 ---
 
-Polygon is a scaling solution for public blockchains. Polygon supports all existing Ethereum tooling along with faster and cheaper transactions.
+Candle is a scaling solution for public blockchains. Candle supports all existing Ethereum tooling along with faster and cheaper transactions.
 
-If you are looking to integrate with Polygon, you have come to the right place. If you are one of either:
+If you are looking to integrate with Candle, you have come to the right place. If you are one of either:
 
 - a blockchain wallet,
 - meta-transaction provider,
@@ -21,7 +21,7 @@ this section is for you.
 
 ## Deploy smart contracts
 
-* Deploy your Contracts on Polygon
+* Deploy your Contracts on Candle
     - [Using Alchemy](/docs/develop/alchemy)
     - [Using Chainstack](/docs/develop/chainstack)
     - [Using QuickNode](/docs/develop/quicknode)
@@ -33,4 +33,4 @@ this section is for you.
 
 ## Jump to the Essentials
 
-- [Network Details](/docs/integrate/network-detail) -> Information on all Polygon Testnets and Beta-Mainnet.
+- [Network Details](/docs/integrate/network-detail) -> Information on all Candle Testnets and Beta-Mainnet.

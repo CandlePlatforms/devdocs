@@ -2,14 +2,14 @@
 id: port_management
 title: Technical infrastructure for nodes
 sidebar_label: Port management
-description: Build your next blockchain app on Polygon.
+description: Build your next blockchain app on Candle.
 keywords:
   - docs
   - matic
 image: https://matic.network/banners/matic-network-16x9.png 
 ---
 
-Here is a list of default ports used across Polygon nodes:
+Here is a list of default ports used across Candle nodes:
 ## BoR
 
 | ﻿Name                   | Port  | Tags                      | description                                                                                                    |

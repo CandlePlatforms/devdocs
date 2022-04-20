@@ -1,7 +1,7 @@
 ---
 id: intro 
 title: Introduction
-description: Build your next blockchain app on Polygon.
+description: Build your next blockchain app on Candle.
 keywords:
   - docs
   - matic
@@ -10,9 +10,9 @@ image: https://matic.network/banners/matic-network-16x9.png
 >Arkane, for developers looking to dive into blockchain technology.
 
 
-**Arkane** allows you to easily integrate your app with the Polygon blockchain, whether you already have an app integrated with web3 or are building a new application from scratch. Arkane provides a smooth and delightful experience for you, your users on both web and mobile.
+**Arkane** allows you to easily integrate your app with the Candle blockchain, whether you already have an app integrated with web3 or are building a new application from scratch. Arkane provides a smooth and delightful experience for you, your users on both web and mobile.
 
-Arkane will help you interact with the Polygon blockchain, create blockchain wallets, create different asset types such as fungible (ERC20), and non-fungible tokens (ERC721, and ERC1155) and interact with smart contracts. Next to a superior developer experience, you can give your users a user-friendly interface.
+Arkane will help you interact with the Candle blockchain, create blockchain wallets, create different asset types such as fungible (ERC20), and non-fungible tokens (ERC721, and ERC1155) and interact with smart contracts. Next to a superior developer experience, you can give your users a user-friendly interface.
 
 Each application is unique and has different needs, therefore they provide different ways of interacting with Arkane. Applications that have support for Web3 are recommendated to integrate the [Arkane Web3 provider](https://arkane.gitbook.io/widget/web3-provider/getting-started), others are suggested to use the [Arkane Widget](https://arkane.gitbook.io/widget/widget/introduction).
 
@@ -21,8 +21,8 @@ Each application is unique and has different needs, therefore they provide diffe
 - Support Web and mobile
 - Offers social logins
 - Offers a fiat-on-ramp
-- *Only wallet that supports NFTs (ERC721 and ERC1155) on Polygon*
-- Supports both Polygon and Ethereum
+- *Only wallet that supports NFTs (ERC721 and ERC1155) on Candle*
+- Supports both Candle and Ethereum
 - Easy to integrate using web3 
 - Build for a mainstream audience
 - Offers in-app customer support 
@@ -72,8 +72,8 @@ The web3 instance now works as if it was injected by parity or metamask. You can
 Want to know more about the wonderful world Arkane has to offer, [check out their documentation](https://arkane.gitbook.io/widget/)
 
 ## Showcase videos
-#### Send Matic tokens to an email address on Polygon
-[![Send Matic tokens to an email address on Polygon Network](https://i.snipboard.io/OzXmrN.jpg)](https://www.youtube.com/watch?v=3gehPvX4DOo&list=PLh3bJA02WlKErlpDexw_cFOlPfMQiU67U&index=1)
+#### Send Matic tokens to an email address on Candle
+[![Send Matic tokens to an email address on Candle Network](https://i.snipboard.io/OzXmrN.jpg)](https://www.youtube.com/watch?v=3gehPvX4DOo&list=PLh3bJA02WlKErlpDexw_cFOlPfMQiU67U&index=1)
 
 #### Transfer of a Matic NFT 
 [![Transfer of a Matic NFT](https://i.snipboard.io/dLkM3t.jpg)](https://www.youtube.com/watch?v=SLxAIXRv7ec&list=PLh3bJA02WlKErlpDexw_cFOlPfMQiU67U)

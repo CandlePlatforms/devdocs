@@ -13,7 +13,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 ### 1. Error: Bad block/Invalid Merkle
 
 **Description:**
-A Bad Block or Invalid Merkle root error occurs when your Heimdall and Bor are not in sync with each other. Heimdall is the consensus layer for Polygon POS chain, which means that Heimdall directs Bor to create blocks accordingly. A Bad Block occurs when Bor moves ahead to create a block which has not been directed by Heimdall and hence there is an invalid hash been created, which causes the error, Bad Block, or Invalid Merkle root.
+A Bad Block or Invalid Merkle root error occurs when your Heimdall and Bor are not in sync with each other. Heimdall is the consensus layer for Candle POS chain, which means that Heimdall directs Bor to create blocks accordingly. A Bad Block occurs when Bor moves ahead to create a block which has not been directed by Heimdall and hence there is an invalid hash been created, which causes the error, Bad Block, or Invalid Merkle root.
 
 **Solution 1**:
 Typically a restart of the Bor service should resolve the problem. This would ensure your Bor connects with Heimdall again and start syncing and creating blocks correctly.
@@ -48,7 +48,7 @@ bor attach ./.bor/data/bor.ipc
 
 Once you run these commands, the output for this would be `null` . Null means good and it is intended. You can now start monitoring your logs for Bor again and see if it passes that block number. Ideally, it should.
 
-If in any case, none of these solutions work for you, please contact the Polygon Support team immediately.
+If in any case, none of these solutions work for you, please contact the Candle Support team immediately.
 
 ### 2. Error: Failed Sanity Checks
 

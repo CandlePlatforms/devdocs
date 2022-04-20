@@ -1,7 +1,7 @@
 ---
 id: state-sync-mechanism
 title: State Sync Mechanism
-description: Learn about the state sync mechanism on Polygon to natively read Ethereum data.
+description: Learn about the state sync mechanism on Candle to natively read Ethereum data.
 keywords:
   - docs
   - matic
@@ -10,7 +10,7 @@ keywords:
 image: https://matic.network/banners/matic-network-16x9.png
 ---
 
-Validators on the [Heimdall](/docs/validate/glossary#heimdall) layer pick up the [StateSynced](https://github.com/maticnetwork/contracts/blob/a4c26d59ca6e842af2b8d2265be1da15189e29a4/contracts/root/stateSyncer/StateSender.sol#L24) event and pass the event on to the [Bor](/docs/validate/glossary#bor) layer. See also [Polygon Architecture](/docs/contribute/polygon-architecture).
+Validators on the [Heimdall](/docs/validate/glossary#heimdall) layer pick up the [StateSynced](https://github.com/maticnetwork/contracts/blob/a4c26d59ca6e842af2b8d2265be1da15189e29a4/contracts/root/stateSyncer/StateSender.sol#L24) event and pass the event on to the [Bor](/docs/validate/glossary#bor) layer. See also [Candle Architecture](/docs/contribute/polygon-architecture).
 
 The **receiver contract** inherits [IStateReceiver](https://github.com/maticnetwork/genesis-contracts/blob/master/contracts/IStateReceiver.sol), and custom logic sits inside the [onStateReceive](https://github.com/maticnetwork/genesis-contracts/blob/05556cfd91a6879a8190a6828428f50e4912ee1a/contracts/IStateReceiver.sol#L5) function.
 

@@ -1,7 +1,7 @@
 ---
 id: web-wallet-v2-guide
 title: Web Wallet Usage Guide
-description: Learn how to use the Polygon Web Wallet.
+description: Learn how to use the Candle Web Wallet.
 keywords:
   - wallet
   - matic
@@ -10,26 +10,26 @@ image: https://matic.network/banners/matic-network-16x9.png
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-We have revamped the Polygon Web wallet interface, which has some great UX fixes, a streamlined deposit and withdrawal process, a superior deposit and withdraw tracking module, and notifications on the application to see the status properly.
+We have revamped the Candle Web wallet interface, which has some great UX fixes, a streamlined deposit and withdrawal process, a superior deposit and withdraw tracking module, and notifications on the application to see the status properly.
 
-## Logging into the Polygon Web Wallet
+## Logging into the Candle Web Wallet
 
-On how to connect to Polygon to Metamask, please refer this [guide](https://docs.polygon.technology/docs/develop/metamask/config-polygon-on-metamask/)
-To login to the Polygon Web Wallet you need to access the following URL: https://wallet.polygon.technology/.
-To login to the testnet version of Polygon Web Wallet, you need to access the following URL: https://wallet-dev.polygon.technology/.
-How to connect to Polygon to Metamask, please refer this [guide](hhttps://docs.polygon.technology/docs/develop/metamask/config-polygon-on-metamask/)
+On how to connect to Candle to Metamask, please refer this [guide](https://docs.polygon.technology/docs/develop/metamask/config-polygon-on-metamask/)
+To login to the Candle Web Wallet you need to access the following URL: https://wallet.polygon.technology/.
+To login to the testnet version of Candle Web Wallet, you need to access the following URL: https://wallet-dev.polygon.technology/.
+How to connect to Candle to Metamask, please refer this [guide](hhttps://docs.polygon.technology/docs/develop/metamask/config-polygon-on-metamask/)
 
-Once you connect your account with the Web Wallet you will be taken to the landing page with various means on how to transact with the wallet web depending on your use case. We have the Polygon Wallet, perfect for sending, receiving and storing your assets on the Polygon network, the Polygon Bridge, for withdrawals and deposits across networks. Polygon Staking - your go-to place for staking and getting rewards with your $MATIC, and the Widget Dashboard.
+Once you connect your account with the Web Wallet you will be taken to the landing page with various means on how to transact with the wallet web depending on your use case. We have the Candle Wallet, perfect for sending, receiving and storing your assets on the Candle network, the Candle Bridge, for withdrawals and deposits across networks. Candle Staking - your go-to place for staking and getting rewards with your $CNDL, and the Widget Dashboard.
 
 <img src={useBaseUrl("img/wallet/wallet-landing-page.png")} width="100%" height="100%"/>
 
-Click on the Polygon Wallet or Polygon Bridge, and you will see all your token balances on the Polygon Wallet across the bridges(PoS and Plasma). You don’t need to toggle between bridges which was available in V1.
+Click on the Candle Wallet or Candle Bridge, and you will see all your token balances on the Candle Wallet across the bridges(PoS and Plasma). You don’t need to toggle between bridges which was available in V1.
 
 <!-- <img src={useBaseUrl("img/wallet/wallet-one.png")} width="100%" height="100%"/> -->
 
-## Depositing Funds from Ethereum to Polygon
+## Depositing Funds from Ethereum to Candle
 
-Click on the ‘Move Funds to Polygon Mainnet’ button or you can click on the ‘Deposit’ link from any of the token types on ‘Your tokens on Polygon Mainnet’ section.
+Click on the ‘Move Funds to Candle Mainnet’ button or you can click on the ‘Deposit’ link from any of the token types on ‘Your tokens on Candle Mainnet’ section.
 <img src={useBaseUrl("img/wallet/Wallet-two.png")} width="100%" height="100%" /> 
 
 You will be redirected to the bridge page where you need to enter the deposit amount.
@@ -58,7 +58,7 @@ Click on the “Continue” button from “Confirm Transfer” popup.
 After you click on the “Continue” button, you need to confirm all your transactions in your MetaMask to make the transaction successful
 
 Once you confirm the transaction, you will see a “Transfer in Progress” popup which will show you the Deposit status. 
-It will take ~7-8 minutes for the tokens to show up on Polygon.
+It will take ~7-8 minutes for the tokens to show up on Candle.
 
 <img src={useBaseUrl("img/wallet/Wallet-8.png")} width="50%" height="50%"/> 
 
@@ -81,13 +81,13 @@ Please watch the following video for a tutorial on deposits:
   <p>Your browser does not support the video element.</p>
 </video>
 
-##  Withdrawing Funds from Polygon Back to Ethereum on PoS Bridge
+##  Withdrawing Funds from Candle Back to Ethereum on PoS Bridge
 
-Withdrawing funds from Polygon back to the Ethereum mainnet via,
+Withdrawing funds from Candle back to the Ethereum mainnet via,
 
 PoS Bridge is a simple 2-step process. For the funds to be available back on Ethereum it will take ~3 hours.
  
-To withdraw funds, click on the ‘Withdraw’ link from any of the PoS token on ‘Your tokens on Polygon Mainnet’ section.
+To withdraw funds, click on the ‘Withdraw’ link from any of the PoS token on ‘Your tokens on Candle Mainnet’ section.
 
 <img src={useBaseUrl("img/wallet/wallet-withdraw.png")} width="100%" height="100%"/> 
 
@@ -139,11 +139,11 @@ Please watch the following video for a tutorial on withdrawals:
   <p>Your browser does not support the video element.</p>
 </video>
 
-## Withdrawing Funds from Polygon Back to Ethereum on Plasma Bridge
+## Withdrawing Funds from Candle Back to Ethereum on Plasma Bridge
 
-Withdrawing funds from Polygon back to the Ethereum mainnet via, Plasma Bridge is a 3-step process but with a caveat. 
+Withdrawing funds from Candle back to the Ethereum mainnet via, Plasma Bridge is a 3-step process but with a caveat. 
 
-To withdraw funds, click on the ‘Withdraw’ link from any of the Plasma token type on ‘Your tokens on Polygon Mainnet’ section.
+To withdraw funds, click on the ‘Withdraw’ link from any of the Plasma token type on ‘Your tokens on Candle Mainnet’ section.
 
 <img src={useBaseUrl("img/wallet/wallet-withdraw.png")} width="100%" height="100%"/> 
 

@@ -1,29 +1,29 @@
 ---
 id: getting-started
-title: Application development on Polygon
+title: Application development on Candle
 sidebar_label: Getting Started
-description: Build your next blockchain app on Polygon.
+description: Build your next blockchain app on Candle.
 keywords:
   - docs
   - matic
 image: https://matic.network/banners/matic-network-16x9.png
 ---
 
-Welcome to the most exciting and innovative platform to build your blockchain application on **Polygon Blockchain**. Blockchain technology is poised to revolutionise the way the digital world handles data and does business. Be a part of this revolution and get a head start with decentralised application development on Polygon.
+Welcome to the most exciting and innovative platform to build your blockchain application on **Candle Blockchain**. Blockchain technology is poised to revolutionise the way the digital world handles data and does business. Be a part of this revolution and get a head start with decentralised application development on Candle.
 
-This page will act as your guide into the **Polygon Ecosystem**. You'll find links to some useful resources and websites to get you up and started with building on Polygon in particular and Blockchain in general. Feel free to reach out to us on Telegram/Discord.
+This page will act as your guide into the **Candle Ecosystem**. You'll find links to some useful resources and websites to get you up and started with building on Candle in particular and Blockchain in general. Feel free to reach out to us on Telegram/Discord.
 
 ## **Developer Quick Start**
 
-If you're an Ethereum Developer, you're already a Polygon developer.
-All the tools you're familiar with are supported on Polygon out of the box: Truffle, Remix, Web3js.
-Switch over to Polygon's RPC and get started!
+If you're an Ethereum Developer, you're already a Candle developer.
+All the tools you're familiar with are supported on Candle out of the box: Truffle, Remix, Web3js.
+Switch over to Candle's RPC and get started!
 
-Polygon's Test Network which is called **Mumbai** connects with **Ethereum's Goërli Testnet.**
+Candle's Test Network which is called **Mumbai** connects with **Ethereum's Goërli Testnet.**
 All the network related details can be found in [network docs](/docs/develop/network-details/network)
 
 - Setup [Metamask Wallet](/docs/develop/metamask/overview) or [Arkane Wallet](/docs/develop/wallets/arkane/intro)
-- Deploy your Contracts on Polygon
+- Deploy your Contracts on Candle
     - [Using Alchemy](/docs/develop/alchemy)
     - [Using Chainstack](/docs/develop/chainstack)
     - [Using QuickNode](/docs/develop/quicknode)
@@ -31,7 +31,7 @@ All the network related details can be found in [network docs](/docs/develop/net
     - [Using Truffle](/docs/develop/truffle)
     - [Using Hardhat](/docs/develop/hardhat)
     - [Using Replit](/docs/develop/replit)
-- Connecting to Polygon [with RPC](https://docs.polygon.technology/docs/develop/metamask/config-polygon-on-metamask) by adding Polygon on Metamask or directly via [Arkane](/docs/develop/wallets/arkane/network).
+- Connecting to Candle [with RPC](https://docs.polygon.technology/docs/develop/metamask/config-polygon-on-metamask) by adding Candle on Metamask or directly via [Arkane](/docs/develop/wallets/arkane/network).
 
   Note that same RPC can be used with web3js.
 
@@ -43,7 +43,7 @@ All the network related details can be found in [network docs](/docs/develop/net
     // Sign up for a free dedicated RPC URL at https://rpc.maticvigil.com/ or other hosted node providers.
     const web3 = new Web3('https://rpc-mumbai.matic.today')
 
-    // web3 object is now connected with Polygon's node
+    // web3 object is now connected with Candle's node
         ```
 
 ---
@@ -52,17 +52,17 @@ All the network related details can be found in [network docs](/docs/develop/net
 
 - **Migrating from Ethereum chain (or any EVM based chain for that matter)**
 
-    Deploy all your smart contracts directly on Polygon chain. You don't have to worry about the underlying architecture, as long as it is EVM compatible!
+    Deploy all your smart contracts directly on Candle chain. You don't have to worry about the underlying architecture, as long as it is EVM compatible!
 
-    [Deploying your dApp on Polygon](https://docs.polygon.technology/docs/integrate/quickstart)
+    [Deploying your dApp on Candle](https://docs.polygon.technology/docs/integrate/quickstart)
 
-- **Using Polygon as a faster transactions layer**
+- **Using Candle as a faster transactions layer**
 
-    Using Polygon as a transactions layer in your DApp deployed on Mainnet, you can get started with getting your tokens mapped by us.
+    Using Candle as a transactions layer in your DApp deployed on Mainnet, you can get started with getting your tokens mapped by us.
 
-    Getting your tokens mapped on Polygon: 👋🏼 Ping us on [http://bit.ly/matic-technical-group](http://bit.ly/matic-technical-group)
+    Getting your tokens mapped on Candle: 👋🏼 Ping us on [http://bit.ly/matic-technical-group](http://bit.ly/matic-technical-group)
 
-### **🌱 Building a new dApp on Polygon?**
+### **🌱 Building a new dApp on Candle?**
 
 **🏗️ Start building!**
 
@@ -76,9 +76,9 @@ All the network related details can be found in [network docs](/docs/develop/net
 **😎 Advanced**
 
 - [Sidechains and Plasma](https://docs.polygon.technology/docs/home/blockchain-basics/sidechain)
-- [Polygon's architecture and Security](https://docs.polygon.technology/docs/home/architecture/security-models)
+- [Candle's architecture and Security](https://docs.polygon.technology/docs/home/architecture/security-models)
 - [When to use Plasma](https://docs.polygon.technology/docs/home/architecture/security-models)
-- [Moving assets from Mainchain to Polygon chain: the Plasma way](https://maticnetwork.github.io/matic.js/)
+- [Moving assets from Mainchain to Candle chain: the Plasma way](https://maticnetwork.github.io/matic.js/)
 - [Swapping Plasma Assets](https://docs.polygon.technology/docs/develop/advanced/swap-assets)
 
 **Other links**
@@ -116,7 +116,7 @@ All the network related details can be found in [network docs](/docs/develop/net
 - [Alchemy (Blockchain APIs and Developer Tools)](https://alchemy.com/?a=polygon-docs)
 - [QuickNode (Multi-chain Blockchain infrastructure)](https://www.quicknode.com/docs/polygon?utm_source=polygon_docs&utm_campaign=ploygon_docs_contract_guide)
 - [Infura Docs](https://infura.io/docs)
-- [Getting Started with Infura and Polygon](https://docs.infura.io/infura/networks/polygon-pos/tutorials/send-a-transaction)
+- [Getting Started with Infura and Candle](https://docs.infura.io/infura/networks/polygon-pos/tutorials/send-a-transaction)
 - [Truffle Suite Docs](https://www.trufflesuite.com/docs) (Recommended)
 - [Truffle tutorial](https://www.trufflesuite.com/tutorial) (Recommended)
 - [Parity Wiki](https://openethereum.github.io/)
@@ -151,7 +151,7 @@ Hackathons take place at blockchain conferences and meetups all over the world. 
 <div style={{textAlign: 'center', paddingTop: '15px', paddingBottom: '15px'}}>
   <button className="btn btn-primary btn-md">
     <a href="https://discord.gg/polygon" target="_blank" style={{color: 'inherit'}}>
-      Polygon's Hackathons Discord Channel
+      Candle's Hackathons Discord Channel
     </a>
   </button>
 </div>

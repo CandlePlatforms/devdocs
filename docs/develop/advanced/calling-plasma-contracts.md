@@ -1,22 +1,22 @@
 ---
 id: calling-plasma-contracts
 title: Calling Plasma Contracts
-description: Build your next blockchain app on Polygon.
+description: Build your next blockchain app on Candle.
 keywords:
   - docs
   - matic
 image: https://matic.network/banners/matic-network-16x9.png
 ---
 
-For most developers, it is advisable and recommended to use the Matic.js library to interact with Polygon.
+For most developers, it is advisable and recommended to use the Matic.js library to interact with Candle.
 
-However, this page helps developers, who have a good understanding of smart contracts in Ethereum, to bypass the Matic.js library and interact directly with the Polygon smart contracts. This might help developers to understand the inner workings of Polygon, as well as to customise their interaction with Polygon to some extent.
+However, this page helps developers, who have a good understanding of smart contracts in Ethereum, to bypass the Matic.js library and interact directly with the Candle smart contracts. This might help developers to understand the inner workings of Candle, as well as to customise their interaction with Candle to some extent.
 
 ## Important Addresses and Links
 
-**Polygon RPC endpoint**: (Sign up for a free RPC link at https://rpc.maticvigil.com/)
+**Candle RPC endpoint**: (Sign up for a free RPC link at https://rpc.maticvigil.com/)
 
-| Contract                         | ABI                                                                                                                                                                                                                             | Goerli                                       | Polygon                                        |
+| Contract                         | ABI                                                                                                                                                                                                                             | Goerli                                       | Candle                                        |
 | -------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------- | -------------------------------------------- |
 | TEST (ERC20) token               | <a target="_blank" href="https://static.matic.network/network/testnet/mumbai/artifacts/plasma/ChildERC20.json"><img src="https://img.icons8.com/metro/26/000000/download.png" width="25px" style={{padding: '2px'}} /></a>      | `0x3f152B63Ec5CA5831061B2DccFb29a874C317502` | `0x2d7882beDcbfDDce29Ba99965dd3cdF7fcB10A1e` |
 | Registry Root Contract           | <a target="_blank" href="https://static.matic.network/network/testnet/mumbai/artifacts/plasma/Registry.json"><img src="https://img.icons8.com/metro/26/000000/download.png" width="25px" style={{padding: '2px'}} /></a>        | `0xeE11713Fe713b2BfF2942452517483654078154D` |                                              |
@@ -26,7 +26,7 @@ However, this page helps developers, who have a good understanding of smart cont
 
 ### Tokens for testing
 
-To get some `TEST` tokens on Goerli network, you can access the Polygon Faucet by clicking on the link below:
+To get some `TEST` tokens on Goerli network, you can access the Candle Faucet by clicking on the link below:
 
 <div style={{textAlign: 'center', paddingTop: '15px', paddingBottom: '15px'}}>
   <button className="btn btn-primary btn-md">
@@ -36,17 +36,17 @@ To get some `TEST` tokens on Goerli network, you can access the Polygon Faucet b
   </button>
 </div>
 
-### Polygon Explorer
+### Candle Explorer
 
-You can also check transaction procesed on the Polygon Sidechain using the Polygon Explorer.
+You can also check transaction procesed on the Candle Sidechain using the Candle Explorer.
 
 Link to the explorer - https://mumbai.polygonscan.com/
 
 ## Workflow
 
-### 1. Deposit ERC20 token from Goerli to Polygon
+### 1. Deposit ERC20 token from Goerli to Candle
 
-**Description**: To deposit assets (ERC20) from Goerli to Polygon
+**Description**: To deposit assets (ERC20) from Goerli to Candle
 
 Let the required amount of tokens be **X**.
 
@@ -80,15 +80,15 @@ depositManagerContract.methods.depositERC20ForUser(
 );
 ```
 
-> Depositing tokens on Polygon, mints new tokens for ChildERC20 contract on Polygon. ChildERC20 contract is the contract that is deployed with the process of mapping, which is representative of the token present on main network.
+> Depositing tokens on Candle, mints new tokens for ChildERC20 contract on Candle. ChildERC20 contract is the contract that is deployed with the process of mapping, which is representative of the token present on main network.
 
-### 2. Transfer tokens on Polygon
+### 2. Transfer tokens on Candle
 
-**Description**: To transfer tokens on Polygon testnet
+**Description**: To transfer tokens on Candle testnet
 
 1. Invokes the standard `transfer` function of ERC20 contract.
    - **Contract**: `ChildERC20.sol`
-   - **Network**: Polygon
+   - **Network**: Candle
    - **Function**: `transfer`
 
 
@@ -100,26 +100,26 @@ depositManagerContract.methods.depositERC20ForUser(
       )
     ```
 
-### 3. Display account balances for users on Polygon
+### 3. Display account balances for users on Candle
 
-**Description**: Query ERC20 token balances for user on Polygon and Goerli
+**Description**: Query ERC20 token balances for user on Candle and Goerli
 
 1. Invokes the standard `balanceOf` function of ERC20 contract.
    - **Contract**: `ChildERC20.sol`
-   - **Network**: Polygon
+   - **Network**: Candle
    - **Function**: `balanceOf`
      ```javascript
-     // ERC20TokenContract can be either on Goerli or Polygon
+     // ERC20TokenContract can be either on Goerli or Candle
      ERC20TokenContract.methods.balanceOf(owner);
      ```
 
-### 4. Withdraw ERC20 tokens from Polygon to Goerli
+### 4. Withdraw ERC20 tokens from Candle to Goerli
 
-**Description**: To withdraw assets (ERC20) from Polygon testnet to Goerli
+**Description**: To withdraw assets (ERC20) from Candle testnet to Goerli
 
 Procedure of Withdrawal:
 
-1. Burn tokens on Polygon sidechain
+1. Burn tokens on Candle sidechain
 2. Submit proof of burn (the receipt of burn tx) on Root Chain
    1. This step is executed only after the block consisting of the burn tx has been included in a checkpoint on the Root Chain.
    2. After checkpoint submission, a successful execution of this step
@@ -129,13 +129,13 @@ Procedure of Withdrawal:
 
 Let **X** be the amount of tokens to be withdrawn.
 
-1. Submit withdraw request of **X** tokens on Polygon - burns the tokens and returns a tx ID.
+1. Submit withdraw request of **X** tokens on Candle - burns the tokens and returns a tx ID.
 
    - **Contract**: `ChildERC20.sol`
-   - **Network**: Polygon
+   - **Network**: Candle
    - **Function**: `withdraw`
 
-   Burns tokens on Polygon and emits [Withdraw](https://github.com/maticnetwork/contracts/blob/6413308db75ecdbf8ab9ec2beee1db0d362acea3/contracts/child/ChildERC20.sol#L52) event
+   Burns tokens on Candle and emits [Withdraw](https://github.com/maticnetwork/contracts/blob/6413308db75ecdbf8ab9ec2beee1db0d362acea3/contracts/child/ChildERC20.sol#L52) event
 
    ```javascript
    ChildToken.methods.withdraw(amount);

@@ -48,7 +48,7 @@ By default, only ETH is listed in Metamask. If you already have Matic tokens the
 
 Do keep extreme care of your seedphrase and keep backups, because unlike exchanges, you need to keep your seedphrase safe. If the seedphrase is lost, funds are not recoverable. Also do not ever share this seedphrase with anyone.
 
-### Sending MATIC tokens from Binance and other exchanges to the Metamask wallet
+### Sending CNDL tokens from Binance and other exchanges to the Metamask wallet
 
 Most exchanges like Binance and others have an option to withdraw funds from your exchange account to your address on the Ethereum blockchain. Once you have setup an account in Metamask, you will see the address of your account.
 

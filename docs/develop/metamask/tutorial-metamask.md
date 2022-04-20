@@ -2,7 +2,7 @@
 id: hello
 title: How to create a MetaMask Wallet?
 sidebar_label: Hello Metamask
-description: Build your next blockchain app on Polygon.
+description: Build your next blockchain app on Candle.
 keywords:
   - docs
   - matic

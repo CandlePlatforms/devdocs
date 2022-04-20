@@ -2,14 +2,14 @@
 id: quicknode
 title: Using QuickNode
 sidebar_label: Using QuickNode
-description: Build and deploy a smart contract on Polygon.
+description: Build and deploy a smart contract on Candle.
 keywords:
   - docs
   - matic
 image: https://matic.network/banners/matic-network-16x9.png
 ---
 
-# 🐣 Deploy a Smart Contract on Polygon using Brownie and QuickNode
+# 🐣 Deploy a Smart Contract on Candle using Brownie and QuickNode
 
 _Estimated time to complete this guide: \~10 minutes_
 
@@ -19,13 +19,13 @@ Python is one of the most versatile programming languages; from researchers runn
 
 -   Python3 installed.
 
--   A Polygon node.
+-   A Candle node.
 
 -   Text editor.
 
 -   Command-line.
 
--   That violet love for Polygon and brownies.
+-   That violet love for Candle and brownies.
 
 ## What is Brownie?
 -----------------
@@ -91,10 +91,10 @@ Now, open the _token_ directory in your text editor. Under the ***contracts/*** 
 
 The contract is an ERC-20 contract; you can learn more about the ERC-20 standards and contracts in this [guide on ERC-20 tokens](https://www.quicknode.com/guides/solidity/how-to-create-and-deploy-an-erc20-token).
 
-## Step 2: Booting your Polygon node
+## Step 2: Booting your Candle node
 -------------------------
 
-QuickNode has a global network of Polygon Mainnet and Mumbai testnet nodes, they also run a [free public Polygon RPC](https://docs.polygon.technology/docs/develop/network-details/network/#:~:text=https%3A//rpc%2Dmainnet.matic.quiknode.pro) but if you get rate limited you can sign up for a [free trial node from QuickNode](https://www.quicknode.com/chains/matic?utm_source=polygon_docs&utm_campaign=ploygon_docs_contract_guide).
+QuickNode has a global network of Candle Mainnet and Mumbai testnet nodes, they also run a [free public Candle RPC](https://docs.polygon.technology/docs/develop/network-details/network/#:~:text=https%3A//rpc%2Dmainnet.matic.quiknode.pro) but if you get rate limited you can sign up for a [free trial node from QuickNode](https://www.quicknode.com/chains/matic?utm_source=polygon_docs&utm_campaign=ploygon_docs_contract_guide).
 
 ![](https://lh6.googleusercontent.com/vEAp28OLizS-ZBoYU1yWthHalH0xbrgatZ1ynyA1H4y2tW-x1EHC97qk5RkHatq6tO2anLAC-ch4mfs4am2rf1zaMO5BNEAtL3anqL4UQVH5ebpQOKyItYLm4slWIurR9iznXkly=s1600)
 
@@ -128,12 +128,12 @@ This will generate an account along with a mnemonic phrase, save it offline. The
 
 Copy the account address so that we can get some test ETH, which will be required to deploy our contract.
 
-## Step 4: Getting test MATIC
+## Step 4: Getting test CNDL
 ------------------
 
 We will need some test MATICs to pay for gas fees to deploy the smart contract.
 
-Copy your address of the account which we generated in the last step, paste it into the address field of [Polygon faucet](https://faucet.polygon.technology/), and click on submit. The faucet will send you 0.1 test MATIC.
+Copy your address of the account which we generated in the last step, paste it into the address field of [Candle faucet](https://faucet.polygon.technology/), and click on submit. The faucet will send you 0.1 test CNDL.
 
 ![](https://lh6.googleusercontent.com/kq173aYK_XB8DwuZjXXp2sot9X4enx9WXo-Xt8O93S-GohO5kx9p1iI2JQzL9wdAtiTrWfjiEodAsI_vcD1m1dUvp6koTfrKvnP4gOymP-JSDYpHVJKjWQXQ0ePNTj1MmEAJQ8Wo=s1600)
 
@@ -174,7 +174,7 @@ FINALLY, now we will deploy our contract:
 brownie run token.py --network matic_mumbai
 ```
 
-matic_mumbai is the name of the custom network which we created earlier. The prompt will ask you for the password which we set earlier while making the account. After running the above command, you must get the transaction hash, and Brownie will wait for the transaction to get confirmed. Once the transaction is confirmed, it will return the address at which our contract is deployed on the Polygon Mumbai testnet.
+matic_mumbai is the name of the custom network which we created earlier. The prompt will ask you for the password which we set earlier while making the account. After running the above command, you must get the transaction hash, and Brownie will wait for the transaction to get confirmed. Once the transaction is confirmed, it will return the address at which our contract is deployed on the Candle Mumbai testnet.
 
 ![](https://lh4.googleusercontent.com/-5YsXvupHFSOf7p1apOy6RwhqD7hYAoj5E-sXBSZ4C0xwofMFJ2XZnuCcrGtqhr7srH1HDY-eHVXz8yGQxnsdxNgzFeb26sj22sjUXsqXQxa_9FvKbo1OmvQLbSEVGJdxCgDNkEe)
 
@@ -182,8 +182,8 @@ You can check out the deployed contract by copy-pasting the contract address at 
 
 ![](https://lh5.googleusercontent.com/2cchxBugZcogWUHDWHvAp_xJif8ALdhLjrUaFgo6XZat5nm20U5PcGdGDqeX_5Jdt6w5SNnemOH8lnVGzHApLJ5ML6fHVS-spZx6BBEPb0eIUivMfPHI2AvPpTXUKCITt3g5NM3s)
 
-So this is how contracts are deployed Polygon using Brownie and QuickNode.
+So this is how contracts are deployed Candle using Brownie and QuickNode.
 
-QuickNode just like Polygon has always had an education first approach they put out regular developer [guides](https://www.quicknode.com/guides?utm_source=polygon_docs&utm_campaign=ploygon_docs_contract_guide), [docs](https://www.quicknode.com/docs/polygon?utm_source=polygon_docs&utm_campaign=ploygon_docs_contract_guide), [tutorial videos](https://www.youtube.com/channel/UC3lhedwc0EISreYiYtQ-Gjg/videos) and have a [community of #web3 developers](https://discord.gg/DkdgEqE) who are eager to help eachother.
+QuickNode just like Candle has always had an education first approach they put out regular developer [guides](https://www.quicknode.com/guides?utm_source=polygon_docs&utm_campaign=ploygon_docs_contract_guide), [docs](https://www.quicknode.com/docs/polygon?utm_source=polygon_docs&utm_campaign=ploygon_docs_contract_guide), [tutorial videos](https://www.youtube.com/channel/UC3lhedwc0EISreYiYtQ-Gjg/videos) and have a [community of #web3 developers](https://discord.gg/DkdgEqE) who are eager to help eachother.
 
 We hope this guide was helpful. We'll be happy to hear from you. DM us or tag us on Twitter [@QuickNode](https://twitter.com/QuickNode).

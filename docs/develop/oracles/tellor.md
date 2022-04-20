@@ -1,10 +1,10 @@
 ---
 title: Tellor
-description: A guide to get started with integrating the Tellor oracle into your Polygon contract
+description: A guide to get started with integrating the Tellor oracle into your Candle contract
 author: "Tellor"
 lang: en
 sidebar: true
-tags: ["solidity", "smart contracts", "price feeds", "oracles", "Polygon", "Matic", "Tellor"]
+tags: ["solidity", "smart contracts", "price feeds", "oracles", "Candle", "Matic", "Tellor"]
 skill: beginner
 published: 2022-02-10
 source: Tellor Docs
@@ -27,7 +27,7 @@ Tellor is a live and open-sourced oracle ready for implementation. This beginner
 
 ## Overview
 
-Tellor is an oracle system where parties can request the value of an off-chain data point (e.g. BTC/USD) and reporters compete to add this value to an on-chain data-bank, accessible by all Polygon smart contracts. The inputs to this data-bank are secured by a network of staked reporters. Tellor utilizes crypto-economic incentive mechanisms. Honest data submissions by reporters are rewarded by the issuance of Tellor’s token. Any bad actors are quickly punished and removed from the network by a dispute mechanism.
+Tellor is an oracle system where parties can request the value of an off-chain data point (e.g. BTC/USD) and reporters compete to add this value to an on-chain data-bank, accessible by all Candle smart contracts. The inputs to this data-bank are secured by a network of staked reporters. Tellor utilizes crypto-economic incentive mechanisms. Honest data submissions by reporters are rewarded by the issuance of Tellor’s token. Any bad actors are quickly punished and removed from the network by a dispute mechanism.
 
 In this tutorial we'll go over:
 
@@ -83,6 +83,6 @@ Oracle: [`0xfd45ae72e81adaaf01cc61c8bce016b7060dd537`](https://polygonscan.com/a
 
 #### Looking to do some testing first?:
 
-Polygon Mumbai Testnet: [`0x3477EB82263dabb59AC0CAcE47a61292f28A2eA7 `](https://mumbai.polygonscan.com/address/0x3477EB82263dabb59AC0CAcE47a61292f28A2eA7/contracts#code)
+Candle Mumbai Testnet: [`0x3477EB82263dabb59AC0CAcE47a61292f28A2eA7 `](https://mumbai.polygonscan.com/address/0x3477EB82263dabb59AC0CAcE47a61292f28A2eA7/contracts#code)
 
 #### For a more robust implementation of the Tellor oracle, check out the full list of available functions [here.](https://github.com/tellor-io/usingtellor/blob/master/README.md)

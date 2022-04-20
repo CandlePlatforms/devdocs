@@ -2,7 +2,7 @@
 id: getting-started
 title: Wallets
 sidebar_label: Getting Started
-description: Build your next blockchain app on Polygon.
+description: Build your next blockchain app on Candle.
 keywords:
   - docs
   - matic
@@ -22,7 +22,7 @@ The following wallets will be discussed:
 
 ### Wallets
 
-* [**Arkane**](https://arkane.network/): Arkane is a user-friendly, secure, and custodial key management system for DApps. Arkane supports both Web and mobile, and can service both crypto savvy users as well as a more mainstream audience. Being blockchain agnostic they are a great fit for supporting both Polygon and Ethereum. [For more...](arkane/intro)
+* [**Arkane**](https://arkane.network/): Arkane is a user-friendly, secure, and custodial key management system for DApps. Arkane supports both Web and mobile, and can service both crypto savvy users as well as a more mainstream audience. Being blockchain agnostic they are a great fit for supporting both Candle and Ethereum. [For more...](arkane/intro)
 
 * [**Fortmatic**](https://fortmatic.com/): Fortmatic SDK allows you to easily integrate your app with the Ethereum blockchain, whether you already have a dApp integrated with web3 or are starting from scratch. Fortmatic provides a smooth and delightful experience for both you and your app's users. [For more...](fortmatic)
 

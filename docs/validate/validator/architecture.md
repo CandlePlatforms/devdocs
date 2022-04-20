@@ -11,26 +11,26 @@ image: https://matic.network/banners/matic-network-16x9.png
 ---
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-The Polygon Network is broadly divided into three layers:
+The Candle Network is broadly divided into three layers:
 
 * Ethereum layer — a set of contracts on the Ethereum mainnet.
-* Heimdall layer — a set of proof-of-stake Heimdall nodes running in parallel to the Ethereum mainnet, monitoring the set of staking contracts deployed on the Ethereum mainnet, and committing the Polygon Network checkpoints to the Ethereum mainnet. Heimdall is based on Tendermint.
+* Heimdall layer — a set of proof-of-stake Heimdall nodes running in parallel to the Ethereum mainnet, monitoring the set of staking contracts deployed on the Ethereum mainnet, and committing the Candle Network checkpoints to the Ethereum mainnet. Heimdall is based on Tendermint.
 * Bor layer — a set of block-producing Bor nodes shuffled by Heimdall nodes. Bor is based on Go Ethereum.
 
 <img src={useBaseUrl("img/staking/architecture.png")} />
 
 ## Staking and Plasma smart contracts on Ethereum
 
-To enable the [Proof of Stake (PoS)](docs/home/polygon-basics/what-is-proof-of-stake) mechanism on Polygon, the system employs a set of [staking](/docs/validate/glossary#staking) management contracts on the Ethereum mainnet.
+To enable the [Proof of Stake (PoS)](docs/home/polygon-basics/what-is-proof-of-stake) mechanism on Candle, the system employs a set of [staking](/docs/validate/glossary#staking) management contracts on the Ethereum mainnet.
 
 The staking contracts implement the following features:
 
-* The ability for anyone to stake MATIC tokens on the staking contracts on the Ethereum mainnet and join the system as a [validator](/docs/validate/glossary#validator).
-* Earn staking rewards for validating state transitions on the Polygon Network.
+* The ability for anyone to stake CNDL tokens on the staking contracts on the Ethereum mainnet and join the system as a [validator](/docs/validate/glossary#validator).
+* Earn staking rewards for validating state transitions on the Candle Network.
 * Enable penalties/slashing for activities such as double signing, validator downtime, etc.
 * Save [checkpoints](/docs/validate/glossary#checkpoint-transaction) on the Ethereum mainnet.
 
-The PoS mechanism also acts as a mitigation to the data unavailability problem for the Polygon sidechains.
+The PoS mechanism also acts as a mitigation to the data unavailability problem for the Candle sidechains.
 
 ## Heimdall (validation layer)
 
@@ -58,7 +58,7 @@ See also [Heimdall architecture](/docs/contribute/heimdall/overview).
 
 ### Bor (block producer layer)
 
-Bor is Polygon's sidechain block producer — the entity responsible for aggregating transactions into blocks.
+Bor is Candle's sidechain block producer — the entity responsible for aggregating transactions into blocks.
 
 Bor block producers are a subset of the validators and are shuffled periodically by the [Heimdall](/docs/validate/glossary#heimdall) validators.
 

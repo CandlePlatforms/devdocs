@@ -1,7 +1,7 @@
 ---
 id: getting-started
 title: Getting Started
-description: A collection of instructions on how to run and operate validator nodes on the Polygon Network.
+description: A collection of instructions on how to run and operate validator nodes on the Candle Network.
 keywords:
   - docs
   - matic

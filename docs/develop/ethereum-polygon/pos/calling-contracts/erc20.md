@@ -2,7 +2,7 @@
 id: erc20
 title: ERC20 Deposit and Withdraw Guide
 sidebar_label: ERC20
-description: Build your next blockchain app on Polygon.
+description: Build your next blockchain app on Candle.
 keywords:
   - docs
   - matic
@@ -18,7 +18,7 @@ Depositing ERC20 -
 
 Withdrawing ERC20 -
 
-1. **_Burn_** tokens on Polygon chain.
+1. **_Burn_** tokens on Candle chain.
 2. Call **_exit_** function on **_RootChainManager_** to submit proof of burn transaction. This call can be made **_after checkpoint_** is submitted for the block containing burn transaction.
 
 ## Step Details
@@ -43,7 +43,7 @@ await rootTokenContract.methods
 
 ### Deposit
 Note that token needs to be mapped and amount has to be approved for deposit before making this call.  
-Call the **_depositFor_** function of **_RootChainManager_** contract. This function takes 3 arguments user, rootToken and depositData. **_user_** is the address of user that will receive the deposit on Polygon chain. **_rootToken_** is the address of token on main chain. **_depositData_** is abi encoded amount.
+Call the **_depositFor_** function of **_RootChainManager_** contract. This function takes 3 arguments user, rootToken and depositData. **_user_** is the address of user that will receive the deposit on Candle chain. **_rootToken_** is the address of token on main chain. **_depositData_** is abi encoded amount.
 ```js
 const depositData = mainWeb3.eth.abi.encodeParameter('uint256', amount)
 await rootChainManagerContract.methods
@@ -52,7 +52,7 @@ await rootChainManagerContract.methods
 ```
 
 ### Burn
-Tokens can be burned on Polygon chain by calling the **_withdraw_** function on child token contract. This function takes a single argument, **_amount_** indicating the number of tokens to be burned. Proof of this burn needs to be submitted in the exit step. So store the transaction hash.
+Tokens can be burned on Candle chain by calling the **_withdraw_** function on child token contract. This function takes a single argument, **_amount_** indicating the number of tokens to be burned. Proof of this burn needs to be submitted in the exit step. So store the transaction hash.
 ```js
 const burnTx = await childTokenContract.methods
   .withdraw(amount)
@@ -74,7 +74,7 @@ Exit function on **_RootChainManager_** contract has to be called to unlock and 
 9. branchMask - 32 bits denoting the path of receipt in merkle patricia tree
 10. receiptLogIndex - Log Index to read from the receipt
 
-Generating proof manually can be tricky so it is advisable to use Polygon Edge. If you want to send the transaction manually, you can pass **_encodeAbi_** as **_true_** in the options object to get raw calldata.
+Generating proof manually can be tricky so it is advisable to use Candle Edge. If you want to send the transaction manually, you can pass **_encodeAbi_** as **_true_** in the options object to get raw calldata.
 ```js
 const exitCalldata = await maticPOSClient
   .exitERC20(burnTxHash, { from, encodeAbi: true })

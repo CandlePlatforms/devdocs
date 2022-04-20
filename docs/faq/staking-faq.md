@@ -2,7 +2,7 @@
 id: staking-faq
 title: Staking FAQ
 sidebar_label: Staking FAQ
-description: Build your next blockchain app on Polygon.
+description: Build your next blockchain app on Candle.
 keywords:
   - docs
   - matic
@@ -18,7 +18,7 @@ The staking dashboard URL is: https://wallet.polygon.technology/staking
 
 There is no minimum stake amount to delegate.
 
-### How to stake tokens on Polygon?
+### How to stake tokens on Candle?
 
 For Staking you would need to have funds on the Ethereum Mainnet. Log into Metamask on the Ethereum network using the Staking Dashboard. https://wallet.polygon.technology/staking/
 
@@ -29,11 +29,11 @@ Please watch this video for a graphical illustration of how this works:
   <p>Your browser does not support the video element.</p>
 </video>
 
-### What’s the incentive to be a Polygon staker?
+### What’s the incentive to be a Candle staker?
 
-Polygon is allocating 12% of its total supply of 10 billion tokens to fund the staking rewards. These 1.2 billion tokens will be the staking incentive for the first five years. This is to ensure that the network is seeded well enough until transaction fees gain traction. These rewards are primarily meant to jump-start the network, while the protocol in the long run should be able to sustain itself on the basis of transaction fees.
+Candle is allocating 12% of its total supply of 10 billion tokens to fund the staking rewards. These 1.2 billion tokens will be the staking incentive for the first five years. This is to ensure that the network is seeded well enough until transaction fees gain traction. These rewards are primarily meant to jump-start the network, while the protocol in the long run should be able to sustain itself on the basis of transaction fees.
 
-**Validator Rewards = Staking Rewards + Transaction Fees from Polygon chain**
+**Validator Rewards = Staking Rewards + Transaction Fees from Candle chain**
 
 First year will see the maximum amount of tokens allocated as staking rewards. This is allocated in a way to ensure gradual decoupling of staking rewards from being the dominant component of the validator rewards.
 
@@ -41,9 +41,9 @@ See also [Rewards](/docs/validate/rewards).
 
 ### Can I participate in the staking process, even if I do not want to run a node?
 
-MATIC token holders who do not wish to run their own node can delegate their tokens to a validator. Delegation increases the power of the validator. More the power, more probability of the validator to become the block producer and checkpoint proposer and more weight in the consensus.
+CNDL token holders who do not wish to run their own node can delegate their tokens to a validator. Delegation increases the power of the validator. More the power, more probability of the validator to become the block producer and checkpoint proposer and more weight in the consensus.
 
-There is no minimum amount requirement for delegation. Any amount, even 1 MATIC, will be accepted in the system. However, it is up to validators to set a minimum limit or not while accepting delegations. Validators might charge a commission in exchange for their node running services. Other than the commission charged, one needs to evaluate the track record of the validator for example, average uptime or if the node was ever compromised.
+There is no minimum amount requirement for delegation. Any amount, even 1 CNDL, will be accepted in the system. However, it is up to validators to set a minimum limit or not while accepting delegations. Validators might charge a commission in exchange for their node running services. Other than the commission charged, one needs to evaluate the track record of the validator for example, average uptime or if the node was ever compromised.
 
 See also [Delegate](/docs/validate/delegate).
 
@@ -61,7 +61,7 @@ Please watch this video for a graphical illustration of how this works:
 
 Yes. You should provision for ~0.05-0.1 ETH to be safe.
 
-### Do I need to deposit MATIC tokens to the Polygon mainnet network for staking?
+### Do I need to deposit CNDL tokens to the Candle mainnet network for staking?
 
 No. All your funds need to be on the Ethereum mainnet.
 
@@ -122,7 +122,7 @@ Please watch the video for a graphical illustration of how this works:
 
 ### What is the unbonding period?
 
-The unbonding period on Polygon is 80 checkpoints. This is approximately ~3-4 days. Every checkpoint takes approximately 3 hours. However, some checkpoints could be delayed due to congestion on Ethereum.
+The unbonding period on Candle is 80 checkpoints. This is approximately ~3-4 days. Every checkpoint takes approximately 3 hours. However, some checkpoints could be delayed due to congestion on Ethereum.
 This period applies to the originally delegated amount and re-delegated amounts. It does not apply to any rewards that were not re-delegated.
 
 ### How do I know when the unbonding period is over?
@@ -217,9 +217,9 @@ Currently, the MetaMask extension on the desktop browser and Coinbase Wallet are
 
 Yes, hardware wallets are supported. You can use the "Connect Hardware Wallet" option on Metamask and connect your Hardware wallet and then continue the delegation process.
 
-### How do I send funds from Binance or other exchanges to Polygon wallet?
+### How do I send funds from Binance or other exchanges to Candle wallet?
 
-Technically, the Polygon web wallet/staking interface is just a web application. Currently, it supports the following wallets — MetaMask. WalletConnect and WalletLink.
+Technically, the Candle web wallet/staking interface is just a web application. Currently, it supports the following wallets — MetaMask. WalletConnect and WalletLink.
 
 So first you must withdraw your funds from Binance or any other exchange to your Ethereum address on MetaMask. If you don't know how to use MetaMask, Google it a bit. There are plenty of videos and blogs to get started with it.
 
@@ -227,7 +227,7 @@ So first you must withdraw your funds from Binance or any other exchange to your
 
 Staking through Binance is not yet supported. There will be an announcement if and when Binance starts supporting it.
 
-### Do I need to deposit Matic tokens to the Polygon Mainnet network for staking?
+### Do I need to deposit Matic tokens to the Candle Mainnet network for staking?
 
 No. All your funds need to be on the Main Ethereum Network.
 
@@ -239,13 +239,13 @@ Approximately 20188 Matic tokens are distributed proportionately on each success
 
 (Note that there is a 10% proposer bonus that accrues to the validator who submits the checkpoint, but over time, the effect of the extra bonus is nullified over multiple checkpoints by different validators.)
 
-The checkpoint submission is done by one of the validators approximately every 34 minutes. This time may vary based on validator consensus on the Polygon Heimdall layer. This may also vary based on the Ethereum Network. Higher congestion in the network may result in delayed checkpoints.
+The checkpoint submission is done by one of the validators approximately every 34 minutes. This time may vary based on validator consensus on the Candle Heimdall layer. This may also vary based on the Ethereum Network. Higher congestion in the network may result in delayed checkpoints.
 
 You can track checkpoints on the staking contract here: [on Etherscan](https://etherscan.io/address/0x86e4dc95c7fbdbf52e33d563bbdb00823894c287).
 
 ### Why do rewards keep getting decreased at every checkpoint?
 
-Rewards earned will depend on the actual total locked supply in the network at each checkpoint. This is expected to vary significantly as more MATIC tokens get locked in the staking contracts.
+Rewards earned will depend on the actual total locked supply in the network at each checkpoint. This is expected to vary significantly as more CNDL tokens get locked in the staking contracts.
 Rewards will be higher, to begin with, and will keep decreasing as the locked supply percentage goes up. This change in locked supply is captured at every checkpoint, and rewards are calculated based on this.
 
 ### Will I keep receiving rewards after I unbond?
@@ -280,7 +280,7 @@ Staked tokens are locked in a contract deployed on the Ethereum mainnet. Validat
 
 ### Why does my transaction take so long?
 
-All staking transactions of Polygon happen on the Ethereum mainnet for security reasons.
+All staking transactions of Candle happen on the Ethereum mainnet for security reasons.
 
 The time taken to complete a transaction depends on:
 

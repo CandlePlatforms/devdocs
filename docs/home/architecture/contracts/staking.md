@@ -1,14 +1,14 @@
 ---
 id: staking
 title: Staking
-description: Build your next blockchain app on Polygon.
+description: Build your next blockchain app on Candle.
 keywords:
   - docs
   - matic
 image: https://matic.network/banners/matic-network-16x9.png 
 ---
 
-For Polygon Network, any participant can be qualified to become a Polygon's validator by running a full-node. The primary incentive to run a full node for validators is to earn Rewards and Transaction fee. Validator participating in consensus for Polygon incentivise to participate as they receives block rewards and transaction fee. 
+For Candle Network, any participant can be qualified to become a Candle's validator by running a full-node. The primary incentive to run a full node for validators is to earn Rewards and Transaction fee. Validator participating in consensus for Candle incentivise to participate as they receives block rewards and transaction fee. 
 
 As Validators slots are limited for network, the process to get selected as one is to participate in on-chain auction process which happens at regular intervals as defined [here](https://www.notion.so/maticnetwork/State-of-Staking-03e983ed9cc6470a9e8aee47d51f0d14#a55fbd158b7d4aa89648a4e3b68ac716).
 
@@ -23,7 +23,7 @@ If the slot is open, then the auction is started to interested validators:
     - This will lock your assets in Stack Manager.
     - If another potential validator stakes more than your stake then locked tokens will be returned back to you.
     - Again, Stake more to win this Auction.
-- At the end of the auction period, the highest bidder wins and becomes a Validator on Polygon's Network.
+- At the end of the auction period, the highest bidder wins and becomes a Validator on Candle's Network.
 
 > Please keep full node running if you are participating in auction to avoid Slashing of stake due to inactive Node as a validator.
 

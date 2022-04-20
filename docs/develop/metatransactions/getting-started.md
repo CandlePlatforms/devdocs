@@ -2,7 +2,7 @@
 id: getting-started
 title: Getting started
 sidebar_label: Getting Started
-description: Build your next blockchain app on Polygon.
+description: Build your next blockchain app on Candle.
 keywords:
   - docs
   - matic
@@ -15,7 +15,7 @@ A user with an account can craft a transaction in a similar way to how the ‘no
 
 Assuming your familiarity with the different approaches you can take to integrate meta-transactions in your DApp, and depending on whether you're migrating to meta-transactions or building fresh DApp on using it.
 
-To integrate your DApp with Meta Transactions on Polygon, you can choose to go with either the following two relayers or spin up a custom solution:
+To integrate your DApp with Meta Transactions on Candle, you can choose to go with either the following two relayers or spin up a custom solution:
 
 1. [Biconomy](metatransactions-biconomy.md)
 2. [Gas Station Network(GSN)](metatransactions-gsn.md)

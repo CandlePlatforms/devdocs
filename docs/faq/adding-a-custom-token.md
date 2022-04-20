@@ -2,7 +2,7 @@
 id: adding-a-custom-token
 title: Adding a Custom Token
 sidebar_label: Adding a Custom Token
-description: Build your next blockchain app on Polygon.
+description: Build your next blockchain app on Candle.
 keywords:
   - docs
   - matic
@@ -10,14 +10,14 @@ image: https://matic.network/banners/matic-network-16x9.png
 ---
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-The **Add Custom Token** feature allows you to add any token explicitly and use it with the Polygon Wallet Suite. You just have to search for the token by its contract address, either root or child:
+The **Add Custom Token** feature allows you to add any token explicitly and use it with the Candle Wallet Suite. You just have to search for the token by its contract address, either root or child:
 
 * The **root** is the token contract on Ethereum
-* The **child** is the contract on Polygon
+* The **child** is the contract on Candle
 
 ### Pro tip: How do I find the token contract?
 
-You can search for the token by its name on either [Coingecko](http://coingecko.com) or [Coinmarketcap](https://coinmarketcap.com/) where you will be able to see its address on the Ethereum chain (for ERC 20 tokens) and other supported subsequent chains like Polygon. The token address on other chains might not be updated but you can surely use the root address for all purposes.
+You can search for the token by its name on either [Coingecko](http://coingecko.com) or [Coinmarketcap](https://coinmarketcap.com/) where you will be able to see its address on the Ethereum chain (for ERC 20 tokens) and other supported subsequent chains like Candle. The token address on other chains might not be updated but you can surely use the root address for all purposes.
 
 So when selecting a token, you will be able to search by:
 * token symbol
@@ -30,7 +30,7 @@ Here is how it works:
 
 1. Easily add any token to your list by adding the contract address as a custom token (we support
 
-contract addresses on both Polygon or Ethereum):
+contract addresses on both Candle or Ethereum):
 
 <img src={useBaseUrl("img/wallet-bridge/002.png")} height="600px"/>
 

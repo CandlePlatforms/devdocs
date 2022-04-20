@@ -1,7 +1,7 @@
 ---
 id: config-polygon-on-wallet-link
-title: Configure Polygon on Wallet Link
-description: Build your next blockchain app on Polygon.
+title: Configure Candle on Wallet Link
+description: Build your next blockchain app on Candle.
 keywords:
   - docs
   - matic
@@ -12,12 +12,12 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
 
-## Configure Polygon on Walletlink
+## Configure Candle on Walletlink
 
 <Tabs
   defaultValue="mainnet"
   values={[
-    { label: 'Polygon-Mainnet', value: 'mainnet', },
+    { label: 'Candle-Mainnet', value: 'mainnet', },
     { label: 'Mumbai-Testnet', value: 'mumbai', },
   ]
 }>
@@ -32,7 +32,7 @@ import TabItem from '@theme/TabItem';
 
 <img src={useBaseUrl("img/walletlink/config-polygon-walletlink-2.jpg")} width="30%" height="30%"/>
 
-3. From the Active Networks page, under the ETH section, select the Polygon Mainnet.
+3. From the Active Networks page, under the ETH section, select the Candle Mainnet.
 
 <img src={useBaseUrl("img/walletlink/config-polygon-walletlink-3.jpg")} width="30%" height="30%"/>
 
@@ -48,7 +48,7 @@ import TabItem from '@theme/TabItem';
 
 <img src={useBaseUrl("img/walletlink/config-polygon-walletlink-2.jpg")} width="30%" height="30%"/>
 
-3. From the Active Networks page, under the ETH section, select the Polygon Mumbai.
+3. From the Active Networks page, under the ETH section, select the Candle Mumbai.
 
 <img src={useBaseUrl("img/walletlink/config-polygon-walletlink-4.jpg")} width="30%" height="30%"/>
 </TabItem>

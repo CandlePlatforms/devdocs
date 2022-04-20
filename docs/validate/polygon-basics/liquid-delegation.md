@@ -1,7 +1,7 @@
 ---
 id: liquid-delegation
-title: Liquid Delegation in Polygon
-description: Build your next blockchain app on Polygon.
+title: Liquid Delegation in Candle
+description: Build your next blockchain app on Candle.
 keywords:
   - docs
   - matic
@@ -41,13 +41,13 @@ In case of delegators the amount locked is assumed to be in smaller chunks so we
 
 Application level staking liquidation has trust problem, Protocol level staking liquidation is much more appreciated due to the fact that any new actor can trust it(which attracts more capital, even from smaller actors/delegators)
 
-### Polygon's Solution for Delegation
+### Candle's Solution for Delegation
 
 While exploring delegation we realised that delegation needs to be in-protocol in order to have more trust from delegators.
 
 We were facing similar issue to validators capital liquidity and thought of making it a NFT which can be transfers and exploring on similar thoughts like how it can be made more liquid and sikka-chorus.one 's   awesome design 🙏 [https://blog.chorus.one/delegation-vouchers/](https://blog.chorus.one/delegation-vouchers/)  came to attention. 
 
-Thinking in terms of making is share of validator pool is great idea and since Polygon's staking is implemented on ethereum smart contract it opens up a lot more options for us like making it ERC20 compatible so that it can be used in defi protocols.
+Thinking in terms of making is share of validator pool is great idea and since Candle's staking is implemented on ethereum smart contract it opens up a lot more options for us like making it ERC20 compatible so that it can be used in defi protocols.
 
 As of now each validator has their own VMatic(i.e. for validator Ashish there will be AMatic token)
 
@@ -70,7 +70,7 @@ Future scope:
 
 More on technical design[link to technical spec] published on stack.matic or in separate blog.
 
-Given above design available in-protocol, validators can always implement their own similar mechanisms and stake via a contract which won't be available in Polygon staking UI.
+Given above design available in-protocol, validators can always implement their own similar mechanisms and stake via a contract which won't be available in Candle staking UI.
 
 —
 

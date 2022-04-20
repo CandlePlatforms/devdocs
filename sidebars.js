@@ -26,7 +26,7 @@ module.exports = {
     },
     {
       type: "category",
-      label: "Polygon Basics",
+      label: "Candle Basics",
       items: [
         "home/polygon-basics/what-is-polygon",
         "home/polygon-basics/what-is-proof-of-stake"
@@ -40,7 +40,7 @@ module.exports = {
     "develop/getting-started",
     {
       type: "category",
-      label: "Deploying on Polygon",
+      label: "Deploying on Candle",
       items: ["develop/alchemy", "develop/quicknode", "develop/chainstack", "develop/remix", "develop/truffle", "develop/hardhat","develop/replit"],
     },
     {
@@ -74,7 +74,7 @@ module.exports = {
     },
     {
       type: "category",
-      label: "Configure Polygon on Wallets",
+      label: "Configure Candle on Wallets",
       items: [
         {
           type: "category",
@@ -120,7 +120,7 @@ module.exports = {
         "develop/wallets/walletconnect",
         {
           type: "category",
-          label: "Polygon Web Wallet",
+          label: "Candle Web Wallet",
           items: [
             "develop/wallets/polygon-web-wallet/web-wallet-v2-guide",
             "develop/wallets/polygon-web-wallet/deposit-eth-dai-on-polygon",
@@ -130,7 +130,7 @@ module.exports = {
     },
     {
       type: "category",
-      label: "Ethereum ↔ Polygon",
+      label: "Ethereum ↔ Candle",
       items: [
         "develop/ethereum-polygon/getting-started",
         {
@@ -273,7 +273,7 @@ module.exports = {
             "develop/ethereum-polygon/pos/getting-started",
             {
               type: "category",
-              label: "Using Polygon Edge",
+              label: "Using Candle Edge",
               items: [
                 "develop/ethereum-polygon/pos/using-sdk/getting-started",
                 "develop/ethereum-polygon/pos/using-sdk/eth",
@@ -498,7 +498,7 @@ module.exports = {
             "integrate/network-detail",
             {
               type: "link",
-              label: "Polygon-Mainnet",
+              label: "Candle-Mainnet",
               href: "https://github.com/maticnetwork/static/blob/master/network/mainnet/v1/index.json",
             },
             {
@@ -510,7 +510,7 @@ module.exports = {
         },
         {
           type: "link",
-          label: "Polygon Faucet",
+          label: "Candle Faucet",
           href: "https://faucet.polygon.technology/",
         },
       ],

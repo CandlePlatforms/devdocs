@@ -9,22 +9,22 @@ image: https://matic.network/banners/matic-network-16x9.png
 
 | # |Exchange Name       |CEX/DEX     |Tokens integrated                                                                                                            |
 |---|--------------------|------------|-----------------------------------------------------------------------------------------------------------------------------|
-|1  |AscendEX (BitMax)   |CEX         |MATIC, USDC, ROUTE, ZEE, PLOT                                                                                                |
-|2  |Gate.io             |CEX         |USDT, USDC, MATIC                                                                                                            |                                                                                                                    |
+|1  |AscendEX (BitMax)   |CEX         |CNDL, USDC, ROUTE, ZEE, PLOT                                                                                                |
+|2  |Gate.io             |CEX         |USDT, USDC, CNDL                                                                                                            |                                                                                                                    |
 |6  |OKCoin              |CEX         |USDC, USDT, DAI, ETH, UNI, LINK, COMP (11) - only withdrawals                                                                |
 |7  |Bithumb Korea       |CEX         |                                                                                                        |
-|8  |BitBnS              |CEX         |MATIC, USDC, USDT, WETH, LINK, AAVE                                                                                          |
+|8  |BitBnS              |CEX         |CNDL, USDC, USDT, WETH, LINK, AAVE                                                                                          |
 |9  |Bitfinex            |CEX         |                                                                                                                             |
-|10 |KuCoin              |CEX         |MATIC                                                                                                                       |
+|10 |KuCoin              |CEX         |CNDL                                                                                                                       |
 |11 |SwapSwop (Estonia)  |CEX         |                                                                                                                             |
 |12 |CoinSwitch Kuber    |CEX         |                                                                                                                             |                                                                                                                   |
 |14 |Huobi               |CEX         |                                                                                                                             |                                                                                                               |
 |16 |Simplex.com         |CEX         |                                                                                                                             |                                                                                                |
 |18 |Bitgo               |CEX         |                                                                                                                             |
-|19 |MXC                 |CEX         |USDC, USDT, MATIC                                                                                                       |
+|19 |MXC                 |CEX         |USDC, USDT, CNDL                                                                                                       |
 |20 |WazirX              |CEX         |                                                                                                                             |
 |21 |OKEx                |CEX         |BAL, BAT, CEL, COMP, CRV, DAI, ETH, GHST, GUSD, LINK, MKR, PAX, SNX, SUSHI, TUSD, UNI, USDC, USDT, USDK, wBTC, YFI, YFII, ZRX|
-|22 |BitMart             |CEX         |MATIC                                                                                                                        |
+|22 |BitMart             |CEX         |CNDL                                                                                                                        |
 |23 |Biki                |CEX         |                                                                                                                             |
 |24 |Kraken (Europe)     |CEX         |                                                                                                                             |
 |25 |Coinone             |CEX         |                                                                                                                             |
@@ -47,14 +47,14 @@ image: https://matic.network/banners/matic-network-16x9.png
 |43 |Bancor Network      |DEX         |                                                                                                                             |
 |44 |BepSwap             |DEX         |                                                                                                                             |
 |45 |Atomars             |            |                                                                                                                             |
-|46 |BigONE              |            |MATIC, USDT                                                                                                                  |
+|46 |BigONE              |            |CNDL, USDT                                                                                                                  |
 |47 |Bilaxy              |            |                                                                                                                             |
 |48 |Binance DEX         |DEX         |                                                                                                                             |
 |49 |AEX                 |DEX         |                                                                                                                             |
 |50 |BiONE               |            |                                                                                                                             |
 |51 |0x Protocol         |DEX         |                                                                                                                             |
 |52 |Bitget              |            |                                                                                                                             |
-|53 |Bitrue              |            |MATIC                                                                                                                        |
+|53 |Bitrue              |            |CNDL                                                                                                                        |
 |54 |BKEX                |CEX         |                                                                                                                             |
 |55 |Balancer            |DEX         |                                                                                                                             |
 |56 |1inch               |DEX         |                                                                                                                             |
@@ -65,11 +65,11 @@ image: https://matic.network/banners/matic-network-16x9.png
 |61 |CEX.IO              |CEX         |                                                                                                                             |
 |62 |CoinBene            |CEX         |                                                                                                                             |
 |63 |CoinEx              |CEX         |                                                                                                                             |
-|64 |Crypto.com          |CEX         |MATIC, ETH, USDC                                                                                                            |
+|64 |Crypto.com          |CEX         |CNDL, ETH, USDC                                                                                                            |
 |65 |Dove Wallet         |CEX         |                                                                                                                             |
 |66 |Emirex              |CEX         |                                                                                                                             |
 |67 |Flybit              |CEX         |                                                                                                                             |
-|68 |FTX                 |CEX         |MATIC                                                                                                                        |
+|68 |FTX                 |CEX         |CNDL                                                                                                                        |
 |69 |Korbit              |CEX         |                                                                                                                             |
 |70 |Indodax             |CEX         |                                                                                                                             |
 |71 |Nami.Exchange       |CEX         |                                                                                                                             |
@@ -84,7 +84,7 @@ image: https://matic.network/banners/matic-network-16x9.png
 |80 |Virgox              |CEX         |                                                                                                                             |
 |81 |WhaleEx             |CEX         |                                                                                                                             |
 |82 |WhiteBIT            |CEX         |                                                                                                                             |
-|83 |XT.COM              |            |MATIC                                                                                                                        |
+|83 |XT.COM              |            |CNDL                                                                                                                        |
 |84 |ZG.com              |CEX         |                                                                                                                             |
 |85 |Bybit               |CEX         |                                                                                                                         |
 |86 |7b                  |CEX (broker)|                                                                                                                             |
@@ -121,4 +121,4 @@ image: https://matic.network/banners/matic-network-16x9.png
 |117|Narkasa             |CEX         |                                                                                                                             |
 |118|EQONEX              |CEX         |                                                                                                                             |
 |119|Tokpie              |CEX         |                                                                                                                             |
-|120|MAX                 |CEX         |MATIC                                                                                                                             |
+|120|MAX                 |CEX         |CNDL                                                                                                                             |

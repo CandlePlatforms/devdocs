@@ -1,7 +1,7 @@
 ---
 id: validator-staking-operations
 title: Validator Staking Operations
-description: Learn how to stake as a validator on the Polygon Network
+description: Learn how to stake as a validator on the Candle Network
 keywords:
   - docs
   - matic
@@ -65,16 +65,16 @@ The following output should appear:
 }
 ```
 
-## Stake on Polygon
+## Stake on Candle
 
-You can stake on Polygon using the [validator dashboard](https://wallet.polygon.technology/staking/validators/).
+You can stake on Candle using the [validator dashboard](https://wallet.polygon.technology/staking/validators/).
 
 ### Stake using the staking dashboard
 
 1. Access the [validator dashboard](https://wallet.polygon.technology/staking/validators/).
 1. Log in with your wallet. MetaMask is the recommended wallet.
 
-   You have to make sure that you login using the same address where your MATIC tokens are present.
+   You have to make sure that you login using the same address where your CNDL tokens are present.
 
 1. Click **Become a Validator**
 
@@ -106,7 +106,7 @@ heimdallcli query auth account SIGNER_ADDRESS --chain-id CHAIN_ID
 where
 
 * SIGNER_ADDRESS — your [signer address](/docs/validate/glossary#validator).
-* CHAIN_ID — the Polygon mainnet chain ID with the client prefix: `heimdall-137`.
+* CHAIN_ID — the Candle mainnet chain ID with the client prefix: `heimdall-137`.
 
 The following output should appear:
 

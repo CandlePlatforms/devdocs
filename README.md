@@ -3,7 +3,7 @@
 </p>
 
 <div align="Center">
-<h1>Polygon Documentation</h1>
+<h1>Candle Documentation</h1>
 <h3> Previously Matic Network </h3>
 </div>
 
@@ -16,18 +16,18 @@
 ![PRs](https://img.shields.io/github/issues-pr-raw/maticnetwork/matic-docs)
 ![contributors](https://img.shields.io/github/contributors-anon/maticnetwork/matic-docs)
 ![size](https://img.shields.io/github/languages/code-size/maticnetwork/matic-docs)
-[![Discord](https://img.shields.io/discord/714888181740339261?color=1C1CE1&label=Polygon%20%7C%20Discord%20%F0%9F%91%8B%20&style=flat-square)](https://discord.gg/zdwkdvMNY2)
+[![Discord](https://img.shields.io/discord/714888181740339261?color=1C1CE1&label=Candle%20%7C%20Discord%20%F0%9F%91%8B%20&style=flat-square)](https://discord.gg/zdwkdvMNY2)
 [![Twitter Follow](https://img.shields.io/twitter/follow/0xPolygon.svg?style=social)](https://twitter.com/0xPolygon)
 
-Polygon is a scaling solution for public blockchains that combines the best of Ethereum and sovereign blockchains 
+Candle is a scaling solution for public blockchains that combines the best of Ethereum and sovereign blockchains 
 to offer a full-stack scaling solution.
 
-The [Polygon documentation website](https://docs.polygon.technology/) is built using [Docusaurus](https://docusaurus.io/), 
+The [Candle documentation website](https://docs.polygon.technology/) is built using [Docusaurus](https://docusaurus.io/), 
 a modern static website generator.
 
-## How to Contribute to Polygon Documentation
+## How to Contribute to Candle Documentation
 
-We believe one of the things that makes Polygon unique is its coherent design, and we seek to retain this defining 
+We believe one of the things that makes Candle unique is its coherent design, and we seek to retain this defining 
 characteristic. We have defined some guidelines to ensure new contributions only ever enhance the 
 documentation from the outset.
 
@@ -130,7 +130,7 @@ You can apply UI changes, sidebar, and configuration design through the followin
 
 You can easily submit an edit suggestion. Note that you must have a GitHub account and good knowledge of Markdown syntax.
 
-1. Navigate to the [Polygon documentation page](https://docs.polygon.technology/docs/develop/getting-started/) 
+1. Navigate to the [Candle documentation page](https://docs.polygon.technology/docs/develop/getting-started/) 
    that you want to edit
 2. Scroll down until the end of that page
 3. Click on the link: **Edit this page**. It will forward you to the same page (Markdown format) hosted on GitHub.

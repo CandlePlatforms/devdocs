@@ -2,16 +2,16 @@
 id: how-to-send-eip1559-transactions
 title: How to send EIP1559 Transactions
 sidebar_label: How to send EIP1559 transactions
-description: Build your next blockchain app on Polygon.
+description: Build your next blockchain app on Candle.
 keywords:
   - docs
   - matic
 image: https://matic.network/banners/matic-network-16x9.png
 ---
 
-The [London hard fork](https://blog.polygon.technology/eip-1559-upgrades-are-going-live-on-polygon-mainnet/) introduced a new [EIP](https://eips.ethereum.org/EIPS/eip-1559) that modifies how gas estimation and costs work for transactions on Polygon.
+The [London hard fork](https://blog.polygon.technology/eip-1559-upgrades-are-going-live-on-polygon-mainnet/) introduced a new [EIP](https://eips.ethereum.org/EIPS/eip-1559) that modifies how gas estimation and costs work for transactions on Candle.
 
-Due to this, there is a change in how the transaction object is formed when sending transactions on Polygon. A new transaction type called **Type 2 Transaction** has been introduced. The legacy type transactions will still be compatible but it is recommended to shift to the new style. You can navigate to the end of this document to directly peek into the code.
+Due to this, there is a change in how the transaction object is formed when sending transactions on Candle. A new transaction type called **Type 2 Transaction** has been introduced. The legacy type transactions will still be compatible but it is recommended to shift to the new style. You can navigate to the end of this document to directly peek into the code.
 
 ## How legacy transactions (Type 0) work
 
@@ -46,7 +46,7 @@ const sendLegacyTransaction = async () => {
 
 ### Add maxPriorityFeePerGas field
 
-The closest analogy to the `gas`:`gasPrice` combination is `gas`:`maxPriorityFeePerGas`. Since the `baseFee` needs to be paid regardless, we can just submit a bid on the *"tip"* for the miner. Note that the Polygon Gas Station V2 can be used to get the gas fee estimates.
+The closest analogy to the `gas`:`gasPrice` combination is `gas`:`maxPriorityFeePerGas`. Since the `baseFee` needs to be paid regardless, we can just submit a bid on the *"tip"* for the miner. Note that the Candle Gas Station V2 can be used to get the gas fee estimates.
 
 The follwing code example shows sending transaction in Type 2 method:
 
@@ -64,9 +64,9 @@ const sendEIP1559Transaction = async () => {
 }
 ```
 
-The Polygon Gas Station V2 can be used to get the gas fee estimates.
+The Candle Gas Station V2 can be used to get the gas fee estimates.
 
-Polygon Gas Station V2 Endpoint:
+Candle Gas Station V2 Endpoint:
 
 ```jsx
 
@@ -74,7 +74,7 @@ https://gasstation-mainnet.matic.network/v2
 
 ```
 
-Polygon Gas Station V2 Response:
+Candle Gas Station V2 Response:
 
 ```jsx
 

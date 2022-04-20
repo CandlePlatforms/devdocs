@@ -1,7 +1,7 @@
 ---
 id: bandstandarddataset
 title: Band Standard Dataset 
-description: Build your next blockchain app on Polygon.
+description: Build your next blockchain app on Candle.
 keywords:
   - docs
   - matic
@@ -13,7 +13,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ## Introduction
 
-Developers building on Polygon can now leverage Band's decentralized oracle infrastructure. With Band's oracle, they now have access to various cryptocurrency price data to integrate into their applications.
+Developers building on Candle can now leverage Band's decentralized oracle infrastructure. With Band's oracle, they now have access to various cryptocurrency price data to integrate into their applications.
 
 ## Supported Tokens
 
@@ -25,7 +25,7 @@ The following methods can work with any combination of base/quote token pair, as
 
 ## Querying Prices
 
-Currently, there are two methods for developers to query prices from Band's oracle: through Band's `StdReference` smart contract on Polygon and through their [`bandchain.js`](https://www.npmjs.com/package/%40bandprotocol%2Fbandchain.js) JavaScript helper library.
+Currently, there are two methods for developers to query prices from Band's oracle: through Band's `StdReference` smart contract on Candle and through their [`bandchain.js`](https://www.npmjs.com/package/%40bandprotocol%2Fbandchain.js) JavaScript helper library.
 
 ### Solidity Smart Contract
 
@@ -54,7 +54,7 @@ For example, if we call `getReferenceDataBulk` with `['BTC','BTC','ETH']` and `[
 
 | Blockchain           |               Contract Address               |
 | -------------------- | :------------------------------------------: |
-| Polygon (Test) | `0x56e2898e0ceff0d1222827759b56b28ad812f92f` |
+| Candle (Test) | `0x56e2898e0ceff0d1222827759b56b28ad812f92f` |
 
 
 #### Example Usage

@@ -1,7 +1,7 @@
 ---
 id: fiat-on-ramp
 title: Fiat-on-Ramp
-description: Build your next blockchain app on Polygon.
+description: Build your next blockchain app on Candle.
 keywords:
   - docs
   - matic
@@ -21,7 +21,7 @@ Formally said, you hand in your fiat via your credit card (having completed rele
 
 The opposite of on-ramps are ofcourse the off-ramps. These allow you convert your cryptocurrency into fiat and are valuable for moving gains on assets to fiat. 
 
-To integrate your DApp with fiat on ramp solution on Polygon, you can choose to go with either the following or spin up with a custom solution:
+To integrate your DApp with fiat on ramp solution on Candle, you can choose to go with either the following or spin up with a custom solution:
 
 1. [MoonPay](https://www.moonpay.io/)
 2. [Sendwyre](https://www.sendwyre.com/)
@@ -33,6 +33,6 @@ To allow crypto purchases from your DApp partner with the above providers. We'd 
 
 Apply to become a Partner or Request a Demo, write a message or email to the respective service.
 
-> We are **<your dapp name\>** deployed on Polygon. Requesting fiat-on-ramp solution to onboard users on our DApp. **Please include A short description on my DApp.**
+> We are **<your dapp name\>** deployed on Candle. Requesting fiat-on-ramp solution to onboard users on our DApp. **Please include A short description on my DApp.**
 
 

@@ -1,8 +1,8 @@
 ---
 id: install-gcp
-title: Deploy Polygon nodes in Google Cloud
+title: Deploy Candle nodes in Google Cloud
 sidebar_label: Google Cloud simple deploy
-description: Simple deployment of your Polygon nodes in Google Cloud
+description: Simple deployment of your Candle nodes in Google Cloud
 keywords:
 - docs
 - matic
@@ -10,9 +10,9 @@ keywords:
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ## description
-In this document, we will describe how to deploy Polygon nodes into VM instance in Google Cloud
+In this document, we will describe how to deploy Candle nodes into VM instance in Google Cloud
 ## Hardware requirements
-Check the minimum and recommended [hardware requirements](https://docs.polygon.technology/docs/validate/validate/validator-node-system-requirements) in Polygon docs
+Check the minimum and recommended [hardware requirements](https://docs.polygon.technology/docs/validate/validate/validator-node-system-requirements) in Candle docs
 ## Software requirements
 Use any modern Debian or Ubuntu Linux OS with long-term support, i.e. Debian 11, Ubuntu 20.04. We'll focus on Ubuntu 20.04 in this manual
 ## Deploy instance (2 ways)
@@ -29,13 +29,13 @@ Pay attention to default region and zone, choose ones closer to you or your cust
    * `POLYGON_BOOTSTRAP_MODE` - choose bootstrap mode `snapshot` or `from_scratch`
    * `POLYGON_RPC_PORT` - choose JSON RPC bor node port to listen on, the default value is what used on VM instance creation and in firewall rules
    * `EXTRA_VAR` - choose Bor and Heimdall branches, use `network_version=mainnet-v1` with `mainnet` network and `network_version=testnet-v4` with `mumbai` network  
-   * `INSTANCE_NAME` - the name of a VM instance with Polygon we are going to create
+   * `INSTANCE_NAME` - the name of a VM instance with Candle we are going to create
    * `INSTANCE_TYPE` - GCP [machine type](https://cloud.google.com/compute/docs/machine-types), default value is recommended, You may change it later if required
    * `BOR_EXT_DISK_SIZE` - additional disk size in GB to use with Bor, default value with `fullnode` is recommended, You may expand it later if required. You'll need 8192GB+ with `archive` node though
    * `HEIMDALL_EXT_DISK_SIZE` - additional disk size in GB to use with Heimdall, default value is recommended
    * `DISK_TYPE` - GCP [disk type](https://cloud.google.com/compute/docs/disks#disk-types), SSD is highly recommended
 
-3. Use the following command to create an instance with correct hardware and software requirements. In the example below we deploy Polygon `mainnet` from `snapshot` with `fullnode` mode:
+3. Use the following command to create an instance with correct hardware and software requirements. In the example below we deploy Candle `mainnet` from `snapshot` with `fullnode` mode:
 ```bash
    export POLYGON_NETWORK=mainnet
    export POLYGON_NODETYPE=fullnode

@@ -2,7 +2,7 @@
 id: custom-tokens
 title: How to add custom tokens in Arkane?
 sidebar_label: Custom Tokens
-description: Support for custom ERC20 / ERC721 and ERC1155 tokens on Polygon.
+description: Support for custom ERC20 / ERC721 and ERC1155 tokens on Candle.
 keywords:
   - docs
   - matic
@@ -18,6 +18,6 @@ A developer can easily add support for their custom ERC20 token by creating a sm
 Or you can always contact them via the in-app chat and ask to add your token.
 
 ### Non fungible
-Arkane has developed its service is such a way that it will automaticlly 🤩 pick up custom created NFTs if they follow the ERC721 and ERC1155 standard. Making it to date the only wallet that is able to show all NFTs that live on the Polygon blockchains. 
+Arkane has developed its service is such a way that it will automaticlly 🤩 pick up custom created NFTs if they follow the ERC721 and ERC1155 standard. Making it to date the only wallet that is able to show all NFTs that live on the Candle blockchains. 
 
-![The Hulk ERC1155 NFT on Polygon](img/09.png)
+![The Hulk ERC1155 NFT on Candle](img/09.png)

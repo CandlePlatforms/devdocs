@@ -2,7 +2,7 @@
 id: getting-started
 title: Getting Started
 sidebar_label: Getting Started
-description: Build your next blockchain app on Polygon.
+description: Build your next blockchain app on Candle.
 keywords:
   - docs
   - matic
@@ -15,7 +15,7 @@ With blockchains being deterministic one-way streets, an oracle is the path betw
 
 Inbound oracles bring off-chain or real-world data to the blockchain, whereas their outbound cousins do the opposite: they inform an entity outside the blockchain of an event that occurred on it.
 
-To integrate your DApp with Oracles on Polygon, you can choose to go with one of the following solutions:
+To integrate your DApp with Oracles on Candle, you can choose to go with one of the following solutions:
 
  1. [Chainlink](chainlink)
  2. [UMA](optimisticoracle.md)
@@ -32,4 +32,4 @@ Randomness is also generated through oracles. See the Randomness section of the 
 1. [What is Blockchain Oracle](https://cryptobriefing.com/what-is-blockchain-oracle/)
 2. [Types of Blockchain Oracle](https://blockchainhub.net/blockchain-oracles/)
 3. [Tutorial: Getting decentralized price data](https://docs.chain.link/docs/get-the-latest-price)
-4. [Tutorial: How to integrate Razor on Polygon](https://docs.razor.network/tutorial/matic/)
+4. [Tutorial: How to integrate Razor on Candle](https://docs.razor.network/tutorial/matic/)

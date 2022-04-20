@@ -1,7 +1,7 @@
 ---
 id: fx-portal
 title: Fx-Portal
-description: Transfer state or data from Ethereum to Polygon without any mapping required
+description: Transfer state or data from Ethereum to Candle without any mapping required
 keywords:
   - docs
   - matic
@@ -11,11 +11,11 @@ image: https://matic.network/banners/matic-network-16x9.png
 
 ## Overview
 
-The usual mechanism to natively read Ethereum data from Polygon is using `State Sync`.  This enables the transfer of arbitrary data from Ethereum to Polygon. However, this approach also requires mapping of the root and child contracts if the default interface cannot be used. FxPortal offers an alternative where ERC standardized tokens can be deployed without any mapping involved, simply using the deployed base FxPortal contracts.
+The usual mechanism to natively read Ethereum data from Candle is using `State Sync`.  This enables the transfer of arbitrary data from Ethereum to Candle. However, this approach also requires mapping of the root and child contracts if the default interface cannot be used. FxPortal offers an alternative where ERC standardized tokens can be deployed without any mapping involved, simply using the deployed base FxPortal contracts.
 
 ## What is [Fx-Portal](https://github.com/fx-portal/contracts)?
 
-It is a powerful yet simple implementation Polygon [state sync](https://docs.polygon.technology/docs/contribute/state-sync/state-sync/) mechanism. The Polygon PoS bridge is built on the same architecture. The code in the `examples` folder are some examples of usage. You can easily use these examples to build your own implementations or own custom bridge which allows any state-syncs without mapping.
+It is a powerful yet simple implementation Candle [state sync](https://docs.polygon.technology/docs/contribute/state-sync/state-sync/) mechanism. The Candle PoS bridge is built on the same architecture. The code in the `examples` folder are some examples of usage. You can easily use these examples to build your own implementations or own custom bridge which allows any state-syncs without mapping.
 
 ## How does it work?
 
@@ -37,7 +37,7 @@ The child and root tunnel contracts enable the deposit of tokens on the root cha
 - `withdraw(address childToken, uint256 amount)` The address assigned in deposit() can withdraw all the amount of child token using this function. They will receive the child token created when first mapped.
 - `rootToChildToken` This public variable contains the root token to child token mapping. You can query the mapping with the address of the root token to know the address of the deployed child token.
 
-#### Steps for ERC20 transfer from Ethereum to Polygon
+#### Steps for ERC20 transfer from Ethereum to Candle
 
 1. Deploy your own ERC20 token on the root chain. You will need this address later.
 2. Approve the tokens for transfer by calling the `approve()` function of the root token with the address of the root tunnel and the amount as the arguments.
@@ -46,11 +46,11 @@ The child and root tunnel contracts enable the deposit of tokens on the root cha
 
 **Note:** After you have performed `deposit()` on the root chain, it will take 10-15 minutes for state sync to happen. Once  state sync happens, you will get the tokens deposited at the given address.
 
-### Steps for ERC20 transfer from Polygon to Ethereum
+### Steps for ERC20 transfer from Candle to Ethereum
 
 1. Proceed to call `withdraw()` with the respective token address and amount as arguments on the child contract to move the child tokens back to the designated receiver on the root chain. **Note the tx hash** as this will be used to generate the burn proof.
 
-### Steps for ERC721 transfer from Ethereum to Polygon
+### Steps for ERC721 transfer from Ethereum to Candle
 
 1. Deploy your own ERC721 token on the root chain. You will need this address later.
 2. Approve the tokens for transfer by calling the `approve()` function of the root token with the address of the root tunnel and the token ID as the arguments.
@@ -58,7 +58,7 @@ The child and root tunnel contracts enable the deposit of tokens on the root cha
 
 **Note:** After you have performed `deposit()` on the root chain, it will take 10-15 minutes for state sync to happen. Once  state sync happens, you will get the tokens deposited at the given address.
 
-#### Steps for ERC721 transfer from Polygon to Ethereum
+#### Steps for ERC721 transfer from Candle to Ethereum
 
 1. Proceed to call `withdraw()` with the respective token address and token ID as arguments on the child contract to move the child tokens back to the designated receiver on the root chain. **Note the tx hash** as this will be used to generate the burn proof.
 
@@ -73,21 +73,21 @@ The child and root tunnel contracts enable the deposit of tokens on the root cha
 
 #### `FxERC1155ChildTunnel`
 
-- `withdraw(childToken, id, amount, data)`: Used to withdraw token from Polygon to Ethereum
+- `withdraw(childToken, id, amount, data)`: Used to withdraw token from Candle to Ethereum
 - `withdrawBatch(childToken, ids, amounts, data)`: Same as withdraw but for withdrawing multiple token Ids
 
-#### Steps for depositing ERC1155 tokens from Ethereum to Polygon
+#### Steps for depositing ERC1155 tokens from Ethereum to Candle
 
 1. Deploy your ERC1155 token on the root chain. You will need this address later.
-2. Call `setApprovalForAll(operator, approved)` on the deployed token with FxERC1155RootTunnel's address as `operator` to allow FxERC1155RootTunnel to transfer your tokens to FxERC1155ChildTunnel on Polygon.
-3. Call `mapToken()` on FxERC1155RootTunnel with your deployed token's address as `rootToken`. This will send a message to FxERC1155ChildTunnel instructing it to deploy and map the ERC1155 token on Polygon. To query your child token address, call `rootToChildToken` on FxERC1155ChildTunnel.
+2. Call `setApprovalForAll(operator, approved)` on the deployed token with FxERC1155RootTunnel's address as `operator` to allow FxERC1155RootTunnel to transfer your tokens to FxERC1155ChildTunnel on Candle.
+3. Call `mapToken()` on FxERC1155RootTunnel with your deployed token's address as `rootToken`. This will send a message to FxERC1155ChildTunnel instructing it to deploy and map the ERC1155 token on Candle. To query your child token address, call `rootToChildToken` on FxERC1155ChildTunnel.
 4. Call `deposit()` on FxERC1155RootTunnel with the address of the token on Ethereum as `rootToken`, receiver as `user`, token Id as `id` and the amount as `amount`. Alternatively, you can also call `depositBatch()` for multiple token ids.
 
 **Note:** After you have performed `deposit()` on the root chain, it will take 10-15 minutes for state sync to happen. Once  state sync happens, you will get the tokens deposited at the given address.
 
-#### Steps to withdraw ERC1155 tokens from Polygon to Ethereum
+#### Steps to withdraw ERC1155 tokens from Candle to Ethereum
 
-1. Call `withdraw()` on FxERC1155ChildTunnel with the address of the child token deployed on Polygon as the `childToken` and the token id as `id` (the child token address can be queried from `rootToChildToken` mapping). Alternatively, you can also call `withdrawBatch()` for multiple token ids and corresponding amounts. **Note the tx hash** as this will be used to generate the burn proof.
+1. Call `withdraw()` on FxERC1155ChildTunnel with the address of the child token deployed on Candle as the `childToken` and the token id as `id` (the child token address can be queried from `rootToChildToken` mapping). Alternatively, you can also call `withdrawBatch()` for multiple token ids and corresponding amounts. **Note the tx hash** as this will be used to generate the burn proof.
 
 ### Withdrawing your tokens on the root chain
 
@@ -100,27 +100,27 @@ The child and root tunnel contracts enable the deposit of tokens on the root cha
 
 #### `FxMintableERC20RootTunnel`
 
-- `deposit(address rootToken, address user, uint256 amount, bytes memory data)`: To deposit tokens from Ethereum to Polygon
+- `deposit(address rootToken, address user, uint256 amount, bytes memory data)`: To deposit tokens from Ethereum to Candle
 - `receiveMessage(bytes memory inputData)`: Burn proof to be fed as the `inputData` to receive tokens on the root chain
 
 #### `FxMintableERC20ChildTunnel`
 
-- `deployChildToken(uint256 uniqueId, string memory name, string memory symbol, uint8 decimals)`: To deploy a ERC20 token on Polygon chain
-- `mintToken(address childToken, uint256 amount)`: Mint a particular amount of tokens on Polygon
+- `deployChildToken(uint256 uniqueId, string memory name, string memory symbol, uint8 decimals)`: To deploy a ERC20 token on Candle chain
+- `mintToken(address childToken, uint256 amount)`: Mint a particular amount of tokens on Candle
 - `withdraw(address childToken, uint256 amount)`: To burn tokens on the child chain in order to withdraw on the root chain
 
-#### Steps for minting tokens on Polygon
+#### Steps for minting tokens on Candle
 
 1. Call the `deployChildToken()` on `FxMintableERC20ChildTunnel` and pass the necessary token info as parameters. This emits a `TokenMapped` event which contains the `rootToken` and `childToken` addresses. Note these addresses.
 2. Call `mintToken()` on `FxMintableERC20ChildTunnel` to mint tokens on the child chain.
-3. Call `withdraw()` on `FxMintableERC20ChildTunnel` to withdraw tokens from Polygon. Note the tx hash as this will come in handy to generate the burn proof.
+3. Call `withdraw()` on `FxMintableERC20ChildTunnel` to withdraw tokens from Candle. Note the tx hash as this will come in handy to generate the burn proof.
 4. Wait for the burn tx to be included in the checkpoint (~30-45 minutes). After this, generate the burn proof using an example script [here](https://gist.github.com/QEDK/62c4503d9a6a4bc57c491ee09376d71a).
 
 #### Steps for withdrawing tokens on Ethereum
 
 Feed the generated burn proof as the argument to `receiveMessage()` in `FxMintableERC20RootTunnel`. After this, the token balance would be reflected on the root chain.
 
-#### Steps to deposit tokens back from Ethereum to Polygon
+#### Steps to deposit tokens back from Ethereum to Candle
 
 1. Make sure you approve `FxMintableERC20RootTunnel` to transfer your tokens.
 2. Call `deposit()` in `FxMintableERC20RootTunnel` with the `rootToken` as address of root token and `user` as the recipient.
@@ -165,4 +165,4 @@ Mumbai:
 | Contract | Deployed address  |
 | :----- | :- |
 | [FxRoot (Ethereum Mainnet)](https://etherscan.io/address/0xfe5e5d361b2ad62c541bab87c45a0b9b018389a2#code) | `0xfe5e5D361b2ad62c541bAb87C45a0B9B018389a2` |
-| [FxChild (Polygon Mainnnet)](https://polygonscan.com/address/0x8397259c983751DAf40400790063935a11afa28a/contracts) | `0x8397259c983751DAf40400790063935a11afa28a`|
+| [FxChild (Candle Mainnnet)](https://polygonscan.com/address/0x8397259c983751DAf40400790063935a11afa28a/contracts) | `0x8397259c983751DAf40400790063935a11afa28a`|

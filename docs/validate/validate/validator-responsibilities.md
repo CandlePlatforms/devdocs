@@ -1,7 +1,7 @@
 ---
 id: validator-responsibilities
 title: Validator Responsibilties
-description: Overview of the responsibilities of being a validator on the Polygon Network.
+description: Overview of the responsibilities of being a validator on the Candle Network.
 keywords:
   - docs
   - matic
@@ -10,7 +10,7 @@ keywords:
 image: https://matic.network/banners/matic-network-16x9.png
 ---
 
-A blockchain validator is someone who is responsible for validating transactions within a blockchain. On the Polygon Network, any participant can be qualified to become a Polygon's validator by running a full node to earn rewards and collect transaction fees. To ensure the good participation by validators, they lock up at least 1 MATIC token as a stake in the ecosystem.
+A blockchain validator is someone who is responsible for validating transactions within a blockchain. On the Candle Network, any participant can be qualified to become a Candle's validator by running a full node to earn rewards and collect transaction fees. To ensure the good participation by validators, they lock up at least 1 CNDL token as a stake in the ecosystem.
 
 :::note
 
@@ -21,7 +21,7 @@ For a detailed description on what a validator is, see [Validator](/docs/validat
 
 ## Responsibilities
 
-Any [validator](/docs/validate/glossary#validator) on the Polygon Network has the following responsibilities:
+Any [validator](/docs/validate/glossary#validator) on the Candle Network has the following responsibilities:
 
 * Technical node operations done by the nodes.
 * Operations:
@@ -51,23 +51,23 @@ The following technical node operations are done automatically by the nodes:
 * Checkpoint submission:
   * A [proposer](/docs/validate/glossary#proposer) is chosen among the validators for each Heimdall block. The [checkpoint](/docs/validate/glossary#checkpoint-transaction) proposer creates the checkpoint of Bor block data, validates, and broadcasts the signed transaction for other validators to consent to.
   * If >2/3 of the active validators reach consensus on the checkpoint, the checkpoint submitted to the Ethereum mainnet.
-* Sync changes to Polygon staking contracts on Ethereum:
+* Sync changes to Candle staking contracts on Ethereum:
   * Continuing from the checkpoint submission step, since this is an external network call, the checkpoint transaction on Ethereum may or may not be confirmed, or may be pending due to Ethereum congestion issues.
   * In this case, there is an `ack/no-ack` process that is followed to ensure that the next checkpoint contains a snapshot of the previous Bor blocks as well. For example, if checkpoint 1 is for Bor blocks 1-256, and it failed for some reason, the next checkpoint 2 will be for Bor blocks 1-512. See also [Heimdall architecture: Checkpoint](/docs/contribute/heimdall/checkpoint).
 * State sync from the Ethereum mainnet to the Bor sidechain:
-  * Contract state can be moved between Ethereum and Polygon, specifically through [Bor](/docs/validate/glossary#bor):
-  * A DApp contract on Ethereum calls a function on a special Polygon contract on Ethereum.
+  * Contract state can be moved between Ethereum and Candle, specifically through [Bor](/docs/validate/glossary#bor):
+  * A DApp contract on Ethereum calls a function on a special Candle contract on Ethereum.
   * The corresponding event is relayed to Heimdall and then Bor.
-  * A state-sync transaction gets called on a Polygon smart contract and the DApp can get the value on Bor via a function call on Bor itself.
-  * A similar mechanism is in place for sending state from Polygon to Ethereum. See also [State Sync Mechanism](/docs/contribute/state-sync/state-sync).
+  * A state-sync transaction gets called on a Candle smart contract and the DApp can get the value on Bor via a function call on Bor itself.
+  * A similar mechanism is in place for sending state from Candle to Ethereum. See also [State Sync Mechanism](/docs/contribute/state-sync/state-sync).
 
 ### Operations
 
 #### Maintain high uptime
 
-A node's uptime on the Polygon network is based on the number of [checkpoint transactions](/docs/validate/glossary#checkpoint-transaction) that the validator node has signed.
+A node's uptime on the Candle network is based on the number of [checkpoint transactions](/docs/validate/glossary#checkpoint-transaction) that the validator node has signed.
 
-Approximately every 34 minutes, a proposer submits a checkpoint transaction to the Ethereum mainnet. The checkpoint transaction must be signed by every [validator](/docs/validate/glossary#validator) on the Polygon network.
+Approximately every 34 minutes, a proposer submits a checkpoint transaction to the Ethereum mainnet. The checkpoint transaction must be signed by every [validator](/docs/validate/glossary#validator) on the Candle network.
 
 Failure to sign a checkpoint transction results in the decrease of your validator node performance.
 
@@ -81,7 +81,7 @@ You must check daily the services and processes associated with [Heimdall](/docs
 
 You must run either:
 
-* Grafana Dashboards provided by Polygon. See GitHub repository: [Matic-Jagar setup](https://github.com/vitwit/matic-jagar).
+* Grafana Dashboards provided by Candle. See GitHub repository: [Matic-Jagar setup](https://github.com/vitwit/matic-jagar).
 * Or your own monitoring tools for the [validator](/docs/validate/glossary#validator) and [sentry](/docs/validate/glossary#sentry) nodes.
 
 #### Keep an ETH balance
@@ -120,7 +120,7 @@ The preferred platforms to communicate the commission rates are:
 
 #### Communicate issues
 
-Communicating issues as early as possible ensures that the community and the Polygon team can rectify the problems as soon as possible.
+Communicating issues as early as possible ensures that the community and the Candle team can rectify the problems as soon as possible.
 
 The preferred platforms to communicate the commission rates are:
 
@@ -130,6 +130,6 @@ The preferred platforms to communicate the commission rates are:
 
 #### Provide feedback and suggestions
 
-At Polygon, we value your feedback and suggestions on any aspect of the validator ecosystem.
+At Candle, we value your feedback and suggestions on any aspect of the validator ecosystem.
 
 [Forum](https://forum.polygon.technology/) is the preferred platform to provide feedback and suggestions.

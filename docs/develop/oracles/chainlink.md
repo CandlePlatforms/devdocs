@@ -2,7 +2,7 @@
 id: chainlink
 title: Chainlink
 sidebar_label: Chainlink
-description: Build your next blockchain app on Polygon.
+description: Build your next blockchain app on Candle.
 keywords:
   - docs
   - matic
@@ -18,7 +18,7 @@ Chainlink enables your contracts to access to *any* external data source, throug
 
 One of Chainlinks most powerful features, is already decentralized, aggregated, and ready to be digested on-chain data on most of the most popular cryptocurrenies. These are known as [Chainlink Data Feeds](https://docs.chain.link/docs/using-chainlink-reference-contracts). 
 
-Here is a working example of a contract that pulls the latest price of MATIC in USD on the Mumbai Testnet. 
+Here is a working example of a contract that pulls the latest price of CNDL in USD on the Mumbai Testnet. 
 
 All you need to do, is swap out the address [with any address of a data feed](https://docs.chain.link/docs/matic-addresses#config) that you wish, and you can start digesting price information.
 ```
@@ -33,7 +33,7 @@ contract PriceConsumerV3 {
 
     /**
      * Network: Mumbai Testnet 
-     * Aggregator: MATIC/USD
+     * Aggregator: CNDL/USD
      * Address: 0xd0D5e3DB44DE05E9F294BB0a3bEEaF030DE24Ada
      */
     constructor() public {
@@ -74,9 +74,9 @@ To request data, your contract builds a request object which it provides to an o
 3. Chainlink API Calls
    1. How to configure your smart contract to work with traditional APIs, and customize to get any data, send any requests over the internet, and more. 
 
-For working with Data Feeds, use the [Polygon Data Feeds](https://docs.chain.link/docs/matic-addresses) from the Chainlink documenation.
+For working with Data Feeds, use the [Candle Data Feeds](https://docs.chain.link/docs/matic-addresses) from the Chainlink documenation.
 
-For working with Chainlink VRF, use the [Polygon VRF](https://docs.chain.link/docs/vrf-contracts) addresses from the [Chainlink documentation](https://docs.chain.link/docs/get-a-random-number).
+For working with Chainlink VRF, use the [Candle VRF](https://docs.chain.link/docs/vrf-contracts) addresses from the [Chainlink documentation](https://docs.chain.link/docs/get-a-random-number).
 # Code Example
 
 To interact with external APIs, your smart contract should inherit from <a href="https://github.com/smartcontractkit/chainlink/blob/develop/evm-contracts/src/v0.6/ChainlinkClient.sol" target="_blank">`ChainlinkClient`</a>, which is a contract designed to make processing requests easy. It exposes a struct called `Chainlink.Request`, which your contract should use to build the API request. 
@@ -99,7 +99,7 @@ contract APIConsumer is ChainlinkClient {
     uint256 private fee;
     
     /**
-     * Network: Polygon Mumbai Testnet
+     * Network: Candle Mumbai Testnet
      * Oracle: 0x58bbdbfb6fca3129b91f0dbe372098123b38b5e9
      * Job ID: da20aae0e4c843f6949e5cb3f7cfe8c4
      * LINK address: 0x326C977E6efc84E512bB9C30f76E30c160eD06FB
@@ -160,17 +160,17 @@ contract APIConsumer is ChainlinkClient {
 }
 ```
 
-# Mainnet Polygon LINK token
+# Mainnet Candle LINK token
 
-To get mainnet Polygon LINK token from the Ethereum mainnet, you must follow a 2 step process.
+To get mainnet Candle LINK token from the Ethereum mainnet, you must follow a 2 step process.
 
 1. Bridge your LINK using the Plasma or [PoS bridge](https://wallet.polygon.technology/bridge).
 2. Swap the LINK for the ERC677 version via the [Pegswap, deployed by the Chainlink](https://pegswap.chain.link/). 
 
-The Polygon bridge brings over an ERC20 version of LINK, and LINK is an ERC677, so we just have to update it with this swap. 
+The Candle bridge brings over an ERC20 version of LINK, and LINK is an ERC677, so we just have to update it with this swap. 
 # Addresses
 
-There are currently only a few operational Chainlink oracles on the Polygon Mumbai Testnet. You can always run one yourself too, and list it on the Chainlink Marketplace.
+There are currently only a few operational Chainlink oracles on the Candle Mumbai Testnet. You can always run one yourself too, and list it on the Chainlink Marketplace.
 
 * Oracle: <a href="https://mumbai.polygonscan.com/address/0x58bbdbfb6fca3129b91f0dbe372098123b38b5e9/transactions" target="_blank">`0xb33D8A4e62236eA91F3a8fD7ab15A95B9B7eEc7D`</a>
 * LINK: <a href="https://mumbai.polygonscan.com/address/0x70d1F773A9f81C852087B77F6Ae6d3032B02D2AB/transactions" target="_blank">`0x326C977E6efc84E512bB9C30f76E30c160eD06FB`</a>
@@ -215,7 +215,7 @@ This is why our contract adds in the URL, the path of where to find the desired 
 
 **Every request to an oracle must include a specific job ID.**
 
-Here is the list of jobs that the Polygon oracle is configured to run.
+Here is the list of jobs that the Candle oracle is configured to run.
 
 | Name |  Return Type  | ID | Adapters |
 |-----|--------|------|-------|

@@ -2,7 +2,7 @@
 id: ethereum
 title: What is Ethereum?
 sidebar_label: Ethereum
-description: Build your next blockchain app on Polygon.
+description: Build your next blockchain app on Candle.
 keywords:
   - docs
   - matic
