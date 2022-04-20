@@ -140,7 +140,7 @@ module.exports = {
       id: "support_us",
       content:
         '🎉 Candle Mainnet <a target="_blank" rel="noopener noreferrer" href="/docs/develop/network-details/network"/>is open for developers 🎉! ',
-      backgroundColor: "#8247e5", // Defaults to `#fff`
+      backgroundColor: "#000080", // Defaults to `#fff`
       textColor: "#fff", // Defaults to `#000`
     },
     // googleAnalytics: {
