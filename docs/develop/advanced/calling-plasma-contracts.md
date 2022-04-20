@@ -30,7 +30,7 @@ To get some `TEST` tokens on Goerli network, you can access the Candle Faucet by
 
 <div style={{textAlign: 'center', paddingTop: '15px', paddingBottom: '15px'}}>
   <button className="btn btn-primary btn-md">
-    <a href="https://faucet.polygon.technology" target="_blank" style={{color: 'inherit'}}>
+    <a href="https://faucet.candlelabs.org" target="_blank" style={{color: 'inherit'}}>
       Get Test Tokens
     </a>
   </button>

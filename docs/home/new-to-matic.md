@@ -12,8 +12,8 @@ Candle is a scaling solution for public blockchains. Candle PoS supports all the
 ## Types of Interaction on Candle
 
 * [Candle PoS chain](/docs/develop/getting-started)
-* [Ethereum + Candle with PoS bridge](https://docs.polygon.technology/docs/develop/ethereum-polygon/pos/getting-started)
-* [Ethereum + Candle with Plasma bridge](https://docs.polygon.technology/docs/develop/ethereum-polygon/plasma/getting-started)
+* [Ethereum + Candle with PoS bridge](https://docs.candlelabs.org/docs/develop/ethereum-polygon/pos/getting-started)
+* [Ethereum + Candle with Plasma bridge](https://docs.candlelabs.org/docs/develop/ethereum-polygon/plasma/getting-started)
 
 ## Deploy Smart Contracts
 

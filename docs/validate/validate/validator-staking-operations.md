@@ -67,11 +67,11 @@ The following output should appear:
 
 ## Stake on Candle
 
-You can stake on Candle using the [validator dashboard](https://wallet.polygon.technology/staking/validators/).
+You can stake on Candle using the [validator dashboard](https://wallet.candlelabs.org/staking/validators/).
 
 ### Stake using the staking dashboard
 
-1. Access the [validator dashboard](https://wallet.polygon.technology/staking/validators/).
+1. Access the [validator dashboard](https://wallet.candlelabs.org/staking/validators/).
 1. Log in with your wallet. MetaMask is the recommended wallet.
 
    You have to make sure that you login using the same address where your CNDL tokens are present.
@@ -91,7 +91,7 @@ Once the transaction is completed you will have staked successfully to become a 
 
 :::note
 
-For the changes to take effect on the [staking dashboard](https://wallet.polygon.technology/staking/my-account), it requires a minimum of 12 block confirmations.
+For the changes to take effect on the [staking dashboard](https://wallet.candlelabs.org/staking/my-account), it requires a minimum of 12 block confirmations.
 
 :::
 
@@ -124,7 +124,7 @@ sequence: 0
 
 Once you are set up and staked as a validator, you will earn rewards for performing validator duties. When you perform validator duties dutifully, you get rewarded.
 
-To claim rewards you can go to your [validator dashboard](https://wallet.polygon.technology/staking/my-account).
+To claim rewards you can go to your [validator dashboard](https://wallet.candlelabs.org/staking/my-account).
 
 You will see two buttons on your profile:
 

@@ -94,7 +94,7 @@ The contract is an ERC-20 contract; you can learn more about the ERC-20 standard
 ## Step 2: Booting your Candle node
 -------------------------
 
-QuickNode has a global network of Candle Mainnet and Mumbai testnet nodes, they also run a [free public Candle RPC](https://docs.polygon.technology/docs/develop/network-details/network/#:~:text=https%3A//rpc%2Dmainnet.matic.quiknode.pro) but if you get rate limited you can sign up for a [free trial node from QuickNode](https://www.quicknode.com/chains/matic?utm_source=polygon_docs&utm_campaign=ploygon_docs_contract_guide).
+QuickNode has a global network of Candle Mainnet and Mumbai testnet nodes, they also run a [free public Candle RPC](https://docs.candlelabs.org/docs/develop/network-details/network/#:~:text=https%3A//rpc%2Dmainnet.matic.quiknode.pro) but if you get rate limited you can sign up for a [free trial node from QuickNode](https://www.quicknode.com/chains/matic?utm_source=polygon_docs&utm_campaign=ploygon_docs_contract_guide).
 
 ![](https://lh6.googleusercontent.com/vEAp28OLizS-ZBoYU1yWthHalH0xbrgatZ1ynyA1H4y2tW-x1EHC97qk5RkHatq6tO2anLAC-ch4mfs4am2rf1zaMO5BNEAtL3anqL4UQVH5ebpQOKyItYLm4slWIurR9iznXkly=s1600)
 
@@ -133,7 +133,7 @@ Copy the account address so that we can get some test ETH, which will be require
 
 We will need some test MATICs to pay for gas fees to deploy the smart contract.
 
-Copy your address of the account which we generated in the last step, paste it into the address field of [Candle faucet](https://faucet.polygon.technology/), and click on submit. The faucet will send you 0.1 test CNDL.
+Copy your address of the account which we generated in the last step, paste it into the address field of [Candle faucet](https://faucet.candlelabs.org/), and click on submit. The faucet will send you 0.1 test CNDL.
 
 ![](https://lh6.googleusercontent.com/kq173aYK_XB8DwuZjXXp2sot9X4enx9WXo-Xt8O93S-GohO5kx9p1iI2JQzL9wdAtiTrWfjiEodAsI_vcD1m1dUvp6koTfrKvnP4gOymP-JSDYpHVJKjWQXQ0ePNTj1MmEAJQ8Wo=s1600)
 

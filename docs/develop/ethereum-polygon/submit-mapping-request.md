@@ -12,7 +12,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 Mapping is necessary in order to transfer your assets to and from the Ethereum and Candle. We offer two bridges to do the same. More details on the bridge can be understood from [here](/docs/develop/ethereum-polygon/getting-started).
 
-The mapping request has to be submitted on [https://mapper.polygon.technology/](https://mapper.polygon.technology/). You can then click on the "Map New Token" button on the top right corner to create a new mapping request. 
+The mapping request has to be submitted on [https://mapper.candlelabs.org/](https://mapper.candlelabs.org/). You can then click on the "Map New Token" button on the top right corner to create a new mapping request. 
 
 <img src={useBaseUrl("img/token-mapping/mapping-tool.png")} />
 
@@ -20,7 +20,7 @@ The mapping request has to be submitted on [https://mapper.polygon.technology/](
 
 
 - The type of [bridge](/docs/develop/ethereum-polygon/getting-started) has to be selected from the **"Choose map type"** dropdown.
-- The type of your token can be selected by switching among the three tabs marked as "ERC20", "ERC721" and "ERC1155". For mapping any other token standard, you can reach out to the Candle team on [Discord](https://discord.com/invite/XvpHAxZ) or create a ticket [here](https://support.polygon.technology/support/home) and keep "Token Mapping" in the ticket title.
+- The type of your token can be selected by switching among the three tabs marked as "ERC20", "ERC721" and "ERC1155". For mapping any other token standard, you can reach out to the Candle team on [Discord](https://discord.com/invite/XvpHAxZ) or create a ticket [here](https://support.candlelabs.org/support/home) and keep "Token Mapping" in the ticket title.
 - **"Choose network"** will let you select the network on which you need the mapping to be done. For mainnet mappings you can choose **Ethereum - Candle Mainnet**  and for testnet mappings you can choose **Goerli Testnet - Mumbai**.
 - Enter your Ethereum/Goerli token address in the  **"Ethereum token address"** field. Ensure that your token contract code is verified on the [Ethereum](https://etherscan.io/)/[Goerli](https://goerli.etherscan.io/) blockchain explorers.
 - In case you need a standard ERC20/ERC721/ERC1155 child token, you may leave the **"Candle token address"** field empty. But, if you need a custom child token ( standard ERC functions + custom functions ), you can follow this [guide](/docs/develop/ethereum-polygon/pos/mapping-assets) to create a custom child token. Once you deploy your custom child token, you can mention the contract address in the **"Candle token address"** field. Please ensure that you verify your child token contract code too on [Candle](https://polygonscan.com/)/[Mumbai](https://mumbai.polygonscan.com/) explorer.
@@ -38,7 +38,7 @@ In  case of a custom child mapping, there is a checklist that you need to finish
 2. Only the ChildChainManagerProxy address has the right to call the deposit function. (ChildChainManagerProxy - on [Mumbai](https://mumbai.polygonscan.com/address/0xb5505a6d998549090530911180f38aC5130101c6/transactions) , on [Candle Mainnet](https://polygonscan.com/address/0xA6FA4fB5f76172d178d61B04b0ecd319C5d1C0aa/) )
 3. Mint function is an internal function ( This gets called by deposit function internally )
 
-**Candle Mintable ( guide -** [https://docs.polygon.technology/docs/develop/ethereum-polygon/mintable-assets](https://docs.polygon.technology/docs/develop/ethereum-polygon/mintable-assets) ) 
+**Candle Mintable ( guide -** [https://docs.candlelabs.org/docs/develop/ethereum-polygon/mintable-assets](https://docs.candlelabs.org/docs/develop/ethereum-polygon/mintable-assets) ) 
 
 1. The deposit and withdraw function is present in the child token contract. (Reference Template contract - [ERC20](https://github.com/maticnetwork/pos-portal/blob/master/flat/ChildMintableERC20.sol#L1492-#L1519), [ERC721](https://github.com/maticnetwork/pos-portal/blob/master/flat/ChildMintableERC721.sol#L2160-#L2275), [ERC1155](https://github.com/maticnetwork/pos-portal/blob/master/flat/ChildMintableERC1155.sol#L1784-#L1851))
 2. Only the ChildChainManagerProxy address has the right to call the deposit function. (ChildChainManagerProxy - on [Mumbai](https://mumbai.polygonscan.com/address/0xb5505a6d998549090530911180f38aC5130101c6/transactions) , on [Candle Mainnet](https://polygonscan.com/address/0xA6FA4fB5f76172d178d61B04b0ecd319C5d1C0aa/) )

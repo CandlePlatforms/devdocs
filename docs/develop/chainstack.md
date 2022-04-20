@@ -46,7 +46,7 @@ where
 
 You need to pay gas on the network to deploy the contract.
 
-Get Mumbai CNDL [through the faucet](https://faucet.polygon.technology/).
+Get Mumbai CNDL [through the faucet](https://faucet.candlelabs.org/).
 
 ## Create the Hello World contract
 

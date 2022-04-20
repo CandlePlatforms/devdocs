@@ -28,7 +28,7 @@ Also, the Move Stake function is a temporary function developed by the Candle te
 
 ### How to Move Stake
 
-In order to Move stake, first you will need to login to the Staking UI: https://wallet.polygon.technology/staking using your Delegator Address. 
+In order to Move stake, first you will need to login to the Staking UI: https://wallet.candlelabs.org/staking using your Delegator Address. 
 
 **Delegator Address** = The address that you have already used for Staking on the Foundation Nodes.
 
@@ -64,7 +64,7 @@ Once you have signed the transaction your stake would have successfully moved fr
 
 
 
-If you have any questions or any issues please submit a ticket here: https://support.polygon.technology/support/home
+If you have any questions or any issues please submit a ticket here: https://support.candlelabs.org/support/home
 
 
 

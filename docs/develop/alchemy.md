@@ -57,7 +57,7 @@ You can download and create a Metamask account for free [here](https://metamask.
 
 ### Step 4: Add Candle Mumbai Test CNDL from a Faucet
 
-In order to deploy our smart contract to the test network, we’ll need some fake CNDL. To get CNDL, you can go to the [Candle Mumbai Faucet](https://faucet.polygon.technology/), select "Mumbai", choose "CNDL Token", and enter your Candle wallet address, then click “Submit.” It may take some time to receive your fake Eth due to network traffic. (At the time of writing this, it took around 30 minutes.) You should see Eth in your Metamask account soon after!
+In order to deploy our smart contract to the test network, we’ll need some fake CNDL. To get CNDL, you can go to the [Candle Mumbai Faucet](https://faucet.candlelabs.org/), select "Mumbai", choose "CNDL Token", and enter your Candle wallet address, then click “Submit.” It may take some time to receive your fake Eth due to network traffic. (At the time of writing this, it took around 30 minutes.) You should see Eth in your Metamask account soon after!
 
 ### Step 5: Check your Balance
 

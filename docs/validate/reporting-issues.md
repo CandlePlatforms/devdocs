@@ -24,8 +24,8 @@ You can always connect with the community leaders, Anurag & Parvez, via email or
 
 ### Via email
 
-* Anurag — anurag@polygon.technology
-* Parvez — parvez.shaikh@polygon.technology
+* Anurag — anurag@candlelabs.org
+* Parvez — parvez.shaikh@candlelabs.org
 
 ## Via Discord IDs
 

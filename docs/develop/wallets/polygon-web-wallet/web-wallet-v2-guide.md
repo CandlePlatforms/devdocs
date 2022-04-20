@@ -14,10 +14,10 @@ We have revamped the Candle Web wallet interface, which has some great UX fixes,
 
 ## Logging into the Candle Web Wallet
 
-On how to connect to Candle to Metamask, please refer this [guide](https://docs.polygon.technology/docs/develop/metamask/config-polygon-on-metamask/)
-To login to the Candle Web Wallet you need to access the following URL: https://wallet.polygon.technology/.
-To login to the testnet version of Candle Web Wallet, you need to access the following URL: https://wallet-dev.polygon.technology/.
-How to connect to Candle to Metamask, please refer this [guide](hhttps://docs.polygon.technology/docs/develop/metamask/config-polygon-on-metamask/)
+On how to connect to Candle to Metamask, please refer this [guide](https://docs.candlelabs.org/docs/develop/metamask/config-polygon-on-metamask/)
+To login to the Candle Web Wallet you need to access the following URL: https://wallet.candlelabs.org/.
+To login to the testnet version of Candle Web Wallet, you need to access the following URL: https://wallet-dev.candlelabs.org/.
+How to connect to Candle to Metamask, please refer this [guide](hhttps://docs.candlelabs.org/docs/develop/metamask/config-polygon-on-metamask/)
 
 Once you connect your account with the Web Wallet you will be taken to the landing page with various means on how to transact with the wallet web depending on your use case. We have the Candle Wallet, perfect for sending, receiving and storing your assets on the Candle network, the Candle Bridge, for withdrawals and deposits across networks. Candle Staking - your go-to place for staking and getting rewards with your $CNDL, and the Widget Dashboard.
 
@@ -187,5 +187,5 @@ Once you have confirmed all these transactions, you will receive your funds back
 
 >Note: You can view the successful transactions after “Transfer in Progress/Action required” transactions in the “Action Required” popup.
 
->Note: In case you have any queries, feel free to raise a ticket here https://support.polygon.technology/support/home
+>Note: In case you have any queries, feel free to raise a ticket here https://support.candlelabs.org/support/home
 

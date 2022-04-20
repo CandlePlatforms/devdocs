@@ -7,7 +7,7 @@ keywords:
   - matic
   - polygon
   - faq
-image: https://matic.network/banners/matic-network-16x9.png 
+image: https://matic.network/banners/matic-network-16x9.png
 ---
 
 ## What is Candle Network?

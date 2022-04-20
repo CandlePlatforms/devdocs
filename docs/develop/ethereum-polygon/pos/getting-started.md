@@ -21,11 +21,11 @@ Proof of stake based assets provides PoS security and faster exit with one check
 
 ## Steps to use the PoS Bridge
 
-Before we enter into this section of the docs, it may help to have a thorough understanding of these terms as you'll interact with them while trying to use the bridge. [Mapping](https://docs.polygon.technology/docs/develop/ethereum-polygon/submit-mapping-request/) and the [State Sync Mechanism](https://docs.polygon.technology/docs/contribute/state-sync/state-sync/)
+Before we enter into this section of the docs, it may help to have a thorough understanding of these terms as you'll interact with them while trying to use the bridge. [Mapping](https://docs.candlelabs.org/docs/develop/ethereum-polygon/submit-mapping-request/) and the [State Sync Mechanism](https://docs.candlelabs.org/docs/contribute/state-sync/state-sync/)
 
 Done with those links? Let's continue to a high level overview of the flow then.
 
-- The first step to using the PoS bridge is mapping the **Root Token** and **Child Token**. Don't worry, this isn't anything complex. It just means that the token contract on the root chain and the token contract on the child chain have to maintain a connection (called mapping) to transfer assets between themselves. If you're interested in submitting a mapping request, please do that [here](https://docs.polygon.technology/docs/develop/ethereum-polygon/submit-mapping-request/).
+- The first step to using the PoS bridge is mapping the **Root Token** and **Child Token**. Don't worry, this isn't anything complex. It just means that the token contract on the root chain and the token contract on the child chain have to maintain a connection (called mapping) to transfer assets between themselves. If you're interested in submitting a mapping request, please do that [here](https://docs.candlelabs.org/docs/develop/ethereum-polygon/submit-mapping-request/).
 
 At a lower level and with more detail, this is what happens
 
@@ -58,7 +58,7 @@ Want to watch all of this in video form? Please check it out below
 
   1. Owner of the asset **(ERC20/ERC721/ERC1155)** token has to approve a specific contract on the PoS bridge to spend the amount of tokens to be transferred. This specific contract is called the **Predicate Contract** (deployed on the Ethereum network) which actually **locks the amount of tokens to be deposited**.
   2. Once the approval is given, the next step is to **deposit the asset**. A function call has to be made on the **RootChainManager** contract which in turn triggers the **ChildChainManager** contract on the Candle chain.
-  3. This happens through a state sync mechanism which can be understood in detail from [here](https://docs.polygon.technology/docs/contribute/state-sync/state-sync/).
+  3. This happens through a state sync mechanism which can be understood in detail from [here](https://docs.candlelabs.org/docs/contribute/state-sync/state-sync/).
   4. The **ChildChainManager** internally calls the **deposit** function of the child token contract and the corresponding amount of asset tokens are **minted to the users account**. It is important to note that only the ChildChainManager can access the deposit function on the child token contract.
   5. Once the user gets the tokens, they can be **transfered almost instantly with negligible fees on the Candle chain**.
   6. Withdrawing assets back to Ethereum is a 2 step process in which the asset tokens has to be **first burnt on the Candle chain** and then the **proof of this burn transaction has to be submitted** on the Ethereum chain.

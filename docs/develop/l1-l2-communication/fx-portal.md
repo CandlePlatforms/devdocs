@@ -15,7 +15,7 @@ The usual mechanism to natively read Ethereum data from Candle is using `State S
 
 ## What is [Fx-Portal](https://github.com/fx-portal/contracts)?
 
-It is a powerful yet simple implementation Candle [state sync](https://docs.polygon.technology/docs/contribute/state-sync/state-sync/) mechanism. The Candle PoS bridge is built on the same architecture. The code in the `examples` folder are some examples of usage. You can easily use these examples to build your own implementations or own custom bridge which allows any state-syncs without mapping.
+It is a powerful yet simple implementation Candle [state sync](https://docs.candlelabs.org/docs/contribute/state-sync/state-sync/) mechanism. The Candle PoS bridge is built on the same architecture. The code in the `examples` folder are some examples of usage. You can easily use these examples to build your own implementations or own custom bridge which allows any state-syncs without mapping.
 
 ## How does it work?
 

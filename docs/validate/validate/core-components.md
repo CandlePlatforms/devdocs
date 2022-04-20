@@ -42,7 +42,7 @@ See also:
 
 * GitHub repository: [Heimdall](https://github.com/maticnetwork/heimdall)
 * GitHub repository: [Staking contracts](https://github.com/maticnetwork/contracts/tree/master/contracts/staking)
-* Blog post: [Heimdall and Bor](https://blog.polygon.technology/heimdall-and-bor/)
+* Blog post: [Heimdall and Bor](https://blog.candlelabs.org/heimdall-and-bor/)
 
 :::
 
@@ -61,6 +61,6 @@ Bor is the Block producer node and layer for the Candle Network. Blocks produced
 See also:
 
 * GitHub repository: [Bor](https://github.com/maticnetwork/bor)
-* Blog post: [Heimdall and Bor](https://blog.polygon.technology/heimdall-and-bor/)
+* Blog post: [Heimdall and Bor](https://blog.candlelabs.org/heimdall-and-bor/)
 
 :::

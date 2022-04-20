@@ -12,7 +12,7 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-[Candle Faucet](https://faucet.polygon.technology/) is a tool that allows you to get free CNDL tokens on testnet to help you get started with polygon network. The tokens enable you to work with Candle features without spending real CNDL on the mainnet.
+[Candle Faucet](https://faucet.candlelabs.org/) is a tool that allows you to get free CNDL tokens on testnet to help you get started with polygon network. The tokens enable you to work with Candle features without spending real CNDL on the mainnet.
 
 :::note
 Tokens on testnet networks has no value as they are only used for testing purposes.
@@ -20,7 +20,7 @@ Tokens on testnet networks has no value as they are only used for testing purpos
 
 ### How to use Candle Faucet
 
-1. Navigate to [faucet.polygon.technology](https://faucet.polygon.technology/)
+1. Navigate to [faucet.candlelabs.org](https://faucet.candlelabs.org/)
 
 2. Select one of the blockchain testnet networks. Where:
     - **Mumbai** - Candle test network

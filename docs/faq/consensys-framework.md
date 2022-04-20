@@ -19,7 +19,7 @@ Miner nodes on mainnet Ethereum move or “operate” the network forward by sol
 
 Candle PoS commit chain relies on a set of validators to secure the network. The role of validators is to run a full node; produce blocks, validate and participate in consensus and commit checkpoints on the Ethereum main-chain. To become a validator, one needs to stake their CNDL tokens with staking management contracts residing on the Ethereum main chain.
 
-For more details, please refer https://docs.polygon.technology/docs/validate/validator/introduction#overview
+For more details, please refer https://docs.candlelabs.org/docs/validate/validator/introduction#overview
 
 ### - How do they become operators in the Candle PoS network? What rules do they abide by?
 
@@ -34,7 +34,7 @@ malicious act like double signing, validator downtime which also affects the lin
 delegators at that checkpoint.
 
 For more details please refer 
-https://docs.polygon.technology/docs/validate/validator/introduction#end-to-end-flow-for-a-matic-validator and https://docs.polygon.technology/docs/validate/validator/responsibilities/#responsibilities-of-validator
+https://docs.candlelabs.org/docs/validate/validator/introduction#end-to-end-flow-for-a-matic-validator and https://docs.candlelabs.org/docs/validate/validator/responsibilities/#responsibilities-of-validator
 
 
 ### - What trust assumptions must the Candle PoS users make about the operator?
@@ -52,7 +52,7 @@ The validators have the power to stop the progress of the chain, reorder blocks,
 
 Validators stake their CNDL tokens as collateral to work for the security of the network and in exchange for their service, earn rewards.
 
-Please refer https://docs.polygon.technology/docs/validate/economics#what-is-the-incentive for more details.
+Please refer https://docs.candlelabs.org/docs/validate/economics#what-is-the-incentive for more details.
 
 ## How’s the Data?
 By definition, a Layer 2 technology must create incremental data checkpoints on a Layer 1 (Ethereum mainnet). Our concern, then, is with the interstitial time between those periodic Layer 1 check-ins. Specifically, how is Layer 2 data generated, stored and stewarded while away from the safe harbor of Layer 1? We are most concerned with this because it is when the user is furthest from the trustless security of a public mainnet.
@@ -66,26 +66,26 @@ This bridge relay mechanism is run by the Candle PoS validators who need to ⅔ 
 Withdrawing assets back to ethereum is a 2 step process in which the asset tokens have to be first burnt on the Candle PoS commit chain and then the proof of this burn transaction has to be submitted on the Ethereum chain.
 
 
-For more details, refer https://docs.polygon.technology/docs/develop/ethereum-polygon/pos/getting-started#steps-to-use-the-pos-bridge
+For more details, refer https://docs.candlelabs.org/docs/develop/ethereum-polygon/pos/getting-started#steps-to-use-the-pos-bridge
 
 ### - How soon are those funds available on the Candle PoS?
 
-Around ~7-8 minutes. This is done via a message passing mechanism that is termed as `state sync`. More details can be found here: https://docs.polygon.technology/docs/contribute/state-sync/state-sync/
+Around ~7-8 minutes. This is done via a message passing mechanism that is termed as `state sync`. More details can be found here: https://docs.candlelabs.org/docs/contribute/state-sync/state-sync/
 
 Does Candle PoS provide support for users entering without a L1 lock-up (i.e. in the case of onboarding a user directly onto Candle, then the user wishes to exit to Ethereum mainnet)?
 
 Yes a special bridge mechanism is used to accomplish this. When the user wishes to exit to Ethereum, instead of the usual method of unlocking the tokens from a special contract, it is minted.
 
-You can read about them here: https://docs.polygon.technology/docs/develop/ethereum-polygon/pos/mintable-assets
+You can read about them here: https://docs.candlelabs.org/docs/develop/ethereum-polygon/pos/mintable-assets
 
 ### - How would a user dispute an invalid Candle PoS transaction? Prove a valid Candle PoS transaction?
 
-There is currently no way on-chain to dispute an invalid Candle PoS transaction. However, validators of the Candle PoS chain submit periodic checkpoints to Ethereum - you can see more details here: https://docs.polygon.technology/docs/contribute/heimdall/modules/checkpoint/
+There is currently no way on-chain to dispute an invalid Candle PoS transaction. However, validators of the Candle PoS chain submit periodic checkpoints to Ethereum - you can see more details here: https://docs.candlelabs.org/docs/contribute/heimdall/modules/checkpoint/
 It is possible to verify a transaction on Candle PoS chain on Ethereum by constructing a Merkle tree proof and verifying it against the periodic checkpoints that happen on Ethereum of the Candle PoS transaction and receipt Merkle tree roots.
 
 Once a Candle user wishes to exit, how soon are the locked-up Layer 1 funds (plus or minus any L2 gains or losses) available back on L1?
 
-Approximately ~1-3 hours depending on the frequency of the checkpoints (https://docs.polygon.technology/docs/contribute/heimdall/modules/checkpoint/). The frequency is majorly a function of the cost that the validators are willing to spend on ETH gas fees to submit checkpoints.
+Approximately ~1-3 hours depending on the frequency of the checkpoints (https://docs.candlelabs.org/docs/contribute/heimdall/modules/checkpoint/). The frequency is majorly a function of the cost that the validators are willing to spend on ETH gas fees to submit checkpoints.
 
 ### - Do you anticipate there being Liquidity Providers on Layer 1 willing to provide immediately redeemable L1 funds to existing Candle PoS users?
 

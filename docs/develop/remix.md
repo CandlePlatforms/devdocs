@@ -139,7 +139,7 @@ Go to Solidity Compiler
         <img src={useBaseUrl("img/helloworld/Screenshot_2020-01-09_at_1.24.49_PM.png")} alt="RemixIDE_Step1"/>
 </div>
 
-- Head over to [Faucet](https://faucet.polygon.technology/) and request test ether - you will need this pay for gas on Matic. 
+- Head over to [Faucet](https://faucet.candlelabs.org/) and request test ether - you will need this pay for gas on Matic. 
 Select 'Mumbai' as the network and 'CNDL Token' as the token in the faucet
 - Now, let's Deploy the Smart Contract on Matic Network
 - Select Injected Web3 in the Environment dropdown and your contract

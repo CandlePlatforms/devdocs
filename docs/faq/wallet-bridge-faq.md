@@ -11,7 +11,7 @@ image: https://matic.network/banners/matic-network-16x9.png
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ## Where can I use the Matic Web Wallet?
-[https://wallet.polygon.technology/](https://wallet.polygon.technology/)
+[https://wallet.candlelabs.org/](https://wallet.candlelabs.org/)
 
 ## How do I find the token contract?
 
@@ -28,7 +28,7 @@ We will soon add more wallets.
 ## How is Plasma different from PoS?
 
 Plasma comes with a additional security. 
-Check out: [https://docs.polygon.technology/docs/develop/ethereum-polygon/getting-started](https://docs.polygon.technology/docs/develop/ethereum-polygon/getting-started)
+Check out: [https://docs.candlelabs.org/docs/develop/ethereum-polygon/getting-started](https://docs.candlelabs.org/docs/develop/ethereum-polygon/getting-started)
 
 ## What tokens are only available on Plasma?
 
@@ -38,7 +38,7 @@ Candle tokens
 
 These blogs and videos are a perfect guide to start with depositing and withdrawing: 
 
-Documentation: [https://docs.polygon.technology/docs/develop/wallets/matic-web-wallet/web-wallet-v2-guide/#depositing-funds-from-ethereum-to-matic](https://docs.polygon.technology/docs/develop/wallets/matic-web-wallet/web-wallet-v2-guide/#depositing-funds-from-ethereum-to-matic)
+Documentation: [https://docs.candlelabs.org/docs/develop/wallets/matic-web-wallet/web-wallet-v2-guide/#depositing-funds-from-ethereum-to-matic](https://docs.candlelabs.org/docs/develop/wallets/matic-web-wallet/web-wallet-v2-guide/#depositing-funds-from-ethereum-to-matic)
 
 Videos: [https://www.youtube.com/playlist?list=PLslsfan1R_z0Epvnqsj29V1LBAh99dzu9](https://www.youtube.com/playlist?list=PLslsfan1R_z0Epvnqsj29V1LBAh99dzu9)
 
@@ -56,11 +56,11 @@ Assuming that you have already added the network and custom RPC for Candle mainn
 
 You have now switched to Candle mainnet.
 
-You can refer to this link if you are looking for instructions on how to add the network to Metamask: [https://docs.polygon.technology/docs/develop/metamask/config-polygon-on-metamask/](https://docs.polygon.technology/docs/develop/metamask/config-polygon-on-metamask/)
+You can refer to this link if you are looking for instructions on how to add the network to Metamask: [https://docs.candlelabs.org/docs/develop/metamask/config-polygon-on-metamask/](https://docs.candlelabs.org/docs/develop/metamask/config-polygon-on-metamask/)
 
 ## How to choose Candle mainnet in Walletlink?
 
-Please follow the guide provided [here](https://docs.polygon.technology/docs/develop/metamask/config-polygon-on-wallets#configure-polygon-on-walletlink)
+Please follow the guide provided [here](https://docs.candlelabs.org/docs/develop/metamask/config-polygon-on-wallets#configure-polygon-on-walletlink)
 
 ## I have deposited WETH but I don’t see it on Metamask. What do I do?
 
@@ -71,7 +71,7 @@ Open Metamask and scroll down to click on add tokens.
 <img src={useBaseUrl("img/wallet-bridge/wallet-faq-3.png")} width="30%" height="30%" />
 
 
-Then, select Custom Token to add the relevant contract address, symbol and the decimal precision. Contract addresses (PoS-WETH in this case) can be found on this link: [https://docs.polygon.technology/docs/develop/network-details/mapped-tokens/](https://docs.polygon.technology/docs/develop/network-details/mapped-tokens/)
+Then, select Custom Token to add the relevant contract address, symbol and the decimal precision. Contract addresses (PoS-WETH in this case) can be found on this link: [https://docs.candlelabs.org/docs/develop/network-details/mapped-tokens/](https://docs.candlelabs.org/docs/develop/network-details/mapped-tokens/)
 
 You will need to add the child token address to view balances on Candle mainnet.
 
@@ -122,7 +122,7 @@ Alternatively, you can follow this guide [here](https://docs.matic.today/docs/d
 
 ## I am not able to login, what do I do?
 
-[https://docs.polygon.technology/docs/validate/delegator-faq/#my-metamask-is-stuck-at-confirming-after-login-what-do-i-do-or-nothing-happens-when-i-try-to-login](https://docs.polygon.technology/docs/validate/delegator-faq/#my-metamask-is-stuck-at-confirming-after-login-what-do-i-do-or-nothing-happens-when-i-try-to-login)
+[https://docs.candlelabs.org/docs/validate/delegator-faq/#my-metamask-is-stuck-at-confirming-after-login-what-do-i-do-or-nothing-happens-when-i-try-to-login](https://docs.candlelabs.org/docs/validate/delegator-faq/#my-metamask-is-stuck-at-confirming-after-login-what-do-i-do-or-nothing-happens-when-i-try-to-login)
 
 ## Does Candle support hardware wallets?
 Yes, hardware wallets are supported.
@@ -135,7 +135,7 @@ Yes, hardware wallets are supported.
 
 ## My token is not visible in the list. Who should I contact?
 
-Reach out to the Candle team on Discord or Telegram and get your token listed. Before that, ensure your token is mapped. If it is not mapped, please raise a request at [https://mapper.polygon.technology/](https://mapper.polygon.technology/)
+Reach out to the Candle team on Discord or Telegram and get your token listed. Before that, ensure your token is mapped. If it is not mapped, please raise a request at [https://mapper.candlelabs.org/](https://mapper.candlelabs.org/)
 
 ## What are some best practices to follow?
 
@@ -161,7 +161,7 @@ CNDL is the native token of Candle and it has a contract address - 0x00000000000
 
 ## How do I map tokens?
 
-Please raise a mapping request at [https://mapper.polygon.technology/](https://mapper.polygon.technology/)
+Please raise a mapping request at [https://mapper.candlelabs.org/](https://mapper.candlelabs.org/)
 
 ## What do I do if the transaction is taking too long or if the gas price is too high?
 
@@ -176,7 +176,7 @@ Gas limit is estimated and set by the application according to certain requireme
 Please reach out to our support team.
 
 ## Where do I raise a support ticket?
-https://support.polygon.technology/support/home
+https://support.candlelabs.org/support/home
 
 ## The gas price is more than the amount I seek to withdraw.
 
@@ -193,7 +193,7 @@ Unfortunately, Candle cannot cancel a withdrawal once the process is initialised
 
 ## My transaction is stuck.
 
-We have listed some common errors that the users might face. You can find the solution below the image of the error. In case you're shown a different error, please [raise a support ticket](https://support.polygon.technology/support/home) for our team to troubleshoot.
+We have listed some common errors that the users might face. You can find the solution below the image of the error. In case you're shown a different error, please [raise a support ticket](https://support.candlelabs.org/support/home) for our team to troubleshoot.
 
   - ### Common Errors
   a. Withdrawal stuck on the Initialised phase.   
@@ -208,13 +208,13 @@ We have listed some common errors that the users might face. You can find the so
 
     The current RPC error you're facing might be due to an RPC overload.
 
-    Please try changing your RPC and proceed with the transaction. You may follow this link [here](https://docs.polygon.technology/docs/develop/network-details/network#matic-mainnet) for more information.
+    Please try changing your RPC and proceed with the transaction. You may follow this link [here](https://docs.candlelabs.org/docs/develop/network-details/network#matic-mainnet) for more information.
 
   c.
 
   <img src={useBaseUrl("img/wallet-bridge/serversStumbled.png")} height="500px"/>  
 
-  This is usually an off-and-on error that gets resolved automatically. In case you are still receiving the same error while reinitiating the step, do [raise a support ticket](https://support.polygon.technology/) with all the relevant information to troubleshoot this further.
+  This is usually an off-and-on error that gets resolved automatically. In case you are still receiving the same error while reinitiating the step, do [raise a support ticket](https://support.candlelabs.org/) with all the relevant information to troubleshoot this further.
 
 ## I made the mistake of sending funds to an exchange/wallet directly from Candle Wallet. Can you help?
 
@@ -232,7 +232,7 @@ If this is a transaction on the Candle mainnet, we'll require that you have suff
 
 ## How do I bridge assets across chains?
 
-[https://wallet.polygon.technology/bridge/](https://wallet.polygon.technology/bridge/) (ETH <-> Candle) <br/>
+[https://wallet.candlelabs.org/bridge/](https://wallet.candlelabs.org/bridge/) (ETH <-> Candle) <br/>
 [https://xpollinate.io/](https://xpollinate.io/) (BSC <-> Candle <-> xDai) <br/>
 [https://exchange.chainswap.com/](https://exchange.chainswap.com/) (ETH <-> Candle/BSC) <br/>
 [https://anyswap.exchange/bridge](https://anyswap.exchange/bridge) (ETH <-> Candle <-> BSC/xDai) <br/>
@@ -247,7 +247,7 @@ Unfortunately, nothing can be done. Only the owner of the private keys to that p
 
 ## My transactions are not visible on the explorer. What should I do?
 
-This is probably an indexing issue with Polygonscan. Please contact the [Support Team](https://support.polygon.technology/support/home) for more clarifications.
+This is probably an indexing issue with Polygonscan. Please contact the [Support Team](https://support.candlelabs.org/support/home) for more clarifications.
 You may also try these block explorers
 
 [https://polygon-explorer-mainnet.chainstacklabs.com](https://polygon-explorer-mainnet.chainstacklabs.com/) <br />
@@ -258,7 +258,7 @@ You may also try these block explorers
 
 ## I initiated a deposit on Ethereum but it still shows as pending. What should I do?
 
-Your supplied gas is probably too low. You should wait a while and redo the transaction if it doesn't get mined. In case of additional help, please reach out to the [support team](https://support.polygon.technology/support/home) with your wallet address, transaction hashes (if any) and relevant screenshots.
+Your supplied gas is probably too low. You should wait a while and redo the transaction if it doesn't get mined. In case of additional help, please reach out to the [support team](https://support.candlelabs.org/support/home) with your wallet address, transaction hashes (if any) and relevant screenshots.
 
 
 ## I have a token withdrawal issue with OpenSea or any other application which uses polygon bridge.
@@ -356,7 +356,7 @@ There are many reasons why this might be happening. We suggest that you **try an
 
 ## How can I get CNDL tokens to pay for gas fees?
 
-We provide a [Gas Swap](https://wallet.polygon.technology/gas-swap/) service that will help you with that. You choose an amount of CNDL you need to complete your transaction and you can swap it for other tokens such as Ether or USDT. It’s worth noting that this is a **gas-less transaction**.
+We provide a [Gas Swap](https://wallet.candlelabs.org/gas-swap/) service that will help you with that. You choose an amount of CNDL you need to complete your transaction and you can swap it for other tokens such as Ether or USDT. It’s worth noting that this is a **gas-less transaction**.
 
 ## Token Swap is too slow.
 

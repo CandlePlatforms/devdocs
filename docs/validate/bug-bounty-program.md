@@ -37,13 +37,13 @@ If you want to run a full node on the Candle Mainnet or Mumbai Testnet, you can 
 
 ## Getting tokens for testing
 
-To get tokens, you can access the [Candle faucet](https://faucet.polygon.technology/) and choose the Goerli network to get some tokens.
+To get tokens, you can access the [Candle faucet](https://faucet.candlelabs.org/) and choose the Goerli network to get some tokens.
 
 ## Have questions?
 
 Check out the forum and join the discussion on Discord.
 
-* [Forum](https://forum.polygon.technology)
+* [Forum](https://forum.candlelabs.org)
 * [Discord](https://discord.gg/polygon)
 
 See also the [Immunefi  bug bountry program](https://immunefi.com/bounty/polygon/).

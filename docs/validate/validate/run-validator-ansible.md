@@ -25,9 +25,9 @@ There is limited space for accepting new validators. New validators can only joi
 
 This section guides you through starting and running the validator node through an Ansible playbook.
 
-For the system requirements, see [Validator Node System Requirements](https://docs.polygon.technology/docs/validate/validate/validator-node-system-requirements).
+For the system requirements, see [Validator Node System Requirements](https://docs.candlelabs.org/docs/validate/validate/validator-node-system-requirements).
 
-If you would like to start and run the validator node from binaries, see [Run a Validator Node from Binaries](https://docs.polygon.technology/docs/validate/validate/run-validator-binaries).
+If you would like to start and run the validator node from binaries, see [Run a Validator Node from Binaries](https://docs.candlelabs.org/docs/validate/validate/run-validator-binaries).
 
 ## Prerequisites
 
@@ -600,4 +600,4 @@ Now that your sentry and validator nodes are synced and running, head over to [D
 
 ## Proceed to staking
 
-Now that you have your sentry and validator nodes health-checked, proceed to [Staking](https://docs.polygon.technology/docs/validate/validator/core-components/staking).
+Now that you have your sentry and validator nodes health-checked, proceed to [Staking](https://docs.candlelabs.org/docs/validate/validator/core-components/staking).

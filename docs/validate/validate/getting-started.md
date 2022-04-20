@@ -26,4 +26,4 @@ This section guides you through the following topics:
 Community assistance:
 
 * [Discord](https://discord.gg/polygon)
-* [Forum](https://forum.polygon.technology/)
+* [Forum](https://forum.candlelabs.org/)

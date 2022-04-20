@@ -10,7 +10,7 @@ image: https://matic.network/banners/matic-network-16x9.png
 
 
 - [Network Details](/docs/develop/network-details/network) -> To view network details
-- [Candle Faucet](https://faucet.polygon.technology/) -> Get TestTokens at Candle faucet
+- [Candle Faucet](https://faucet.candlelabs.org/) -> Get TestTokens at Candle faucet
 
 
 ## Testnets

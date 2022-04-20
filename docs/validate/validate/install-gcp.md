@@ -12,7 +12,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 ## description
 In this document, we will describe how to deploy Candle nodes into VM instance in Google Cloud
 ## Hardware requirements
-Check the minimum and recommended [hardware requirements](https://docs.polygon.technology/docs/validate/validate/validator-node-system-requirements) in Candle docs
+Check the minimum and recommended [hardware requirements](https://docs.candlelabs.org/docs/validate/validate/validator-node-system-requirements) in Candle docs
 ## Software requirements
 Use any modern Debian or Ubuntu Linux OS with long-term support, i.e. Debian 11, Ubuntu 20.04. We'll focus on Ubuntu 20.04 in this manual
 ## Deploy instance (2 ways)

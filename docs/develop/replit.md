@@ -28,9 +28,9 @@ You need a browser-based web3 wallet to interact with the Candle Mumbai Testnet 
 You must setup all of the following Prerequisites to be able to deploy your solidity smart contract on Candle:
 
 1. [Create a Replit account](https://replit.com/signup)
-2. [Download Metamask wallet](https://docs.polygon.technology/docs/develop/metamask/hello/)
-3. [Configure Candle on Metamask](https://docs.polygon.technology/docs/develop/metamask/config-polygon-on-metamask/)
-4. [Get testnet tokens](https://faucet.polygon.technology)
+2. [Download Metamask wallet](https://docs.candlelabs.org/docs/develop/metamask/hello/)
+3. [Configure Candle on Metamask](https://docs.candlelabs.org/docs/develop/metamask/config-polygon-on-metamask/)
+4. [Get testnet tokens](https://faucet.candlelabs.org)
 
 ## Working with a Repl
 
@@ -50,7 +50,7 @@ The Solidity starter repl comes with a friendly web interface, built using the <
 Make sure that you have followed the list of Prerequisites above so that you are ready to deploy and interact with your smart contract:
 
 1. Click on **Run** (at the Top) to install all relevant packages, start up the contract deployment UI
-2. Connect your MetaMask wallet to the web interface and switch to the [Mumbai Testnet](https://docs.polygon.technology/docs/integrate/network/)
+2. Connect your MetaMask wallet to the web interface and switch to the [Mumbai Testnet](https://docs.candlelabs.org/docs/integrate/network/)
 3. Click on **Connect wallet**, select your account, then choose Connect
 4. From the Drop-down list, Select your contract that you want to deploy
 5. Click on **Deploy**

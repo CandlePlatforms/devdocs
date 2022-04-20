@@ -66,7 +66,7 @@ Notice, it requires mnemonic to be passed in for maticProvider, this is the seed
 
 ## **Deploying on Matic Network**
 
-Add Matic to your wallet using https://faucet.polygon.technology/
+Add Matic to your wallet using https://faucet.candlelabs.org/
 
 Run this command in root of the project directory:
 ```js

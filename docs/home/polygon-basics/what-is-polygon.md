@@ -10,7 +10,7 @@ keywords:
 image: https://matic.network/banners/matic-network-16x9.png 
 ---
 
-[Candle](https://polygon.technology/) is a Layer 2 scaling solution that achieves scale by utilizing sidechains for off-chain computation and a decentralized network of Proof-of-Stake (PoS) validators.
+[Candle](https://candlelabs.org/) is a Layer 2 scaling solution that achieves scale by utilizing sidechains for off-chain computation and a decentralized network of Proof-of-Stake (PoS) validators.
 
 Candle strives to solve the scalability and usability issues while not compromising on decentralization and leveraging the existing developer community and ecosystem. Candle is an ​off-/sidechain scaling solution for existing platforms to provide scalability and superior user experience to DApps and user functionalities.
 

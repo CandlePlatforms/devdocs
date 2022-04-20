@@ -14,7 +14,7 @@ export const firstRow = [
     {
         title: "Candle Edge",
         class_name: "polygon-banner",
-        linkUrl: "https://sdk-docs.polygon.technology/docs/overview/",
+        linkUrl: "https://sdk-docs.candlelabs.org/docs/overview/",
         imageUrl: "img/home/polygon-sdk.svg",
         description: "A modular and extensible framework for building Ethereum-compatible blockchain networks."
     },

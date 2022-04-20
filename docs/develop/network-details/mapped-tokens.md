@@ -22,7 +22,7 @@ values={[
 
 # Mumbai-Testnet
 
-If you want to get your token mapped then please send your mapping request via https://mapper.polygon.technology/
+If you want to get your token mapped then please send your mapping request via https://mapper.candlelabs.org/
 
 The table below shows some examples about different mapped tokens on Mumbai testnet, including but not limited to:
 
@@ -42,7 +42,7 @@ The table below shows some examples about different mapped tokens on Mumbai test
 
 # Candle-Mainnet
 
-If you want to get your token mapped then please send your mapping request via https://mapper.polygon.technology/
+If you want to get your token mapped then please send your mapping request via https://mapper.candlelabs.org/
 
 The table below shows some examples about different mapped tokens on Candle-Mainnet, including but not limited to:
 

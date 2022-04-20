@@ -22,7 +22,7 @@
 Candle is a scaling solution for public blockchains that combines the best of Ethereum and sovereign blockchains 
 to offer a full-stack scaling solution.
 
-The [Candle documentation website](https://docs.polygon.technology/) is built using [Docusaurus](https://docusaurus.io/), 
+The [Candle documentation website](https://docs.candlelabs.org/) is built using [Docusaurus](https://docusaurus.io/), 
 a modern static website generator.
 
 ## How to Contribute to Candle Documentation
@@ -96,7 +96,7 @@ your PR. Note that you must have a GitHub account and an understanding of Markdo
     git checkout -b [new_branch_name]
     ```
 
-2. Commit your changes. Please be sure to review our [Git Rules](https://docs.polygon.technology/docs/contribute/orientation#git-rules). 
+2. Commit your changes. Please be sure to review our [Git Rules](https://docs.candlelabs.org/docs/contribute/orientation#git-rules). 
    In the commit message, please reference the issue it resolves. 
    For help, see [GitHub Docs: Linking a pull request to an issue using a keyword](https://docs.github.com/en/free-pro-team@latest/github/managing-your-work-on-github/linking-a-pull-request-to-an-issue#linking-a-pull-request-to-an-issue-using-a-keyword).
 
@@ -130,7 +130,7 @@ You can apply UI changes, sidebar, and configuration design through the followin
 
 You can easily submit an edit suggestion. Note that you must have a GitHub account and good knowledge of Markdown syntax.
 
-1. Navigate to the [Candle documentation page](https://docs.polygon.technology/docs/develop/getting-started/) 
+1. Navigate to the [Candle documentation page](https://docs.candlelabs.org/docs/develop/getting-started/) 
    that you want to edit
 2. Scroll down until the end of that page
 3. Click on the link: **Edit this page**. It will forward you to the same page (Markdown format) hosted on GitHub.

@@ -14,7 +14,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
     
 **Note:** Below are some additional information to the official documentation that can help while setting up a new node
 
-This document gives some additional details for setting up a new node based on [Full Node Deployment](https://docs.polygon.technology/docs/integrate/full-node-deployment/)
+This document gives some additional details for setting up a new node based on [Full Node Deployment](https://docs.candlelabs.org/docs/integrate/full-node-deployment/)
 
 - VPN setup is required before proceeding with any of these steps can be done by referring [Bastillion user guide](https://www.notion.so/Bastillion-VPN-user-guide-c04f5f26afda4fa59d5d9f6041327f43)
 - If you are using Macbook then there Native Python 2.7 available which has to be replaced by with anything Python 3.x

@@ -164,7 +164,7 @@ contract APIConsumer is ChainlinkClient {
 
 To get mainnet Candle LINK token from the Ethereum mainnet, you must follow a 2 step process.
 
-1. Bridge your LINK using the Plasma or [PoS bridge](https://wallet.polygon.technology/bridge).
+1. Bridge your LINK using the Plasma or [PoS bridge](https://wallet.candlelabs.org/bridge).
 2. Swap the LINK for the ERC677 version via the [Pegswap, deployed by the Chainlink](https://pegswap.chain.link/). 
 
 The Candle bridge brings over an ERC20 version of LINK, and LINK is an ERC677, so we just have to update it with this swap. 
@@ -176,7 +176,7 @@ There are currently only a few operational Chainlink oracles on the Candle Mumba
 * LINK: <a href="https://mumbai.polygonscan.com/address/0x70d1F773A9f81C852087B77F6Ae6d3032B02D2AB/transactions" target="_blank">`0x326C977E6efc84E512bB9C30f76E30c160eD06FB`</a>
 
 
-To obtain LINK on Mumbai Testnet, head to the <a href="https://faucet.polygon.technology/" target="_blank">faucet here</a>.
+To obtain LINK on Mumbai Testnet, head to the <a href="https://faucet.candlelabs.org/" target="_blank">faucet here</a>.
 
 # Which APIs are Supported?
 

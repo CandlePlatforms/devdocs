@@ -114,7 +114,7 @@ It is the moral duty of the validators to communicate the commission rates and t
 The preferred platforms to communicate the commission rates are:
 
 * [Discord](https://discord.gg/polygon)
-* [Forum](https://forum.polygon.technology/)
+* [Forum](https://forum.candlelabs.org/)
 
 ### Communication
 
@@ -125,11 +125,11 @@ Communicating issues as early as possible ensures that the community and the Can
 The preferred platforms to communicate the commission rates are:
 
 * [Discord](https://discord.gg/polygon)
-* [Forum](https://forum.polygon.technology/)
+* [Forum](https://forum.candlelabs.org/)
 * [GitHub](https://github.com/maticnetwork)
 
 #### Provide feedback and suggestions
 
 At Candle, we value your feedback and suggestions on any aspect of the validator ecosystem.
 
-[Forum](https://forum.polygon.technology/) is the preferred platform to provide feedback and suggestions.
+[Forum](https://forum.candlelabs.org/) is the preferred platform to provide feedback and suggestions.

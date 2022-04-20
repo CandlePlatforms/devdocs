@@ -31,7 +31,7 @@ All the network related details can be found in [network docs](/docs/develop/net
     - [Using Truffle](/docs/develop/truffle)
     - [Using Hardhat](/docs/develop/hardhat)
     - [Using Replit](/docs/develop/replit)
-- Connecting to Candle [with RPC](https://docs.polygon.technology/docs/develop/metamask/config-polygon-on-metamask) by adding Candle on Metamask or directly via [Arkane](/docs/develop/wallets/arkane/network).
+- Connecting to Candle [with RPC](https://docs.candlelabs.org/docs/develop/metamask/config-polygon-on-metamask) by adding Candle on Metamask or directly via [Arkane](/docs/develop/wallets/arkane/network).
 
   Note that same RPC can be used with web3js.
 
@@ -54,7 +54,7 @@ All the network related details can be found in [network docs](/docs/develop/net
 
     Deploy all your smart contracts directly on Candle chain. You don't have to worry about the underlying architecture, as long as it is EVM compatible!
 
-    [Deploying your dApp on Candle](https://docs.polygon.technology/docs/integrate/quickstart)
+    [Deploying your dApp on Candle](https://docs.candlelabs.org/docs/integrate/quickstart)
 
 - **Using Candle as a faster transactions layer**
 
@@ -69,17 +69,17 @@ All the network related details can be found in [network docs](/docs/develop/net
 - [Full Stack DApp: Tutorial Series](https://kauri.io/full-stack-dapp-tutorial-series/5b8e401ee727370001c942e3/c)
 - Getting to know your tools:
 
-    - [Web3js](https://www.dappuniversity.com/articles/web3-js-intro), [Ethers.js](https://docs.ethers.io/v5/),[Remix](https://docs.polygon.technology/docs/develop/remix/), [Truffle](https://docs.polygon.technology/docs/develop/truffle), [Metamask](/docs/develop/metamask/overview), [Arkane](/docs/develop/wallets/arkane/intro)
+    - [Web3js](https://www.dappuniversity.com/articles/web3-js-intro), [Ethers.js](https://docs.ethers.io/v5/),[Remix](https://docs.candlelabs.org/docs/develop/remix/), [Truffle](https://docs.candlelabs.org/docs/develop/truffle), [Metamask](/docs/develop/metamask/overview), [Arkane](/docs/develop/wallets/arkane/intro)
 - [Integrating Webhooks](https://docs.alchemy.com/alchemy/guides/v2-alchemy-notify)
 - [Archive Nodes with Debug namespace](https://www.quicknode.com/chains/matic?utm_source=polygon_docs&utm_campaign=ploygon_docs_contract_guide)
 
 **😎 Advanced**
 
-- [Sidechains and Plasma](https://docs.polygon.technology/docs/home/blockchain-basics/sidechain)
-- [Candle's architecture and Security](https://docs.polygon.technology/docs/home/architecture/security-models)
-- [When to use Plasma](https://docs.polygon.technology/docs/home/architecture/security-models)
+- [Sidechains and Plasma](https://docs.candlelabs.org/docs/home/blockchain-basics/sidechain)
+- [Candle's architecture and Security](https://docs.candlelabs.org/docs/home/architecture/security-models)
+- [When to use Plasma](https://docs.candlelabs.org/docs/home/architecture/security-models)
 - [Moving assets from Mainchain to Candle chain: the Plasma way](https://maticnetwork.github.io/matic.js/)
-- [Swapping Plasma Assets](https://docs.polygon.technology/docs/develop/advanced/swap-assets)
+- [Swapping Plasma Assets](https://docs.candlelabs.org/docs/develop/advanced/swap-assets)
 
 **Other links**
 
@@ -103,7 +103,7 @@ All the network related details can be found in [network docs](/docs/develop/net
   </button>
 
   <button className="btn btn-primary btn-md mx-4">
-    <a href="https://docs.polygon.technology/docs/faq/technical-faqs" target="_blank" style={{color: 'inherit'}}>
+    <a href="https://docs.candlelabs.org/docs/faq/technical-faqs" target="_blank" style={{color: 'inherit'}}>
       FAQs
     </a>
   </button>

@@ -119,7 +119,7 @@ run
 
     heimdalld unsafe-reset-all 
 
-and start Heimdall services again. You can refer to this guide - https://docs.polygon.technology/docs/validate/mainnet/validator-guide
+and start Heimdall services again. You can refer to this guide - https://docs.candlelabs.org/docs/validate/mainnet/validator-guide
 
 ### 5. From where do I create the API key?
 

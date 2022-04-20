@@ -15,11 +15,11 @@ Mapping is necessary in order to transfer your assets to and from the Ethereum a
 - **The Root chain** :: refers to either Goerli or Ethereum Mainnet
 - **The Child chain** :: refers to either Candle Mumbai or Candle Mainnet
 
-If you already have your token contract deployed on the Root chain and want to move it to Child chain, then you should follow this walkthrough, but if you intend to deploy your contract on Candle Mainnet first, mint the tokens on the Child chain first and then move them back to the Root chain. You should then follow this [guide](https://docs.polygon.technology/docs/develop/ethereum-polygon/mintable-assets).
+If you already have your token contract deployed on the Root chain and want to move it to Child chain, then you should follow this walkthrough, but if you intend to deploy your contract on Candle Mainnet first, mint the tokens on the Child chain first and then move them back to the Root chain. You should then follow this [guide](https://docs.candlelabs.org/docs/develop/ethereum-polygon/mintable-assets).
 
 ## Standard Child Token
 
-If you just need a standard ERC20/ERC721/ERC1155 contract, then you can go ahead and submit a mapping request at https://mapper.polygon.technology/ and we will auto deploy the standard child token contract for you. 
+If you just need a standard ERC20/ERC721/ERC1155 contract, then you can go ahead and submit a mapping request at https://mapper.candlelabs.org/ and we will auto deploy the standard child token contract for you. 
 
 Standard Child Token contract will look like these:-
 1. [ERC20](https://github.com/maticnetwork/pos-portal/blob/master/flat/ChildERC20.sol#L1492-#L1508)
@@ -30,7 +30,7 @@ Please visit this [link](/docs/develop/ethereum-polygon/submit-mapping-request) 
 
 ## Custom Child Token
 
-If you need a custom child token contract which has additional functions to the standard functions, **then you will have to deploy your token contracts on the Child chain** and submit a mapping request [here](https://mapper.polygon.technology/) and include the address of your deployed child token contract. Let's describe an example of creating a custom child token contract.
+If you need a custom child token contract which has additional functions to the standard functions, **then you will have to deploy your token contracts on the Child chain** and submit a mapping request [here](https://mapper.candlelabs.org/) and include the address of your deployed child token contract. Let's describe an example of creating a custom child token contract.
 
 **Your custom child contract should follow certain guidelines before you deploy it on the child chain.**
 

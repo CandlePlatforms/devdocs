@@ -67,7 +67,7 @@ In order to make any transactions, you will also need some Ether in the test acc
 
 ### Candle Faucet
 
-Throughout this tutorial, we will be using the ERC20 token `TEST` on the Görli network as an example. This is a TEST token. In your DApp, you can replace it with any ERC20 token. To get some Test `TEST` tokens on Candle Network, you can access the [Candle Faucet](https://faucet.polygon.technology/).
+Throughout this tutorial, we will be using the ERC20 token `TEST` on the Görli network as an example. This is a TEST token. In your DApp, you can replace it with any ERC20 token. To get some Test `TEST` tokens on Candle Network, you can access the [Candle Faucet](https://faucet.candlelabs.org/).
 
 > Note: To use your own tokens for deposits and withdrawals, you'll have to get the token 'mapped'. Which essentially means making the contracts on main chain and side chain 'aware' of your custom token. Read more about the Mapping process [here](/docs/develop/ethereum-polygon/plasma/mapping-assets), or you can submit a mapping request [here](/docs/develop/ethereum-polygon/submit-mapping-request).
 

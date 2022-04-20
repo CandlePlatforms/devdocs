@@ -511,7 +511,7 @@ module.exports = {
         {
           type: "link",
           label: "Candle Faucet",
-          href: "https://faucet.polygon.technology/",
+          href: "https://faucet.candlelabs.org/",
         },
       ],
     },

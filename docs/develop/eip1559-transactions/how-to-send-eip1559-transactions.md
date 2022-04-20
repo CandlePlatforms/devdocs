@@ -9,7 +9,7 @@ keywords:
 image: https://matic.network/banners/matic-network-16x9.png
 ---
 
-The [London hard fork](https://blog.polygon.technology/eip-1559-upgrades-are-going-live-on-polygon-mainnet/) introduced a new [EIP](https://eips.ethereum.org/EIPS/eip-1559) that modifies how gas estimation and costs work for transactions on Candle.
+The [London hard fork](https://blog.candlelabs.org/eip-1559-upgrades-are-going-live-on-polygon-mainnet/) introduced a new [EIP](https://eips.ethereum.org/EIPS/eip-1559) that modifies how gas estimation and costs work for transactions on Candle.
 
 Due to this, there is a change in how the transaction object is formed when sending transactions on Candle. A new transaction type called **Type 2 Transaction** has been introduced. The legacy type transactions will still be compatible but it is recommended to shift to the new style. You can navigate to the end of this document to directly peek into the code.
 

@@ -1,7 +1,7 @@
 module.exports = {
   title: "Candle Technology | Documentation",
   tagline: "Welcome to Candle developer documentation",
-  url: "https://docs.polygon.technology/",
+  url: "https://docs.candlelabs.org/",
   baseUrl: "/",
   favicon: "img/polygon/polygon-logo.svg",
   organizationName: "Candle Technology",
@@ -30,7 +30,7 @@ module.exports = {
             },
             {
               label: 'Support',
-              href: 'https://polygon.technology/developer-support-program/',
+              href: 'https://candlelabs.org/developer-support-program/',
             },
             {
               label: 'FAQs',
@@ -43,14 +43,14 @@ module.exports = {
           items: [
             {
               label: 'Candle Community',
-              href: 'https://polygon.technology/community',
+              href: 'https://candlelabs.org/community',
             },
             {
               label: 'Discord',
               href: 'https://discord.com/invite/polygon',
             },
             {
-              href: "https://forum.polygon.technology/",
+              href: "https://forum.candlelabs.org/",
               label: "Forum",
             },
             {
@@ -76,15 +76,15 @@ module.exports = {
           items: [
           {
               label: "Get Started",
-              href: "https://docs.polygon.technology/docs/develop/getting-started"
+              href: "https://docs.candlelabs.org/docs/develop/getting-started"
           },
           {
               label: "Advocate Program",
-              href: "https://polygon.technology/advocate-program"
+              href: "https://candlelabs.org/advocate-program"
           },
           {
             label: "Funds",
-            href: "https://polygon.technology/funds/"
+            href: "https://candlelabs.org/funds/"
           },
           {
               label: "Bug Bounty",
@@ -92,11 +92,11 @@ module.exports = {
           },
           {
             label: "DApps",
-            href: "https://polygon.technology/ecosystem"
+            href: "https://candlelabs.org/ecosystem"
           },
           {
             label: "PoS Wallet",
-            href: "https://wallet.polygon.technology/"
+            href: "https://wallet.candlelabs.org/"
           },
       ]
       },
@@ -105,11 +105,11 @@ module.exports = {
         items: [
         {
             label: "Candle Technology",
-            href: "https://polygon.technology/"
+            href: "https://candlelabs.org/"
         },
         {
             label: "Blogs",
-            href: "https://blog.polygon.technology/"
+            href: "https://blog.candlelabs.org/"
         },
         {
           label: "Brand Kit",
@@ -117,15 +117,15 @@ module.exports = {
       },
         {
             label: "Careers",
-            href: "https://polygon.technology/careers/"
+            href: "https://candlelabs.org/careers/"
         },
         {
           label: "Contact",
-          href: "https://polygon.technology/contact-us/"
+          href: "https://candlelabs.org/contact-us/"
         },
         {
           label: "About Us",
-          href: "https://polygon.technology/about/"
+          href: "https://candlelabs.org/about/"
         },
     ]
     },
@@ -165,7 +165,7 @@ module.exports = {
         alt: "Candle logo",
         src: "/img/polygon/polygon-logo.webp",
         srcDark: "/img/polygon/polygon-logo-inverted.png",
-        // href: 'https://docs.polygon.technology/', // default to siteConfig.baseUrl
+        // href: 'https://docs.candlelabs.org/', // default to siteConfig.baseUrl
         target: "_self", // by default, this value is calculated based on the `href` attribute (the external link will open in a new tab, all others in the current one)
       },
       items: [
@@ -201,7 +201,7 @@ module.exports = {
         },
         {
           label: "Support",
-          href: "https://polygon.technology/developer-support-program/",
+          href: "https://candlelabs.org/developer-support-program/",
           position: "right",
         },
         {
@@ -212,7 +212,7 @@ module.exports = {
         },
         {
           label: "Candle Edge",
-          href: "https://sdk-docs.polygon.technology/docs/overview/",
+          href: "https://sdk-docs.candlelabs.org/docs/overview/",
           position: "left",
         },
         {
