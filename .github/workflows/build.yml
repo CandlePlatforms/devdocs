@@ -1,0 +1,25 @@
+name: Doc build
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      # Checkout the code
+      - uses: actions/checkout@v2
+      # Setup node with version 12.x and NPM registry url
+      - uses: actions/setup-node@v1
+        with:
+          node-version: "12.0"
+      # Run npm install to install project packages
+      - run: npm install
+      # npm run build to build the project
+      - run: npm run build
+      # publish the files to NPM
