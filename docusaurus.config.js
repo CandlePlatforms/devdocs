@@ -3,7 +3,7 @@ module.exports = {
   tagline: "Welcome to Candle developer documentation",
   url: "https://testdocs.candlelabs.org/",
   baseUrl: "/",
-  favicon: "img/polygon/polygon-logo.svg",
+  favicon: "img/polygon/candle-logo.svg",
   organizationName: "Candle Technology",
   projectName: "matic-docs",
   customFields: {
@@ -132,7 +132,7 @@ module.exports = {
       ],
       logo: {
         alt: 'Candle Logo',
-        src: 'img/polygon/polygon-logo.svg',
+        src: 'img/polygon/candle-logo.svg',
       },
       copyright: `Copyright © ${new Date().getFullYear()} Candle technology`,
     },
@@ -164,7 +164,7 @@ module.exports = {
       logo: {
         alt: "Candle logo",
         src: "/img/polygon/candle-logo-two.png",
-        srcDark: "/img/polygon/polygon-logo-inverted.png",
+        srcDark: "/img/polygon/candle-logo-inverted.png",
         // href: 'https://docs.candlelabs.org/', // default to siteConfig.baseUrl
         target: "_self", // by default, this value is calculated based on the `href` attribute (the external link will open in a new tab, all others in the current one)
       },
