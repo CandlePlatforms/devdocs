@@ -1,7 +1,7 @@
 export const firstRow = [
     {
         title: "Blockchain Basics",
-        linkUrl: "docs/home/new-to-polygon",
+        linkUrl: "docs/home/new-to-candle",
         imageUrl: "img/home/blockchain-basics.svg",
         description: "Learn about Blockchain and Candle"
     },

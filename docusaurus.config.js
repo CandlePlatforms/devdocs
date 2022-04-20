@@ -1,7 +1,7 @@
 module.exports = {
   title: "Candle Technology | Documentation",
   tagline: "Welcome to Candle developer documentation",
-  url: "https://docs.candlelabs.org/",
+  url: "https://testdocs.candlelabs.org/",
   baseUrl: "/",
   favicon: "img/polygon/polygon-logo.svg",
   organizationName: "Candle Technology",
@@ -26,7 +26,7 @@ module.exports = {
             },
             {
               label: 'Docs GitHub',
-              href: 'https://github.com/maticnetwork/matic-docs',
+              href: 'https://github.com/candleplatforms/devdocs',
             },
             {
               label: 'Support',
@@ -55,19 +55,19 @@ module.exports = {
             },
             {
               label: 'Twitter',
-              href: 'https://twitter.com/0xPolygon',
+              href: 'https://twitter.com/candle_labs',
             },
             {
               label: 'Reddit',
-              href: 'https://www.reddit.com/r/0xPolygon/',
+              href: 'https://www.reddit.com/r/cndl/',
             },
             {
               label: 'Telegram',
-              href: 'https://t.me/polygonofficial',
+              href: 'https://t.me/candlelabs',
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/maticnetwork',
+              href: 'https://github.com/candleplatforms',
             },
           ],
         },
@@ -163,14 +163,14 @@ module.exports = {
       hideOnScroll: true,
       logo: {
         alt: "Candle logo",
-        src: "/img/polygon/polygon-logo.webp",
+        src: "/img/polygon/candlelogo.webp",
         srcDark: "/img/polygon/polygon-logo-inverted.png",
         // href: 'https://docs.candlelabs.org/', // default to siteConfig.baseUrl
         target: "_self", // by default, this value is calculated based on the `href` attribute (the external link will open in a new tab, all others in the current one)
       },
       items: [
         {
-          to: "docs/home/new-to-polygon",
+          to: "docs/home/new-to-candle",
           label: "Basics",
           position: "left",
           activeBasePath: "docs/home",
@@ -239,7 +239,7 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
-          editUrl: "https://github.com/maticnetwork/matic-docs/tree/master/",
+          editUrl: "https://github.com/candleplatforms/devdocs/tree/master/",
           path: "docs",
           showLastUpdateAuthor: false,
           showLastUpdateTime: true,
