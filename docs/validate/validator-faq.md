@@ -4,11 +4,11 @@ title: Validator FAQ
 description: Common questions on the validator operations on the Candle network.
 keywords:
   - docs
-  - matic
-  - polygon
+  - cndl
+  - candle
   - validator
   - faq
-image: https://matic.network/banners/matic-network-16x9.png
+image: https://candle.network/banners/candle-network-16x9.png
 ---
 
 ## How can I reserve a validator spot?
@@ -100,12 +100,12 @@ See:
 Full error:
 
 ```
-dpkg: error processing archive matic-heimdall_1.0.0_amd64.deb (--install): trying to overwrite '/heimdalld-rest-server.service', which is also in package matic-node 1.0.0
+dpkg: error processing archive candle-heimdall_1.0.0_amd64.deb (--install): trying to overwrite '/heimdalld-rest-server.service', which is also in package candle-node 1.0.0
 ```
 
 This occurs mainly because of a previous installation of Candle on your machine. To resolve you can run:
 
-`sudo dpkg -r matic-node`
+`sudo dpkg -r candle-node`
 
 ## It is not clear which private Key I should add when I generate a validator key
 
@@ -176,7 +176,7 @@ This is because you have not created the Bor keystore and the password file for 
 
 ## Bor shows "Impossible reorg, please file an issue"
 
-Let these logs be. Your node should ideally not suffer because of this and the issue should be automatically resolved.
+Let these logs be. Your node should ideally not suffer because of this and the issue should be autocandleally resolved.
 
 If your node is suffering because of this, please contact the support team on [Discord](https://discord.gg/polygon).
 
@@ -199,7 +199,7 @@ If the issue is not resolved, contact support team on [Discord](https://discord.
 
 ## Bor shows "Address is required as argument"
 
-This means that you have not added your [signer address](/docs/validate/glossary#signer-address) to the metadata. You can add it using this path `/etc/matic/metadata` . Once the address is added, you can then restart the Bor service and everything should be fine.
+This means that you have not added your [signer address](/docs/validate/glossary#signer-address) to the metadata. You can add it using this path `/etc/candle/metadata` . Once the address is added, you can then restart the Bor service and everything should be fine.
 
 ## Bor shows "Failed to unlock account (0x...) No key for given address or file"
 
@@ -326,7 +326,7 @@ make install
 sudo service heimdalld restart
 ```
 
-The latest version, [Heimdall v.0.2.8](https://github.com/maticnetwork/heimdall/releases/tag/v0.2.8), contains few enhancements such as **restricting data size in state sync txs** to:
+The latest version, [Heimdall v.0.2.8](https://github.com/candlenetwork/heimdall/releases/tag/v0.2.8), contains few enhancements such as **restricting data size in state sync txs** to:
 * **30Kb** when represented in **bytes**
 * **60Kb** when represented as **string**.
 
@@ -361,7 +361,7 @@ Bor:
 For Linux package:
 
 ```sh
-sudo dpkg -i matic-bor
+sudo dpkg -i candle-bor
 ```
 
 And delete Bor directory:
@@ -393,7 +393,7 @@ Try `~/go/bin/bridge` instead (or `$GOBIN/bridge)`
 Full error:
 
 ```
-'' has invalid keys: clerk_polling_interval, matic_token, span_polling_interval, stake_manager_contract, stakinginfo_contract
+'' has invalid keys: clerk_polling_interval, candle_token, span_polling_interval, stake_manager_contract, stakinginfo_contract
 ```
 
 This occurs mostly because there are typos, some missing parts or an old config file which is still a remnant. You will need to clear all the remnants and then try setting it up again.
@@ -463,7 +463,7 @@ Delete Bor: `sudo rm -rf ~/.bor`
 
 ### Heimdall logs
 
-`/var/log/matic-logs/`
+`/var/log/candle-logs/`
 
 ### Where to find Bor genesis file
 
@@ -502,4 +502,4 @@ Go to `CS-2003/bor` and then run, `bash stop.sh`
 
 ### Diagnosing what went wrong in a node
 
-You can use [this script](https://github.com/maticnetwork/launch/tree/master/scripts/node_diagnostics.sh) to check periodially the sync status of your node.
+You can use [this script](https://github.com/candlenetwork/launch/tree/master/scripts/node_diagnostics.sh) to check periodially the sync status of your node.
