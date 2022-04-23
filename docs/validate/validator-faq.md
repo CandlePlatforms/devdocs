@@ -25,7 +25,7 @@ In any case, there is always the possibility of stake delegation with the curren
 
 ## Is there a minimum amount of CNDL required to stake to become a validator?
 
-The minimum is 1 Matic.
+The minimum is 1 Candle.
 
 We had earlier mentioned that we are thinking of having a minimum self stake requirement from the validators, as we do hope that validators also have their skin in the game. However, since we will be moving to a robust replacement strategy as the number of validator slots are limited as of now, this does not need any minimum self stake requirement. It is however, logical that over time, the average/median stake by a validator will tend upwards and become substantial.
 
