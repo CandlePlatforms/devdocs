@@ -7,7 +7,7 @@
 
 module.exports = {
   introduction: [
-    "home/new-to-polygon",
+    "home/new-to-candle",
     {
       type: "category",
       label: "Blockchain Basics",
@@ -153,7 +153,7 @@ module.exports = {
                             {
                               type: "category",
                               label: "ERC20",
-                              items: ["develop/ethereum-polygon/matic-js/pos/erc20/index", 
+                              items: ["develop/ethereum-polygon/matic-js/pos/erc20/index",
                                       "develop/ethereum-polygon/matic-js/pos/erc20/get-balance",
                                       "develop/ethereum-polygon/matic-js/pos/erc20/approve",
                                       "develop/ethereum-polygon/matic-js/pos/erc20/approve-max",
@@ -169,7 +169,7 @@ module.exports = {
                             {
                               type: "category",
                               label: "ERC721",
-                              items: ["develop/ethereum-polygon/matic-js/pos/erc721/index", 
+                              items: ["develop/ethereum-polygon/matic-js/pos/erc721/index",
                                       "develop/ethereum-polygon/matic-js/pos/erc721/get-tokens-count",
                                       "develop/ethereum-polygon/matic-js/pos/erc721/get-token-id-at-index-for-user",
                                       "develop/ethereum-polygon/matic-js/pos/erc721/get-all-tokens",
@@ -222,7 +222,7 @@ module.exports = {
                     items: [{
                               type: "category",
                               label: "ERC20",
-                              items: ["develop/ethereum-polygon/matic-js/plasma/erc20/index", 
+                              items: ["develop/ethereum-polygon/matic-js/plasma/erc20/index",
                                       "develop/ethereum-polygon/matic-js/plasma/erc20/get-balance",
                                       "develop/ethereum-polygon/matic-js/plasma/erc20/approve",
                                       "develop/ethereum-polygon/matic-js/plasma/erc20/approve-max",
@@ -238,7 +238,7 @@ module.exports = {
                             {
                               type: "category",
                               label: "ERC721",
-                              items: ["develop/ethereum-polygon/matic-js/plasma/erc721/index", 
+                              items: ["develop/ethereum-polygon/matic-js/plasma/erc721/index",
                                       "develop/ethereum-polygon/matic-js/plasma/erc721/get-tokens-count",
                                       "develop/ethereum-polygon/matic-js/plasma/erc721/get-token-id-at-index-for-user",
                                       "develop/ethereum-polygon/matic-js/plasma/erc721/get-all-tokens",
