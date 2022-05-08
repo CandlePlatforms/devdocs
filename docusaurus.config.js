@@ -63,7 +63,7 @@ module.exports = {
             },
             {
               label: 'Telegram',
-              href: 'https://t.me/candlelabs',
+              href: 'https://t.me/candleupdates',
             },
             {
               label: 'GitHub',
