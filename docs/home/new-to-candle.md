@@ -1,10 +1,10 @@
 ---
-id: new-to-polygon
+id: new-to-candle
 title: New to Candle?
 description: Build your next blockchain app on Candle.
 keywords:
   - docs
-  - matic
+  - cndl
 image: https://matic.network/banners/matic-network-16x9.png
 ---
 Candle is a scaling solution for public blockchains. Candle PoS supports all the existing Ethereum tooling along with faster and cheaper transactions.
@@ -17,7 +17,7 @@ Candle is a scaling solution for public blockchains. Candle PoS supports all the
 
 ## Deploy Smart Contracts
 
-<!-- ### Are you an Experience Blockchain Developer? -->
+<!-- ### Are you an Experienced Blockchain Developer? -->
 
 * Deploy your Contracts on Candle
     - [Using Alchemy](/docs/develop/alchemy)
@@ -26,7 +26,7 @@ Candle is a scaling solution for public blockchains. Candle PoS supports all the
     - [Using Remix](/docs/develop/remix)
     - [Using Truffle](/docs/develop/truffle)
     - [Using Hardhat](/docs/develop/hardhat)
-* Configure the Web3 RPC-URL to https://rpc-mumbai.matic.today, *Everything else remains the same*
+* Configure the Web3 RPC-URL to https://rpc.cndlchain.com, *Everything else remains the same*
 
 ## What is a Blockchain?
 Simply put, Blockchain is a shared, immutable ledger for recording transactions, tracking assets and building trust. Head over to [Blockchain Basics](blockchain-basics/blockchain) to read more.
