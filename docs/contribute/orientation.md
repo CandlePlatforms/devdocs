@@ -4,7 +4,7 @@ title: How to contribute
 description: We believe one of the things that makes Candle special is its coherent design and we seek to retain this defining characteristic.
 keywords:
   - docs
-  - matic
+  - cndl
 image: https://matic.network/banners/matic-network-16x9.png 
 ---
 

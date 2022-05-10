@@ -5,7 +5,7 @@ sidebar_label: Candle
 description: Build your next blockchain app on Candle.
 keywords:
   - docs
-  - matic
+  - cndl
 image: https://matic.network/banners/matic-network-16x9.png 
 ---
 Candle is a scaling solution for public blockchains. Based on an adapted implementation of Plasma framework (Plasma MoreVP) - with an account based implementation (read more [here](https://ethresear.ch/t/account-based-plasma-morevp/5480)), Candle supports all the existing Ethereum tooling along with faster and cheaper transactions.

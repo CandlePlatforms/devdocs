@@ -4,7 +4,7 @@ title: Run a Validator Node from Binaries
 description: Use binaries to set up your validator node on the Candle Network.
 keywords:
   - docs
-  - matic
+  - cndl
   - polygon
   - binary
   - node

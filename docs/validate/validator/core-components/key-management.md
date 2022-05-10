@@ -4,7 +4,7 @@ title: Key Management
 description: Each validator uses two keys to manage validator related activities on Candle
 keywords:
   - docs
-  - matic
+  - cndl
 image: https://matic.network/banners/matic-network-16x9.png 
 ---
 

@@ -4,7 +4,7 @@ title: Types
 description: Description of HeimdallAddress, Pubkey, & HeimdallHash.
 keywords:
   - docs
-  - matic
+  - cndl
 image: https://matic.network/banners/matic-network-16x9.png 
 ---
 ## HeimdallAddress

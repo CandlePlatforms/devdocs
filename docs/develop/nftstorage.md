@@ -5,7 +5,7 @@ description: Mint with NFT.storage and Candle
 keywords:
   - nft.storage
   - filecoin
-  - matic
+  - cndl
 image: https://matic.network/banners/matic-network-16x9.png
 ---
 

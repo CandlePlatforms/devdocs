@@ -4,7 +4,7 @@ title: PoS Using Metamask
 description: PoS token transfer tutorial using metamask.
 keywords:
   - docs
-  - matic
+  - cndl
 image: https://matic.network/banners/matic-network-16x9.png
 ---
 

@@ -4,7 +4,7 @@ title: Web Wallet Usage Guide
 description: Learn how to use the Candle Web Wallet.
 keywords:
   - wallet
-  - matic
+  - cndl
 image: https://matic.network/banners/matic-network-16x9.png 
 ---
 

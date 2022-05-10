@@ -4,7 +4,7 @@ title: Candle Overview Deprecated
 description: Learn what the Candle Network is and the Candle Network core components and roles.
 keywords:
   - docs
-  - matic
+  - cndl
   - polygon
   - validator
   - delegator

@@ -4,7 +4,7 @@ title: Validator Responsibilties
 description: Overview of the responsibilities of being a validator on the Candle Network.
 keywords:
   - docs
-  - matic
+  - cndl
   - polygon
   - validator
 image: https://matic.network/banners/matic-network-16x9.png

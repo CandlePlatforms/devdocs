@@ -4,7 +4,7 @@ title: Core Components
 description: The layers and components of the Candle Network.
 keywords:
   - docs
-  - matic
+  - cndl
   - polygon
   - architecture
 image: https://matic.network/banners/matic-network-16x9.png 

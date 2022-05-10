@@ -4,7 +4,7 @@ title: Important contracts
 description: Build your next blockchain app on Matic.
 keywords:
   - docs
-  - matic
+  - cndl
 image: https://matic.network/banners/matic-network-16x9.png 
 ---
 ## State Syncer

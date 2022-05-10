@@ -4,7 +4,7 @@ title: Transfer data from Ethereum to Candle
 description: Transfer state or data from Ethereum to Candle via Contracts
 keywords:
   - docs
-  - matic
+  - cndl
 image: https://matic.network/banners/matic-network-16x9.png 
 ---
 

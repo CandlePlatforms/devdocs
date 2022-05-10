@@ -3,7 +3,7 @@ id: cexs
 title: Centralized Exchanges (CEXs)
 keywords:
   - docs
-  - matic
+  - cndl
 image: https://matic.network/banners/matic-network-16x9.png 
 ---
 

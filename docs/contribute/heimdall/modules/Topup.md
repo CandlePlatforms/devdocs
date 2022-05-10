@@ -4,7 +4,7 @@ title: Topup
 description: Heimdall Topup is an amount which will be used to pay fees on Heimdall chain.
 keywords:
   - docs
-  - matic
+  - cndl
 image: https://matic.network/banners/matic-network-16x9.png 
 ---
 ## Overview

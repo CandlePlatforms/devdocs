@@ -4,7 +4,7 @@ title: State Sync Mechanism
 description: Learn about the state sync mechanism on Candle to natively read Ethereum data.
 keywords:
   - docs
-  - matic
+  - cndl
   - polygon
   - state sync
 image: https://matic.network/banners/matic-network-16x9.png

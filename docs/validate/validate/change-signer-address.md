@@ -4,7 +4,7 @@ title: Change Your Signer Address
 description: Learn how to change the signer address of your validator on the Candle Network.
 keywords:
   - docs
-  - matic
+  - cndl
   - polygon
   - signer
 image: https://matic.network/banners/matic-network-16x9.png 

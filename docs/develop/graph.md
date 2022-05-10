@@ -4,7 +4,7 @@ title: Setting up hosted project with The Graph and Matic
 description: Learn how to set up a hosted project with The Graph and Matic.
 keywords:
   - graph
-  - matic
+  - cndl
 image: https://matic.network/banners/matic-network-16x9.png 
 ---
 

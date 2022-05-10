@@ -5,10 +5,10 @@ sidebar_label: Delegation
 description: Delegators participate in validation without hosting a full node. But by staking with validators, they can earn rewards and strengthen the network by paying a small commission fee (depends on the individual validator) to a validator of their choice.
 keywords:
   - docs
-  - matic
+  - cndl
   - polygon
   - delegate
-image: https://matic.network/banners/matic-network-16x9.png 
+image: https://matic.network/banners/matic-network-16x9.png
 ---
 
 Delegation is the process for the network participants who do not run a full node. Instead, delegators secure the network by staking with validators. To stake with the validators, delegators pay a commission to the validator of their choice.

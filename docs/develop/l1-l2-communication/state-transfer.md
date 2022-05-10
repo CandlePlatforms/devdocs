@@ -4,7 +4,7 @@ title: State Transfer
 description: Transfer state or data from Ethereum to Candle without any mapping required
 keywords:
   - docs
-  - matic
+  - cndl
 image: https://matic.network/banners/matic-network-16x9.png
 ---
 

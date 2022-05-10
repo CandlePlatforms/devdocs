@@ -4,7 +4,7 @@ title: Become a Delegator
 description: Learn how to become a delegator on the Candle Network.
 keywords:
   - docs
-  - matic
+  - cndl
   - polygon
   - delegate
 image: https://matic.network/banners/matic-network-16x9.png

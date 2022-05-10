@@ -4,7 +4,7 @@ title: What is Candle?
 description: Learn what the Candle scaling solution is.
 keywords:
   - docs
-  - matic
+  - cndl
   - polygon
   - blockchain
 image: https://matic.network/banners/matic-network-16x9.png 

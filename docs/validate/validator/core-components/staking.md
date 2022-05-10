@@ -5,7 +5,7 @@ sidebar_label: Staking
 description: Learn how to stake, unstake, and restake as a validator on the Candle Network.
 keywords:
   - docs
-  - matic
+  - cndl
   - polygon
   - staking
 image: https://matic.network/banners/matic-network-16x9.png 

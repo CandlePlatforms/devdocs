@@ -4,7 +4,7 @@ title: Proposers & Producers Selections
 description: Learn how the selection of proposers and block producers is done on the Candle Network
 keywords:
   - docs
-  - matic
+  - cndl
 image: https://matic.network/banners/matic-network-16x9.png 
 ---
 import useBaseUrl from '@docusaurus/useBaseUrl';

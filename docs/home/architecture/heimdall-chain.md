@@ -5,7 +5,7 @@ sidebar_label: Heimdall Chain
 description: Build your next blockchain app on Candle.
 keywords:
   - docs
-  - matic
+  - cndl
 image: https://matic.network/banners/matic-network-16x9.png 
 ---
 Heimdall is Candle Proof-of-Stake Verifier layer, which is responsible for checkpointing a representation of the Plasma blocks to the main chain in our architecture. We have implemented this by building on top of the Tendermint consensus engine with changes to the signature scheme and various data structures.

@@ -4,7 +4,7 @@ title: Band Standard Dataset
 description: Build your next blockchain app on Candle.
 keywords:
   - docs
-  - matic
+  - cndl
   - band
   - oracle
 image: https://matic.network/banners/matic-network-16x9.png 

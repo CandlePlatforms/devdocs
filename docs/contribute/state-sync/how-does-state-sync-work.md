@@ -4,7 +4,7 @@ title: How does State Sync work?
 description: Build your next blockchain app on Candle.
 keywords:
   - docs
-  - matic
+  - cndl
 image: https://matic.network/banners/matic-network-16x9.png 
 ---
 State management sends the state from the Ethereum chain to the Bor chain. It is called state-sync.

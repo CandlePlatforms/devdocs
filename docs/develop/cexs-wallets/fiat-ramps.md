@@ -3,7 +3,7 @@ id: fiat-ramps
 title: Fiat Ramps
 keywords:
   - docs
-  - matic
+  - cndl
 image: https://matic.network/banners/matic-network-16x9.png 
 ---
 

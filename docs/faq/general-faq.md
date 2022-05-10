@@ -4,7 +4,7 @@ title: General FAQ
 description: Common questions on the Candle network.
 keywords:
   - docs
-  - matic
+  - cndl
   - polygon
   - faq
 image: https://matic.network/banners/matic-network-16x9.png

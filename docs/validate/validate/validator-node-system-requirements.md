@@ -4,7 +4,7 @@ title: Validator Node System Requirements
 description: The system requirements to run a validator node on the Candle Network.
 keywords:
   - docs
-  - matic
+  - cndl
   - polygon
   - prerequisites
   - requirements

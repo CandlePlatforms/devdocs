@@ -4,7 +4,7 @@ title: Architecture
 description: The Matic network is broadly divided into 3 layers.
 keywords:
   - docs
-  - matic
+  - cndl
   - polygon
   - architecture
 image: https://matic.network/banners/matic-network-16x9.png

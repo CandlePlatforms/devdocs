@@ -5,7 +5,7 @@ sidebar_label: Accounts
 description: Build your next blockchain app on Candle.
 keywords:
   - docs
-  - matic
+  - cndl
 image: https://matic.network/banners/matic-network-16x9.png 
 ---
 The global state of Ethereum is comprised of accounts that interact with one another through a message-passing framework. The most basic interaction is that of sending some value - like matic tokens, ether - the native cryptocurrency of Ethereum blockchain.

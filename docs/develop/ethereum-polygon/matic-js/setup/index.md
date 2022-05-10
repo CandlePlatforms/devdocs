@@ -1,18 +1,18 @@
 ---
 id: index
 title: 'Supported libraries '
-keywords: 
+keywords:
     - pos client
     - erc20
     - withdrawExit
-    - polygon
+    - candle
     - sdk
 description: 'Get started with maticjs'
 ---
 
 ## Setup
 
-In order to support multiple web3 libraries - maticjs provides plugins.
+In order to support multiple web3 libraries - cndljs provides plugins.
 
 Currently two libraries are supported -
 

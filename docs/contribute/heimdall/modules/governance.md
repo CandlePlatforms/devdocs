@@ -5,7 +5,7 @@ sidebar_label: Governance
 description: Heimdall governance works exactly the same as Cosmos-sdk `x/gov` module. [https://docs.cosmos.network/master/modules/gov/](https://docs.cosmos.network/master/modules/gov/). In this system, holders of the native staking token of the chain can vote on proposals on a 1 token - 1 vote basis.
 keywords:
   - docs
-  - matic
+  - cndl
 image: https://matic.network/banners/matic-network-16x9.png 
 ---
 ## Overview

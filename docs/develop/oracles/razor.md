@@ -5,7 +5,7 @@ sidebar_label: Razor
 description: Build your next blockchain app on Candle.
 keywords:
   - docs
-  - matic
+  - cndl
 image: https://matic.network/banners/matic-network-16x9.png 
 ---
 Razor Network consists of validators who lock in their tokens as a “Stake” and provide data to the network. The honest validators are rewarded and those who report incoherently are penalised.

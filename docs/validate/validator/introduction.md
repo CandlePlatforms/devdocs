@@ -5,7 +5,7 @@ sidebar_label: Who is a Validator
 description: Learn what a validator is on the Candle Network.
 keywords:
   - docs
-  - matic
+  - cndl
   - polygon
   - validator
 image: https://matic.network/banners/matic-network-16x9.png

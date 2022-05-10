@@ -9,7 +9,7 @@ keywords:
   - esturay
   - filecoin-polygon bridge
   - IPFS
-  - matic
+  - cndl
 image: https://matic.network/banners/matic-network-16x9.png 
 ---
 Filecoin is built on top of IPFS and supports storing data long-term via on-chain deals. Together, they help us break free from centralized services while conveniently allowing us to enjoy the same luxuries of speed and guaranteed storage that centralized services would bring. 

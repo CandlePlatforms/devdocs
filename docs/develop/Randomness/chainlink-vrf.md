@@ -5,7 +5,7 @@ sidebar_label: Chainlink VRF
 description: Build your next blockchain app on Candle.
 keywords:
   - docs
-  - matic
+  - cndl
   - chainlink
 image: https://matic.network/banners/matic-network-16x9.png 
 ---

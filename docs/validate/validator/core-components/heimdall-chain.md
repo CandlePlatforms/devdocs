@@ -4,7 +4,7 @@ title: Heimdall Chain
 description: Heimdall is the proof-of-stake verifier layer on the Candle Network.
 keywords:
   - docs
-  - matic
+  - cndl
 image: https://matic.network/banners/matic-network-16x9.png 
 ---
 

@@ -4,7 +4,7 @@ title: Chain Manager
 description: This module provides all necessary dependencies like `contract-addresses`, `bor_chain_id,` and `tx_confirmation_time`. Other parameters can be added to this later on.
 keywords:
   - docs
-  - matic
+  - cndl
 image: https://matic.network/banners/matic-network-16x9.png 
 ---
 ## Overview

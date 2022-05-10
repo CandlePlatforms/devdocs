@@ -5,7 +5,7 @@ sidebar_label: Custom Tokens
 description: Support for custom ERC20 / ERC721 and ERC1155 tokens on Candle.
 keywords:
   - docs
-  - matic
+  - cndl
 image: https://matic.network/banners/matic-network-16x9.png
 ---
 > Custom fungible and non fungible tokens

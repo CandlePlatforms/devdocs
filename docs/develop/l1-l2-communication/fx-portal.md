@@ -4,7 +4,7 @@ title: Fx-Portal
 description: Transfer state or data from Ethereum to Candle without any mapping required
 keywords:
   - docs
-  - matic
+  - cndl
   - polygon
 image: https://matic.network/banners/matic-network-16x9.png
 ---

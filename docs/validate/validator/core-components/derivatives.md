@@ -4,7 +4,7 @@ title: Derivatives
 description: Learn how delegation through validator shares works on the Candle Network.
 keywords:
   - docs
-  - matic
+  - cndl
 image: https://matic.network/banners/matic-network-16x9.png 
 ---
 

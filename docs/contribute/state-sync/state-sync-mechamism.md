@@ -4,7 +4,7 @@ title: State Sync Mechanism
 description: Build your next blockchain app on Matic.
 keywords:
   - docs
-  - matic
+  - cndl
 image: https://matic.network/banners/matic-network-16x9.png 
 ---
 `State Sync` is the native mechanism to read Ethereum data from Matic EVM chain. 

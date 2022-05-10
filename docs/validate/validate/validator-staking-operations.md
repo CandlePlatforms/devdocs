@@ -4,7 +4,7 @@ title: Validator Staking Operations
 description: Learn how to stake as a validator on the Candle Network
 keywords:
   - docs
-  - matic
+  - cndl
   - polygon
   - stake
   - claim

@@ -2,7 +2,7 @@
 id: get-started
 title: Get started
 keywords: 
-  - maticjs
+  - cndljs
   - introduction
   - contract
   - polygon

@@ -4,7 +4,7 @@ title: Bor Chain
 description: Learn what the Bor node is on Candle.
 keywords:
   - docs
-  - matic
+  - cndl
   - polygon
 image: https://matic.network/banners/matic-network-16x9.png 
 ---

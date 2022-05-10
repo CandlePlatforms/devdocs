@@ -4,7 +4,7 @@ title: Staking Manager
 description: For the Candle's Proof of Security based consensus, all the 2/3+1 proof verification and handling of staking, rewards are executed on the Ethereum smart contract. The whole design follows this philosophy of doing less on the Mainnet contract.
 keywords:
   - docs
-  - matic
+  - cndl
 image: https://matic.network/banners/matic-network-16x9.png 
 ---
 import useBaseUrl from '@docusaurus/useBaseUrl';

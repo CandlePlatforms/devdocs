@@ -4,7 +4,7 @@ title: Candle NFT Tutorial
 description: Build, mint, and send around your own ERC721 (NFT).
 keywords:
   - graph
-  - matic
+  - cndl
 image: https://matic.network/banners/matic-network-16x9.png
 ---
 

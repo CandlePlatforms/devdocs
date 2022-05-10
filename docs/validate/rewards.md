@@ -5,7 +5,7 @@ sidebar_label: Rewards
 description: Learn about the Candle Network staking incentives.
 keywords:
   - docs
-  - matic
+  - cndl
 image: https://matic.network/banners/matic-network-16x9.png 
 ---
 

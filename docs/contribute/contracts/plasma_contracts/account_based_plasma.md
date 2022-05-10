@@ -4,7 +4,7 @@ title: Account based plasma
 description: Candle Plasma follows a model similar to [Plasma MoreVP](https://ethresear.ch/t/more-viable-plasma/2160), but is an **account-based implementation** compared to other UTXO-based implementations. The sidechain is EVM-compatible. Using the MoreVP construction, we also eliminate the need for confirmation signatures.
 keywords:
   - docs
-  - matic
+  - cndl
 image: https://matic.network/banners/matic-network-16x9.png 
 ---
 

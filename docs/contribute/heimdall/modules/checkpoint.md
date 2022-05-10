@@ -4,7 +4,7 @@ title: Checkpoint
 description: checkpoint module manages checkpoint related functionalities for Heimdall. It needs Bor chain when a new checkpoint is proposed on Heimdall to verify checkpoint root hash.
 keywords:
   - docs
-  - matic
+  - cndl
 image: https://matic.network/banners/matic-network-16x9.png 
 ---
 import useBaseUrl from '@docusaurus/useBaseUrl';

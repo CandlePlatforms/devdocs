@@ -5,7 +5,7 @@ sidebar_label: Google Cloud simple deploy
 description: Simple deployment of your Candle nodes in Google Cloud
 keywords:
 - docs
-- matic
+- cndl
 ---
 import useBaseUrl from '@docusaurus/useBaseUrl';
 

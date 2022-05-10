@@ -5,7 +5,7 @@ sidebar_label: Developer Support
 description: Arkane offers support for developers building on Candle.
 keywords:
   - docs
-  - matic
+  - cndl
 image: https://matic.network/banners/matic-network-16x9.png
 ---
 > Always helping a developer in need

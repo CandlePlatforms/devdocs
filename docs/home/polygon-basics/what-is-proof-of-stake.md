@@ -4,7 +4,7 @@ title: What is Proof of Stake?
 description: Learn what is Proof of Stake.
 keywords:
   - docs
-  - matic
+  - cndl
   - polygon
   - stake
   - delegate

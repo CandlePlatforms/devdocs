@@ -5,7 +5,7 @@ sidebar_label: Bor Chain
 description: The Bor node or the Block Producer implementation is basically the sidechain operator. The sidechain VM is EVM-compatible.
 keywords:
   - docs
-  - matic
+  - cndl
 image: https://matic.network/banners/matic-network-16x9.png 
 ---
 

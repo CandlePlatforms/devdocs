@@ -4,7 +4,7 @@ title: DIA Data
 description: Build your next blockchain app on Candle.
 keywords:
   - docs
-  - matic
+  - cndl
   - dia
   - oracle
 image: https://matic.network/banners/matic-network-16x9.png 

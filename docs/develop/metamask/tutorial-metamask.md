@@ -5,7 +5,7 @@ sidebar_label: Hello Metamask
 description: Build your next blockchain app on Candle.
 keywords:
   - docs
-  - matic
+  - cndl
 image: https://matic.network/banners/matic-network-16x9.png 
 ---
 If you are wondering how to create a new cryptocurrency wallet, consider creating one by installing the MetaMask extension.

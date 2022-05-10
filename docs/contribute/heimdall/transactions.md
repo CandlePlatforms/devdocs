@@ -4,7 +4,7 @@ title: Transactions
 description: When users want to interact with an application and make state changes (e.g. sending coins), they create transactions. Each of a transaction's `message` must be signed using the private key associated with the appropriate account before the transaction is broadcasted to the network.
 keywords:
   - docs
-  - matic
+  - cndl
 image: https://matic.network/banners/matic-network-16x9.png 
 ---
 

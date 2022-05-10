@@ -5,7 +5,7 @@ sidebar_label: Overview
 description: How you can get started with MetaMask on Candle
 keywords:
   - docs
-  - matic
+  - cndl
   - wallet
 image: https://matic.network/banners/matic-network-16x9.png
 ---

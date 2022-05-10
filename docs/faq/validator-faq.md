@@ -4,7 +4,7 @@ title: Validator FAQ
 description: Common questions on the validator operations on the Candle network.
 keywords:
   - docs
-  - matic
+  - cndl
   - polygon
   - validator
   - faq

@@ -4,7 +4,7 @@ title: Getting Started
 description: A collection of instructions on how to run and operate validator nodes on the Candle Network.
 keywords:
   - docs
-  - matic
+  - cndl
   - polygon
   - introduction
 image: https://matic.network/banners/matic-network-16x9.png 

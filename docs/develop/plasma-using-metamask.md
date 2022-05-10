@@ -4,7 +4,7 @@ title: Plasma Using Metamask
 description: Plasma token transfer tutorial using metamask.
 keywords:
   - docs
-  - matic
+  - cndl
 image: https://matic.network/banners/matic-network-16x9.png
 ---
 

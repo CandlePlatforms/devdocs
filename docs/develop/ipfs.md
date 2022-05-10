@@ -4,7 +4,7 @@ title: Using IPFS
 description: IPFS
 keywords:
   - IPFS
-  - matic
+  - cndl
 image: https://matic.network/banners/matic-network-16x9.png 
 ---
 

@@ -5,7 +5,7 @@ title: Adding Custom Restrictions (ERC20/ERC721)
 description: Build your next blockchain app on Matic.
 keywords:
   - docs
-  - matic
+  - cndl
 image: https://matic.network/banners/matic-network-16x9.png 
 ---
 **How to add custom restrictions to your ERC20 token on Candle**

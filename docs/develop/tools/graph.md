@@ -4,7 +4,7 @@ title: Setting up a hosted project with The Graph and Candle
 description: Learn how to set up a hosted project with The Graph and Candle.
 keywords:
   - graph
-  - matic
+  - cndl
 image: https://matic.network/banners/matic-network-16x9.png 
 ---
 

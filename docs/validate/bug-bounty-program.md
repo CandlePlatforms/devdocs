@@ -4,7 +4,7 @@ title: Bug Bounty Program
 description: Know more about Candle's Bug Bounty Program.
 keywords:
   - docs
-  - matic
+  - cndl
   - polygon
   - bug bounty
 image: https://matic.network/banners/matic-network-16x9.png 

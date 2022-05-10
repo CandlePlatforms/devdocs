@@ -4,7 +4,7 @@ title: Full Node Deployment
 description: Build your next blockchain app on Candle.
 keywords:
   - docs
-  - matic
+  - cndl
 image: https://matic.network/banners/matic-network-16x9.png
 ---
 import Tabs from '@theme/Tabs';

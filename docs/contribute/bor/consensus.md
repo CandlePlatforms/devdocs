@@ -4,7 +4,7 @@ title: Bor Consensus
 description: Bor consensus is inspired by Clique consensus [https://eips.ethereum.org/EIPS/eip-225](https://eips.ethereum.org/EIPS/eip-225) Clique works with multiple pre-defined producers. All producers vote on new producers using Clique APIs. They take a turn creating blocks.
 keywords:
   - docs
-  - matic
+  - cndl
 image: https://matic.network/banners/matic-network-16x9.png 
 ---
 import useBaseUrl from '@docusaurus/useBaseUrl';

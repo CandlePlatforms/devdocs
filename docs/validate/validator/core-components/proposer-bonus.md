@@ -4,7 +4,7 @@ title: Proposer Bonus
 description: Learn about the additional incentive of being a validator on the Candle Network.
 keywords:
   - docs
-  - matic
+  - cndl
 image: https://matic.network/banners/matic-network-16x9.png 
 ---
 

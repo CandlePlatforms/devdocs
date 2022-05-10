@@ -4,7 +4,7 @@ title: Reporting Issues
 description: Report issues on attacks and bugs on the Candle Network.
 keywords:
   - docs
-  - matic
+  - cndl
 image: https://matic.network/banners/matic-network-16x9.png
 ---
 

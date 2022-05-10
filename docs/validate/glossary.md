@@ -4,7 +4,7 @@ title: Glossary
 description: Key Candle terms
 keywords:
   - docs
-  - matic
+  - cndl
   - polygon
   - glossary
 image: https://matic.network/banners/matic-network-16x9.png 

@@ -4,7 +4,7 @@ title: Checkpoint Mechanism
 description: Learn how checkpointing the system state to the Ethereum mainnet works on the Candle Network.
 keywords:
   - docs
-  - matic
+  - cndl
   - polygon
   - checkpoint
 image: https://matic.network/banners/matic-network-16x9.png 

@@ -4,7 +4,7 @@ title: Transaction Fees
 description: Learn how transaction fees get distributed among all validators on the Heimdall layer.
 keywords:
   - docs
-  - matic
+  - cndl
   - polygon
   - validator
 image: https://matic.network/banners/matic-network-16x9.png 

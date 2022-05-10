@@ -4,7 +4,7 @@ title: Run a Validator Node with Ansible
 description: Use Ansible to set up your validator node on the Candle Network.
 keywords:
   - docs
-  - matic
+  - cndl
   - polygon
   - ansible
   - node

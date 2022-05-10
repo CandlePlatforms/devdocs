@@ -4,7 +4,7 @@ title: Liquid Delegation in Candle
 description: Build your next blockchain app on Candle.
 keywords:
   - docs
-  - matic
+  - cndl
 image: https://matic.network/banners/matic-network-16x9.png 
 ---
 In a traditional Proof of Stake Mechanism, the blockchain keeps track of a set of validators, And anyone can join this rank or right to validate transactions by sending a special type of transaction which stake their coins(in Ethereum's case, ether) and locks up into a deposit. The process of creating and agreeing to new blocks is then done through a consensus algorithm by all current validators.

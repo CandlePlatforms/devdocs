@@ -4,7 +4,7 @@ title: Predicates in Candle Plasma
 description: This post highlights the implementation details of our predicate design. Our predicate design is heavily inspired from [Understanding the Generalized Plasma Architecture](https://medium.com/plasma-group/plapps-and-predicates-understanding-the-generalized-plasma-architecture-fc171b25741) and we thank the plasma group for the same. We recently published our [Account based MoreVP](https://ethresear.ch/t/account-based-plasma-morevp/5480) specification. The linked post is a pre-requisite to understanding this document.
 keywords:
   - docs
-  - matic
+  - cndl
 image: https://matic.network/banners/matic-network-16x9.png 
 ---
 This post highlights the implementation details of our predicate design. Our predicate design is heavily inspired from [Understanding the Generalized Plasma Architecture](https://medium.com/plasma-group/plapps-and-predicates-understanding-the-generalized-plasma-architecture-fc171b25741) and we thank the plasma group for the same. We recently published our [Account based MoreVP](https://ethresear.ch/t/account-based-plasma-morevp/5480) specification. The linked post is a pre-requisite to understanding this document.

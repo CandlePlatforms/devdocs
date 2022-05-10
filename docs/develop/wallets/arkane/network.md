@@ -5,7 +5,7 @@ sidebar_label: Network
 description: How to switch between Candle testnet and mainnet.
 keywords:
   - docs
-  - matic
+  - cndl
 image: https://matic.network/banners/matic-network-16x9.png
 ---
 

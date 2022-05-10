@@ -4,7 +4,7 @@ title: General
 description: Build your next blockchain app on Candle.
 keywords:
   - docs
-  - matic
+  - cndl
   - wallet
 image: https://matic.network/banners/matic-network-16x9.png
 ---
