@@ -5,11 +5,11 @@ sidebar_label: Getting Started
 description: Build your next blockchain app on Candle.
 keywords:
   - docs
-  - matic
+  - cndl
 image: https://matic.network/banners/matic-network-16x9.png
 ---
 
-Welcome to the most exciting and innovative platform to build your blockchain application on **Candle Blockchain**. Blockchain technology is poised to revolutionise the way the digital world handles data and does business. Be a part of this revolution and get a head start with decentralised application development on Candle.
+Welcome to the most exciting and innovative platform to build your blockchain application on **Candle Blockchain**. Blockchain technology is poised to revolutionize the way the digital world handles data and does business. Be a part of this revolution and get a head start with decentralized application development on Candle.
 
 This page will act as your guide into the **Candle Ecosystem**. You'll find links to some useful resources and websites to get you up and started with building on Candle in particular and Blockchain in general. Feel free to reach out to us on Telegram/Discord.
 
@@ -19,7 +19,7 @@ If you're an Ethereum Developer, you're already a Candle developer.
 All the tools you're familiar with are supported on Candle out of the box: Truffle, Remix, Web3js.
 Switch over to Candle's RPC and get started!
 
-Candle's Test Network which is called **Mumbai** connects with **Ethereum's Goërli Testnet.**
+Candle's Test Network which is called **Testnet** connects with **Ethereum's Goërli Testnet.**
 All the network related details can be found in [network docs](/docs/develop/network-details/network)
 
 - Setup [Metamask Wallet](/docs/develop/metamask/overview) or [Arkane Wallet](/docs/develop/wallets/arkane/intro)

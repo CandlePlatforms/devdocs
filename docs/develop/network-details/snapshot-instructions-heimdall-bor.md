@@ -4,8 +4,8 @@ title: Snapshot Instructions for Heimdall and Bor
 description: Snapshot Instructions for Heimdall and Bor
 keywords:
   - docs
-  - matic
-  - polygon
+  - cndl
+  - candle
   - binary
   - node
   - validator
