@@ -59,7 +59,7 @@ documentation from the outset.
    > For help, see [GitHub Docs: Configuring a remote for a fork](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/configuring-a-remote-for-a-fork).
    
     ```
-    git remote add upstream https://github.com/maticnetwork/matic-docs
+    git remote add upstream https://github.com/candleplatforms/matic-docs
     ```
 
 5. If you have already cloned the repository, be sure to sync your fork with the latest changes. 
@@ -150,7 +150,7 @@ Acceptable PRs will be approved & merged into the `master` branch.
 
 ## Submit an Issue
 
-- Create a [new issue](https://github.com/maticnetwork/matic-docs/issues/new/choose) to report a bug, request a feature, 
+- Create a [new issue](https://github.com/candleplatforms/matic-docs/issues/new/choose) to report a bug, request a feature, 
   or suggest changes.
 - Comment on the issue if you want to be assigned to it so [our team can assign the issue to you](https://github.blog/2019-06-25-assign-issues-to-issue-commenters/).
 - If you do not have a specific contribution in mind, you can also browse current issues.

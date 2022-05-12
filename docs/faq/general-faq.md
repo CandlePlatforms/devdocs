@@ -42,6 +42,6 @@ A checkpoint is basically the Merkle root of all blocks produced in between inte
 To avail the proposer bonus completely, the proposer would need to include all signatures in the checkpoint. Because the protocol desires 2/3+1 weight of the total stake, the checkpoint will be accepted even with 80% votes. However, in this case, proposer gets only 80% of the calculated bonus.
 
 ## How can I raise a support ticket or contribute to Candle documentation?
-If you think something needs to be fixed on our documentation or you even want to add new information here, you can [raise an issue on the Github repository](https://github.com/candleplatforms/candle.js/issues). The [Readme file](https://github.com/maticnetwork/matic-docs/blob/master/README.md) on the repository also gives you a few suggestions on how to contribute to our documentation.
+If you think something needs to be fixed on our documentation or you even want to add new information here, you can [raise an issue on the Github repository](https://github.com/candleplatforms/candle.js/issues). The [Readme file](https://github.com/candleplatforms/matic-docs/blob/master/README.md) on the repository also gives you a few suggestions on how to contribute to our documentation.
 
 If you still need help, you can always contact **our support team**.

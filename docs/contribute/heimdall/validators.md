@@ -33,7 +33,7 @@ Here `StartEpoch` and `EndEpoch` are checkpoint numbers in between validator wil
 
 In the end, it returns validator updates for the Tendermint.  
 
-Source: [https://github.com/maticnetwork/heimdall/blob/develop/app/app.go#L500-L542](https://github.com/maticnetwork/heimdall/blob/develop/app/app.go#L500-L542)
+Source: [https://github.com/candleplatforms/heimdall/blob/develop/app/app.go#L500-L542](https://github.com/candleplatforms/heimdall/blob/develop/app/app.go#L500-L542)
 
 ```go
 ...

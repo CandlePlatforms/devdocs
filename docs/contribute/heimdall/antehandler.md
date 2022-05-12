@@ -22,7 +22,7 @@ Note that each state manipulation on transaction costs gas, including signature 
 
 **Block gas limit**
 
-Max block gas limit and bytes per block is passed while setting up app's consensus params: [https://github.com/maticnetwork/heimdall/blob/develop/app/app.go#L464-L471](https://github.com/maticnetwork/heimdall/blob/develop/app/app.go#L464-L471)
+Max block gas limit and bytes per block is passed while setting up app's consensus params: [https://github.com/candleplatforms/heimdall/blob/develop/app/app.go#L464-L471](https://github.com/candleplatforms/heimdall/blob/develop/app/app.go#L464-L471)
 
 ```go
 maxGasPerBlock   int64 = 10000000 // 10 Million
@@ -58,6 +58,6 @@ if stdTx.Msg.Type() == "checkpoint" && stdTx.Msg.Route() == "checkpoint" {
 
 ## Transaction verification and replay protection
 
-Ante handler handles and verifies signature in incoming transaction: [https://github.com/maticnetwork/heimdall/blob/develop/auth/ante.go#L230-L266](https://github.com/maticnetwork/heimdall/blob/develop/auth/ante.go#L230-L266)
+Ante handler handles and verifies signature in incoming transaction: [https://github.com/candleplatforms/heimdall/blob/develop/auth/ante.go#L230-L266](https://github.com/candleplatforms/heimdall/blob/develop/auth/ante.go#L230-L266)
 
 Each transaction must include `sequenceNumber` to avoid replay attacks. After each successful transaction inclusion, Ante handler increases the sequence number for the TX sender account to avoid duplication (replay) of the previous transactions.

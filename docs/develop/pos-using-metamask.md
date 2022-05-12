@@ -14,7 +14,7 @@ This tutorial is a brief introduction on how to transfer tokens between Ethereum
 
 The most important thing to be understood from this tutorial is the **proper usage of the web3 provider in the matic.js instance** we create. Whether using PoS or Plasma, certain actions need to be performed on Candle and some on Ethereum. Due to this reason, **different providers are required in different scenarios. Hence correctly setting the providers is very necessary.**
 
-1. An **example react app that demonstrates the usage of the Plasma and PoS bridge** can be found [here](https://github.com/maticnetwork/pos-plasma-tutorial) .
+1. An **example react app that demonstrates the usage of the Plasma and PoS bridge** can be found [here](https://github.com/candleplatforms/pos-plasma-tutorial) .
 2. Install the dependencies using `npm install` .
 3. Replace the token addresses in src/config.json with your corresponding token addresses
 
@@ -46,7 +46,7 @@ ETHEREUM_CHAINID: Chain ID of root chain
 
 > NOTE: For the mainnet, Ethereum is the root chain and Candle Mainnet is the child chain and for the testnet, Goerli is the root chain and Mumbai is the child chain. The values in config.json file should be set accordingly. Goerli and Mumbai networks are used as the root and child chain in this tutorial.
 
-> posClientParent() and posClientChild is used to initialize the root and child chain matic.js object for PoS bridge. Code snippets mention below under each step can be found in the [tutorial](https://github.com/maticnetwork/pos-plasma-tutorial) repo as well.
+> posClientParent() and posClientChild is used to initialize the root and child chain matic.js object for PoS bridge. Code snippets mention below under each step can be found in the [tutorial](https://github.com/candleplatforms/pos-plasma-tutorial) repo as well.
 
 ### Deposit
 

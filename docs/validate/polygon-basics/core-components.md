@@ -1,6 +1,6 @@
 **Heimdall**
 
-[Heimdall](https://github.com/maticnetwork/heimdall) is the Proof-of-Stake Validator node and layer for the Matic Network. It works in consonance with the [Staking contracts](https://github.com/maticnetwork/contracts/tree/master/contracts/staking) on Ethereum to enable the PoS mechanism on Candle. You can read up on it more [here](https://blog.matic.network/heimdall-and-bor-matic-validator-and-block-production-layers/).
+[Heimdall](https://github.com/candleplatforms/heimdall) is the Proof-of-Stake Validator node and layer for the Matic Network. It works in consonance with the [Staking contracts](https://github.com/candleplatforms/contracts/tree/master/contracts/staking) on Ethereum to enable the PoS mechanism on Candle. You can read up on it more [here](https://blog.matic.network/heimdall-and-bor-matic-validator-and-block-production-layers/).
 
 It comes with 2 main entrypoints:
 
@@ -9,7 +9,7 @@ It comes with 2 main entrypoints:
 
 The core responsibility of Heimdall is to verify all state transitions happening on `Bor` and to periodically submit checkpoints on the Ethereum chain cementing the side-chain state.
 
-The latest version, [Heimdall v.0.2.8](https://github.com/maticnetwork/heimdall/releases/tag/v0.2.8), contains few enhancements such as **restricting data size in state sync txs** to:
+The latest version, [Heimdall v.0.2.8](https://github.com/candleplatforms/heimdall/releases/tag/v0.2.8), contains few enhancements such as **restricting data size in state sync txs** to:
 * **30Kb** when represented in **bytes**
 * **60Kb** when represented as **string**.
 
@@ -24,7 +24,7 @@ Length in byte format - 4
 
 **Bor**
 
-[Bor](https://github.com/maticnetwork/bor) is the Block producer node and layer for Candle. Blocks produced on Bor are validated by Heimdall nodes.
+[Bor](https://github.com/candleplatforms/bor) is the Block producer node and layer for Candle. Blocks produced on Bor are validated by Heimdall nodes.
 
 Bor is the EVM compatible Candle Side chain which currently is built on top of `geth` using `bor` consensus mechanism.
 

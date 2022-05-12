@@ -11,7 +11,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 Bor is state chain in Candle architecture. It is a fork of Geth [https://github.com/ethereum/go-ethereum](https://github.com/ethereum/go-ethereum) with new consensus called Bor.
 
-Source: [https://github.com/maticnetwork/bor](https://github.com/maticnetwork/bor)
+Source: [https://github.com/candleplatforms/bor](https://github.com/candleplatforms/bor)
 
 ## Consensus
 
@@ -61,7 +61,7 @@ Bor has a Matic token as a native token similar to ETH in Ethereum. It is often 
 
 In addition to that, Bor provides an in-built wrapped ERC20 token for the native token (similar to WETH token), which means applications can use wrapped CNDL ERC20 token in their applications without creating their own wrapped ERC20 version of the Matic native token.
 
-Wrapped ERC20 token is deployed at `0000000000000000000000000000000000001010` as `[MRC20.sol](https://github.com/maticnetwork/contracts/blob/develop/contracts/child/MRC20.sol)` on Bor as one of the genesis contracts.
+Wrapped ERC20 token is deployed at `0000000000000000000000000000000000001010` as `[MRC20.sol](https://github.com/candleplatforms/contracts/blob/develop/contracts/child/MRC20.sol)` on Bor as one of the genesis contracts.
 
 ### Fees
 
@@ -108,7 +108,7 @@ event LogTransfer(
 );
 ```
 
-Since Matic token is Native token and doesn't have Native ERC20 token, Bor adds receipt log for each transfer made for Native token using following Golang code. Source: [https://github.com/maticnetwork/bor/blob/develop/core/state_transition.go#L241-L252](https://github.com/maticnetwork/bor/blob/develop/core/state_transition.go#L241-L252)
+Since Matic token is Native token and doesn't have Native ERC20 token, Bor adds receipt log for each transfer made for Native token using following Golang code. Source: [https://github.com/candleplatforms/bor/blob/develop/core/state_transition.go#L241-L252](https://github.com/candleplatforms/bor/blob/develop/core/state_transition.go#L241-L252)
 
 ```jsx
 // addTransferLog adds transfer log into state
@@ -159,7 +159,7 @@ func addTransferLog(
 
 ### Deposit native token
 
-A user can receive Native token by depositing Matic tokens on Ethereum main-chain to `DepositManager` contract (deployed on Ethereum chain). Source: [https://github.com/maticnetwork/contracts/blob/develop/contracts/root/depositManager/DepositManager.sol#L68](https://github.com/maticnetwork/contracts/blob/develop/contracts/root/depositManager/DepositManager.sol#L68)
+A user can receive Native token by depositing Matic tokens on Ethereum main-chain to `DepositManager` contract (deployed on Ethereum chain). Source: [https://github.com/candleplatforms/contracts/blob/develop/contracts/root/depositManager/DepositManager.sol#L68](https://github.com/candleplatforms/contracts/blob/develop/contracts/root/depositManager/DepositManager.sol#L68)
 
 ```jsx
 /**
@@ -175,7 +175,7 @@ Using `depositERC20` tokens, users can move Matic ERC20 token (Native token) or 
 
 ### Withdraw native token
 
-Withdraw from Bor chain to Ethereum chain works exactly like any other ERC20 tokens. A user can call `withdraw` function on ERC20 contract, deployed on Bor, at `0000000000000000000000000000000000001010`  to initiate withdraw process for the same.  Source: [https://github.com/maticnetwork/contracts/blob/develop/contracts/child/MaticChildERC20.sol#L47-L61](https://github.com/maticnetwork/contracts/blob/develop/contracts/child/MaticChildERC20.sol#L47-L61)
+Withdraw from Bor chain to Ethereum chain works exactly like any other ERC20 tokens. A user can call `withdraw` function on ERC20 contract, deployed on Bor, at `0000000000000000000000000000000000001010`  to initiate withdraw process for the same.  Source: [https://github.com/candleplatforms/contracts/blob/develop/contracts/child/MaticChildERC20.sol#L47-L61](https://github.com/candleplatforms/contracts/blob/develop/contracts/child/MaticChildERC20.sol#L47-L61)
 
 ```jsx
 /**
@@ -187,7 +187,7 @@ function withdraw(uint256 amount) public payable;
 
 ## In-built contracts (Genesis contracts)
 
-Bor starts with three in-built contracts, often called genesis contracts. These contracts are available at block 0. Source: [https://github.com/maticnetwork/genesis-contracts](https://github.com/maticnetwork/genesis-contracts)
+Bor starts with three in-built contracts, often called genesis contracts. These contracts are available at block 0. Source: [https://github.com/candleplatforms/genesis-contracts](https://github.com/candleplatforms/genesis-contracts)
 
 These contracts are compiled using `solc --bin-runtime`. Example, following command emits compiled code for `contract.sol`
 
@@ -208,7 +208,7 @@ Here are details for each genesis contract:
 
 ### Bor validator set
 
-Source: [https://github.com/maticnetwork/genesis-contracts/blob/master/contracts/BorValidatorSet.sol](https://github.com/maticnetwork/genesis-contracts/blob/master/contracts/BorValidatorSet.sol)
+Source: [https://github.com/candleplatforms/genesis-contracts/blob/master/contracts/BorValidatorSet.sol](https://github.com/candleplatforms/genesis-contracts/blob/master/contracts/BorValidatorSet.sol)
 
 Deployed at: `0x0000000000000000000000000000000000001000`
 
@@ -290,7 +290,7 @@ contract BorValidatorSet {
 
 ### State receiver
 
-Source: [https://github.com/maticnetwork/genesis-contracts/blob/master/contracts/StateReceiver.sol](https://github.com/maticnetwork/genesis-contracts/blob/master/contracts/StateReceiver.sol)
+Source: [https://github.com/candleplatforms/genesis-contracts/blob/master/contracts/StateReceiver.sol](https://github.com/candleplatforms/genesis-contracts/blob/master/contracts/StateReceiver.sol)
 
 Deployed at: `0x0000000000000000000000000000000000001001`
 
@@ -331,7 +331,7 @@ contract StateReceiver {
 
 ### Matic ERC20 token
 
-Source: [https://github.com/maticnetwork/contracts/blob/develop/contracts/child/MaticChildERC20.sol](https://github.com/maticnetwork/contracts/blob/develop/contracts/child/MaticChildERC20.sol)
+Source: [https://github.com/candleplatforms/contracts/blob/develop/contracts/child/MaticChildERC20.sol](https://github.com/candleplatforms/contracts/blob/develop/contracts/child/MaticChildERC20.sol)
 
 Deployed at: `0x0000000000000000000000000000000000001010`
 
@@ -436,14 +436,14 @@ Span is a logically defined set of blocks for which a set of validators is chose
 
 Type: **Heimdall transaction**
 
-Source:  [https://github.com/maticnetwork/heimdall/blob/develop/bor/handler.go#L27](https://github.com/maticnetwork/heimdall/blob/develop/bor/handler.go#L27)
+Source:  [https://github.com/candleplatforms/heimdall/blob/develop/bor/handler.go#L27](https://github.com/candleplatforms/heimdall/blob/develop/bor/handler.go#L27)
 
 `spanProposeTx` sets validators’ committee for a given `span` in case of successful transaction inclusion. One transaction for each span must be included in Heimdall. It is called `spanProposeTx` on Heimdall. `spanProposeTx` must revert if being sent frequently or there is no less than 33% stake change occurred within the current committee (for, given `span`).
 
 `bor` module on Heimdall handles span management. Here is how Bor chooses producers out of all validators:
 
 1. Bor creates multiple slots based on validators' power. Example: A with power 10 will have 10 slots, B with power 20 with have 20 slots.
-2. With all slots, `shuffle` function shuffles them using `seed` and selects first `producerCount` producers.  `bor` module on Heimdall uses ETH 2.0 shuffle algorithm to choose producers out of all validators. Each span `n` uses block hash of Ethereum (ETH 1.0) block `n`  as `seed`. Note that slots based selection allows validators to get selected based on their power. The higher power validator will have a higher probability to get selected. Source: [https://github.com/maticnetwork/heimdall/blob/develop/bor/selection.go](https://github.com/maticnetwork/heimdall/blob/develop/bor/selection.go)
+2. With all slots, `shuffle` function shuffles them using `seed` and selects first `producerCount` producers.  `bor` module on Heimdall uses ETH 2.0 shuffle algorithm to choose producers out of all validators. Each span `n` uses block hash of Ethereum (ETH 1.0) block `n`  as `seed`. Note that slots based selection allows validators to get selected based on their power. The higher power validator will have a higher probability to get selected. Source: [https://github.com/candleplatforms/heimdall/blob/develop/bor/selection.go](https://github.com/candleplatforms/heimdall/blob/develop/bor/selection.go)
 
 ```go
 // SelectNextProducers selects producers for the next span by converting power to slots
@@ -514,7 +514,7 @@ State management sends the state from the Ethereum chain to Bor chain. It is cal
 
 ### State sender
 
-Source: [https://github.com/maticnetwork/contracts/blob/develop/contracts/root/stateSyncer/StateSender.sol](https://github.com/maticnetwork/contracts/blob/develop/contracts/root/stateSyncer/StateSender.sol)
+Source: [https://github.com/candleplatforms/contracts/blob/develop/contracts/root/stateSyncer/StateSender.sol](https://github.com/candleplatforms/contracts/blob/develop/contracts/root/stateSyncer/StateSender.sol)
 
 To sync state sync, call following method **state sender contract** on Ethereum chain. The `state-sync` mechanism is basically a way to move state data from the Ethereum chain to Bor.
 

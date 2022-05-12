@@ -36,7 +36,7 @@ npm i @maticnetwork/wallet-widget
 
 ## Examples
 
-We have created examples for different framework and tools to help you with the development. All examples are present at - [https://github.com/maticnetwork/wallet-widget-example](https://github.com/maticnetwork/wallet-widget-example)
+We have created examples for different framework and tools to help you with the development. All examples are present at - [https://github.com/candleplatforms/wallet-widget-example](https://github.com/candleplatforms/wallet-widget-example)
 
 ## How to use
 ### With target

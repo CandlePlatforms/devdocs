@@ -65,7 +65,7 @@ type Validator struct {
 
 Geth (In this case, Bor) uses block `snapshot` to store state data for each block, including consensus related data.
 
-Each validator in span contains voting power. Based on their power, they get selected as block producers. Higher power, a higher probability of becoming block producers. Bor uses Tendermint's algorithm for the same. Source: [https://github.com/maticnetwork/bor/blob/master/consensus/bor/validator_set.go](https://github.com/maticnetwork/bor/blob/master/consensus/bor/validator_set.go)
+Each validator in span contains voting power. Based on their power, they get selected as block producers. Higher power, a higher probability of becoming block producers. Bor uses Tendermint's algorithm for the same. Source: [https://github.com/candleplatforms/bor/blob/master/consensus/bor/validator_set.go](https://github.com/candleplatforms/bor/blob/master/consensus/bor/validator_set.go)
 
 ## Sprint
 
@@ -165,12 +165,12 @@ Bor provides a mechanism where some specific events on the main ethereum chain a
 
 **Summary**
 
-1. Any contract on Ethereum may call [syncState](https://github.com/maticnetwork/contracts/blob/develop/contracts/root/stateSyncer/StateSender.sol#L33) in `StateSender.sol`. This call emits `StateSynced` event: https://github.com/maticnetwork/contracts/blob/develop/contracts/root/stateSyncer/StateSender.sol#L38
+1. Any contract on Ethereum may call [syncState](https://github.com/candleplatforms/contracts/blob/develop/contracts/root/stateSyncer/StateSender.sol#L33) in `StateSender.sol`. This call emits `StateSynced` event: https://github.com/candleplatforms/contracts/blob/develop/contracts/root/stateSyncer/StateSender.sol#L38
 
   ```js
   event StateSynced(uint256 indexed id, address indexed contractAddress, bytes data)
   ```
 
-2. Heimdall listens to these events and calls `function proposeState(uint256 stateId)`  in `StateReceiver.sol`  - thus acting as a store for the pending state change ids. Note that the `proposeState` transaction will be processed even with a 0 gas fee as long as it is made by one of the validators in the current validator set: https://github.com/maticnetwork/genesis-contracts/blob/master/contracts/StateReceiver.sol#L24
+2. Heimdall listens to these events and calls `function proposeState(uint256 stateId)`  in `StateReceiver.sol`  - thus acting as a store for the pending state change ids. Note that the `proposeState` transaction will be processed even with a 0 gas fee as long as it is made by one of the validators in the current validator set: https://github.com/candleplatforms/genesis-contracts/blob/master/contracts/StateReceiver.sol#L24
 
-3. At the start of every sprint, Bor pulls the details about the pending state changes using the states from Heimdall and commits them to the Bor state using a system call. See `commitState` here: https://github.com/maticnetwork/genesis-contracts/blob/f85d0409d2a99dff53617ad5429101d9937e3fc3/contracts/StateReceiver.sol#L41
+3. At the start of every sprint, Bor pulls the details about the pending state changes using the states from Heimdall and commits them to the Bor state using a system call. See `commitState` here: https://github.com/candleplatforms/genesis-contracts/blob/f85d0409d2a99dff53617ad5429101d9937e3fc3/contracts/StateReceiver.sol#L41

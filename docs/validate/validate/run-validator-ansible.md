@@ -63,10 +63,10 @@ For example, a sentry node must always be set up before the validator node.
 
 ## Set up the sentry node
 
-On your local machine, clone the [node-ansible repository](https://github.com/maticnetwork/node-ansible):
+On your local machine, clone the [node-ansible repository](https://github.com/candleplatforms/node-ansible):
 
 ```sh
-git clone https://github.com/maticnetwork/node-ansible
+git clone https://github.com/candleplatforms/node-ansible
 ```
 
 Change to the cloned repository:
@@ -305,7 +305,7 @@ For snapshot download links, see [Candle Chains Snapshots](https://snapshots.mat
 
 ### Start the Heimdall service
 
-The latest version, [Heimdall v.0.2.8](https://github.com/maticnetwork/heimdall/releases/tag/v0.2.8), contains few enhancements such as **restricting data size in state sync txs** to:
+The latest version, [Heimdall v.0.2.8](https://github.com/candleplatforms/heimdall/releases/tag/v0.2.8), contains few enhancements such as **restricting data size in state sync txs** to:
 * **30Kb** when represented in **bytes**
 * **60Kb** when represented as **string**.
 

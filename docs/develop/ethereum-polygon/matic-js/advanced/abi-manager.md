@@ -6,7 +6,7 @@ keywords:
 description: 'matic.js internally use ABIManager for handling abi management for you'
 ---
 
-`matic.js` internally uses `ABIManager` for handling ABI management, configuration for you. All of the ABI and config are taken from [static repo](https://github.com/maticnetwork/static).
+`matic.js` internally uses `ABIManager` for handling ABI management, configuration for you. All of the ABI and config are taken from [static repo](https://github.com/candleplatforms/static).
 
 ## Change ABI
 
@@ -30,7 +30,7 @@ manager.setABI(<contract name>,<bridge type>, <abi value>);
 manager.getABI(<contract name>,<bridge type>);
 ```
 
-The network name, contract name, bridge name etc can be taken from our [official static repo](https://github.com/maticnetwork/static/tree/master/network).
+The network name, contract name, bridge name etc can be taken from our [official static repo](https://github.com/candleplatforms/static/tree/master/network).
 
 **Example**
 

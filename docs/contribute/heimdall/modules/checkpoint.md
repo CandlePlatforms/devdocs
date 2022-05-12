@@ -50,7 +50,7 @@ Once this transaction gets processed on Heimdall, the `proposer` takes `votes` a
 
 Since block contains multiple transactions and verifies this particular transaction on the Ethereum chain, Merkle proof is required. To avoid extra Merkle proof verification on Ethereum, Heimdall only allows one transaction in the block if the transaction type is `MsgCheckpoint`
 
-To allow this mechanism, Heimdall sets `MsgCheckpoint` transaction as high gas consumed transaction. Check [https://github.com/maticnetwork/heimdall/blob/develop/auth/ante.go#L104-L106](https://github.com/maticnetwork/heimdall/blob/develop/auth/ante.go#L104-L106)
+To allow this mechanism, Heimdall sets `MsgCheckpoint` transaction as high gas consumed transaction. Check [https://github.com/candleplatforms/heimdall/blob/develop/auth/ante.go#L104-L106](https://github.com/candleplatforms/heimdall/blob/develop/auth/ante.go#L104-L106)
 
 ```go
 // fee wanted for checkpoint transaction
@@ -78,7 +78,7 @@ type MsgCheckpointAck struct {
 }
 ```
 
-For valid `TxHash` and `LogIndex` for the submitted checkpoint, this transaction verifies the following event and validates checkpoint in `checkpointBuffer` state: [https://github.com/maticnetwork/contracts/blob/develop/contracts/root/RootChainStorage.sol#L7-L14](https://github.com/maticnetwork/contracts/blob/develop/contracts/root/RootChainStorage.sol#L7-L14)
+For valid `TxHash` and `LogIndex` for the submitted checkpoint, this transaction verifies the following event and validates checkpoint in `checkpointBuffer` state: [https://github.com/candleplatforms/contracts/blob/develop/contracts/root/RootChainStorage.sol#L7-L14](https://github.com/candleplatforms/contracts/blob/develop/contracts/root/RootChainStorage.sol#L7-L14)
 
 ```jsx
 event NewHeaderBlock(

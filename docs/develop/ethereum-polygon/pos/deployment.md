@@ -8,11 +8,11 @@ keywords:
 image: https://matic.network/banners/matic-network-16x9.png
 ---
 
-Contracts: [https://github.com/maticnetwork/pos-portal/tree/v1.1.0/contracts](https://github.com/maticnetwork/pos-portal/tree/v1.1.0/contracts)
+Contracts: [https://github.com/candleplatforms/pos-portal/tree/v1.1.0/contracts](https://github.com/candleplatforms/pos-portal/tree/v1.1.0/contracts)
 
-Artifacts: [https://github.com/maticnetwork/static/tree/master/network/testnet/mumbai/artifacts/pos](https://github.com/maticnetwork/static/tree/master/network/testnet/mumbai/artifacts/pos)
+Artifacts: [https://github.com/candleplatforms/static/tree/master/network/testnet/mumbai/artifacts/pos](https://github.com/candleplatforms/static/tree/master/network/testnet/mumbai/artifacts/pos)
 
-Flattened contracts: [https://github.com/maticnetwork/pos-portal/tree/v1.1.0/flat](https://github.com/maticnetwork/pos-portal/tree/v1.1.0/flat)
+Flattened contracts: [https://github.com/candleplatforms/pos-portal/tree/v1.1.0/flat](https://github.com/candleplatforms/pos-portal/tree/v1.1.0/flat)
 
 Maticjs Examples: [https://github.com/candleplatforms/candle.js/tree/master/examples/pos](https://github.com/candleplatforms/candle.js/tree/master/examples/pos)
 

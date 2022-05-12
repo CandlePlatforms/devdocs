@@ -9,7 +9,7 @@ image: https://matic.network/banners/matic-network-16x9.png
 ---
 ## Pulp
 
-Source: [https://github.com/maticnetwork/heimdall/blob/master/auth/types/pulp.go](https://github.com/maticnetwork/heimdall/blob/master/auth/types/pulp.go)
+Source: [https://github.com/candleplatforms/heimdall/blob/master/auth/types/pulp.go](https://github.com/candleplatforms/heimdall/blob/master/auth/types/pulp.go)
 
 Heimdall needs to verify the transactions of Heimdall on the Ethereum chain. For that it uses RLP encoding to produce special transactions, like checkpoint.
 

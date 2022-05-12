@@ -71,7 +71,7 @@ type StdSignDoc struct {
 
 It manages addresses, coins and nonce for transactions. It also signs and validates transactions.
 
-Source: [https://github.com/maticnetwork/heimdall/blob/master/auth/types/account.go#L32-L54](https://github.com/maticnetwork/heimdall/blob/master/auth/types/account.go#L32-L54)
+Source: [https://github.com/candleplatforms/heimdall/blob/master/auth/types/account.go#L32-L54](https://github.com/candleplatforms/heimdall/blob/master/auth/types/account.go#L32-L54)
 
 ```go
 type BaseAccount struct {

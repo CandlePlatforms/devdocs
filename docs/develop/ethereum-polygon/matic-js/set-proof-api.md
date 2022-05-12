@@ -22,7 +22,7 @@ setProofApi("https://apis.matic.network/");
 
 👉 We recommend to host the proof API by yourself which will give you better performance. The default api provided by Candle might have performance issue as it is being used by multiple people. 
 
-Here is proof api repo link - [https://github.com/maticnetwork/proof-generation-api](https://github.com/maticnetwork/proof-generation-api)
+Here is proof api repo link - [https://github.com/candleplatforms/proof-generation-api](https://github.com/candleplatforms/proof-generation-api)
 
 After you have deployed the api, you can set the api url in matic.js by using `setProofApi`.
 

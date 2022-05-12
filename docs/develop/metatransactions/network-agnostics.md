@@ -50,7 +50,7 @@ For any action that requires blockchain interaction,
   - If you'd like to use your own custom API that sends signed transactions on the blockchain, you can refer to the server code here: [https://github.com/nglglhtr/ETHOnline-Workshop/tree/master/2-network-agnostic-transfer](https://github.com/nglglhtr/ETHOnline-Workshop/tree/master/2-network-agnostic-transfer)
 
 - Make sure that the contract you'd like to interact with inherits from `NativeMetaTransactions` - 👀 peep into `executeMetaTransaction` function in the contract. 
-- Link: [https://github.com/maticnetwork/pos-portal/blob/34be03cfd227c25b49c5791ffba6a4ffc9b76036/flat/ChildERC20.sol#L1338](https://github.com/maticnetwork/pos-portal/blob/34be03cfd227c25b49c5791ffba6a4ffc9b76036/flat/ChildERC20.sol#L1338)
+- Link: [https://github.com/candleplatforms/pos-portal/blob/34be03cfd227c25b49c5791ffba6a4ffc9b76036/flat/ChildERC20.sol#L1338](https://github.com/candleplatforms/pos-portal/blob/34be03cfd227c25b49c5791ffba6a4ffc9b76036/flat/ChildERC20.sol#L1338)
 
           
 

@@ -15,7 +15,7 @@ For example, a user deposits USDC to the deposit manager on Ethereum, validators
 
 **State sender**
 
-Source: [https://github.com/maticnetwork/contracts/blob/develop/contracts/root/stateSyncer/StateSender.sol](https://github.com/maticnetwork/contracts/blob/develop/contracts/root/stateSyncer/StateSender.sol)
+Source: [https://github.com/candleplatforms/contracts/blob/develop/contracts/root/stateSyncer/StateSender.sol](https://github.com/candleplatforms/contracts/blob/develop/contracts/root/stateSyncer/StateSender.sol)
 
 To sync state, the contract calls following method **state sender contract** on Ethereum chain. 
 
@@ -51,7 +51,7 @@ event StateSynced (
 
 Once the `StateSynced` event emitted on the `stateSender` contract on the Ethereum chain, Heimdall listens to those events and adds to the Heimdall state after 2/3+ validators agree on the.
 
-After every sprint (currently 64 blocks on Bor), Bor fetches new state-sync record and updates the state using a `system` call. Here is the code for the same: [https://github.com/maticnetwork/bor/blob/6f0f08daecaebbff44cf18bee558fc3796d41832/consensus/bor/genesis_contracts_client.go#L51](https://github.com/maticnetwork/bor/blob/6f0f08daecaebbff44cf18bee558fc3796d41832/consensus/bor/genesis_contracts_client.go#L51)
+After every sprint (currently 64 blocks on Bor), Bor fetches new state-sync record and updates the state using a `system` call. Here is the code for the same: [https://github.com/candleplatforms/bor/blob/6f0f08daecaebbff44cf18bee558fc3796d41832/consensus/bor/genesis_contracts_client.go#L51](https://github.com/candleplatforms/bor/blob/6f0f08daecaebbff44cf18bee558fc3796d41832/consensus/bor/genesis_contracts_client.go#L51)
 
 During `commitState`, Bor executes `onStateReceive`, with `stateId` and `data` as args, on target contract.
 
@@ -76,7 +76,7 @@ System call is helpful to change state to contract without making any transactio
 
 ### State-sync logs and Bor Block Receipt
 
-Events emitted by system calls are handled in a different way than normal logs. Here is code: [https://github.com/maticnetwork/bor/pull/90](https://github.com/maticnetwork/bor/pull/90)
+Events emitted by system calls are handled in a different way than normal logs. Here is code: [https://github.com/candleplatforms/bor/pull/90](https://github.com/candleplatforms/bor/pull/90)
 
 Bor produces a new tx/receipt just for the client and includes all logs for state-sync in it. Tx hash is derived from block number and block hash (last block at that sprint):
 

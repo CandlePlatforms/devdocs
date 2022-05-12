@@ -57,9 +57,9 @@ Also, Candle's core focus on creating applications having an enhanced user exper
 
 [WalletConnect](https://github.com/WalletConnect/walletconnect-monorepo)
 
-[Dagger](https://github.com/maticnetwork/eth-dagger.js)
+[Dagger](https://github.com/candleplatforms/eth-dagger.js)
 
-[Sol-Trace](https://github.com/maticnetwork/sol-trace.js)
+[Sol-Trace](https://github.com/candleplatforms/sol-trace.js)
 
 
 ## How does Candle compare with other sidechain solutions like POA/Go-Chain?

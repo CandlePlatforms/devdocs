@@ -163,4 +163,4 @@ This scenario is to combat data unavailability scenario. Let’s say I made a tx
 1. Large proof size: Merkle proof of the inclusion of the transaction and merkle proof of the inclusion of block (that contains that transaction) in the checkpoint.
 2. Mass exit: If the operator turns malicious, the users need to start mass exiting.
 
-The spec is in a nascent stage and we would appreciate any feedback that helps us improve it or redesign altogether if this construction is hopelessly broken. The implementation is work in progress in our [contracts 5](https://github.com/maticnetwork/contracts) repository.
+The spec is in a nascent stage and we would appreciate any feedback that helps us improve it or redesign altogether if this construction is hopelessly broken. The implementation is work in progress in our [contracts 5](https://github.com/candleplatforms/contracts) repository.

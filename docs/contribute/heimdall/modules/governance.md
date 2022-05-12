@@ -21,7 +21,7 @@ There are deposit period and voting period as params in `gov` module. Minimum de
 
 Once minimum deposits reached within deposit period, voting period starts. In voting period, all validators should vote their choices for the proposal. After voting period ends, `gov/Endblocker.go` executes `tally`  function and accepts or rejects proposal based on `tally_params` — `quorum`, `threshold` and `veto`. 
 
-Source: [https://github.com/maticnetwork/heimdall/blob/develop/gov/endblocker.go](https://github.com/maticnetwork/heimdall/blob/develop/gov/endblocker.go)
+Source: [https://github.com/candleplatforms/heimdall/blob/develop/gov/endblocker.go](https://github.com/candleplatforms/heimdall/blob/develop/gov/endblocker.go)
 
 There are different types of proposals that can be implemented in Heimdall but as of now, it supports only one proposal:
 

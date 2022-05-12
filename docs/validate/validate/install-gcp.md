@@ -98,4 +98,4 @@ Blockchain data is saved onto additional drives which are kept by default on VM 
 At the end you will get an instance as shown on the diagram below:
 <img src={useBaseUrl("img/mainnet/polygon-instance.svg")} />
 
-If you hit an issue with this manual - please feel free to open an [issue](https://github.com/maticnetwork/matic-docs/issues) or [create a PR](https://github.com/maticnetwork/matic-docs/pulls) on [GitHub](https://github.com/maticnetwork/matic-docs).
+If you hit an issue with this manual - please feel free to open an [issue](https://github.com/candleplatforms/matic-docs/issues) or [create a PR](https://github.com/candleplatforms/matic-docs/pulls) on [GitHub](https://github.com/candleplatforms/matic-docs).

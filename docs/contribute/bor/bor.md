@@ -112,13 +112,13 @@ Genesis transactions from current validators are executed with `gasPrice = 0`.
 
 #### Genesis Contracts
 
-[BorValidatorSet(0x1000)](https://github.com/maticnetwork/genesis-contracts/blob/master/contracts/BorValidatorSet.template) ⇒ This contract manages validator set for each span and sprint.
+[BorValidatorSet(0x1000)](https://github.com/candleplatforms/genesis-contracts/blob/master/contracts/BorValidatorSet.template) ⇒ This contract manages validator set for each span and sprint.
 
-[BorStateReceiver(0x1001)](https://github.com/maticnetwork/genesis-contracts/blob/master/contracts/StateReceiver.sol) ⇒ This Contract manages the transfer of arbitrary contract data from Ethereum contracts to Candle contracts
+[BorStateReceiver(0x1001)](https://github.com/candleplatforms/genesis-contracts/blob/master/contracts/StateReceiver.sol) ⇒ This Contract manages the transfer of arbitrary contract data from Ethereum contracts to Candle contracts
 
 MaticChildERC20(0x1010) ⇒ Child Contract for Main Chain tokens which allows to move assets from Ethereum to Candle.
 
-### [Bor.go](https://github.com/maticnetwork/bor/blob/master/consensus/bor/bor.go)
+### [Bor.go](https://github.com/candleplatforms/bor/blob/master/consensus/bor/bor.go)
 
 Bor Protocol
 
@@ -132,7 +132,7 @@ Bor Protocol
 
 ## Resources:
 
-- :ledger: [Bor](https://github.com/maticnetwork/bor)
+- :ledger: [Bor](https://github.com/candleplatforms/bor)
 - :blue_book: [EVM](https://www.bitrates.com/guides/ethereum/what-is-the-unstoppable-world-computer)
 - :green_book: [How EVM Works?](https://medium.com/mycrypto/the-ethereum-virtual-machine-how-does-it-work-9abac2b7c9e)
 - :books: [Tendermint Proposer Selection](https://docs.tendermint.com/master/spec/reactors/consensus/proposer-selection.html)

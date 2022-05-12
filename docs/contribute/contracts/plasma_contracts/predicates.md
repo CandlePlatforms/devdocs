@@ -13,7 +13,7 @@ Note: `withdrawManager` is our term for what plasma group calls the *commitme
 
 ### Predicate for ERC20/721 token transfer
 
-The most relevant functions in the ERC20/721 predicates are `startExit` and `verifyDeprecation`. See [IPredicate.sol 5](https://github.com/maticnetwork/contracts/blob/master/contracts/root/predicates/IPredicate.sol).
+The most relevant functions in the ERC20/721 predicates are `startExit` and `verifyDeprecation`. See [IPredicate.sol 5](https://github.com/candleplatforms/contracts/blob/master/contracts/root/predicates/IPredicate.sol).
 
 The `startExit` function will be invoked when an exitor wants to start a MoreVP style exit (referencing the preceding reference transactions).
 
@@ -56,7 +56,7 @@ function verifyDeprecation(bytes calldata exit, bytes calldata challengeData) ex
 
 ```
 
-Finally, the `challengeExit` function in `withdrawManager` is responsible for calling `predicate.verifyDeprecation` and cancel the exit if it returns true. See [WithdrawManager.sol](https://github.com/maticnetwork/contracts/blob/master/contracts/root/withdrawManager/WithdrawManager.sol#L184).
+Finally, the `challengeExit` function in `withdrawManager` is responsible for calling `predicate.verifyDeprecation` and cancel the exit if it returns true. See [WithdrawManager.sol](https://github.com/candleplatforms/contracts/blob/master/contracts/root/withdrawManager/WithdrawManager.sol#L184).
 
 ```
 function challengeExit(uint256 exitId, uint256 inputId, bytes calldata challengeData) external {
@@ -79,4 +79,4 @@ function challengeExit(uint256 exitId, uint256 inputId, bytes calldata challenge
 
 ```
 
-While this makes up the crux of our [ERC20Predicate.sol](https://github.com/maticnetwork/contracts/blob/master/contracts/root/predicates/ERC20Predicate.sol) logic, the actual implementation is much more involved and can be found in this [pull request 12](https://github.com/maticnetwork/contracts/pull/78). We invite the plasma community to review the same and leave their precious feedback here or on the PR.
+While this makes up the crux of our [ERC20Predicate.sol](https://github.com/candleplatforms/contracts/blob/master/contracts/root/predicates/ERC20Predicate.sol) logic, the actual implementation is much more involved and can be found in this [pull request 12](https://github.com/candleplatforms/contracts/pull/78). We invite the plasma community to review the same and leave their precious feedback here or on the PR.

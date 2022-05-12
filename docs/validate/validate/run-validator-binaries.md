@@ -83,7 +83,7 @@ Install the binaries for both on the sentry and validator machines.
 [Heimdall](../validator/core-components/heimdall-chain.md) is the proof-of-stake verifier layer
 responsible for checkpointing the representation of the Plasma blocks to the Ethereum mainnet.
 
-The latest version, [Heimdall v.0.2.8](https://github.com/maticnetwork/heimdall/releases/tag/v0.2.8), contains few enhancements such as **restricting data size in state sync txs** to:
+The latest version, [Heimdall v.0.2.8](https://github.com/candleplatforms/heimdall/releases/tag/v0.2.8), contains few enhancements such as **restricting data size in state sync txs** to:
 * **30Kb** when represented in **bytes**
 * **60Kb** when represented as **string**.
 
@@ -96,13 +96,13 @@ Hex Byte representation - [171 205 18 52]
 Length in byte format - 4
 ```
 
-Clone the [Heimdall repository](https://github.com/maticnetwork/heimdall/):
+Clone the [Heimdall repository](https://github.com/candleplatforms/heimdall/):
 
 ```sh
-git clone https://github.com/maticnetwork/heimdall
+git clone https://github.com/candleplatforms/heimdall
 ```
 
-Navigate to the correct [release version](https://github.com/maticnetwork/heimdall/releases):
+Navigate to the correct [release version](https://github.com/candleplatforms/heimdall/releases):
 
 ```sh
 git checkout RELEASE_TAG
@@ -140,13 +140,13 @@ Before proceeding, Heimdall should be installed on both the sentry and validator
 which syncs with Heimdall to select block producers and verifiers for each [span](../glossary.md#span)
 and [sprint]((../glossary.md#sprint)).
 
-Clone the [Bor repository](https://github.com/maticnetwork/bor):
+Clone the [Bor repository](https://github.com/candleplatforms/bor):
 
 ```sh
-git clone https://github.com/maticnetwork/bor
+git clone https://github.com/candleplatforms/bor
 ```
 
-Navigate to the correct [release version](https://github.com/maticnetwork/bor/releases):
+Navigate to the correct [release version](https://github.com/candleplatforms/bor/releases):
 
 ```sh
 git checkout RELEASE_TAG
@@ -195,10 +195,10 @@ Node files need to be set up on both the sentry and validator machines.
 
 ### Fetching the launch repository
 
-Clone the [launch repository](https://github.com/maticnetwork/launch):
+Clone the [launch repository](https://github.com/candleplatforms/launch):
 
 ```sh
-git clone https://github.com/maticnetwork/launch
+git clone https://github.com/candleplatforms/launch
 ```
 
 ### Setting up the launch directory

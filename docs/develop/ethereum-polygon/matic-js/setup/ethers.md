@@ -71,4 +71,4 @@ await posClient.init({
 
 ## Examples
 
-The examples for different cases are available on [ethers plugin repo](https://github.com/maticnetwork/maticjs-ethers).
+The examples for different cases are available on [ethers plugin repo](https://github.com/candleplatforms/maticjs-ethers).

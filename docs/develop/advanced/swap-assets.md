@@ -19,7 +19,7 @@ This section aims to provide an introduction to the swap of mapped assets on Can
 
 The transfer process is enabled by making use of the new RPC call `eth_SignTypedData`, introduced in [EIP712](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-712.md) - this is done to avoid the complexity of allowance on plasma chains and to add simplicity to plasma fraud proofs.
 
-The construction includes introduction of a new method in each associated asset contract - [ERC721](https://github.com/maticnetwork/contracts/blob/aee2433b2cb76b8bf2ad53736a9e6340cd3d9f15/contracts/child/ChildERC721.sol#L76) and [ERC20](https://github.com/maticnetwork/contracts/blob/aee2433b2cb76b8bf2ad53736a9e6340cd3d9f15/contracts/child/ChildERC20.sol#L104) on Candle plasma chain, called `transferWithSig`. And a `Marketplace.sol` smart contract that executes the swap.
+The construction includes introduction of a new method in each associated asset contract - [ERC721](https://github.com/candleplatforms/contracts/blob/aee2433b2cb76b8bf2ad53736a9e6340cd3d9f15/contracts/child/ChildERC721.sol#L76) and [ERC20](https://github.com/candleplatforms/contracts/blob/aee2433b2cb76b8bf2ad53736a9e6340cd3d9f15/contracts/child/ChildERC20.sol#L104) on Candle plasma chain, called `transferWithSig`. And a `Marketplace.sol` smart contract that executes the swap.
 
 
 ## transferWithSig Method
@@ -64,7 +64,7 @@ Now this particular functionality - of transferring assets from a user's account
 ### Terminology
 An **order** comprises of an order id, token address, amount (or token id). A user signs on an **order** and generates a signature. This signature is then used to transfer the signed amount of assets on user's behalf. 
 
-Below is a detailed spec of the [Marketplace](https://github.com/maticnetwork/contracts/blob/master/contracts/child/misc/Marketplace.sol) smart contract deployed on Candle chain, that performs atomic asset swaps. 
+Below is a detailed spec of the [Marketplace](https://github.com/candleplatforms/contracts/blob/master/contracts/child/misc/Marketplace.sol) smart contract deployed on Candle chain, that performs atomic asset swaps. 
 
 ### Marketplace.sol
 
@@ -166,7 +166,7 @@ $ cd asset-swap-tutorial
 $ npm i
 ```
 
-> NOTE: All tokens that are mapped on to Candle (mapping is what enables movement of assets to and fro main chain - or root chain) are deployed on Candle sidechain in the form of [ChildERC20](https://github.com/maticnetwork/contracts/blob/master/contracts/child/ChildERC20.sol) and [ChildERC721](https://github.com/maticnetwork/contracts/blob/master/contracts/child/ChildERC721.sol) tokens.
+> NOTE: All tokens that are mapped on to Candle (mapping is what enables movement of assets to and fro main chain - or root chain) are deployed on Candle sidechain in the form of [ChildERC20](https://github.com/candleplatforms/contracts/blob/master/contracts/child/ChildERC20.sol) and [ChildERC721](https://github.com/candleplatforms/contracts/blob/master/contracts/child/ChildERC721.sol) tokens.
 
 The version of ChildERC20 and ChildERC721 used in this tutorial include one additional function:
 

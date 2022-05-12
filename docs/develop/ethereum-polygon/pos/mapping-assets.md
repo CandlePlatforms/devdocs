@@ -22,9 +22,9 @@ If you already have your token contract deployed on the Root chain and want to m
 If you just need a standard ERC20/ERC721/ERC1155 contract, then you can go ahead and submit a mapping request at https://mapper.candlelabs.org/ and we will auto deploy the standard child token contract for you. 
 
 Standard Child Token contract will look like these:-
-1. [ERC20](https://github.com/maticnetwork/pos-portal/blob/master/flat/ChildERC20.sol#L1492-#L1508)
-2. [ERC721](https://github.com/maticnetwork/pos-portal/blob/master/flat/ChildERC721.sol#L2157-#L2238)
-3. [ERC1155](https://github.com/maticnetwork/pos-portal/blob/master/flat/ChildERC1155.sol#L1784-#L1818)
+1. [ERC20](https://github.com/candleplatforms/pos-portal/blob/master/flat/ChildERC20.sol#L1492-#L1508)
+2. [ERC721](https://github.com/candleplatforms/pos-portal/blob/master/flat/ChildERC721.sol#L2157-#L2238)
+3. [ERC1155](https://github.com/candleplatforms/pos-portal/blob/master/flat/ChildERC1155.sol#L1784-#L1818)
 
 Please visit this [link](/docs/develop/ethereum-candle/submit-mapping-request) to understand how to create a new mapping request. 
 

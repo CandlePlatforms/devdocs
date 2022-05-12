@@ -38,7 +38,7 @@ More details here: [Rewards](/docs/validate/economics#what-is-the-incentive)
 
 `MsgValidatorJoin` handles the staking when a new validator joins the system. Once validator calls `stake` or `stakeFor` in `StakingManager.sol` on Ethereum, and the new `Staked` event is emitted.
 
-Source: [https://github.com/maticnetwork/contracts/blob/develop/contracts/staking/StakingInfo.sol#L27-L34](https://github.com/maticnetwork/contracts/blob/develop/contracts/staking/StakingInfo.sol#L27-L34)
+Source: [https://github.com/candleplatforms/contracts/blob/develop/contracts/staking/StakingInfo.sol#L27-L34](https://github.com/candleplatforms/contracts/blob/develop/contracts/staking/StakingInfo.sol#L27-L34)
 
 ```jsx
 /**

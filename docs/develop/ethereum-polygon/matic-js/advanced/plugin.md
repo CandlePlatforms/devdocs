@@ -48,6 +48,6 @@ You can use multiple plugins and they will be called in the same order as they a
 
 **Some plugin repos are -**
 
-- [Matic web3.js](https://github.com/maticnetwork/maticjs-web3)
-- [Matic ethers](https://github.com/maticnetwork/maticjs-ethers)
-- [FxPortal.js](https://github.com/maticnetwork/fx-portal.js)
+- [Matic web3.js](https://github.com/candleplatforms/maticjs-web3)
+- [Matic ethers](https://github.com/candleplatforms/maticjs-ethers)
+- [FxPortal.js](https://github.com/candleplatforms/fx-portal.js)

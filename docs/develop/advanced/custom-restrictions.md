@@ -16,7 +16,7 @@ However, in a real-world scenario, the ERC20 token owner may need to add custom 
 
 **TL;DR**
 
-- Implement the `beforeTransfer` function in the implementation of the IParentToken interface (https://github.com/maticnetwork/contracts/blob/master/contracts/child/misc/IParentToken.sol) and deploy to the Candle chain.
+- Implement the `beforeTransfer` function in the implementation of the IParentToken interface (https://github.com/candleplatforms/contracts/blob/master/contracts/child/misc/IParentToken.sol) and deploy to the Candle chain.
 
 **This page details the process to add custom transfer restrictions to your ERC20 token:**
 
@@ -27,7 +27,7 @@ However, in a real-world scenario, the ERC20 token owner may need to add custom 
 
     This also auto-deploys a corresponding standard ERC20 token contract to the Candle chain, with a mapping to the root token contract. Also, the owner address has to be provided, which later allows for authorizing a deployment of an additional contract, by which the ERC20 token owner can add transfer restrictions on the contract in the Candle chain.
   
-- To define any custom logic in the standard `transfer` function in the ERC20 token, you need to implement the `IParentToken` interface; see link here - https://github.com/maticnetwork/contracts/blob/master/contracts/child/misc/IParentToken.sol
+- To define any custom logic in the standard `transfer` function in the ERC20 token, you need to implement the `IParentToken` interface; see link here - https://github.com/candleplatforms/contracts/blob/master/contracts/child/misc/IParentToken.sol
 
 - The `beforeTransfer` hook function is the place where custom logic can be executed before each transfer. 
 - The implemented contract must 
@@ -39,7 +39,7 @@ However, in a real-world scenario, the ERC20 token owner may need to add custom 
 <script src="https://gist.github.com/anurag-arjun/c7382e2abaf0822e6ec7e988eb46c92e.js"></script>
 
 - Only the owner address given at the time of token registration will be able to add/update parent contract address (`IParentToken` implementation with the `beforeTransfer` hook) in the standard ChildToken contract on Candle
-- For your information, you can get the address of the standard ChildToken contract (auto-deployed by the Candle root contracts) by querying the `rootToChildToken` mapping in the registry contract (https://github.com/maticnetwork/contracts/blob/master/contracts/common/Registry.sol)
+- For your information, you can get the address of the standard ChildToken contract (auto-deployed by the Candle root contracts) by querying the `rootToChildToken` mapping in the registry contract (https://github.com/candleplatforms/contracts/blob/master/contracts/common/Registry.sol)
 
     ```solidity
     contract Registry is Governable {
@@ -50,7 +50,7 @@ However, in a real-world scenario, the ERC20 token owner may need to add custom 
     }
     ```
 
-- Ownership of the parent contract implemented in this manner (`IParentToken` implementation with the `beforeTransfer` hook) can be transferred by invoking the `setParent` function in the ChildERC20 contract on the Candle chain - see https://github.com/maticnetwork/contracts/blob/master/contracts/child/ChildERC20.sol
+- Ownership of the parent contract implemented in this manner (`IParentToken` implementation with the `beforeTransfer` hook) can be transferred by invoking the `setParent` function in the ChildERC20 contract on the Candle chain - see https://github.com/candleplatforms/contracts/blob/master/contracts/child/ChildERC20.sol
 
     ```js
     function setParent(address _parent) public isParentOwner {

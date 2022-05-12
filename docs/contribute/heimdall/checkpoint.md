@@ -63,7 +63,7 @@ B(n) := keccak256([number, time, tx hash, receipt hash])
 checkpoint's root hash = Merkel[B(1), B(2), ....., B(n)]
 ```
 
-Here are some snippets of how checkpoint is created from Bor chain block headers. Source: [https://github.com/maticnetwork/heimdall/blob/develop/checkpoint/types/merkel.go#L60-L114](https://github.com/maticnetwork/heimdall/blob/develop/checkpoint/types/merkel.go#L60-L114)
+Here are some snippets of how checkpoint is created from Bor chain block headers. Source: [https://github.com/candleplatforms/heimdall/blob/develop/checkpoint/types/merkel.go#L60-L114](https://github.com/candleplatforms/heimdall/blob/develop/checkpoint/types/merkel.go#L60-L114)
 
 ```go
 // Golang representation of block data used in checkpoint
@@ -107,7 +107,7 @@ B(n) := keccak256([validator id, withdraw fee, slash amount])
 checkpoint's account root hash = Merkel[B(1), B(2), ....., B(n)]
 ```
 
-Golang code for the account hash can be found here: [https://github.com/maticnetwork/heimdall/blob/develop/types/dividend-account.go#L91-L101](https://github.com/maticnetwork/heimdall/blob/develop/types/dividend-account.go#L91-L101)
+Golang code for the account hash can be found here: [https://github.com/candleplatforms/heimdall/blob/develop/types/dividend-account.go#L91-L101](https://github.com/candleplatforms/heimdall/blob/develop/types/dividend-account.go#L91-L101)
 
 ```go
 // DividendAccount contains Fee, Slashed amount

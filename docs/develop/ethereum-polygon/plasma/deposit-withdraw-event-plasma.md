@@ -76,7 +76,7 @@ checkDepositStatus(
 
 ### Historical deposit completion check by querying the blockchain.
 
-This script can be used to check if a particular deposit has been completed on the child chain or not. The main chain and the child chain keep incrementing the value of a global counter variable on both the chains. The [StateSender](https://github.com/maticnetwork/contracts/blob/develop/contracts/root/stateSyncer/StateSender.sol#L38) contract emits an event that has the counter value. The counter value on the child chain can be queried from the [StateReceiver](https://github.com/maticnetwork/genesis-contracts/blob/master/contracts/StateReceiver.sol#L12) contract. If the counter value on child chain is greater than or equal to the same on main chain, then the deposit can considered as completed successfully.
+This script can be used to check if a particular deposit has been completed on the child chain or not. The main chain and the child chain keep incrementing the value of a global counter variable on both the chains. The [StateSender](https://github.com/candleplatforms/contracts/blob/develop/contracts/root/stateSyncer/StateSender.sol#L38) contract emits an event that has the counter value. The counter value on the child chain can be queried from the [StateReceiver](https://github.com/candleplatforms/genesis-contracts/blob/master/contracts/StateReceiver.sol#L12) contract. If the counter value on child chain is greater than or equal to the same on main chain, then the deposit can considered as completed successfully.
 
 ```js
 let Web3 = require("web3");

@@ -33,7 +33,7 @@ It is possible to have same owner and signer keys.
 
 **Signer change**
 
-Following event is generated in case of signer change on Ethereum chain on `StakingInfo.sol`: [https://github.com/maticnetwork/contracts/blob/develop/contracts/staking/StakingInfo.sol](https://github.com/maticnetwork/contracts/blob/develop/contracts/staking/StakingInfo.sol)
+Following event is generated in case of signer change on Ethereum chain on `StakingInfo.sol`: [https://github.com/candleplatforms/contracts/blob/develop/contracts/staking/StakingInfo.sol](https://github.com/candleplatforms/contracts/blob/develop/contracts/staking/StakingInfo.sol)
 
 ```go
 // Signer change

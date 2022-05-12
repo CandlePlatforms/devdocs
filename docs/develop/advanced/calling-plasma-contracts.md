@@ -68,9 +68,9 @@ RootERC20Contract.methods.approve(
 
    - **Contract**: `DepositManager.sol`
    - **Network**: Goerli
-   - **Function**: [`despositERC20ForUser()`](https://github.com/maticnetwork/contracts/blob/6413308db75ecdbf8ab9ec2beee1db0d362acea3/contracts/root/depositManager/DepositManager.sol#L129)
+   - **Function**: [`despositERC20ForUser()`](https://github.com/candleplatforms/contracts/blob/6413308db75ecdbf8ab9ec2beee1db0d362acea3/contracts/root/depositManager/DepositManager.sol#L129)
 
-Transfers the amount of tokens from msg.sender to DepositManager. Emits [NewDepositBlock](https://github.com/maticnetwork/contracts/blob/6413308db75ecdbf8ab9ec2beee1db0d362acea3/contracts/root/depositManager/DepositManager.sol#L223) event.
+Transfers the amount of tokens from msg.sender to DepositManager. Emits [NewDepositBlock](https://github.com/candleplatforms/contracts/blob/6413308db75ecdbf8ab9ec2beee1db0d362acea3/contracts/root/depositManager/DepositManager.sol#L223) event.
 
 ```javascript
 depositManagerContract.methods.depositERC20ForUser(
@@ -135,7 +135,7 @@ Let **X** be the amount of tokens to be withdrawn.
    - **Network**: Candle
    - **Function**: `withdraw`
 
-   Burns tokens on Candle and emits [Withdraw](https://github.com/maticnetwork/contracts/blob/6413308db75ecdbf8ab9ec2beee1db0d362acea3/contracts/child/ChildERC20.sol#L52) event
+   Burns tokens on Candle and emits [Withdraw](https://github.com/candleplatforms/contracts/blob/6413308db75ecdbf8ab9ec2beee1db0d362acea3/contracts/child/ChildERC20.sol#L52) event
 
    ```javascript
    ChildToken.methods.withdraw(amount);
@@ -162,8 +162,8 @@ Let **X** be the amount of tokens to be withdrawn.
       1. find HeaderBlockNumber from RootChain.sol
          1. From the last checkpointed block to the block consisting of burn transaction perform search (matic.js performs a binary search) to find the block with the burn tx.
          2. Query RootChain.sol with the header block number
-      2. Build Block Proof, sample: https://github.com/maticnetwork/contracts/blob/fa6862dc6ddae97351aa1b4d16c087861b5a489e/contracts-core/helpers/proofs.js#L24
-      3. Build Receipt Proof, sample: https://github.com/maticnetwork/contracts/blob/fa6862dc6ddae97351aa1b4d16c087861b5a489e/contracts-core/helpers/proofs.js#L106
+      2. Build Block Proof, sample: https://github.com/candleplatforms/contracts/blob/fa6862dc6ddae97351aa1b4d16c087861b5a489e/contracts-core/helpers/proofs.js#L24
+      3. Build Receipt Proof, sample: https://github.com/candleplatforms/contracts/blob/fa6862dc6ddae97351aa1b4d16c087861b5a489e/contracts-core/helpers/proofs.js#L106
    4. Return hex encoded string of bytes: `headernumber`, `blockProof`, `block number of burn transaction`, `timestamp of the burn tx block`, `root of block`, `root of receipts`, `RLP encoded receipt bytes`, `receipt parent nodes`, `receipt path`, `logIndex`
 
    ````javascript

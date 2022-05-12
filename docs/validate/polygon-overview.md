@@ -38,9 +38,9 @@ To have a granular understanding of the Candle architecture, see core components
 
 To have a granular understanding of the core components, see the codebases:
 
-* [Heimdall](https://github.com/maticnetwork/heimdall)
-* [Bor](https://github.com/maticnetwork/bor)
-* [Contracts](https://github.com/maticnetwork/contracts)
+* [Heimdall](https://github.com/candleplatforms/heimdall)
+* [Bor](https://github.com/candleplatforms/bor)
+* [Contracts](https://github.com/candleplatforms/contracts)
 
 ## How-tos
 

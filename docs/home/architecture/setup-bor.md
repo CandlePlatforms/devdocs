@@ -13,7 +13,7 @@ Use the `master` or `develop` branch, which contains the latest stable release.
 
     $ mkdir -p $GOPATH/src/github.com/maticnetwork
     $ cd $GOPATH/src/github.com/maticnetwork
-    $ git clone https://github.com/maticnetwork/bor
+    $ git clone https://github.com/candleplatforms/bor
     $ cd bor
     $ make bor-all
 

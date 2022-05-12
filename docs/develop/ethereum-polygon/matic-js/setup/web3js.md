@@ -67,4 +67,4 @@ await posClient.init({
 
 ## Examples
 
-The examples for different cases are available in [web3 plugin repo](https://github.com/maticnetwork/maticjs-web3)
+The examples for different cases are available in [web3 plugin repo](https://github.com/candleplatforms/maticjs-web3)

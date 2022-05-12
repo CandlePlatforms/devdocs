@@ -108,11 +108,11 @@ rabbitmq-server
 
 ### Heimdall
 
-Next, install the latest version of Heimdall and services. Make sure you git checkout the correct [released version](https://github.com/maticnetwork/heimdall/releases)
+Next, install the latest version of Heimdall and services. Make sure you git checkout the correct [released version](https://github.com/candleplatforms/heimdall/releases)
 
 ```bash
 cd ~/
-git clone https://github.com/maticnetwork/heimdall
+git clone https://github.com/candleplatforms/heimdall
 cd heimdall
 
 # Checkout to a proper version
@@ -129,11 +129,11 @@ heimdalld version --long
 
 ### Bor
 
-Next, install the latest version of Bor. Make sure you git checkout the correct [released version](https://github.com/maticnetwork/bor/releases)
+Next, install the latest version of Bor. Make sure you git checkout the correct [released version](https://github.com/candleplatforms/bor/releases)
 
 ```bash
 cd ~/
-git clone https://github.com/maticnetwork/bor
+git clone https://github.com/candleplatforms/bor
 cd bor
 
 # Checkout to a proper version
@@ -158,7 +158,7 @@ bor version
 
 ```bash
 cd ~/
-git clone https://github.com/maticnetwork/launch
+git clone https://github.com/candleplatforms/launch
 ```
 
 ### Setup launch directory
@@ -382,7 +382,7 @@ sudo ln -nfs ~/.go/bin/go /usr/bin/go
 
 ***This is required for your full node***
 
-Next, install the latest version of Heimdall and services. Make sure you checkout the correct [released version](https://github.com/maticnetwork/heimdall/releases) on Git. Note that The latest version, [Heimdall v.0.2.8](https://github.com/maticnetwork/heimdall/releases/tag/v0.2.8), contains few enhancements such as **restricting data size in state sync txs** to:
+Next, install the latest version of Heimdall and services. Make sure you checkout the correct [released version](https://github.com/candleplatforms/heimdall/releases) on Git. Note that The latest version, [Heimdall v.0.2.8](https://github.com/candleplatforms/heimdall/releases/tag/v0.2.8), contains few enhancements such as **restricting data size in state sync txs** to:
 * **30Kb** when represented in **bytes**
 * **60Kb** when represented as **string**.
 
@@ -399,7 +399,7 @@ Run the command:
 
 ```bash
 cd ~/
-git clone https://github.com/maticnetwork/heimdall
+git clone https://github.com/candleplatforms/heimdall
 cd heimdall
 
 # Checkout to a proper version
@@ -418,11 +418,11 @@ heimdalld version --long
 
 ***This is required for your full node***
 
-Next, install the latest version of Bor. Make sure you checkout the correct [released version](https://github.com/maticnetwork/bor/releases) via Git
+Next, install the latest version of Bor. Make sure you checkout the correct [released version](https://github.com/candleplatforms/bor/releases) via Git
 
 ```bash
 cd ~/
-git clone https://github.com/maticnetwork/bor
+git clone https://github.com/candleplatforms/bor
 cd bor
 
 # Checkout to a proper version
@@ -447,7 +447,7 @@ bor version
 
 ```bash
 cd ~/
-git clone https://github.com/maticnetwork/launch
+git clone https://github.com/candleplatforms/launch
 ```
 
 ### Setup launch directory

@@ -10,7 +10,7 @@ image: https://matic.network/banners/matic-network-16x9.png
 
 The mechanism to natively read Ethereum data from Candle EVM chain is that of ‘State Sync’. In other words, this mechanism enables transfer of arbitrary data from Ethereum chain to Candle chain. The procedure that makes it possible is: Validators on the Heimdall layer are listening for a particular event — `StateSynced` from a Sender contract, as soon as the event is picked, the `data` that was passed in the event is written on the Receiver contract. Read more [here](/docs/validate/validator/state-sync-mechanism).
 
-The Sender and Receiver contract are required to be mapped on Ethereum — [StateSender.sol](https://github.com/maticnetwork/contracts/blob/release-betaV2/contracts/root/stateSyncer/StateSender.sol) needs to be aware of each sender and receiver. If you'd like to get the mapping done, please request a mapping [here](https://mapper.candlelabs.org/).
+The Sender and Receiver contract are required to be mapped on Ethereum — [StateSender.sol](https://github.com/candleplatforms/contracts/blob/release-betaV2/contracts/root/stateSyncer/StateSender.sol) needs to be aware of each sender and receiver. If you'd like to get the mapping done, please request a mapping [here](https://mapper.candlelabs.org/).
 
 ---
 
@@ -18,7 +18,7 @@ In the following walkthrough, we'll be deploying a Sender contract on Goerli (Et
 
 ### 1. Deploy Sender contract
 
-The sole purpose of Sender contract is to be able to call [syncState](https://github.com/maticnetwork/contracts/blob/e999579e9dc898ab6e66ddcb49ee84c2543a9658/contracts/root/stateSyncer/StateSender.sol#L33) function on the StateSender contract — which is Matic's state syncer contract - the StateSynced event of which Heimdall is listening to. 
+The sole purpose of Sender contract is to be able to call [syncState](https://github.com/candleplatforms/contracts/blob/e999579e9dc898ab6e66ddcb49ee84c2543a9658/contracts/root/stateSyncer/StateSender.sol#L33) function on the StateSender contract — which is Matic's state syncer contract - the StateSynced event of which Heimdall is listening to. 
 
 Deployed at:
 
@@ -86,7 +86,7 @@ Use Remix to deploy the contract and keep a note of the address and ABI.
 
 ### 2. Deploy Receiver contract
 
-Receiver contract is the one that is invoked by a Validator when the `StateSynced` event is emitted. The Validator invokes the function `onStateReceive`on the receiver contract to submit the data. To implement it, we first import [StateReceiver](https://github.com/maticnetwork/contracts/blob/release-betaV2/contracts/child/bor/StateReceiver.sol) interface and write down our custom logic — to interpret the tranferred data inside onStateReceive.
+Receiver contract is the one that is invoked by a Validator when the `StateSynced` event is emitted. The Validator invokes the function `onStateReceive`on the receiver contract to submit the data. To implement it, we first import [StateReceiver](https://github.com/candleplatforms/contracts/blob/release-betaV2/contracts/child/bor/StateReceiver.sol) interface and write down our custom logic — to interpret the tranferred data inside onStateReceive.
 
 Following is how our Receiver.sol looks like:
 
@@ -113,7 +113,7 @@ contract receiver {
 }
 ```
 
-The function simply assigns the last received State Id and data to variables. [StateId](https://github.com/maticnetwork/contracts/blob/239a91045622ddcf9ebec2cec81fdc6daa3a33e3/contracts/root/stateSyncer/StateSender.sol#L36) is a simple unique reference to the transferred state (a simple counter).
+The function simply assigns the last received State Id and data to variables. [StateId](https://github.com/candleplatforms/contracts/blob/239a91045622ddcf9ebec2cec81fdc6daa3a33e3/contracts/root/stateSyncer/StateSender.sol#L36) is a simple unique reference to the transferred state (a simple counter).
 
 Deploy  your Receiver.sol on Candle's testnet and keep a note of the address and ABI
 

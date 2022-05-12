@@ -19,8 +19,8 @@ There are several ways to identify an area where you can contribute to Candle:
 ## **Add to Candle Documentation:**
   - If you need to add or change anything in Candle Documentation, please raise a PR to the `master` branch. (Kindly check the sample PR)
   - Candle team will review the PR or reach out accordingly. 
-  - Repository: https://github.com/maticnetwork/matic-docs
-  - Sample PR: https://github.com/maticnetwork/matic-docs/pull/360
+  - Repository: https://github.com/candleplatforms/matic-docs
+  - Sample PR: https://github.com/candleplatforms/matic-docs/pull/360
   > If you are adding a new document, it is recommended to just have a basic summary/introduction and a link to your github or documentation for more details.
 
 ## **Contribution guidelines**

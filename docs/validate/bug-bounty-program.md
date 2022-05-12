@@ -20,13 +20,13 @@ If you are new to blockchains and/or to Candle, see [Candle Architecture](/docs/
 
 Explore the [code on GitHub](https://github.com/maticnetwork). There are 3 main repositories for you to study:
 
-* [Heimdall](https://github.com/maticnetwork/heimdall)
-* [Bor](https://github.com/maticnetwork/bor)
-* [Contracts](https://github.com/maticnetwork/contracts)
+* [Heimdall](https://github.com/candleplatforms/heimdall)
+* [Bor](https://github.com/candleplatforms/bor)
+* [Contracts](https://github.com/candleplatforms/contracts)
 
 ## Setting up
 
-Set up a test network locally. See [Running a node on the local environment](https://github.com/maticnetwork/matic-cli)
+Set up a test network locally. See [Running a node on the local environment](https://github.com/candleplatforms/matic-cli)
 
 The Candle CLI repository is an easy way to setup and manage the entire Candle stack, including **Heimdall**, **Bor**, and the **Staking & Plasma smart contracts** on a local environment. This would help in simulating tests and attacks locally.
 

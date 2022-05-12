@@ -67,9 +67,9 @@ Otherwise there will be error like below when you try to run '**ansible sentry -
         
         ```bash
         git checkout fixing_symlinks_on_clean
-        git pull https://github.com/maticnetwork/node-ansible/tree/fixing_symlinks_on_
+        git pull https://github.com/candleplatforms/node-ansible/tree/fixing_symlinks_on_
         ```
-    - Cross check 'clean.yml' on your machine with [clean.yml in the github repo](https://github.com/maticnetwork/node-ansible/blob/fixing_symlinks/playbooks/clean.yml)
+    - Cross check 'clean.yml' on your machine with [clean.yml in the github repo](https://github.com/candleplatforms/node-ansible/blob/fixing_symlinks/playbooks/clean.yml)
     - If there are any differences replace the one on your machine with the one in the repo
     - You should be able to run the clean script now and then also be able to run the installation script
 - moniker=enter unique identifier

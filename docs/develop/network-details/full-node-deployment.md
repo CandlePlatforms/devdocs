@@ -40,10 +40,10 @@ Pre-requisite:
 
 - Ansible should be installed on local machine with Python3.x. The setup will not work if you have Python2.x.
     - To install ansible with Python 3.x you can use this command `pip3 install ansible`. This will install Python 3 dependencies as well as ansible.
-- Check [https://github.com/maticnetwork/node-ansible#requirements](https://github.com/maticnetwork/node-ansible#requirements) for requirements
+- Check [https://github.com/candleplatforms/node-ansible#requirements](https://github.com/candleplatforms/node-ansible#requirements) for requirements
 - You will also need to make sure that Go is not installed on your VM / Machine. Setting up your full node through ansible will run into issues if you have Go already installed, as ansible requires specific packages of Go to be installed.
 - You will also need to make sure that your VM / Machine does not have any previous setups for Candle Validator or Heimdall or Bor. You will need to delete them as your setup will run into issues.
-- The latest version, [Heimdall v.0.2.8](https://github.com/maticnetwork/heimdall/releases/tag/v0.2.8), contains few enhancements such as **restricting data size in state sync txs to 30Kb (when represented in bytes) and 60Kb (when represented as string)**. For example:
+- The latest version, [Heimdall v.0.2.8](https://github.com/candleplatforms/heimdall/releases/tag/v0.2.8), contains few enhancements such as **restricting data size in state sync txs to 30Kb (when represented in bytes) and 60Kb (when represented as string)**. For example:
 ```
 Data - "abcd1234"
 Length in string format - 8
@@ -53,10 +53,10 @@ Length in byte format - 4
 
 Setup full node for Testnetv4/Mumbai testnet
 
-- Ensure you have access to the remote machine or VM that the full node is being setup on. Refer [https://github.com/maticnetwork/node-ansible#setup](https://github.com/maticnetwork/node-ansible#setup) for more details.
-- Clone the [`https://github.com/maticnetwork/node-ansible`](https://github.com/maticnetwork/node-ansible) repo
+- Ensure you have access to the remote machine or VM that the full node is being setup on. Refer [https://github.com/candleplatforms/node-ansible#setup](https://github.com/candleplatforms/node-ansible#setup) for more details.
+- Clone the [`https://github.com/candleplatforms/node-ansible`](https://github.com/candleplatforms/node-ansible) repo
 - `cd node-ansible`
-- Edit the `inventory.yml` file and insert your IP(s) in the `sentry->hosts` section. Refer [https://github.com/maticnetwork/node-ansible#inventory](https://github.com/maticnetwork/node-ansible#inventory) for more details.
+- Edit the `inventory.yml` file and insert your IP(s) in the `sentry->hosts` section. Refer [https://github.com/candleplatforms/node-ansible#inventory](https://github.com/candleplatforms/node-ansible#inventory) for more details.
 - Check if remote machine is reachable by running `ansible sentry -m ping`
 - For a test run to confirm if the correct remote machine / VM is configured, run the following command:
 
@@ -132,10 +132,10 @@ Pre-requisite:
 
 - Ansible should be installed on local machine with Python3.x. The setup will not work if you have Python2.x.
     - To install ansible with Python 3.x you can use this command `pip3 install ansible`. This will install Python 3 dependencies as well as ansible.
-- Check [https://github.com/maticnetwork/node-ansible#requirements](https://github.com/maticnetwork/node-ansible#requirements) for requirements.
+- Check [https://github.com/candleplatforms/node-ansible#requirements](https://github.com/candleplatforms/node-ansible#requirements) for requirements.
 - You will also need to make sure that Go is not installed on your VM / Machine. Setting up your full node through ansible will run into issues if you have Go already installed, as ansible requires specific packages of Go to be installed.
 - You will also need to make sure that your VM / Machine does not have any previous setups for Candle Validator or Heimdall or Bor. You will need to delete them as your setup will run into issues.
-- The latest version, [Heimdall v.0.2.8(https://github.com/maticnetwork/heimdall/releases/tag/v0.2.8), contains few enhancements such as **restricting data size in state sync txs to 30Kb (when represented in bytes) and 60Kb (when represented as string)**. For example:
+- The latest version, [Heimdall v.0.2.8(https://github.com/candleplatforms/heimdall/releases/tag/v0.2.8), contains few enhancements such as **restricting data size in state sync txs to 30Kb (when represented in bytes) and 60Kb (when represented as string)**. For example:
 
 ```
 Data - "abcd1234"
@@ -146,10 +146,10 @@ Length in byte format - 4
 
 Setup full node for Candle mainnet
 
-- Ensure you have access to the remote machine or VM that the full node is being setup on. Refer [https://github.com/maticnetwork/node-ansible#setup](https://github.com/maticnetwork/node-ansible#setup) for more details.
-- Clone the [`https://github.com/maticnetwork/node-ansible`](https://github.com/maticnetwork/node-ansible) repo
+- Ensure you have access to the remote machine or VM that the full node is being setup on. Refer [https://github.com/candleplatforms/node-ansible#setup](https://github.com/candleplatforms/node-ansible#setup) for more details.
+- Clone the [`https://github.com/candleplatforms/node-ansible`](https://github.com/candleplatforms/node-ansible) repo
 - `cd node-ansible`
-- Edit the `inventory.yml` file and insert your IP(s) in the `sentry->hosts` section. Refer [https://github.com/maticnetwork/node-ansible#inventory](https://github.com/maticnetwork/node-ansible#inventory) for more details.
+- Edit the `inventory.yml` file and insert your IP(s) in the `sentry->hosts` section. Refer [https://github.com/candleplatforms/node-ansible#inventory](https://github.com/candleplatforms/node-ansible#inventory) for more details.
 - Check if remote machine is reachable by running `ansible sentry -m ping`
 - For a test run to confirm if the correct remote machine / VM is configured, run the following command:
 

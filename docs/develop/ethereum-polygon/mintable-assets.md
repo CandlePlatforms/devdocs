@@ -28,9 +28,9 @@ Please visit this [link](/docs/develop/ethereum-candle/submit-mapping-request) t
 
 - If you want to deploy the contract by yourself, then the child contract should look like the following. You are free to make custom changes to this contract, but ensure that the `deposit`, `withdraw` and `mint` functions are present.
 
-    - ChildMintableERC20 -  [https://github.com/maticnetwork/pos-portal/blob/master/flat/ChildMintableERC20.sol](https://github.com/maticnetwork/pos-portal/blob/master/flat/ChildMintableERC20.sol)
-    - ChildMintableERC721 - [https://github.com/maticnetwork/pos-portal/blob/master/flat/ChildMintableERC721.sol](https://github.com/maticnetwork/pos-portal/blob/master/flat/ChildMintableERC721.sol)
-    - ChildMintableERC1155 - [https://github.com/maticnetwork/pos-portal/blob/master/flat/ChildMintableERC1155.sol](https://github.com/maticnetwork/pos-portal/blob/master/flat/ChildMintableERC1155.sol)
+    - ChildMintableERC20 -  [https://github.com/candleplatforms/pos-portal/blob/master/flat/ChildMintableERC20.sol](https://github.com/candleplatforms/pos-portal/blob/master/flat/ChildMintableERC20.sol)
+    - ChildMintableERC721 - [https://github.com/candleplatforms/pos-portal/blob/master/flat/ChildMintableERC721.sol](https://github.com/candleplatforms/pos-portal/blob/master/flat/ChildMintableERC721.sol)
+    - ChildMintableERC1155 - [https://github.com/candleplatforms/pos-portal/blob/master/flat/ChildMintableERC1155.sol](https://github.com/candleplatforms/pos-portal/blob/master/flat/ChildMintableERC1155.sol)
 
 - Most importantly, the child manager contract on Candle should be given the depositor role in the asset contract deployed on Candle. Only this child manager proxy address should have the rights to deposit tokens on Candle.
 - Be sure to verify both contracts on Polygonscan and Etherscan accordingly, before submitting mapping request.
@@ -49,9 +49,9 @@ Please do mention the contract address of the deployed child token when you subm
 ### Contract to be deployed on Ethereum
 
 - A token contract has to be deployed on the Ethereum chain and it should look like this. 
-    - MintableERC20 -  [https://github.com/maticnetwork/pos-portal/blob/master/flat/DummyMintableERC20.sol](https://github.com/maticnetwork/pos-portal/blob/master/flat/DummyMintableERC20.sol)
-    - MintableERC721 - [https://github.com/maticnetwork/pos-portal/blob/master/flat/DummyMintableERC721.sol](https://github.com/maticnetwork/pos-portal/blob/master/flat/DummyMintableERC721.sol)
-    - MintableERC1155 - [https://github.com/maticnetwork/pos-portal/blob/master/flat/DummyMintableERC1155.sol](https://github.com/maticnetwork/pos-portal/blob/master/flat/DummyMintableERC1155.sol)
+    - MintableERC20 -  [https://github.com/candleplatforms/pos-portal/blob/master/flat/DummyMintableERC20.sol](https://github.com/candleplatforms/pos-portal/blob/master/flat/DummyMintableERC20.sol)
+    - MintableERC721 - [https://github.com/candleplatforms/pos-portal/blob/master/flat/DummyMintableERC721.sol](https://github.com/candleplatforms/pos-portal/blob/master/flat/DummyMintableERC721.sol)
+    - MintableERC1155 - [https://github.com/candleplatforms/pos-portal/blob/master/flat/DummyMintableERC1155.sol](https://github.com/candleplatforms/pos-portal/blob/master/flat/DummyMintableERC1155.sol)
 
 - Most importantly, The `MintableAssetProxy` contract deployed on Ethereum should be given the minter role in the asset contract deployed on Ethereum. Only this predicate proxy address should have the rights to mint tokens on Ethereum.
 
