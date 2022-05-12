@@ -6,7 +6,7 @@ description: Build your next blockchain app on Candle.
 keywords:
   - docs
   - cndl
-image: https://matic.network/banners/matic-network-16x9.png 
+image: https://matic.network/banners/matic-network-16x9.png
 ---
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
@@ -49,7 +49,7 @@ This dapp implements a "Hello World" style application that echoes a message pas
         <img src={useBaseUrl("img/helloworld/RemixIDE_Step1.png")} alt="RemixIDE_Step1"/>
 </div>
 -
-<img src={useBaseUrl("img/helloworld/Screenshot_2020-02-14_at_12.52.45_PM.png")} alt="RemixIDE_Step2"/> 
+<img src={useBaseUrl("img/helloworld/Screenshot_2020-02-14_at_12.52.45_PM.png")} alt="RemixIDE_Step2"/>
 Go to File Explorers, And Create a new file <img src={useBaseUrl("img/helloworld/Screenshot_2020-02-14_at_12.51.59_PM.png")} />, Name it HelloWorld.sol
 
 - Copy/Paste the Smart contract below into the newly created file ```HelloWorld.sol```
@@ -94,12 +94,12 @@ The `string public message` function is another public function that is simila
 
 ### Compile Smart Contract
 
-- 
+-
 <img src={useBaseUrl("img/helloworld/Screenshot_2020-02-14_at_1.00.03_PM.png")} />
 Go to Solidity Compiler
 - Select Compiler Version to 0.5.10
 - Now, ```Compile HelloWorld.sol```
-- After Successful Compilation, it will show 
+- After Successful Compilation, it will show
 <img src={useBaseUrl("img/helloworld/Screenshot_2020-02-14_at_1.08.22_PM.png")} />
 - Now, We have to deploy our smart contract on Candle Network. For that, we have to connect to web3 world, this can be done by using any of the services like Metamask, Brave, Portis etc. We will be using Metamask. Please follow this [tutorial to setup a Metamask Account](/docs/develop/metamask/hello).
 - Open Metamask and select Custom RPC from the networks dropdown
@@ -114,10 +114,10 @@ Go to Solidity Compiler
         <img src={useBaseUrl("img/helloworld/metamask-custom-rpc.png")} alt="RemixIDE_Step1"/>
 </div>
 
-- Put in a Network name - “Matic Mumbai Testnet”
-- In URL field you can add the URL as "https://rpc-mumbai.maticvigil.com"
-- Enter the Chain ID: 80001
-- (Optional Fields) Symbol: "maticmum" and Block Explorer URL: "https://mumbai.polygonscan.com/"
+- Put in a Network name - "Candle  Testnet”
+- In URL field you can add the URL as "https://rpc-testnet.cndlchain.com"
+- Enter the Chain ID: 613
+- (Optional Fields) Symbol: "cndl" and Block Explorer URL: "https://testnet.candlexplorer.com/"
 <div
         style={{
           display: "flex",
@@ -139,9 +139,9 @@ Go to Solidity Compiler
         <img src={useBaseUrl("img/helloworld/Screenshot_2020-01-09_at_1.24.49_PM.png")} alt="RemixIDE_Step1"/>
 </div>
 
-- Head over to [Faucet](https://faucet.candlelabs.org/) and request test ether - you will need this pay for gas on Matic. 
+- Head over to [Faucet](https://faucet.candlelabs.org/) and request test ether - you will need this pay for gas on Candle.
 Select 'Mumbai' as the network and 'CNDL Token' as the token in the faucet
-- Now, let's Deploy the Smart Contract on Matic Network
+- Now, let's Deploy the Smart Contract on Candle Network
 - Select Injected Web3 in the Environment dropdown and your contract
 
 <div
@@ -190,7 +190,7 @@ Select 'Mumbai' as the network and 'CNDL Token' as the token in the faucet
         <img src={useBaseUrl("img/helloworld/Screenshot_2020-02-14_at_2.00.19_PM.png")} alt="RemixIDE_Step1"/>
 </div>
 
-# **Verifying your Contracts on PolygonScan**
+# **Verifying your Contracts on CandleExplorer**
 
 
 The first and foremost step is to flatten the solidity contract into a single file.

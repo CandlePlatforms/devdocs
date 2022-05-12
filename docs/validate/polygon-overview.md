@@ -1,14 +1,14 @@
 ---
-id: polygon-overview-deprecated
+id: candle-overview-deprecated
 title: Candle Overview Deprecated
 description: Learn what the Candle Network is and the Candle Network core components and roles.
 keywords:
   - docs
   - cndl
-  - polygon
+  - candle
   - validator
   - delegator
-image: https://matic.network/banners/matic-network-16x9.png 
+image: https://matic.network/banners/matic-network-16x9.png
 ---
 
 Candle is a scaling solution for public blockchains. Candle PoS supports all the existing Ethereum tooling along with faster and cheaper transactions.
