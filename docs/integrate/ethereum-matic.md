@@ -1,5 +1,5 @@
 ---
-id: ethereum-matic
+id: ethereum-candle
 title: Ethereum ↔ Candle
 description: Build your next blockchain app on Candle.
 keywords:

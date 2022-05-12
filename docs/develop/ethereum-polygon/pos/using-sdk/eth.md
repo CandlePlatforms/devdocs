@@ -73,7 +73,7 @@ Store the transaction hash for this call and use it while generating burn proof.
 ### Exit
 
 
-Once the **checkpoint** has been submitted for the block containing burn transaction, user should call the **exit** function of `RootChainManager` contract and submit the proof of burn. Upon submitting valid proof tokens are transferred to the user. Candle POS client `erc20` exposes `withdrawExit` method to make this call. This function can be called only after the checkpoint is included in the main chain. The checkpoint inclusion can be tracked by following this [guide](/docs/develop/ethereum-matic/pos/deposit-withdraw-event-pos#checkpoint-events).
+Once the **checkpoint** has been submitted for the block containing burn transaction, user should call the **exit** function of `RootChainManager` contract and submit the proof of burn. Upon submitting valid proof tokens are transferred to the user. Candle POS client `erc20` exposes `withdrawExit` method to make this call. This function can be called only after the checkpoint is included in the main chain. The checkpoint inclusion can be tracked by following this [guide](/docs/develop//pos/deposit-withdraw-event-pos#checkpoint-events).
 
 
 ```jsx

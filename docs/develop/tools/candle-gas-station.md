@@ -1,5 +1,5 @@
 ---
-id: polygon-gas-station
+id: candle-gas-station
 title: Candle Gas Station
 sidebar_label: Candle Gas Station
 description: Build your next blockchain app on Candle.
@@ -11,15 +11,15 @@ image: https://matic.network/banners/matic-network-16x9.png
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-_Polygon Gas Station_ aims to help dApp developers with gas price recommendations, so that they can use it before sending transaction off to _Polygon_ network.
+_Candle Gas Station_ aims to help dApp developers with gas price recommendations, so that they can use it before sending transaction off to _Candle_ network.
 
 ## origin
 
-At _Polygon_, we were receiving request from dApp developers for building a gas price recommendation service. So we took some inspiration from _Eth Gas Station_, and built one.
+At _Candle_, we were receiving request from dApp developers for building a gas price recommendation service. So we took some inspiration from _Eth Gas Station_, and built one.
 
 ## availability
 
-_Polygon Gas Station_ has been deployed both on Candle Mumbai Testnet & Candle Mainnet, where it analyzes recent 500 transactions and recommends gas price.
+_Candle Gas Station_ has been deployed both on Candle Mumbai Testnet & Candle Mainnet, where it analyzes recent 500 transactions and recommends gas price.
 
 ## usage
 
@@ -27,25 +27,25 @@ _Polygon Gas Station_ has been deployed both on Candle Mumbai Testnet & Candle M
   defaultValue="mainnet"
   values={[
     { label: 'Candle-Mainnet', value: 'mainnet', },
-    { label: 'Mumbai-Testnet', value: 'mumbai', },
+    { label: 'Candle-Testnet', value: 'testnet', },
   ]
 }>
-<TabItem value="mumbai">
+<TabItem value="testnet">
 
-# Mumbai-Testnet
+# Candle-Testnet
 
-For getting gas price recommendation from this oracle, send GET request to [https://gasstation-mumbai.matic.today/v2](https://gasstation-mumbai.matic.today/v2)
+For getting gas price recommendation from this oracle, send GET request to [https://gasstation-testnet.cndlchain.com/v2](https://gasstation-mumbai.matic.today/v2)
 
 ### cURL
 
 ```bash
-curl https://gasstation-mumbai.matic.today/v2
+curl https://gasstation-testnet.cndlchain.com/v2
 ```
 
 ### JavaScript
 
 ```javascript
-fetch('https://gasstation-mumbai.matic.today/v2')
+fetch('https://gasstation-testnet.cndlchain.com/v2')
   .then(response => response.json())
   .then(json => console.log(json))
 ```
@@ -54,7 +54,7 @@ fetch('https://gasstation-mumbai.matic.today/v2')
 
 ```python
 import requests
-requests.get('https://gasstation-mumbai.matic.today/v2').json()
+requests.get('https://gasstation-testnet.cndlchain.com/v2').json()
 ```
 
 </TabItem>
@@ -62,18 +62,18 @@ requests.get('https://gasstation-mumbai.matic.today/v2').json()
 
 # Candle-Mainnet
 
-For getting gas price recommendation from this oracle, send GET request to the Candle Gas Station V2 to get the gas fee estimates. Candle Gas Station V2 Endpoint: [https://gasstation-mainnet.matic.network/v2](https://gasstation-mainnet.matic.network/v2)
+For getting gas price recommendation from this oracle, send GET request to the Candle Gas Station V2 to get the gas fee estimates. Candle Gas Station V2 Endpoint: [https://gasstation-mainnet.cndlchain.com/v2](https://gasstation-mainnet.cndlchain.com/v2)
 
 ### cURL
 
 ```bash
-curl https://gasstation-mainnet.matic.network/v2
+curl https://gasstation-mainnet.cndlchain.com/v2
 ```
 
 ### JavaScript
 
 ```javascript
-fetch('https://gasstation-mainnet.matic.network/v2')
+fetch('https://gasstation-mainnet.cndlchain.com/v2')
   .then(response => response.json())
   .then(json => console.log(json))
 ```
@@ -82,7 +82,7 @@ fetch('https://gasstation-mainnet.matic.network/v2')
 
 ```python
 import requests
-requests.get('https://gasstation-mainnet.matic.network/v2').json()
+requests.get('https://gasstation-mainnet.cndlchain.com/v2').json()
 ```
 
 </TabItem>

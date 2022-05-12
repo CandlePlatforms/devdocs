@@ -1,5 +1,5 @@
 ---
-id: polygon-faucet
+id: candle-faucet
 title: Candle Faucet
 sidebar_label: Candle Faucet
 description: Build your next blockchain app on Candle.

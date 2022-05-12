@@ -68,8 +68,8 @@ module.exports = {
       type: "category",
       label: "Tools",
       items: [
-        "develop/tools/polygon-faucet",
-        "develop/tools/polygon-gas-station",
+        "develop/tools/candle-faucet",
+        "develop/tools/candle-gas-station",
       ],
     },
     {

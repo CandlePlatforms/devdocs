@@ -70,7 +70,7 @@ Candle Gas Station V2 Endpoint:
 
 ```jsx
 
-https://gasstation-mainnet.matic.network/v2
+https://gasstation-mainnet.cndlchain.com/v2
 
 ```
 

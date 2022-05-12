@@ -88,7 +88,7 @@ Store the transaction hash for this call and use it while generating burn proof.
 
 ### Exit
 
-Once the **_checkpoint_** has been **_submitted_** for the block containing burn transaction, user should call the **_exit_** function of **_RootChainManager_** contract and submit the proof of burn. Upon submitting valid proof tokens are transferred to the user. Candle POS client exposes **_withdrawExit_** method to make this call. This function can be called only after the checkpoint is included in the main chain. The checkpoint inclusion can be tracked by following this [guide](/docs/develop/ethereum-matic/pos/deposit-withdraw-event-pos#checkpoint-events).
+Once the **_checkpoint_** has been **_submitted_** for the block containing burn transaction, user should call the **_exit_** function of **_RootChainManager_** contract and submit the proof of burn. Upon submitting valid proof tokens are transferred to the user. Candle POS client exposes **_withdrawExit_** method to make this call. This function can be called only after the checkpoint is included in the main chain. The checkpoint inclusion can be tracked by following this [guide](/docs/develop/ethereum-candle/pos/deposit-withdraw-event-pos#checkpoint-events).
 
 *withdrawExit* method can be used to exit the withdraw process by using the txHash from *withdrawStart* method.
 
