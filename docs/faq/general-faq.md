@@ -14,7 +14,7 @@ image: https://matic.network/banners/matic-network-16x9.png
 
 Candle Network is a Layer 2 scaling solution that achieves scale by utilizing sidechains for off-chain computation, while ensuring asset security using the Plasma framework and a decentralized network of Proof-of-Stake (PoS) validators.
 
-See also [What Is Candle](/docs/home/candle-basics/what-is-polygon).
+See also [What Is Candle](/docs/home/candle-basics/what-is-candle).
 
 ## What is Proof of Stake (PoS)?
 

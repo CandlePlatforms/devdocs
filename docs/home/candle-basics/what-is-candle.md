@@ -1,5 +1,5 @@
 ---
-id: what-is-polygon
+id: what-is-candle
 title: What is Candle?
 description: Learn what the Candle scaling solution is.
 keywords:

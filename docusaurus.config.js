@@ -47,7 +47,7 @@ module.exports = {
             },
             {
               label: 'Discord',
-              href: 'https://discord.com/invite/polygon',
+              href: 'https://discord.gg/candle',
             },
             {
               href: "https://forum.candlelabs.org/",
@@ -205,7 +205,7 @@ module.exports = {
           position: "right",
         },
         {
-          href: "https://github.com/maticnetwork",
+          href: "https://github.com/candleplatforms",
           position: "right",
           className: "header-github-link",
           "aria-label": "GitHub repository",

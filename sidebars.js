@@ -28,7 +28,7 @@ module.exports = {
       type: "category",
       label: "Candle Basics",
       items: [
-        "home/candle-basics/what-is-polygon",
+        "home/candle-basics/what-is-candle",
         "home/candle-basics/what-is-proof-of-stake"
       ]
     },
