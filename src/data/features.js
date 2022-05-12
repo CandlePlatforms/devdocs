@@ -24,7 +24,7 @@ export const firstRow = [
 export const secondRow = [
     {
         title: "Validators",
-        linkUrl: "docs/validate/polygon-overview",
+        linkUrl: "docs/validate/candle-overview",
         imageUrl: "img/home/core-contribution.svg",
         description: 'Learn how to stake with Candle, and setup you own nodes to maintain the network and earn rewards'
     },
@@ -64,5 +64,3 @@ export const thirdRow = [
         description: "Interact with Ethereum and Candle Chain"
     },
 ];
-
-
