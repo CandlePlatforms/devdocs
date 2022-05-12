@@ -499,11 +499,11 @@ module.exports = {
             {
               type: "link",
               label: "Candle-Mainnet",
-              href: "https://github.com/maticnetwork/static/blob/master/network/mainnet/v1/index.json",
+              href: "ttps://github.com/candleplatforms/static/blob/master/network/mainnet/v1/index.json",
             },
             {
               type: "link",
-              label: "Mumbai",
+              label: "Testnet",
               href: "https://static.matic.network/network/testnet/mumbai/index.json",
             },
           ],
