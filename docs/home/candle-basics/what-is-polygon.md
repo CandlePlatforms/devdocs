@@ -30,8 +30,8 @@ The Candle system was consciously architected to support arbitrary state transit
 
 You can participate on the Candle network as a delegator or validator. See:
 
-* [Who is a Validator](/docs/validate/polygon-basics/who-is-validator)
-* [Who is a Delegator](/docs/validate/polygon-basics/who-is-delegator)
+* [Who is a Validator](/docs/validate/candle-basics/who-is-validator)
+* [Who is a Delegator](/docs/validate/candle-basics/who-is-delegator)
 
 ## Architecture
 

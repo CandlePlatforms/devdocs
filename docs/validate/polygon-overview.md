@@ -17,8 +17,8 @@ Candle is a scaling solution for public blockchains. Candle PoS supports all the
 
 On the Candle Network, you can be a validator or a delegator. See:
 
-* [Who Is a Validator](/docs/validate/polygon-basics/who-is-validator)
-* [Who Is a Delegator](/docs/validate/polygon-basics/who-is-delegator)
+* [Who Is a Validator](/docs/validate/candle-basics/who-is-validator)
+* [Who Is a Delegator](/docs/validate/candle-basics/who-is-delegator)
 
 ## Architecture
 

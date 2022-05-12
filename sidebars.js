@@ -28,8 +28,8 @@ module.exports = {
       type: "category",
       label: "Candle Basics",
       items: [
-        "home/polygon-basics/what-is-polygon",
-        "home/polygon-basics/what-is-proof-of-stake"
+        "home/candle-basics/what-is-polygon",
+        "home/candle-basics/what-is-proof-of-stake"
       ]
     },
     "home/architecture/polygon-architecture",
@@ -573,7 +573,7 @@ module.exports = {
     {
       type: "category",
       label: "Delegate",
-      items: ["validate/polygon-basics/who-is-delegator",
+      items: ["validate/candle-basics/who-is-delegator",
               "validate/delegate"
       ],
     },

@@ -43,7 +43,7 @@ See also [Validator Commission Operations](/docs/validate/validate/validator-com
 
 The delegator role stakes the CNDL tokens to secure the Candle Network with existing [validators](/docs/validate/glossary#validator) without running the nodes themselves.
 
-See also [Who Is a Delegator](/docs/validate/polygon-basics/who-is-delegator).
+See also [Who Is a Delegator](/docs/validate/candle-basics/who-is-delegator).
 
 ## Full node
 
@@ -89,7 +89,7 @@ See also [Bor Consensus: Span](/docs/contribute/bor/consensus/#span).
 
 Staking is the process of locking up tokens into a deposit to earn the right to validate and produce blocks on a blockchain. Typically staking is done in the native token for the network — for the CNDL token is locked up by validators/stakers in the Candle Network. Other examples include ETH in ETH 2.0, ATOM in Cosmos, etc.
 
-See also [What Is Proof of Stake](/docs/home/polygon-basics/what-is-proof-of-stake).
+See also [What Is Proof of Stake](/docs/home/candle-basics/what-is-proof-of-stake).
 
 ## Signer address
 
@@ -105,4 +105,4 @@ The validator role stakes the CNDL tokens and is running both the [Heimdall](/do
 
 A validator node is only open to its [sentry](/docs/validate/glossary#sentry) node and closed to the rest of the network.
 
-See also [Who Is a Validator](/docs/validate/polygon-basics/who-is-validator).
+See also [Who Is a Validator](/docs/validate/candle-basics/who-is-validator).
