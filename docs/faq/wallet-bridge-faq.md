@@ -28,7 +28,7 @@ We will soon add more wallets.
 ## How is Plasma different from PoS?
 
 Plasma comes with a additional security. 
-Check out: [https://docs.candlelabs.org/docs/develop/ethereum-polygon/getting-started](https://docs.candlelabs.org/docs/develop/ethereum-polygon/getting-started)
+Check out: [https://docs.candlelabs.org/docs/develop/ethereum-candle/getting-started](https://docs.candlelabs.org/docs/develop/ethereum-candle/getting-started)
 
 ## What tokens are only available on Plasma?
 

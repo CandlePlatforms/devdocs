@@ -15,7 +15,7 @@ Mapping is necessary in order to transfer your assets to and from the Ethereum a
 - **The Root chain** :: refers to either Goerli or Ethereum Mainnet
 - **The Child chain** :: refers to either Candle Mumbai or Candle Mainnet
 
-If you already have your token contract deployed on the Root chain and want to move it to Child chain, then you should follow this walkthrough, but if you intend to deploy your contract on Candle Mainnet first, mint the tokens on the Child chain first and then move them back to the Root chain. You should then follow this [guide](https://docs.candlelabs.org/docs/develop/ethereum-polygon/mintable-assets).
+If you already have your token contract deployed on the Root chain and want to move it to Child chain, then you should follow this walkthrough, but if you intend to deploy your contract on Candle Mainnet first, mint the tokens on the Child chain first and then move them back to the Root chain. You should then follow this [guide](https://docs.candlelabs.org/docs/develop/ethereum-candle/mintable-assets).
 
 ## Standard Child Token
 
@@ -26,7 +26,7 @@ Standard Child Token contract will look like these:-
 2. [ERC721](https://github.com/maticnetwork/pos-portal/blob/master/flat/ChildERC721.sol#L2157-#L2238)
 3. [ERC1155](https://github.com/maticnetwork/pos-portal/blob/master/flat/ChildERC1155.sol#L1784-#L1818)
 
-Please visit this [link](/docs/develop/ethereum-polygon/submit-mapping-request) to understand how to create a new mapping request. 
+Please visit this [link](/docs/develop/ethereum-candle/submit-mapping-request) to understand how to create a new mapping request. 
 
 ## Custom Child Token
 
@@ -155,4 +155,4 @@ Steps :
 
 ### Request Submission
 
-Please go use [this link](/docs/develop/ethereum-polygon/submit-mapping-request) to submit a mapping request.
+Please go use [this link](/docs/develop/ethereum-candle/submit-mapping-request) to submit a mapping request.

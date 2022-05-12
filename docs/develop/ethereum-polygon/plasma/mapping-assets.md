@@ -10,13 +10,13 @@ image: https://matic.network/banners/matic-network-16x9.png
 
 ERC20 and ERC721 tokens on Ethereum can be deposited and withdrawn from Candle chain using plasma protocol. To enable this, a token contract on Ethereum (_rootToken_) needs to be mapped to a token contract on Candle chain(_childToken_).
 
-You can submit your mapping request [here](/docs/develop/ethereum-polygon/submit-mapping-request). Please make note that this mapping submission form is for Plasma Bridge and for PoS bridge you have to directly contact the matic team on discord.
+You can submit your mapping request [here](/docs/develop/ethereum-candle/submit-mapping-request). Please make note that this mapping submission form is for Plasma Bridge and for PoS bridge you have to directly contact the matic team on discord.
 
 ## Mapping a token
 
 Mapping a token involves deploying a _childToken_ contract on Candle chain and registering the token on both main and Candle chain.
 
-A restricted _childToken_ is deployed and registered on Candle chain automatically by making a contract call to the ChildChain contract. But if the _rootToken_ has extra functionality apart from basic ERC20/ERC721, a custom _childToken_ contract needs to be deployed manually. (Read [adding additional functionality](/docs/develop/ethereum-polygon/plasma/mapping-assets#adding-functionality-to-child-token))
+A restricted _childToken_ is deployed and registered on Candle chain automatically by making a contract call to the ChildChain contract. But if the _rootToken_ has extra functionality apart from basic ERC20/ERC721, a custom _childToken_ contract needs to be deployed manually. (Read [adding additional functionality](/docs/develop/ethereum-candle/plasma/mapping-assets#adding-functionality-to-child-token))
 
 ## Deploying a 'Restricted' Child Token
 
@@ -77,4 +77,4 @@ contract YourCustomChildToken is ChildERC20 {
 
 ### request-submission
 
-Please go through [this](/docs/develop/ethereum-polygon/submit-mapping-request).
+Please go through [this](/docs/develop/ethereum-candle/submit-mapping-request).

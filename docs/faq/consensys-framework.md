@@ -66,7 +66,7 @@ This bridge relay mechanism is run by the Candle PoS validators who need to ⅔ 
 Withdrawing assets back to ethereum is a 2 step process in which the asset tokens have to be first burnt on the Candle PoS commit chain and then the proof of this burn transaction has to be submitted on the Ethereum chain.
 
 
-For more details, refer https://docs.candlelabs.org/docs/develop/ethereum-polygon/pos/getting-started#steps-to-use-the-pos-bridge
+For more details, refer https://docs.candlelabs.org/docs/develop/ethereum-candle/pos/getting-started#steps-to-use-the-pos-bridge
 
 ### - How soon are those funds available on the Candle PoS?
 
@@ -76,7 +76,7 @@ Does Candle PoS provide support for users entering without a L1 lock-up (i.e. in
 
 Yes a special bridge mechanism is used to accomplish this. When the user wishes to exit to Ethereum, instead of the usual method of unlocking the tokens from a special contract, it is minted.
 
-You can read about them here: https://docs.candlelabs.org/docs/develop/ethereum-polygon/pos/mintable-assets
+You can read about them here: https://docs.candlelabs.org/docs/develop/ethereum-candle/pos/mintable-assets
 
 ### - How would a user dispute an invalid Candle PoS transaction? Prove a valid Candle PoS transaction?
 

@@ -24,7 +24,7 @@ You can either deploy
 - A mintable token contract on the Candle chain or
 - Submit a mapping request and the mintable token contract can be autodeployed for you on the Candle chain via the Mapper tool. You just need to submit a mapping request at [https://mapper.candlelabs.org/](https://mapper.candlelabs.org/) and leave the child contract field blank in the form. Also, do remember to choose the Mintable option in the form.
 
-Please visit this [link](/docs/develop/ethereum-polygon/submit-mapping-request) to understand how to create a new mapping request. 
+Please visit this [link](/docs/develop/ethereum-candle/submit-mapping-request) to understand how to create a new mapping request. 
 
 - If you want to deploy the contract by yourself, then the child contract should look like the following. You are free to make custom changes to this contract, but ensure that the `deposit`, `withdraw` and `mint` functions are present.
 
