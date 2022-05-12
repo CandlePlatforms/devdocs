@@ -5,11 +5,11 @@ description: Build your next blockchain app on Candle.
 keywords:
   - docs
   - cndl
-image: https://matic.network/banners/matic-network-16x9.png 
+image: https://matic.network/banners/matic-network-16x9.png
 ---
 
 Plasma Secured Solution to transfer your assets from Ethereum to Candle and vice-versa.
-* Use [matic.js](https://github.com/maticnetwork/matic.js) to interact with the Candle Plasma contracts.
+* Use [matic.js](https://github.com/candleplatforms/candle.js) to interact with the Candle Plasma contracts.
 
 <!-- * [getting-started](https://maticnetwork.github.io/matic.js/): Set-up the environment for maticjs.
 1. [(Ethereum → Matic)](/docs/develop/maticjs/deposit): Deposit assets from root chain to Matic.
@@ -17,7 +17,7 @@ Plasma Secured Solution to transfer your assets from Ethereum to Candle and vice
 3. [(Matic → Ethereum)](/docs/develop/maticjs/withdraw): Withdraw assets from Matic to root chain. -->
 
 ## Flow
-Here is the Flow with the deployement of your contracts on Candle and Support for Ethereum↔Candle. 
+Here is the Flow with the deployement of your contracts on Candle and Support for Ethereum↔Candle.
 
 1. User deploys ERC-20 token to Ethereum - XToken
 
@@ -35,7 +35,7 @@ We will deploy a Child Contract for you on Candle which can be flexible based on
 
 3. User can mint the Xtokens and Transfer on Ethereum. For example let's say 100XToken are mint and then transfer to other another account.
 
-4. To avail these tokens on Candle Chain, Call function deposit which will call for two transactions first approve and then depositERC20. 
+4. To avail these tokens on Candle Chain, Call function deposit which will call for two transactions first approve and then depositERC20.
 
 5. Now 100XTokens are available on Candle Chain at the same address.
 

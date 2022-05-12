@@ -23,7 +23,7 @@ For example, please use the **RootChainManagerProxy** address for interactions i
 
 Mapping your assets is a necessary step for integrating the PoS bridge on your application so if you haven't done it, please submit a mapping request [here](https://docs.candlelabs.org/docs/develop/ethereum-polygon/submit-mapping-request/). For the purposes of this tutorial, the team has deployed test tokens and mapped them to the PoS bridge. Request the asset you want to use on the [faucet](https://faucet.candlelabs.org/) and if the test tokens are unavailable, reach out to the team on [Discord](https://discord.gg/polygon). We'll make sure to reply you immediately.
 
-In the upcoming tutorial, every step will be explained in detail along with a few code snippets. However, you can always refer to this [repository](https://github.com/maticnetwork/matic.js/tree/master/examples) which will have all the **example source code** that can help you to integrate and understand the working of PoS bridge.
+In the upcoming tutorial, every step will be explained in detail along with a few code snippets. However, you can always refer to this [repository](https://github.com/candleplatforms/candle.js/tree/master/examples) which will have all the **example source code** that can help you to integrate and understand the working of PoS bridge.
 
 ## High Level Flow
 

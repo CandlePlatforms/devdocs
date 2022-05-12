@@ -5,7 +5,7 @@ description: Build your next blockchain app on Candle.
 keywords:
   - docs
   - cndl
-image: https://matic.network/banners/matic-network-16x9.png 
+image: https://matic.network/banners/matic-network-16x9.png
 ---
 
 Candle is a scaling solution for public blockchains. Candle supports all existing Ethereum tooling along with faster and cheaper transactions.
@@ -27,7 +27,7 @@ this section is for you.
     - [Using QuickNode](/docs/develop/quicknode)
     - [Using Remix](/docs/develop/remix)
     - [Using Truffle](/docs/develop/truffle)
-* Configure the Web3 RPC-URL to https://rpc-mumbai.matic.today, *Everything else remains the same*
+* Configure the Web3 RPC-URL to https://rpc.cndlchain.com, *Everything else remains the same*
 
 
 

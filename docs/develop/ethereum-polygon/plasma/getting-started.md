@@ -17,7 +17,7 @@ A bridge is basically a set of contracts that help in moving assets from the roo
 
 However, there are certain restrictions on the child token and there is a 7-day withdrawal period associated with all exits/withdraws from Candle to Ethereum on the Plasma bridge. The [PoS Bridge](/docs/develop/ethereum-polygon/pos/getting-started) is more flexible and features faster withdrawals.
 
-This tutorial will act as a guide for step-by-step process to understand and use Plasma bridge using [Matic JS](https://github.com/maticnetwork/matic.js), which is the easiest way to interact with the Plasma Bridge on Candle Network.
+This tutorial will act as a guide for step-by-step process to understand and use Plasma bridge using [Matic JS](https://github.com/candleplatforms/candle.js), which is the easiest way to interact with the Plasma Bridge on Candle Network.
 
 ## Assets flow in Plasma Bridge
 

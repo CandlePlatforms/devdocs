@@ -5,7 +5,7 @@ description: Build your next blockchain app on Candle.
 keywords:
   - docs
   - cndl
-image: https://matic.network/banners/matic-network-16x9.png 
+image: https://matic.network/banners/matic-network-16x9.png
 ---
 
 
@@ -16,11 +16,10 @@ image: https://matic.network/banners/matic-network-16x9.png
 ## Testnets
 | Network   | RPC | Status         | Parent Chain                                                                                                    | Block Explorer
 |-----------|------|----------------|----------------------------------------------------------------------------------------------------------------|------------------------------------|
-|Mumbai Testnet| Sign up for a free RPC link at https://rpc.maticvigil.com/ |Running|Goërli|[:ledger:](https://mumbai.polygonscan.com/)|
+|Mumbai Testnet| Sign up for a free RPC link at https://rpc.maticvigil.com/ |Running|Goërli|[:ledger:](https://testnet.cndlchain.com/)|
 
 
 ## Mainnets
 | Network       | RPC | Status     | Parent Chain                                                               | Block Explorer
 |---------------|------|------------|------------------------------------------------------------------------------|-------------------------------------
-| **Candle Mainnet** | Sign up for a free RPC link at https://rpc.maticvigil.com/ | Running    | Ethereum|[:ledger:](https://polygonscan.com/)
-
+| **Candle Mainnet** | Sign up for a free RPC link at https://rpc.candlerpc.com/ | Running    | Ethereum|[:ledger:](https://polygonscan.com/)

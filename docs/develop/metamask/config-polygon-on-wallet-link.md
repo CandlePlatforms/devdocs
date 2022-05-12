@@ -18,7 +18,7 @@ import TabItem from '@theme/TabItem';
   defaultValue="mainnet"
   values={[
     { label: 'Candle-Mainnet', value: 'mainnet', },
-    { label: 'Mumbai-Testnet', value: 'mumbai', },
+    { label: 'Candle-Testnet', value: 'testnet', },
   ]
 }>
 

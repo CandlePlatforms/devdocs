@@ -29,7 +29,7 @@ Please make sure you have already installed <ins>**[Metamask](https://metamask.i
   defaultValue="mainnet"
   values={[
     { label: 'Candle-Mainnet', value: 'mainnet', },
-    { label: 'Mumbai-Testnet', value: 'mumbai', },
+    { label: 'Candle-Testnet', value: 'testnet', },
   ]
 }>
 
@@ -79,7 +79,7 @@ If you are facing any issue, **Add the Network Manually(steps given below)**
   defaultValue="mainnet"
   values={[
     { label: 'Candle-Mainnet', value: 'mainnet', },
-    { label: 'Mumbai-Testnet', value: 'mumbai', },
+    { label: 'Candle-Testnet', value: 'testnet', },
   ]
 }>
 

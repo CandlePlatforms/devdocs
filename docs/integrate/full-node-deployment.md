@@ -15,7 +15,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
   defaultValue="mainnet"
   values={[
     { label: 'Candle-Mainnet', value: 'mainnet', },
-    { label: 'Mumbai-Testnet', value: 'mumbai', },
+    { label: 'Candle-Testnet', value: 'testnet', },
   ]
 }>
 <TabItem value="mumbai">

@@ -14,7 +14,7 @@ Artifacts: [https://github.com/maticnetwork/static/tree/master/network/testnet/m
 
 Flattened contracts: [https://github.com/maticnetwork/pos-portal/tree/v1.1.0/flat](https://github.com/maticnetwork/pos-portal/tree/v1.1.0/flat)
 
-Maticjs Examples: [https://github.com/maticnetwork/matic.js/tree/master/examples/pos](https://github.com/maticnetwork/matic.js/tree/master/examples/pos)
+Maticjs Examples: [https://github.com/candleplatforms/candle.js/tree/master/examples/pos](https://github.com/candleplatforms/candle.js/tree/master/examples/pos)
 
 Contracts Addresses on Mumbai: [https://static.matic.network/network/testnet/mumbai/index.json](https://static.matic.network/network/testnet/mumbai/index.json). Use the `Proxy` address where ever it is available.
 

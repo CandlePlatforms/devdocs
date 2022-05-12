@@ -121,4 +121,4 @@ As you can see, with its simple APIs maticjs makes it very easy to interact with
 
 ### Some important links
 
-- [Examples](https://github.com/maticnetwork/matic.js/tree/master/examples)
+- [Examples](https://github.com/candleplatforms/candle.js/tree/master/examples)
