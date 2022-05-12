@@ -5,9 +5,9 @@ description: Learn what the Candle scaling solution is.
 keywords:
   - docs
   - cndl
-  - polygon
+  - candle
   - blockchain
-image: https://matic.network/banners/matic-network-16x9.png 
+image: https://matic.network/banners/matic-network-16x9.png
 ---
 
 [Candle](https://candlelabs.org/) is a Layer 2 scaling solution that achieves scale by utilizing sidechains for off-chain computation and a decentralized network of Proof-of-Stake (PoS) validators.
